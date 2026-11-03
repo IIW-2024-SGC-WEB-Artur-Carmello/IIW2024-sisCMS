@@ -1,21 +1,3 @@
-<?php
-
-/**
- * Part of the Joomla Framework DI Package
- *
- * @copyright  Copyright (C) 2013 - 2018 Open Source Matters, Inc. All rights reserved.
- * @license    GNU General Public License version 2 or later; see LICENSE
- */
-
-namespace Joomla\DI\Exception;
-
-use Psr\Container\ContainerExceptionInterface;
-
-/**
- * Exception class for handling errors in resolving a dependency
- *
- * @since  1.0
- */
-class DependencyResolutionException extends \RuntimeException implements ContainerExceptionInterface
-{
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:dbf6778a0829771f0dac40a1f38395f426594993e2a3a2340e651bc02eb5bcde
+size 500

@@ -1,2 +1,3 @@
-INSERT INTO "#__action_log_config" ("type_title", "type_alias", "id_holder", "title_holder", "table_name", "text_prefix") VALUES
-('contact', 'com_contact.form', 'id', 'name', '#__contact_details', 'PLG_ACTIONLOG_JOOMLA');
+version https://git-lfs.github.com/spec/v1
+oid sha256:b88516cfe8a605ea0726751b8afb9e3f74bd91ef8b9dae97915f721f9bc265a1
+size 221

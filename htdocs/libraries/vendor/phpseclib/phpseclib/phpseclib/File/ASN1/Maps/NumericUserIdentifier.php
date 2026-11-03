@@ -1,26 +1,3 @@
-<?php
-
-/**
- * NumericUserIdentifier
- *
- * PHP version 5
- *
- * @author    Jim Wigginton <terrafrost@php.net>
- * @copyright 2016 Jim Wigginton
- * @license   http://www.opensource.org/licenses/mit-license.html  MIT License
- * @link      http://phpseclib.sourceforge.net
- */
-
-namespace phpseclib3\File\ASN1\Maps;
-
-use phpseclib3\File\ASN1;
-
-/**
- * NumericUserIdentifier
- *
- * @author  Jim Wigginton <terrafrost@php.net>
- */
-abstract class NumericUserIdentifier
-{
-    const MAP = ['type' => ASN1::TYPE_NUMERIC_STRING];
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:9f3b576d43c841e9ccfb0cde754bc7a9021af301417422d281c0205abf789ddd
+size 516

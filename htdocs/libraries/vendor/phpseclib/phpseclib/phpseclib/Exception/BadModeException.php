@@ -1,23 +1,3 @@
-<?php
-
-/**
- * BadModeException
- *
- * PHP version 5
- *
- * @author    Jim Wigginton <terrafrost@php.net>
- * @copyright 2015 Jim Wigginton
- * @license   http://www.opensource.org/licenses/mit-license.html  MIT License
- * @link      http://phpseclib.sourceforge.net
- */
-
-namespace phpseclib3\Exception;
-
-/**
- * BadModeException
- *
- * @author  Jim Wigginton <terrafrost@php.net>
- */
-class BadModeException extends \RuntimeException
-{
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:5c6c7b789ce3504b433036e51701f8f95365c2ac0506105ad80f318b77b25d73
+size 431

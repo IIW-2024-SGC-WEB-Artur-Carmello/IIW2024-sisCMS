@@ -1,23 +1,3 @@
-<?php
-
-/**
- * @package     Joomla.Administrator
- * @subpackage  com_config
- *
- * @copyright   (C) 2013 Open Source Matters, Inc. <https://www.joomla.org>
- * @license     GNU General Public License version 2 or later; see LICENSE.txt
- */
-
-use Joomla\CMS\Language\Text;
-use Joomla\CMS\Layout\LayoutHelper;
-
-defined('_JEXEC') or die;
-
-/** @var \Joomla\Component\Config\Administrator\View\Application\HtmlView $this */
-
-$this->name = Text::_('COM_CONFIG_COOKIE_SETTINGS');
-$this->description = '';
-$this->fieldsname = 'cookie';
-$this->formclass = 'options-form';
-
-echo LayoutHelper::render('joomla.content.options_default', $this);
+version https://git-lfs.github.com/spec/v1
+oid sha256:ab306fd86bb5cc2e4201f26e71a0bfb3688c4d6a0a91920313f747a26d1393a5
+size 628

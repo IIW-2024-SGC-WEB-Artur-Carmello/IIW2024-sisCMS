@@ -1,8 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<metadata>
-	<layout title="COM_ADMIN_HELP_VIEW_DEFAULT_TITLE">
-		<message>
-			<![CDATA[COM_ADMIN_HELP_VIEW_DEFAULT_DESC]]>
-		</message>
-	</layout>
-</metadata>
+version https://git-lfs.github.com/spec/v1
+oid sha256:daf51ab8c865d37cf396343d14e4c41cb027534d4779711ebd168a3115307a5b
+size 198

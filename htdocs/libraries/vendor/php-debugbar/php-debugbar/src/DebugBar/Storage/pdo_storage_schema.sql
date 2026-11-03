@@ -1,16 +1,3 @@
-CREATE TABLE phpdebugbar (
-    id TEXT PRIMARY KEY,
-    data TEXT,
-    meta_utime TEXT,
-    meta_datetime TEXT,
-    meta_uri TEXT,
-    meta_ip TEXT,
-    meta_method TEXT
-);
-
-CREATE INDEX idx_debugbar_id ON phpdebugbar (id);
-CREATE INDEX idx_debugbar_meta_utime ON phpdebugbar (meta_utime);
-CREATE INDEX idx_debugbar_meta_datetime ON phpdebugbar (meta_datetime);
-CREATE INDEX idx_debugbar_meta_uri ON phpdebugbar (meta_uri);
-CREATE INDEX idx_debugbar_meta_ip ON phpdebugbar (meta_ip);
-CREATE INDEX idx_debugbar_meta_method ON phpdebugbar (meta_method);
+version https://git-lfs.github.com/spec/v1
+oid sha256:4e1ce6a47a47b04894cc33d52555f96b6a26c9ec8364066c3cb029b46a4a8e5b
+size 552

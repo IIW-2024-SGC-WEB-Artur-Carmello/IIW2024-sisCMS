@@ -1,20 +1,3 @@
-<?php
-
-declare(strict_types=1);
-
-namespace CBOR\Tag;
-
-use CBOR\CBORObject;
-
-interface TagInterface extends CBORObject
-{
-    public static function getTagId(): int;
-
-    public function getValue(): CBORObject;
-
-    public static function createFromLoadedData(
-        int $additionalInformation,
-        ?string $data,
-        CBORObject $object
-    ): self;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:0e951d05b4e9e121815dd9f1565f470a7efc3564f2a9396b10630ca703385521
+size 360

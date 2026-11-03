@@ -1,23 +1,3 @@
-<?php
-
-/**
- * Joomla! Content Management System
- *
- * @copyright  (C) 2016 Open Source Matters, Inc. <https://www.joomla.org>
- * @license    GNU General Public License version 2 or later; see LICENSE.txt
- */
-
-namespace Joomla\CMS\Event\Table;
-
-// phpcs:disable PSR1.Files.SideEffects
-\defined('_JEXEC') or die;
-// phpcs:enable PSR1.Files.SideEffects
-
-/**
- * Event class for \Joomla\CMS\Table\Table onObjectCreate event
- *
- * @since  4.0.0
- */
-class ObjectCreateEvent extends AbstractEvent
-{
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:7f3f65b128c23e7ef4e4891a31d3280e801dcc8d28e44f638cc0e1ce3518133c
+size 493

@@ -1,24 +1,3 @@
-<?php
-
-/**
- * SubjectAltName
- *
- * PHP version 5
- *
- * @author    Jim Wigginton <terrafrost@php.net>
- * @copyright 2016 Jim Wigginton
- * @license   http://www.opensource.org/licenses/mit-license.html  MIT License
- * @link      http://phpseclib.sourceforge.net
- */
-
-namespace phpseclib3\File\ASN1\Maps;
-
-/**
- * SubjectAltName
- *
- * @author  Jim Wigginton <terrafrost@php.net>
- */
-abstract class SubjectAltName
-{
-    const MAP = GeneralNames::MAP;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:fa1ed38e57c8729d02f2c1c4c960b57ea711c6f523437838c265dccacc9d1203
+size 448

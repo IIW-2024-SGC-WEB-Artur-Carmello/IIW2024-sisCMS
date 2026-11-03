@@ -1,9 +1,3 @@
-@if $enable-dark-mode {
-  @include color-mode(dark) {
-    .accordion-button:not(.collapsed) {
-      color: map-get($atum-colors-dark, body-color);
-      background: $btn-primary-dark;
-    }
-  }
-}
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:de464f4f6e4f26e2f4bb16befb59ac34776a1c85efb1a6a6305c73a9675421a2
+size 197

@@ -1,32 +1,3 @@
-<?php
-
-/*
- * This file is part of the Symfony package.
- *
- * (c) Fabien Potencier <fabien@symfony.com>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
-namespace Symfony\Component\Validator\Validator;
-
-/**
- * A wrapper for a callable initializing a property from a getter.
- *
- * @internal
- */
-class LazyProperty
-{
-    private \Closure $propertyValueCallback;
-
-    public function __construct(\Closure $propertyValueCallback)
-    {
-        $this->propertyValueCallback = $propertyValueCallback;
-    }
-
-    public function getPropertyValue(): mixed
-    {
-        return ($this->propertyValueCallback)();
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:312652320071ab82d6c7592f6acb653872c78c5dfd417d301ee726624abb2030
+size 696

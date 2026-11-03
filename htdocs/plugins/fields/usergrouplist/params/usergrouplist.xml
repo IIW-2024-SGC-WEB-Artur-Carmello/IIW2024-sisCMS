@@ -1,18 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<form>
-	<fields name="fieldparams">
-		<fieldset name="fieldparams">
-			<field
-				name="multiple"
-				type="list"
-				label="PLG_FIELDS_USERGROUPLIST_PARAMS_MULTIPLE_LABEL"
-				filter="integer"
-				validate="options"
-				>
-				<option value="">COM_FIELDS_FIELD_USE_GLOBAL</option>
-				<option value="1">JYES</option>
-				<option value="0">JNO</option>
-			</field>
-		</fieldset>
-	</fields>
-</form>
+version https://git-lfs.github.com/spec/v1
+oid sha256:6f2fe3ccf598d8e3ab4e6f8632abaae0d326d09743bba9e5f899843ea8d3f181
+size 436

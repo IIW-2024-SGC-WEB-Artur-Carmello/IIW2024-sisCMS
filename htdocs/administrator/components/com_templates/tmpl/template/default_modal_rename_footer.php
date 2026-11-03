@@ -1,17 +1,3 @@
-<?php
-
-/**
- * @package     Joomla.Administrator
- * @subpackage  com_templates
- *
- * @copyright   (C) 2016 Open Source Matters, Inc. <https://www.joomla.org>
- * @license     GNU General Public License version 2 or later; see LICENSE.txt
- */
-
-defined('_JEXEC') or die;
-
-use Joomla\CMS\Language\Text;
-
-?>
-<button type="button" class="btn btn-secondary" data-bs-dismiss="modal"><?php echo Text::_('COM_TEMPLATES_TEMPLATE_CLOSE'); ?></button>
-<button type="submit" class="btn btn-primary"><?php echo Text::_('COM_TEMPLATES_BUTTON_RENAME'); ?></button>
+version https://git-lfs.github.com/spec/v1
+oid sha256:296b6a43f167041a4a4f179ddf96c81635740b8510bd323cf61106bb2cd8b1d9
+size 547

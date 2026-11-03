@@ -1,23 +1,3 @@
-<?php
-
-/**
- * UnableToConnectException
- *
- * PHP version 5
- *
- * @author    Jim Wigginton <terrafrost@php.net>
- * @copyright 2015 Jim Wigginton
- * @license   http://www.opensource.org/licenses/mit-license.html  MIT License
- * @link      http://phpseclib.sourceforge.net
- */
-
-namespace phpseclib3\Exception;
-
-/**
- * UnableToConnectException
- *
- * @author  Jim Wigginton <terrafrost@php.net>
- */
-class UnableToConnectException extends \RuntimeException
-{
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:17b8ce804d837174e8a8e038d35999203ab0eac8db25df83913c903f6b399d58
+size 455

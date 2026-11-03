@@ -1,13 +1,3 @@
-UPDATE `#__guidedtours` SET `extensions` = '["com_content","com_categories"]' WHERE `url` LIKE '%option=com_content%';
-UPDATE `#__guidedtours` SET `extensions` = '["com_content","com_categories"]' WHERE `url` LIKE '%option=com_categories%';
-UPDATE `#__guidedtours` SET `extensions` = '["com_menus"]' WHERE `url` LIKE '%com_menus%';
-UPDATE `#__guidedtours` SET `extensions` = '["com_tags"]' WHERE `url` LIKE '%com_tags%';
-UPDATE `#__guidedtours` SET `extensions` = '["com_banners"]' WHERE `url` LIKE '%com_banners%';
-UPDATE `#__guidedtours` SET `extensions` = '["com_contact"]' WHERE `url` LIKE '%com_contact%';
-UPDATE `#__guidedtours` SET `extensions` = '["com_newsfeeds"]' WHERE `url` LIKE '%com_newsfeeds%';
-UPDATE `#__guidedtours` SET `extensions` = '["com_finder"]' WHERE `url` LIKE '%com_finder%';
-UPDATE `#__guidedtours` SET `extensions` = '["com_users"]' WHERE `url` LIKE '%com_users%';
-
-UPDATE `#__update_sites`
-   SET `location` = 'https://update.joomla.org/language/translationlist_5.xml'
- WHERE `location` = 'https://update.joomla.org/language/translationlist_4.xml';
+version https://git-lfs.github.com/spec/v1
+oid sha256:ec204d8cea114a559a9a2306a6f7601098362416aa8f81a99574a9e9957611fe
+size 1079

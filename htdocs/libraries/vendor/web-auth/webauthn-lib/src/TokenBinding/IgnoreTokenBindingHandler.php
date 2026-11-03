@@ -1,23 +1,3 @@
-<?php
-
-declare(strict_types=1);
-
-namespace Webauthn\TokenBinding;
-
-use Psr\Http\Message\ServerRequestInterface;
-
-/**
- * @deprecated Since 4.3.0 and will be removed in 5.0.0
- */
-final class IgnoreTokenBindingHandler implements TokenBindingHandler
-{
-    public static function create(): self
-    {
-        return new self();
-    }
-
-    public function check(TokenBinding $tokenBinding, ServerRequestInterface $request): void
-    {
-        //Does nothing
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:a355a7ece788107be24c294ba0fac371e3e1f836f570650f874d68d1e9fd31b5
+size 460

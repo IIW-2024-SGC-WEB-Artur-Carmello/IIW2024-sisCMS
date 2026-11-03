@@ -1,18 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<config>
-	<help key="Multilingual_Associations:_Options"/>
-	<fieldset
-		name="permissions"
-		label="JCONFIG_PERMISSIONS_LABEL"
-		>
-		<field
-			name="rules"
-			type="rules"
-			label="JCONFIG_PERMISSIONS_LABEL"
-			filter="rules"
-			validate="rules"
-			component="com_associations"
-			section="component"
-		/>
-	</fieldset>
-</config>
+version https://git-lfs.github.com/spec/v1
+oid sha256:d44ea63f3223eaed832b916d286b96e4c52eab447fd6e8e985a3e6fb49bd2a54
+size 369

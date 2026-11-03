@@ -1,24 +1,3 @@
-<?php
-
-/**
- * @package     Joomla.Site
- * @subpackage  Layout
- *
- * @copyright   (C) 2016 Open Source Matters, Inc. <https://www.joomla.org>
- * @license     GNU General Public License version 2 or later; see LICENSE.txt
- * @deprecated  4.3 will be removed in 6.0
- */
-
-defined('_JEXEC') or die;
-
-use Joomla\CMS\Language\Text;
-
-$params = $displayData['params'];
-
-?>
-<?php if ($params->get('show_icons')) : ?>
-    <span class="icon-plus icon-fw" aria-hidden="true"></span>
-    <?php echo Text::_('JNEW'); ?>
-<?php else : ?>
-    <?php echo Text::_('JNEW') . '&#160;'; ?>
-<?php endif; ?>
+version https://git-lfs.github.com/spec/v1
+oid sha256:1342a0e921e031be4d8db16c1e44cfa1ed85bc64334c72c654106bf05e936747
+size 583

@@ -1,15 +1,3 @@
-<?php
-
-declare(strict_types=1);
-
-namespace Jose\Component\KeyManagement\Analyzer;
-
-use Jose\Component\Core\JWK;
-
-interface KeyAnalyzer
-{
-    /**
-     * This method will analyse the key and add messages to the message bag if needed.
-     */
-    public function analyze(JWK $jwk, MessageBag $bag): void;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:aa7194e47f1a36498f0426220c7ebad2d7e4d6e2e90e264608f753b936654671
+size 304

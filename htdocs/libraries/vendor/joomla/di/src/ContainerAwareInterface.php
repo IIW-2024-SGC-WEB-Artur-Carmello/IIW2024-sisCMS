@@ -1,29 +1,3 @@
-<?php
-
-/**
- * Part of the Joomla Framework DI Package
- *
- * @copyright  Copyright (C) 2013 - 2018 Open Source Matters, Inc. All rights reserved.
- * @license    GNU General Public License version 2 or later; see LICENSE
- */
-
-namespace Joomla\DI;
-
-/**
- * Defines the interface for a Container Aware class.
- *
- * @since  1.0
- */
-interface ContainerAwareInterface
-{
-    /**
-     * Set the DI container.
-     *
-     * @param   Container  $container  The DI container.
-     *
-     * @return  mixed
-     *
-     * @since   1.0
-     */
-    public function setContainer(Container $container);
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:bf380252b019c04a9ec496a21d3de7ff2863260ea933191d6da438c6e1830e88
+size 585

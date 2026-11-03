@@ -1,21 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<extension type="plugin" group="webservices" method="upgrade">
-	<name>plg_webservices_languages</name>
-	<author>Joomla! Project</author>
-	<creationDate>2019-09</creationDate>
-	<copyright>(C) 2019 Open Source Matters, Inc.</copyright>
-	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
-	<authorEmail>admin@joomla.org</authorEmail>
-	<authorUrl>www.joomla.org</authorUrl>
-	<version>4.0.0</version>
-	<description>PLG_WEBSERVICES_LANGUAGES_XML_DESCRIPTION</description>
-	<namespace path="src">Joomla\Plugin\WebServices\Languages</namespace>
-	<files>
-		<folder plugin="languages">services</folder>
-		<folder>src</folder>
-	</files>
-	<languages>
-		<language tag="en-GB">language/en-GB/plg_webservices_languages.ini</language>
-		<language tag="en-GB">language/en-GB/plg_webservices_languages.sys.ini</language>
-	</languages>
-</extension>
+version https://git-lfs.github.com/spec/v1
+oid sha256:3de8552a3adbe9cf7ffd43d7f9bb6d1835b6ae14d90800f0c190f67c4c38dc93
+size 900

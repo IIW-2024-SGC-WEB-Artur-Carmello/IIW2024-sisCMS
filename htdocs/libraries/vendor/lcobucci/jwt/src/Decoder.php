@@ -1,27 +1,3 @@
-<?php
-declare(strict_types=1);
-
-namespace Lcobucci\JWT;
-
-use Lcobucci\JWT\Encoding\CannotDecodeContent;
-
-interface Decoder
-{
-    /**
-     * Decodes from JSON, validating the errors
-     *
-     * @return mixed
-     *
-     * @throws CannotDecodeContent When something goes wrong while decoding.
-     */
-    public function jsonDecode(string $json);
-
-    /**
-     * Decodes from Base64URL
-     *
-     * @link http://tools.ietf.org/html/rfc4648#section-5
-     *
-     * @throws CannotDecodeContent When something goes wrong while decoding.
-     */
-    public function base64UrlDecode(string $data): string;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:158df94f13131c763b09e2fe0590e8413510740fbcedf437d43a692f73c600f3
+size 604

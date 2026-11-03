@@ -1,7 +1,3 @@
-// Exports the "link" plugin for usage with module loaders
-// Usage:
-//   CommonJS:
-//     require('tinymce/plugins/link')
-//   ES2015:
-//     import 'tinymce/plugins/link'
-require('./plugin.js');
+version https://git-lfs.github.com/spec/v1
+oid sha256:393a397a9577a880392172405182506aeabc1a368da461853f6fd98c19b96292
+size 196

@@ -1,31 +1,3 @@
-<?php
-
-/**
- * Joomla! Content Management System
- *
- * @copyright  (C) 2023 Open Source Matters, Inc. <https://www.joomla.org>
- * @license    GNU General Public License version 2 or later; see LICENSE.txt
- */
-
-namespace Joomla\CMS\Event\Model;
-
-use Joomla\CMS\Event\Result\ResultAware;
-use Joomla\CMS\Event\Result\ResultAwareInterface;
-use Joomla\CMS\Event\Result\ResultTypeBooleanAware;
-
-// phpcs:disable PSR1.Files.SideEffects
-\defined('_JEXEC') or die;
-// phpcs:enable PSR1.Files.SideEffects
-
-/**
- * Class for Model event.
- * Example:
- *  new BeforeDeleteEvent('onEventName', ['context' => 'com_example.example', 'subject' => $itemObjectToDelete]);
- *
- * @since  5.0.0
- */
-class BeforeDeleteEvent extends DeleteEvent implements ResultAwareInterface
-{
-    use ResultAware;
-    use ResultTypeBooleanAware;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:c563a7180c1291311f13351ec5796c903a96e1a31e457497583c6bbe4379584c
+size 808

@@ -1,31 +1,3 @@
-<?php
-
-/**
- * GeneralSubtrees
- *
- * PHP version 5
- *
- * @author    Jim Wigginton <terrafrost@php.net>
- * @copyright 2016 Jim Wigginton
- * @license   http://www.opensource.org/licenses/mit-license.html  MIT License
- * @link      http://phpseclib.sourceforge.net
- */
-
-namespace phpseclib3\File\ASN1\Maps;
-
-use phpseclib3\File\ASN1;
-
-/**
- * GeneralSubtrees
- *
- * @author  Jim Wigginton <terrafrost@php.net>
- */
-abstract class GeneralSubtrees
-{
-    const MAP = [
-        'type' => ASN1::TYPE_SEQUENCE,
-        'min' => 1,
-        'max' => -1,
-        'children' => GeneralSubtree::MAP
-    ];
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:b360cf060cb17e7cdfcb886ed00b7c9e342b6dc25156801fa0c47cfd5f57ec65
+size 590

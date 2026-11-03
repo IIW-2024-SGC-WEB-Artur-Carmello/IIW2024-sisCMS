@@ -1,21 +1,3 @@
-<?php
-
-/**
- * @package     Joomla.Administrator
- * @subpackage  mod_logged
- *
- * @copyright   (C) 2018 Open Source Matters, Inc. <https://www.joomla.org>
- * @license     GNU General Public License version 2 or later; see LICENSE.txt
- */
-
-defined('_JEXEC') or die;
-
-use Joomla\CMS\Language\Text;
-
-?>
-<div class="mb-4">
-    <p class="fw-bold text-center text-muted">
-        <span class="icon-users" aria-hidden="true"></span>
-        <?php echo Text::_('MOD_LOGGED_NO_SESSION_METADATA'); ?>
-    </p>
-</div>
+version https://git-lfs.github.com/spec/v1
+oid sha256:c2e916d10c8bbb01d3cc524217267269c1e9c0e570faef656b1e3f5d7e2a7e7e
+size 506

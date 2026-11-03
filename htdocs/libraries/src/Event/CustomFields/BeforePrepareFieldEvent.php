@@ -1,23 +1,3 @@
-<?php
-
-/**
- * Joomla! Content Management System
- *
- * @copyright  (C) 2023 Open Source Matters, Inc. <https://www.joomla.org>
- * @license    GNU General Public License version 2 or later; see LICENSE.txt
- */
-
-namespace Joomla\CMS\Event\CustomFields;
-
-// phpcs:disable PSR1.Files.SideEffects
-\defined('_JEXEC') or die;
-// phpcs:enable PSR1.Files.SideEffects
-
-/**
- * Class for CustomFields events
- *
- * @since  5.0.0
- */
-class BeforePrepareFieldEvent extends AbstractPrepareFieldEvent
-{
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:071af1dfcdca67cfe915fd11cb015ad0d3a8954910e192fada03840c2fbf9146
+size 487

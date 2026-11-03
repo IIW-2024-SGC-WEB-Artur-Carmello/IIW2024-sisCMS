@@ -1,24 +1,3 @@
-<?php
-
-/**
- * CertificateIssuer
- *
- * PHP version 5
- *
- * @author    Jim Wigginton <terrafrost@php.net>
- * @copyright 2016 Jim Wigginton
- * @license   http://www.opensource.org/licenses/mit-license.html  MIT License
- * @link      http://phpseclib.sourceforge.net
- */
-
-namespace phpseclib3\File\ASN1\Maps;
-
-/**
- * CertificateIssuer
- *
- * @author  Jim Wigginton <terrafrost@php.net>
- */
-abstract class CertificateIssuer
-{
-    const MAP = GeneralNames::MAP;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:7ba749c4a79d6d451fa770df5ccfbdf936f42fc8bdfb420012d7e4e1318d0e02
+size 457

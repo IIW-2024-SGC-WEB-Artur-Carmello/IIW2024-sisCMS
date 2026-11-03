@@ -1,27 +1,3 @@
-<?php
-
-/**
- * @package     Joomla.Administrator
- * @subpackage  com_redirect
- *
- * @copyright   (C) 2009 Open Source Matters, Inc. <https://www.joomla.org>
- * @license     GNU General Public License version 2 or later; see LICENSE.txt
- */
-
-namespace Joomla\Component\Redirect\Administrator\Controller;
-
-use Joomla\CMS\MVC\Controller\FormController;
-
-// phpcs:disable PSR1.Files.SideEffects
-\defined('_JEXEC') or die;
-// phpcs:enable PSR1.Files.SideEffects
-
-/**
- * Redirect link controller class.
- *
- * @since  1.6
- */
-class LinkController extends FormController
-{
-    // Parent class access checks are sufficient for this controller.
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:fbfb8ef22b82072d4e139676d56bd48bdec8bc120003f0cd68a9ba6b819b3559
+size 636

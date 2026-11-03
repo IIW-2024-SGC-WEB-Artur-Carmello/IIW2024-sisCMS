@@ -1,19 +1,3 @@
-<?php
-
-declare(strict_types=1);
-
-namespace Brick\Math\Exception;
-
-/**
- * Exception thrown when a number cannot be represented at the requested scale without rounding.
- */
-class RoundingNecessaryException extends MathException
-{
-    /**
-     * @psalm-pure
-     */
-    public static function roundingNecessary() : RoundingNecessaryException
-    {
-        return new self('Rounding is necessary to represent the result of the operation at this scale.');
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:43997b0b4779555f9edb4fca54cf7748bb9e8eaedf840b364f0b02a5028f895c
+size 459

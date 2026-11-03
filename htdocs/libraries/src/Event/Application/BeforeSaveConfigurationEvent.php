@@ -1,29 +1,3 @@
-<?php
-
-/**
- * Joomla! Content Management System
- *
- * @copyright  (C) 2023 Open Source Matters, Inc. <https://www.joomla.org>
- * @license    GNU General Public License version 2 or later; see LICENSE.txt
- */
-
-namespace Joomla\CMS\Event\Application;
-
-use Joomla\CMS\Event\Result\ResultAware;
-use Joomla\CMS\Event\Result\ResultAwareInterface;
-use Joomla\CMS\Event\Result\ResultTypeBooleanAware;
-
-// phpcs:disable PSR1.Files.SideEffects
-\defined('_JEXEC') or die;
-// phpcs:enable PSR1.Files.SideEffects
-
-/**
- * Class for Application Configuration events
- *
- * @since  5.0.0
- */
-class BeforeSaveConfigurationEvent extends ApplicationConfigurationEvent implements ResultAwareInterface
-{
-    use ResultAware;
-    use ResultTypeBooleanAware;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:7a7dd2eb1575a83f1c397f05c3664fed9ea35ac1b80644f4c2a68a28c3bfdfe1
+size 737

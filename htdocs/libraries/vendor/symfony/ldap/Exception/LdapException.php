@@ -1,21 +1,3 @@
-<?php
-
-/*
- * This file is part of the Symfony package.
- *
- * (c) Fabien Potencier <fabien@symfony.com>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
-namespace Symfony\Component\Ldap\Exception;
-
-/**
- * LdapException is thrown if php ldap module is not loaded.
- *
- * @author Grégoire Pineau <lyrixx@lyrixx.info>
- */
-class LdapException extends \RuntimeException implements ExceptionInterface
-{
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:8b62d5b5958d10c078771db04d68357cebeb13f905304f5e4644914bb5426522
+size 484

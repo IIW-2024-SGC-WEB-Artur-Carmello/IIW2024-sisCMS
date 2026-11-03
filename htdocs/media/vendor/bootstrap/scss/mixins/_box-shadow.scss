@@ -1,24 +1,3 @@
-@mixin box-shadow($shadow...) {
-  @if $enable-shadows {
-    $result: ();
-    $has-single-value: false;
-    $single-value: null;
-
-    @each $value in $shadow {
-      @if $value != null {
-        @if $value == none or $value == initial or $value == inherit or $value == unset {
-          $has-single-value: true;
-          $single-value: $value;
-        } @else {
-          $result: append($result, $value, "comma");
-        }
-      }
-    }
-
-    @if $has-single-value {
-      box-shadow: $single-value;
-    } @else if (length($result) > 0) {
-      box-shadow: $result;
-    }
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:2a6715eb7a536e8add5a8ff0dd165b56e58d26edc7b1c7cb4dbc57e142fd021a
+size 579

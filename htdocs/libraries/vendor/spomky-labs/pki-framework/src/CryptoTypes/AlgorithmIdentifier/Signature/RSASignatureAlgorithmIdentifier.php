@@ -1,20 +1,3 @@
-<?php
-
-declare(strict_types=1);
-
-namespace SpomkyLabs\Pki\CryptoTypes\AlgorithmIdentifier\Signature;
-
-use SpomkyLabs\Pki\CryptoTypes\AlgorithmIdentifier\AlgorithmIdentifier;
-use SpomkyLabs\Pki\CryptoTypes\AlgorithmIdentifier\Feature\SignatureAlgorithmIdentifier;
-use SpomkyLabs\Pki\CryptoTypes\AlgorithmIdentifier\SpecificAlgorithmIdentifier;
-
-/**
- * Base class for signature algorithms employing RSASSA.
- */
-abstract class RSASignatureAlgorithmIdentifier extends SpecificAlgorithmIdentifier implements SignatureAlgorithmIdentifier
-{
-    public function supportsKeyAlgorithm(AlgorithmIdentifier $algo): bool
-    {
-        return $algo->oid() === self::OID_RSA_ENCRYPTION;
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:0e7698e5667ab7b39dc752631025c90df7fdc576daf91e80922c10eb8d38b9d9
+size 680

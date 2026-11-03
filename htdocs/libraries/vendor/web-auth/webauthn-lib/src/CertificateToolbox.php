@@ -1,14 +1,3 @@
-<?php
-
-declare(strict_types=1);
-
-namespace Webauthn;
-
-use Webauthn\MetadataService\CertificateChain\CertificateToolbox as BaseCertificateToolbox;
-
-/**
- * @deprecated since v4.1. Please use Webauthn\MetadataService\CertificateChainChecker\PhpCertificateChainValidator instead
- */
-class CertificateToolbox extends BaseCertificateToolbox
-{
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:f1ed39cd2970f9b34ff01b1a259168dbab951a9010c15357a8445498a98505cf
+size 339

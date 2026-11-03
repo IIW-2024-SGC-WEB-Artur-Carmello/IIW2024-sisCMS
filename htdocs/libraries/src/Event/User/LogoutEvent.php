@@ -1,31 +1,3 @@
-<?php
-
-/**
- * Joomla! Content Management System
- *
- * @copyright  (C) 2023 Open Source Matters, Inc. <https://www.joomla.org>
- * @license    GNU General Public License version 2 or later; see LICENSE.txt
- */
-
-namespace Joomla\CMS\Event\User;
-
-use Joomla\CMS\Event\Result\ResultAware;
-use Joomla\CMS\Event\Result\ResultAwareInterface;
-use Joomla\CMS\Event\Result\ResultTypeBooleanAware;
-
-// phpcs:disable PSR1.Files.SideEffects
-\defined('_JEXEC') or die;
-// phpcs:enable PSR1.Files.SideEffects
-
-/**
- * Class for User event.
- * Example:
- *  new LogoutEvent('onEventName', ['subject' => $parameters, 'options' => $options]);
- *
- * @since  5.0.0
- */
-class LogoutEvent extends AbstractLogoutEvent implements ResultAwareInterface
-{
-    use ResultAware;
-    use ResultTypeBooleanAware;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:8982769860772cdb4908fee52c588188d252bf8b4add40783416cb7fcab06f68
+size 781

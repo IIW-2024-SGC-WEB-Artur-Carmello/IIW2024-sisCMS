@@ -1,31 +1,3 @@
-<?php
-
-/**
- * @package     Joomla.Site
- * @subpackage  Layout
- *
- * @copyright   (C) 2013 Open Source Matters, Inc. <https://www.joomla.org>
- * @license     GNU General Public License version 2 or later; see LICENSE.txt
- */
-
-defined('_JEXEC') or die;
-
-use Joomla\CMS\Language\Text;
-use Joomla\CMS\Layout\LayoutHelper;
-use Joomla\CMS\Router\Route;
-use Joomla\Component\Content\Site\Helper\RouteHelper;
-
-?>
-<dd class="category-name">
-    <?php echo LayoutHelper::render('joomla.icon.iconclass', ['icon' => 'icon-folder-open icon-fw']); ?>
-    <?php $title = $this->escape($displayData['item']->category_title); ?>
-    <?php if ($displayData['params']->get('link_category') && !empty($displayData['item']->catid)) : ?>
-        <?php $url = '<a href="' . Route::_(
-            RouteHelper::getCategoryRoute($displayData['item']->catid, $displayData['item']->category_language)
-        )
-            . '">' . $title . '</a>'; ?>
-        <?php echo Text::sprintf('COM_CONTENT_CATEGORY', $url); ?>
-    <?php else : ?>
-        <?php echo Text::sprintf('COM_CONTENT_CATEGORY', '<span>' . $title . '</span>'); ?>
-    <?php endif; ?>
-</dd>
+version https://git-lfs.github.com/spec/v1
+oid sha256:caeb012d291d9fd7bb2fdd59655b0fadb9443b58e3974ea5b4ce78a937a4a9ea
+size 1129

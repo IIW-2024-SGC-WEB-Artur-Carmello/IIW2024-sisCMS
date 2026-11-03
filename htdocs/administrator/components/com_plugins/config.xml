@@ -1,19 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<config>
-	<help key="Plugin:_Options"/>
-	<fieldset
-		name="permissions"
-		label="JCONFIG_PERMISSIONS_LABEL"
-		>
-
-		<field
-			name="rules"
-			type="rules"
-			label="JCONFIG_PERMISSIONS_LABEL"
-			filter="rules"
-			validate="rules"
-			component="com_plugins"
-			section="component"
-		/>
-	</fieldset>
-</config>
+version https://git-lfs.github.com/spec/v1
+oid sha256:c531687fc0fc69098d1c241395b77222221689d88c5c24dc0f40e24799926e93
+size 346

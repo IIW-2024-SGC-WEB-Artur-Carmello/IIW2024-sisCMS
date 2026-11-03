@@ -1,30 +1,3 @@
-<?php
-
-/**
- * Part of the Joomla Framework Language Package
- *
- * @copyright  Copyright (C) 2005 - 2020 Open Source Matters, Inc. All rights reserved.
- * @license    GNU General Public License version 2 or later; see LICENSE
- */
-
-namespace Joomla\Language;
-
-/**
- * Stemmer interface.
- *
- * @since  1.4.0
- */
-interface StemmerInterface
-{
-    /**
-     * Method to stem a token and return the root.
-     *
-     * @param   string  $token  The token to stem.
-     * @param   string  $lang   The language of the token.
-     *
-     * @return  string  The root token.
-     *
-     * @since   1.4.0
-     */
-    public function stem($token, $lang);
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:2b2fc87eb9e18c21554cb1863e43cbbc52d9e9b36fb31c85fd611ebf057c28ec
+size 640

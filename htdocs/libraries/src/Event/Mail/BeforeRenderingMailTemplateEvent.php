@@ -1,30 +1,3 @@
-<?php
-
-/**
- * Joomla! Content Management System
- *
- * @copyright  (C) 2024 Open Source Matters, Inc. <https://www.joomla.org>
- * @license    GNU General Public License version 2 or later; see LICENSE.txt
- */
-
-namespace Joomla\CMS\Event\Mail;
-
-/**
- * Class for MailTemplate events
- * Example:
- *   new BeforeRenderingMailTemplateEvent('onEventName', ['templateId' => 'com_example.template', 'subject' => $mailTemplateInstance]);
- *
- * @since  5.2.0
- */
-class BeforeRenderingMailTemplateEvent extends MailTemplateEvent
-{
-    /**
-     * The argument names, in order expected by legacy plugins.
-     *
-     * @var array
-     *
-     * @since  5.2.0
-     * @deprecated 5.2.0 will be removed in 7.0
-     */
-    protected $legacyArgumentsOrder = ['templateId', 'subject'];
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:19ebbbbe5294e1ac095b12b832bb8af34a1d45f9cc987b11198ba9ef3609159a
+size 767

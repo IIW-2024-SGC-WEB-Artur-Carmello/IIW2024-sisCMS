@@ -1,18 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<form>
-	<fields name="params">
-		<fieldset name="task_params">
-			<field
-				name="logstokeep"
-				type="integer"
-				label="PLG_TASK_ROTATELOGS_LOGSTOKEEP_LABEL"
-				first="1"
-				last="10"
-				step="1"
-				default="1"
-				filter="int"
-				validate="number"
-			/>
-		</fieldset>
-	</fields>
-</form>
+version https://git-lfs.github.com/spec/v1
+oid sha256:b34c787120db71681456b7b090979bd73c4d08b641172ab20e66d314af64a571
+size 337

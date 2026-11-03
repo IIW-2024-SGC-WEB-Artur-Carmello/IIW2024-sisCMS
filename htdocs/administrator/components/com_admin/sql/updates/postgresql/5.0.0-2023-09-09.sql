@@ -1,5 +1,3 @@
--- Add com_fields to action logs extensions
-INSERT INTO "#__action_logs_extensions" ("extension") VALUES ('com_fields');
-
-INSERT INTO "#__action_log_config" ("type_title", "type_alias", "id_holder", "title_holder", "table_name", "text_prefix") VALUES
-('field', 'com_fields.field', 'id', 'title', '#__fields', 'PLG_ACTIONLOG_JOOMLA');
+version https://git-lfs.github.com/spec/v1
+oid sha256:30cbb5f3f7cb1a59f6d14728948fc01559c48b7edcf9d40d4078eec70d57216a
+size 334

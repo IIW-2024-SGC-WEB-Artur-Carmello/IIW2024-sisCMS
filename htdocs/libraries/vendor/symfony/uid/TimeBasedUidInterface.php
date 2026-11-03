@@ -1,22 +1,3 @@
-<?php
-
-/*
- * This file is part of the Symfony package.
- *
- * (c) Fabien Potencier <fabien@symfony.com>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
-namespace Symfony\Component\Uid;
-
-/**
- * Interface to describe UIDs that contain a DateTimeImmutable as part of their behaviour.
- *
- * @author Barney Hanlon <barney.hanlon@cushon.co.uk>
- */
-interface TimeBasedUidInterface
-{
-    public function getDateTime(): \DateTimeImmutable;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:f6770a760912decfb29def47b54680b8da64d0a7e3139e98c2acce8350ffda34
+size 519

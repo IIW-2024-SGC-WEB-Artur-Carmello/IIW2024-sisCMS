@@ -1,27 +1,3 @@
-<?php
-
-/**
- * @package     Joomla.Administrator
- * @subpackage  com_modules
- *
- * @copyright   (C) 2009 Open Source Matters, Inc. <https://www.joomla.org>
- * @license     GNU General Public License version 2 or later; see LICENSE.txt
- *
- * @phpcs:disable PSR1.Classes.ClassDeclaration.MissingNamespace
- */
-
-// phpcs:disable PSR1.Files.SideEffects
-\defined('_JEXEC') or die;
-// phpcs:enable PSR1.Files.SideEffects
-
-/**
- * Modules component helper.
- *
- * @since       1.6
- *
- * @deprecated  4.3 will be removed in 6.0
- *              Use \Joomla\Component\Modules\Administrator\Helper\ModulesHelper instead
- */
-abstract class ModulesHelper extends \Joomla\Component\Modules\Administrator\Helper\ModulesHelper
-{
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:3d7e1f54d85a40e4d381e5477aab6ffa13e15d9c4bc01d54d53cc1c0e7070c86
+size 711

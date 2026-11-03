@@ -1,21 +1,3 @@
-<?php
-
-/*
- * This file is part of the Symfony package.
- *
- * (c) Fabien Potencier <fabien@symfony.com>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
-namespace Symfony\Component\HttpClient\Exception;
-
-use Symfony\Contracts\HttpClient\Exception\TransportExceptionInterface;
-
-/**
- * @author Nicolas Grekas <p@tchwork.com>
- */
-class TransportException extends \RuntimeException implements TransportExceptionInterface
-{
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:a37f2b144c981492d27fa0dea297952238fded8a1033264c530b2510ed75fcc4
+size 506

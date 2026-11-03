@@ -1,23 +1,3 @@
-<?php
-
-/**
- * Joomla! Content Management System
- *
- * @copyright  (C) 2017 Open Source Matters, Inc. <https://www.joomla.org>
- * @license    GNU General Public License version 2 or later; see LICENSE.txt
- */
-
-namespace Joomla\CMS\Access\Exception;
-
-// phpcs:disable PSR1.Files.SideEffects
-\defined('_JEXEC') or die;
-// phpcs:enable PSR1.Files.SideEffects
-
-/**
- * Exception class defining a not allowed access
- *
- * @since  3.6.3
- */
-class NotAllowed extends \RuntimeException
-{
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:93574d0deca6bd079999454128c6d834edbc64f7a94e1de5b37c4c2856b012ec
+size 480

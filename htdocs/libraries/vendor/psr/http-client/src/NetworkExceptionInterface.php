@@ -1,24 +1,3 @@
-<?php
-
-namespace Psr\Http\Client;
-
-use Psr\Http\Message\RequestInterface;
-
-/**
- * Thrown when the request cannot be completed because of network issues.
- *
- * There is no response object as this exception is thrown when no response has been received.
- *
- * Example: the target host name can not be resolved or the connection failed.
- */
-interface NetworkExceptionInterface extends ClientExceptionInterface
-{
-    /**
-     * Returns the request.
-     *
-     * The request object MAY be a different object from the one passed to ClientInterface::sendRequest()
-     *
-     * @return RequestInterface
-     */
-    public function getRequest(): RequestInterface;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:93b74d294718e772af07780a6df2bb13671701df8a1d1e752d79cb3decd08f66
+size 658

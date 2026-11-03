@@ -1,32 +1,3 @@
-<?php
-
-declare(strict_types=1);
-
-namespace CBOR;
-
-use Stringable;
-use function chr;
-
-abstract class AbstractCBORObject implements CBORObject, Stringable
-{
-    public function __construct(
-        private int $majorType,
-        protected int $additionalInformation
-    ) {
-    }
-
-    public function __toString(): string
-    {
-        return chr($this->majorType << 5 | $this->additionalInformation);
-    }
-
-    public function getMajorType(): int
-    {
-        return $this->majorType;
-    }
-
-    public function getAdditionalInformation(): int
-    {
-        return $this->additionalInformation;
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:36a35223eefaa233b9f462db28b50fe7c817376c99f81c22e6fe25406aadaeb7
+size 605

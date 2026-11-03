@@ -1,26 +1,3 @@
-<?php
-
-/*
- * This file is part of the Symfony package.
- *
- * (c) Fabien Potencier <fabien@symfony.com>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
-namespace Symfony\Contracts\HttpClient;
-
-/**
- * Yields response chunks, returned by HttpClientInterface::stream().
- *
- * @author Nicolas Grekas <p@tchwork.com>
- *
- * @extends \Iterator<ResponseInterface, ChunkInterface>
- */
-interface ResponseStreamInterface extends \Iterator
-{
-    public function key(): ResponseInterface;
-
-    public function current(): ChunkInterface;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:96f739da37dba25ebeb2da5ce97979ca2daf8820d2c54ae81f98c9bd92fedb47
+size 612

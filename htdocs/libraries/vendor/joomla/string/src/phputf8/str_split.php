@@ -1,32 +1,3 @@
-<?php
-
-/**
-* @package utf8
-*/
-
-//---------------------------------------------------------------
-/**
-* UTF-8 aware alternative to str_split
-* Convert a string to an array
-* Note: requires utf8_strlen to be loaded
-* @param string UTF-8 encoded
-* @param int number to characters to split string by
-* @return string characters in string reverses
-* @see http://www.php.net/str_split
-* @see utf8_strlen
-* @package utf8
-*/
-function utf8_str_split($str, $split_len = 1)
-{
-    if (!preg_match('/^[0-9]+$/', $split_len) || $split_len < 1) {
-        return false;
-    }
-
-    $len = utf8_strlen($str);
-    if ($len <= $split_len) {
-        return [$str];
-    }
-
-    preg_match_all('/.{' . $split_len . '}|[^\x00]{1,' . $split_len . '}$/us', $str, $ar);
-    return $ar[0];
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:13e873b17a654ad80223f1ad3a3426414db2032c44703702abc7de8750ada233
+size 763

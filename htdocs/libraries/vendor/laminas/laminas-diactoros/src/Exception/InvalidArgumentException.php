@@ -1,9 +1,3 @@
-<?php
-
-declare(strict_types=1);
-
-namespace Laminas\Diactoros\Exception;
-
-class InvalidArgumentException extends \InvalidArgumentException implements ExceptionInterface
-{
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:8a3d062466fe3cd0e67b1c72b3e412f19f249ea531d29391d7cd752ca81ff0be
+size 172

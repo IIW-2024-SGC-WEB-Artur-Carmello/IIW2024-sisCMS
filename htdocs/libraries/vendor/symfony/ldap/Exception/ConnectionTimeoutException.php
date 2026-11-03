@@ -1,21 +1,3 @@
-<?php
-
-/*
- * This file is part of the Symfony package.
- *
- * (c) Fabien Potencier <fabien@symfony.com>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
-namespace Symfony\Component\Ldap\Exception;
-
-/**
- * ConnectionTimeoutException is thrown if binding to ldap time out.
- *
- * @author Hamza Amrouche <hamza.simperfit@gmail.com>
- */
-class ConnectionTimeoutException extends ConnectionException
-{
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:8500620dd7837527fe8e1ca0e6352267da7cb8cbf72827f2b16f275af436e7da
+size 482

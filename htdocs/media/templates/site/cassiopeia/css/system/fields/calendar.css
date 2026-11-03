@@ -1,7 +1,3 @@
-@charset "UTF-8";
-@import "../../../../../../system/css/fields/calendar.css";
-
-.calendar-container {
-  --btn-primary-bg: var(--cassiopeia-color-primary);
-  --btn-primary-color: #fff;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:086fbd094d3271ebe6ed48cae7ce1667ba890d8fc3280414eee98c34efeb30be
+size 185

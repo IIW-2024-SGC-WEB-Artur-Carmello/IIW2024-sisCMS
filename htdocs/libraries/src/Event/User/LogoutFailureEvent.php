@@ -1,25 +1,3 @@
-<?php
-
-/**
- * Joomla! Content Management System
- *
- * @copyright  (C) 2023 Open Source Matters, Inc. <https://www.joomla.org>
- * @license    GNU General Public License version 2 or later; see LICENSE.txt
- */
-
-namespace Joomla\CMS\Event\User;
-
-// phpcs:disable PSR1.Files.SideEffects
-\defined('_JEXEC') or die;
-// phpcs:enable PSR1.Files.SideEffects
-
-/**
- * Class for User event.
- * Example:
- *  new LogoutFailureEvent('onEventName', ['subject' => $parameters, 'options' => $options]);
- *
- * @since  5.0.0
- */
-class LogoutFailureEvent extends AbstractLogoutEvent
-{
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:99669207b95b5c6a26e6a6be0fd716fd5672c79bd8dd9a1e6a106bf918c09f70
+size 566

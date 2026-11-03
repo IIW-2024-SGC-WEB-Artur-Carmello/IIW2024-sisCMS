@@ -1,25 +1,3 @@
-<?php
-
-/**
- * Joomla! Content Management System
- *
- * @copyright  (C) 2023 Open Source Matters, Inc. <https://www.joomla.org>
- * @license    GNU General Public License version 2 or later; see LICENSE.txt
- */
-
-namespace Joomla\CMS\Event\Module;
-
-// phpcs:disable PSR1.Files.SideEffects
-\defined('_JEXEC') or die;
-// phpcs:enable PSR1.Files.SideEffects
-
-/**
- * Class for Module events.
- * Example:
- *  new AfterModuleListEvent('onEventName', ['subject' => $modules]);
- *
- * @since  5.0.0
- */
-class PrepareModuleListEvent extends ModuleListEvent
-{
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:1a650afec36dce6e16b6a30e9a903054e6052fcf62ec4638b7258b480667c691
+size 547

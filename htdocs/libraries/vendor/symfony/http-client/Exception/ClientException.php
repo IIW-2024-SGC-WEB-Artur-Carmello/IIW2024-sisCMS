@@ -1,24 +1,3 @@
-<?php
-
-/*
- * This file is part of the Symfony package.
- *
- * (c) Fabien Potencier <fabien@symfony.com>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
-namespace Symfony\Component\HttpClient\Exception;
-
-use Symfony\Contracts\HttpClient\Exception\ClientExceptionInterface;
-
-/**
- * Represents a 4xx response.
- *
- * @author Nicolas Grekas <p@tchwork.com>
- */
-final class ClientException extends \RuntimeException implements ClientExceptionInterface
-{
-    use HttpExceptionTrait;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:154b64479a08652a79ec9f47345cd72937091c963a2f25c11287388227cb1c25
+size 564

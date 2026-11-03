@@ -1,18 +1,3 @@
-<?php
-
-declare(strict_types=1);
-
-namespace Jose\Component\Encryption\Algorithm\KeyEncryption;
-
-use Jose\Component\Core\JWK;
-use Jose\Component\Encryption\Algorithm\KeyEncryptionAlgorithm;
-
-interface DirectEncryption extends KeyEncryptionAlgorithm
-{
-    /**
-     * Returns the CEK.
-     *
-     * @param JWK $key The key used to get the CEK
-     */
-    public function getCEK(JWK $key): string;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:8b1e7833596f000e96e4aec20817c4585a72755705355b6d0827d9a22bfeeb97
+size 395

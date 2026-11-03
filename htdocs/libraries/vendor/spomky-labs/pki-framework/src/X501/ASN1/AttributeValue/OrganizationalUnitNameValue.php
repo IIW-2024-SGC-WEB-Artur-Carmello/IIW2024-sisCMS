@@ -1,21 +1,3 @@
-<?php
-
-declare(strict_types=1);
-
-namespace SpomkyLabs\Pki\X501\ASN1\AttributeValue;
-
-use SpomkyLabs\Pki\X501\ASN1\AttributeType;
-use SpomkyLabs\Pki\X501\ASN1\AttributeValue\Feature\DirectoryString;
-
-/**
- * 'organizationalUnitName' attribute value.
- *
- * @see https://www.itu.int/ITU-T/formal-language/itu-t/x/x520/2012/SelectedAttributeTypes.html#SelectedAttributeTypes.organizationalUnitName
- */
-final class OrganizationalUnitNameValue extends DirectoryString
-{
-    public static function create(string $value, int $string_tag = DirectoryString::UTF8): static
-    {
-        return new static(AttributeType::OID_ORGANIZATIONAL_UNIT_NAME, $value, $string_tag);
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:178ec48b8b2e72230d8a7f42a2d08fcd7a58f630cfd2c55447b2446cd47c87f5
+size 668

@@ -1,15 +1,3 @@
-<?php
-declare(strict_types=1);
-
-namespace Lcobucci\JWT\Validation\Constraint;
-
-use InvalidArgumentException;
-use Lcobucci\JWT\Exception;
-
-final class LeewayCannotBeNegative extends InvalidArgumentException implements Exception
-{
-    public static function create(): self
-    {
-        return new self('Leeway cannot be negative');
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:a1ba9a0405331f6e393154919343625e27ff1b5678e6c7acb3e05c668b284e03
+size 339

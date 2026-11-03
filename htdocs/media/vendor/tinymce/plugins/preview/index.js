@@ -1,7 +1,3 @@
-// Exports the "preview" plugin for usage with module loaders
-// Usage:
-//   CommonJS:
-//     require('tinymce/plugins/preview')
-//   ES2015:
-//     import 'tinymce/plugins/preview'
-require('./plugin.js');
+version https://git-lfs.github.com/spec/v1
+oid sha256:da5b43a242cf576435e63e27522182fe61afb1ea0d28aee116193c24d60c18f3
+size 205

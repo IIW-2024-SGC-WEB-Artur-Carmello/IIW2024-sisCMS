@@ -1,21 +1,3 @@
-<?php
-
-/**
- * @package     Joomla.Site
- * @subpackage  com_users
- *
- * @copyright   (C) 2009 Open Source Matters, Inc. <https://www.joomla.org>
- * @license     GNU General Public License version 2 or later; see LICENSE.txt
- */
-
-defined('_JEXEC') or die;
-
-/** @var \Joomla\Component\Users\Site\View\Login\HtmlView $this */
-
-if ((isset($this->user->cookieLogin) && !empty($this->user->cookieLogin)) || $this->user->guest) {
-    // The user is not logged in or needs to provide a password.
-    echo $this->loadTemplate('login');
-} else {
-    // The user is already logged in.
-    echo $this->loadTemplate('logout');
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:5851264a72f34ecf3888d4281ea65d4d743f72f0e19a7d6655b2d482a6312683
+size 615

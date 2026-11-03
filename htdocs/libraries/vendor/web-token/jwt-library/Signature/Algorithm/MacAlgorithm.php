@@ -1,28 +1,3 @@
-<?php
-
-declare(strict_types=1);
-
-namespace Jose\Component\Signature\Algorithm;
-
-use Jose\Component\Core\Algorithm;
-use Jose\Component\Core\JWK;
-
-interface MacAlgorithm extends Algorithm
-{
-    /**
-     * Sign the input.
-     *
-     * @param JWK $key The private key used to hash the data
-     * @param string $input The input
-     */
-    public function hash(JWK $key, string $input): string;
-
-    /**
-     * Verify the signature of data.
-     *
-     * @param JWK $key The private key used to hash the data
-     * @param string $input The input
-     * @param string $signature The signature to verify
-     */
-    public function verify(JWK $key, string $input, string $signature): bool;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:cba288d070ea07686370295862354c149aa07e6a35c2d7268c664768b9f2ac30
+size 688

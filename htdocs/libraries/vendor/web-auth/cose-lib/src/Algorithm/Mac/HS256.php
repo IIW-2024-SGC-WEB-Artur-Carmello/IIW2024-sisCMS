@@ -1,30 +1,3 @@
-<?php
-
-declare(strict_types=1);
-
-namespace Cose\Algorithm\Mac;
-
-final class HS256 extends Hmac
-{
-    public const ID = 5;
-
-    public static function create(): self
-    {
-        return new self();
-    }
-
-    public static function identifier(): int
-    {
-        return self::ID;
-    }
-
-    protected function getHashAlgorithm(): string
-    {
-        return 'sha256';
-    }
-
-    protected function getSignatureLength(): int
-    {
-        return 256;
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:346b1e7402cfabba769994ede9171f6d2b7d5c94c51009c047ffda2f50875e80
+size 459

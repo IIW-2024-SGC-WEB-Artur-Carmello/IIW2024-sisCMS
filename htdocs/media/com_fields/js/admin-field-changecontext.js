@@ -1,12 +1,3 @@
-/**
- * @copyright  (C) 2018 Open Source Matters, Inc. <https://www.joomla.org>
- * @license    GNU General Public License version 2 or later; see LICENSE.txt
- */
-
-Joomla.fieldsChangeContext = context => {
-
-  const regex = /([?;&])context[^&;]*[;&]?/;
-  const url = window.location.href;
-  const query = url.replace(regex, '$1').replace(/&$/, '');
-  window.location.href = (query.length > 2 ? query + '&' : '?') + (context ? 'context=' + context : '');
-};
+version https://git-lfs.github.com/spec/v1
+oid sha256:33bdc1c07d6e6b448d6e2e1e16bd351bb8ff8194bb87e46103ccf5b4bf293c7e
+size 454

@@ -1,31 +1,3 @@
-<?php
-
-/*
- * This file is part of the Symfony package.
- *
- * (c) Fabien Potencier <fabien@symfony.com>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
-namespace Symfony\Component\Validator\Constraints;
-
-/**
- * Validates values are equal (==).
- *
- * @author Daniel Holmes <daniel@danielholmes.org>
- * @author Bernhard Schussek <bschussek@gmail.com>
- */
-class EqualToValidator extends AbstractComparisonValidator
-{
-    protected function compareValues(mixed $value1, mixed $value2): bool
-    {
-        return $value1 == $value2;
-    }
-
-    protected function getErrorCode(): ?string
-    {
-        return EqualTo::NOT_EQUAL_ERROR;
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:46f88907dd5ad0a38275b543d3718fa3511c51224d86b33983b8ae1e5afa3abe
+size 723

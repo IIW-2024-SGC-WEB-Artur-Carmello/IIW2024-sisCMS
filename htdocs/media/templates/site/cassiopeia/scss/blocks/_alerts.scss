@@ -1,35 +1,3 @@
-// Alerts
-
-.j-main-container {
-  .alert {
-    margin: .75rem;
-  }
-
-}
-
-.alert-heading {
-  font-size: $h4-font-size;
-}
-
-@keyframes fadeIn {
-
-  from {
-    opacity: 0;
-    transform: translateY(-1rem);
-  }
-
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-/* Only apply margin when #system-message-container contains a visible joomla-alert */
-#system-message-container:has(joomla-alert) {
-  margin-top: 1em;
-}
-
-/* Remove margin when no <joomla-alert> exists */
-#system-message-container:not(:has(joomla-alert)) {
-  margin-top: 0;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:69497cef49ac5c4e2c34b7e38e5cc13f3e056ec4942c9ef2b09d6b5cd78edca2
+size 539

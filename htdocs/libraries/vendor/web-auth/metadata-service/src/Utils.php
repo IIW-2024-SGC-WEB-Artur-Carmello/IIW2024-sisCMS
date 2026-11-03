@@ -1,21 +1,3 @@
-<?php
-
-declare(strict_types=1);
-
-namespace Webauthn\MetadataService;
-
-/**
- * @internal
- */
-abstract class Utils
-{
-    /**
-     * @param array<mixed> $data
-     *
-     * @return array<mixed>
-     */
-    public static function filterNullValues(array $data): array
-    {
-        return array_filter($data, static fn ($var): bool => $var !== null);
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:38d968ef5fc3f5e3541ea2c8d48b4b15b423d0434be4ecbbafc78b5c33055171
+size 353

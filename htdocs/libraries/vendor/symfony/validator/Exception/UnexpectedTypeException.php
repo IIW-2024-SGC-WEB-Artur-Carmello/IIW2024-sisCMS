@@ -1,20 +1,3 @@
-<?php
-
-/*
- * This file is part of the Symfony package.
- *
- * (c) Fabien Potencier <fabien@symfony.com>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
-namespace Symfony\Component\Validator\Exception;
-
-class UnexpectedTypeException extends ValidatorException
-{
-    public function __construct(mixed $value, string $expectedType)
-    {
-        parent::__construct(\sprintf('Expected argument of type "%s", "%s" given', $expectedType, get_debug_type($value)));
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:4881fbe1280544ebba44a7aee7e4a5cc80d187959a1d1aa413f39691846f45e8
+size 553

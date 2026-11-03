@@ -1,22 +1,3 @@
-<?php
-
-/**
- * @package     Joomla.Site
- * @subpackage  mod_articles_categories
- *
- * @copyright   (C) 2010 Open Source Matters, Inc. <https://www.joomla.org>
- * @license     GNU General Public License version 2 or later; see LICENSE.txt
- */
-
-defined('_JEXEC') or die;
-
-use Joomla\CMS\Helper\ModuleHelper;
-
-if (!$list) {
-    return;
-}
-
-?>
-<ul class="mod-articlescategories categories-module mod-list">
-<?php require ModuleHelper::getLayoutPath('mod_articles_categories', $params->get('layout', 'default') . '_items'); ?>
-</ul>
+version https://git-lfs.github.com/spec/v1
+oid sha256:dbabd9aaef11d0c71afd78735d0d87a97bd77375f46fc4dc0fa29125f8d5bf6f
+size 526

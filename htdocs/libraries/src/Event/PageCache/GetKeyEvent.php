@@ -1,29 +1,3 @@
-<?php
-
-/**
- * Joomla! Content Management System
- *
- * @copyright  (C) 2023 Open Source Matters, Inc. <https://www.joomla.org>
- * @license    GNU General Public License version 2 or later; see LICENSE.txt
- */
-
-namespace Joomla\CMS\Event\PageCache;
-
-use Joomla\CMS\Event\Result\ResultAware;
-use Joomla\CMS\Event\Result\ResultAwareInterface;
-use Joomla\CMS\Event\Result\ResultTypeStringAware;
-
-// phpcs:disable PSR1.Files.SideEffects
-\defined('_JEXEC') or die;
-// phpcs:enable PSR1.Files.SideEffects
-
-/**
- * Class for PageCache events
- *
- * @since  5.1.0
- */
-class GetKeyEvent extends PageCacheEvent implements ResultAwareInterface
-{
-    use ResultAware;
-    use ResultTypeStringAware;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:d061adfbe914b8c04b3dcd279f8a1a018513f34df8f82cd4cfc6420e6926a3c8
+size 685

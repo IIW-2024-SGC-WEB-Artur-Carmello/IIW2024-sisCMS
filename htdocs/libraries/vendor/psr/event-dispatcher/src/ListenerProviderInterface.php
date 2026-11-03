@@ -1,19 +1,3 @@
-<?php
-declare(strict_types=1);
-
-namespace Psr\EventDispatcher;
-
-/**
- * Mapper from an event to the listeners that are applicable to that event.
- */
-interface ListenerProviderInterface
-{
-    /**
-     * @param object $event
-     *   An event for which to return the relevant listeners.
-     * @return iterable[callable]
-     *   An iterable (array, iterator, or generator) of callables.  Each
-     *   callable MUST be type-compatible with $event.
-     */
-    public function getListenersForEvent(object $event) : iterable;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:1d6f5b55c0401438f8b27c680810ea63a2eaa0ae5c4e7285606be4409741677c
+size 524

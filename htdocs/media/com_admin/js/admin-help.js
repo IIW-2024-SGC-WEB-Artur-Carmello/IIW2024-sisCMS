@@ -1,9 +1,3 @@
-/**
-  * @copyright   (C) 2021 Open Source Matters, Inc. <https://www.joomla.org>
-  * @license     GNU General Public License version 2 or later; see LICENSE.txt
-  */
-
-const helpIndex = document.getElementById('help-index');
-if (helpIndex) {
-  helpIndex.querySelectorAll('a').forEach(element => element.addEventListener('click', () => window.scroll(0, 0)));
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:7f6e1e4d94a1b70709c85d2b54b862cd20d85fbb340f83f74a02c850dd38d5d4
+size 359

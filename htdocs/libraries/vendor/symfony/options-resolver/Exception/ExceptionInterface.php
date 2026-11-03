@@ -1,21 +1,3 @@
-<?php
-
-/*
- * This file is part of the Symfony package.
- *
- * (c) Fabien Potencier <fabien@symfony.com>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
-namespace Symfony\Component\OptionsResolver\Exception;
-
-/**
- * Marker interface for all exceptions thrown by the OptionsResolver component.
- *
- * @author Bernhard Schussek <bschussek@gmail.com>
- */
-interface ExceptionInterface extends \Throwable
-{
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:16a5c3aada946d5263115efc723676e6a3e016dabd7ec92f49d54a7590079117
+size 488

@@ -1,23 +1,3 @@
-<?php
-
-/**
- * Joomla! Content Management System
- *
- * @copyright  (C) 2017 Open Source Matters, Inc. <https://www.joomla.org>
- * @license    GNU General Public License version 2 or later; see LICENSE.txt
- */
-
-namespace Joomla\CMS\Cache\Exception;
-
-// phpcs:disable PSR1.Files.SideEffects
-\defined('_JEXEC') or die;
-// phpcs:enable PSR1.Files.SideEffects
-
-/**
- * Exception class defining an error connecting to the cache storage engine
- *
- * @since  3.6.3
- */
-class CacheConnectingException extends \RuntimeException implements CacheExceptionInterface
-{
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:620ebb2277098bc119eafa6cba61a93d583f6084e3fcec3e47260dbfe328af4d
+size 555

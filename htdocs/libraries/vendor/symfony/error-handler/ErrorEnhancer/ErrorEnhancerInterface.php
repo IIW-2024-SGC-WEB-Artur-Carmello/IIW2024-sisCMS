@@ -1,20 +1,3 @@
-<?php
-
-/*
- * This file is part of the Symfony package.
- *
- * (c) Fabien Potencier <fabien@symfony.com>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
-namespace Symfony\Component\ErrorHandler\ErrorEnhancer;
-
-interface ErrorEnhancerInterface
-{
-    /**
-     * Returns an \Throwable instance if the class is able to improve the error, null otherwise.
-     */
-    public function enhance(\Throwable $error): ?\Throwable;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:6a17b4712d224c08dcccfdf18fcb3b919bcf1dc79715110ab6187df725ca317a
+size 506

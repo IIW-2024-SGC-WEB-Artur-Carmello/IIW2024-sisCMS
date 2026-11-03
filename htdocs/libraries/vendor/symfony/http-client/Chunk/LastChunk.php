@@ -1,25 +1,3 @@
-<?php
-
-/*
- * This file is part of the Symfony package.
- *
- * (c) Fabien Potencier <fabien@symfony.com>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
-namespace Symfony\Component\HttpClient\Chunk;
-
-/**
- * @author Nicolas Grekas <p@tchwork.com>
- *
- * @internal
- */
-class LastChunk extends DataChunk
-{
-    public function isLast(): bool
-    {
-        return true;
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:bd5a9f9823755b156fba20f7cb004a28612362aed03df3424fed368c4d3a3e17
+size 457

@@ -1,26 +1,3 @@
-<?php
-
-/**
- * KeyIdentifier
- *
- * PHP version 5
- *
- * @author    Jim Wigginton <terrafrost@php.net>
- * @copyright 2016 Jim Wigginton
- * @license   http://www.opensource.org/licenses/mit-license.html  MIT License
- * @link      http://phpseclib.sourceforge.net
- */
-
-namespace phpseclib3\File\ASN1\Maps;
-
-use phpseclib3\File\ASN1;
-
-/**
- * KeyIdentifier
- *
- * @author  Jim Wigginton <terrafrost@php.net>
- */
-abstract class KeyIdentifier
-{
-    const MAP = ['type' => ASN1::TYPE_OCTET_STRING];
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:cf44b6e25e4e404e04041164f550c7477881d55652f6631ccc8ac71477c5981b
+size 490

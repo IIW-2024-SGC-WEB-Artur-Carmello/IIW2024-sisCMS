@@ -1,36 +1,3 @@
-<?php
-
-/**
- * Joomla! Content Management System
- *
- * @copyright  (C) 2023 Open Source Matters, Inc. <https://www.joomla.org>
- * @license    GNU General Public License version 2 or later; see LICENSE.txt
- */
-
-namespace Joomla\CMS\Event\Finder;
-
-use Joomla\CMS\Event\Model\SaveEvent;
-
-// phpcs:disable PSR1.Files.SideEffects
-\defined('_JEXEC') or die;
-// phpcs:enable PSR1.Files.SideEffects
-
-/**
- * Class for Model event.
- * Example:
- *  new BeforeSaveEvent('onEventName', ['context' => 'com_example.example', 'subject' => $itemObjectToSave, 'isNew' => $isNew);
- *
- * @since  5.0.0
- */
-class BeforeSaveEvent extends SaveEvent implements FinderEventInterface
-{
-    /**
-     * The argument names, in order expected by legacy plugins.
-     *
-     * @var array
-     *
-     * @since  5.0.0
-     * @deprecated 5.0 will be removed in 7.0
-     */
-    protected $legacyArgumentsOrder = ['context', 'subject', 'isNew'];
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:776f77cf255523fdfc6aa34ba55d4cb19c866060463a76259f0414a1cb022a03
+size 911

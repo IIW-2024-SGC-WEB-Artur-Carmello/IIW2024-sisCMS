@@ -1,7 +1,3 @@
-// Exports the "autolink" plugin for usage with module loaders
-// Usage:
-//   CommonJS:
-//     require('tinymce/plugins/autolink')
-//   ES2015:
-//     import 'tinymce/plugins/autolink'
-require('./plugin.js');
+version https://git-lfs.github.com/spec/v1
+oid sha256:cf9dbb0d6d43ecab9faa41baf38db169f11d668573349d2d7f879be5868e8d43
+size 208

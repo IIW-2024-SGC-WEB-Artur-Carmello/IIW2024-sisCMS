@@ -1,16 +1,3 @@
-/**
- * @copyright   (C) 2018 Open Source Matters, Inc. <https://www.joomla.org>
- * @license     GNU General Public License version 2 or later; see LICENSE.txt
- */
-Joomla.submitbutton = pressbutton => {
-  if (pressbutton === 'associations.purge') {
-    if (confirm(Joomla.Text._('COM_ASSOCIATIONS_PURGE_CONFIRM_PROMPT'))) {
-      Joomla.submitform(pressbutton);
-    } else {
-      return false;
-    }
-  } else {
-    Joomla.submitform(pressbutton);
-  }
-  return true;
-};
+version https://git-lfs.github.com/spec/v1
+oid sha256:1a992be5f7c7ca11741128c9b1fac0225c164940d4da5e2c8e488e7cb8303dec
+size 469

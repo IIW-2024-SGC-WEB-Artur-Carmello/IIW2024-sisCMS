@@ -1,23 +1,3 @@
-<?php
-
-declare(strict_types=1);
-
-namespace Webauthn\MetadataService\Exception;
-
-use Throwable;
-
-final class InvalidCertificateException extends MetadataServiceException
-{
-    public function __construct(
-        public readonly string $certificate,
-        string $message,
-        ?Throwable $previous = null
-    ) {
-        parent::__construct($message, $previous);
-    }
-
-    public static function create(string $certificate, string $message, ?Throwable $previous = null): self
-    {
-        return new self($certificate, $message, $previous);
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:459b81752abe95acaffe4b45d3be53a78ddd9fed8c69efe082e7a14f41f219d4
+size 556

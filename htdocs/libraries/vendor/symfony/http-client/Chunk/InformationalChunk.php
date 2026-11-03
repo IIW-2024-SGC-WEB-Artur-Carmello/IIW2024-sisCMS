@@ -1,32 +1,3 @@
-<?php
-
-/*
- * This file is part of the Symfony package.
- *
- * (c) Fabien Potencier <fabien@symfony.com>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
-namespace Symfony\Component\HttpClient\Chunk;
-
-/**
- * @author Nicolas Grekas <p@tchwork.com>
- *
- * @internal
- */
-class InformationalChunk extends DataChunk
-{
-    private array $status;
-
-    public function __construct(int $statusCode, array $headers)
-    {
-        $this->status = [$statusCode, $headers];
-    }
-
-    public function getInformationalStatus(): ?array
-    {
-        return $this->status;
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:1c4d18bf77c79e548ca9adb9e69d88004a9896f259734977134c0604a25b219e
+size 648

@@ -1,20 +1,3 @@
-<?php
-declare(strict_types=1);
-
-namespace Lcobucci\JWT\Signer\Key;
-
-use InvalidArgumentException;
-use Lcobucci\JWT\Exception;
-use Throwable;
-
-final class FileCouldNotBeRead extends InvalidArgumentException implements Exception
-{
-    public static function onPath(string $path, ?Throwable $cause = null): self
-    {
-        return new self(
-            'The path "' . $path . '" does not contain a valid key file',
-            0,
-            $cause
-        );
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:a5ea45a5b8a0585fafd2bc34c7e99202831f975f8304e71854129c82f11c4e19
+size 467

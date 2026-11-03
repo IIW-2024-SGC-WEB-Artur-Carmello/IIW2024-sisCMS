@@ -1,8 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<access component="com_associations">
-	<section name="component">
-		<action name="core.admin" title="JACTION_ADMIN" />
-		<action name="core.options" title="JACTION_OPTIONS" />
-		<action name="core.manage" title="JACTION_MANAGE" />
-	</section>
-</access>
+version https://git-lfs.github.com/spec/v1
+oid sha256:38c8f5026470860e69310e17bf0066de765c342a4e3520e1f8d20534d28f7d35
+size 292

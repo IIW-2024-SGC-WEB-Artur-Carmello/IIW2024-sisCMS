@@ -1,23 +1,3 @@
-<?php
-
-/**
- * @package     Joomla.Site
- * @subpackage  Layout
- *
- * @copyright   (C) 2013 Open Source Matters, Inc. <https://www.joomla.org>
- * @license     GNU General Public License version 2 or later; see LICENSE.txt
- */
-
-defined('_JEXEC') or die;
-
-use Joomla\CMS\Language\Text;
-
-?>
-<div class="toggle-editor btn-toolbar float-end clearfix mt-3">
-    <div class="btn-group">
-        <button type="button" disabled class="btn btn-secondary js-tiny-toggler-button">
-            <span class="icon-eye" aria-hidden="true"></span>
-            <?php echo Text::_('PLG_TINY_BUTTON_TOGGLE_EDITOR'); ?>
-        </button>
-    </div>
-</div>
+version https://git-lfs.github.com/spec/v1
+oid sha256:f40d3137de6a5d0c2b3876dff4e3f77ad299c3b3dffd3e5a45d870a527e931c0
+size 633

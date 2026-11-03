@@ -1,19 +1,3 @@
-<?php
-
-declare(strict_types=1);
-
-namespace SpomkyLabs\Pki\ASN1\Type;
-
-/**
- * Trait for primitive types.
- */
-trait PrimitiveType
-{
-    /**
-     * @see \Sop\ASN1\Feature\ElementBase::isConstructed()
-     */
-    public function isConstructed(): bool
-    {
-        return false;
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:1ae4c11d8b80d8b06f7109cbbcc67c6442028f71a574d1222b7c51b1768bbce3
+size 283

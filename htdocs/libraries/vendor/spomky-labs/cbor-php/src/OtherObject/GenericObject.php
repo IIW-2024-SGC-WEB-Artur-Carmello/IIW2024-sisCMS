@@ -1,26 +1,3 @@
-<?php
-
-declare(strict_types=1);
-
-namespace CBOR\OtherObject;
-
-use CBOR\OtherObject as Base;
-use InvalidArgumentException;
-use function ord;
-
-final class GenericObject extends Base
-{
-    public static function supportedAdditionalInformation(): array
-    {
-        return [];
-    }
-
-    public static function createFromLoadedData(int $additionalInformation, ?string $data): Base
-    {
-        if ($data !== null && ord($data) < 32) {
-            throw new InvalidArgumentException('Invalid simple value. Content data should not be present.');
-        }
-
-        return new self($additionalInformation, $data);
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:2b7c3d59ac204663f4ffe4a376b5b8bf99ff8498817d1ac97dc6e1971283f20c
+size 617

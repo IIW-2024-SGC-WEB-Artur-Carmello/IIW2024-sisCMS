@@ -1,27 +1,3 @@
-<?php
-
-/**
- * Joomla! Content Management System
- *
- * @copyright  (C) 2023 Open Source Matters, Inc. <https://www.joomla.org>
- * @license    GNU General Public License version 2 or later; see LICENSE.txt
- */
-
-namespace Joomla\CMS\Event\Finder;
-
-use Joomla\CMS\Event\Model\DeleteEvent;
-
-// phpcs:disable PSR1.Files.SideEffects
-\defined('_JEXEC') or die;
-// phpcs:enable PSR1.Files.SideEffects
-
-/**
- * Class for Model event.
- * Example:
- *  new AfterDeleteEvent('onEventName', ['context' => 'com_example.example', 'subject' => $itemObjectToDelete]);
- *
- * @since  5.0.0
- */
-class AfterDeleteEvent extends DeleteEvent implements FinderEventInterface
-{
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:e07a22f88cc4e761ce0001aeaf1a47f666c1b1725d26f6a11dfa18c3f1b5074a
+size 651

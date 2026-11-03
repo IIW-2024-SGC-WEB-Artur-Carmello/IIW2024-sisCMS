@@ -1,25 +1,3 @@
-<?php
-
-/*
- * This file is part of the Symfony package.
- *
- * (c) Fabien Potencier <fabien@symfony.com>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
-namespace Symfony\Component\Console\Messenger;
-
-/**
- * @author Kevin Bond <kevinbond@gmail.com>
- */
-final class RunCommandContext
-{
-    public function __construct(
-        public readonly RunCommandMessage $message,
-        public readonly int $exitCode,
-        public readonly string $output,
-    ) {
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:cca82cc9f63ea0ff21ce065f33945c42dac3771d0d9a149235fe740472c939d8
+size 550

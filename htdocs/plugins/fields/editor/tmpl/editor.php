@@ -1,21 +1,3 @@
-<?php
-
-/**
- * @package     Joomla.Plugin
- * @subpackage  Fields.Editor
- *
- * @copyright   (C) 2017 Open Source Matters, Inc. <https://www.joomla.org>
- * @license     GNU General Public License version 2 or later; see LICENSE.txt
- */
-
-defined('_JEXEC') or die;
-
-use Joomla\CMS\HTML\HTMLHelper;
-
-$value = $field->value;
-
-if ($value == '') {
-    return;
-}
-
-echo HTMLHelper::_('content.prepare', $value);
+version https://git-lfs.github.com/spec/v1
+oid sha256:b2cb6b4ea3abe5cb8d72e5a11aa6bfdb307934b400ab19de9ef9ab839c888523
+size 401

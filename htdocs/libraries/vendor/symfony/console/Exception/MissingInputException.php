@@ -1,21 +1,3 @@
-<?php
-
-/*
- * This file is part of the Symfony package.
- *
- * (c) Fabien Potencier <fabien@symfony.com>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
-namespace Symfony\Component\Console\Exception;
-
-/**
- * Represents failure to read input from stdin.
- *
- * @author Gabriel Ostrolucký <gabriel.ostrolucky@gmail.com>
- */
-class MissingInputException extends RuntimeException implements ExceptionInterface
-{
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:4bba05e109b2d915192d4b3ff64c163cf69c9c1c1248342afb9cdb59c91b1d80
+size 494

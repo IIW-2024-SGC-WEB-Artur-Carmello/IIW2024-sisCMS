@@ -1,25 +1,3 @@
-<?php
-
-/*
- * This file is part of the Symfony package.
- *
- * (c) Fabien Potencier <fabien@symfony.com>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
-namespace Symfony\Component\VarDumper\Cloner\Internal;
-
-/**
- * Flags a typed property that has no default value.
- *
- * This dummy object is used to distinguish a property with a default value of null
- * from a property that is uninitialized by default.
- *
- * @internal
- */
-enum NoDefault
-{
-    case NoDefault;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:61bb90cb86e9bb42d8e851778764e2a8e65d26fc5a59420c52c0e6520c80a2a8
+size 550

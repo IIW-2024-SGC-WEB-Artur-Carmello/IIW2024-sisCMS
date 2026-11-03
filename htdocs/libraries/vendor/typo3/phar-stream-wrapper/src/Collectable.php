@@ -1,31 +1,3 @@
-<?php
-declare(strict_types=1);
-namespace TYPO3\PharStreamWrapper;
-
-/*
- * This file is part of the TYPO3 project.
- *
- * It is free software; you can redistribute it and/or modify it under the terms
- * of the MIT License (MIT). For the full copyright and license information,
- * please read the LICENSE file that was distributed with this source code.
- *
- * The TYPO3 project - inspiring people to share!
- */
-
-use TYPO3\PharStreamWrapper\Resolver\PharInvocation;
-
-interface Collectable
-{
-    public function has(PharInvocation $invocation): bool;
-
-    /**
-     * @param int|null $flags
-     */
-    public function collect(PharInvocation $invocation, int $flags = null): bool;
-
-    /**
-     * @param bool $reverse
-     * @return null|PharInvocation
-     */
-    public function findByCallback(callable $callback, $reverse = false);
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:1e3a23832a729743235bfd6be9fa969ee04aea4fe4dab6bd1c043659bc8d8fbe
+size 830

@@ -1,27 +1,3 @@
-<?php
-
-/*
- * This file is part of the Symfony package.
- *
- * (c) Fabien Potencier <fabien@symfony.com>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
-namespace Symfony\Component\VarDumper\Caster;
-
-use Symfony\Component\VarDumper\Cloner\Stub;
-
-/**
- * Represents any arbitrary value.
- *
- * @author Alexandre Daubois <alex.daubois@gmail.com>
- */
-class ScalarStub extends Stub
-{
-    public function __construct(mixed $value)
-    {
-        $this->value = $value;
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:e434d7ef3f5299766f0a87968857769bddc3df829928bbd209eae2338a1aef92
+size 554

@@ -1,34 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<extension type="component" method="upgrade">
-	<name>com_installer</name>
-	<author>Joomla! Project</author>
-	<creationDate>2006-04</creationDate>
-	<copyright>(C) 2006 Open Source Matters, Inc.</copyright>
-	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
-	<authorEmail>admin@joomla.org</authorEmail>
-	<authorUrl>www.joomla.org</authorUrl>
-	<version>4.0.0</version>
-	<description>COM_INSTALLER_XML_DESCRIPTION</description>
-	<namespace path="src">Joomla\Component\Installer</namespace>
-	<media destination="com_installer" folder="media">
-		<folder>css</folder>
-		<folder>js</folder>
-	</media>
-	<administration>
-		<files folder="admin">
-			<filename>access.xml</filename>
-			<filename>config.xml</filename>
-			<filename>installer.xml</filename>
-			<folder>forms</folder>
-			<folder>helpers</folder>
-			<folder>services</folder>
-			<folder>src</folder>
-			<folder>tmpl</folder>
-		</files>
-		<languages folder="admin">
-			<language tag="en-GB">language/en-GB/com_installer.ini</language>
-			<language tag="en-GB">language/en-GB/com_installer.sys.ini</language>
-		</languages>
-	</administration>
-</extension>
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:3f20fce83ad699faef6631f78cf6ad7aeb51508a48ea2f441bd2999194c678cd
+size 1177

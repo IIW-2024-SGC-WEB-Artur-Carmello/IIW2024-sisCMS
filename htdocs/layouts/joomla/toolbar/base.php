@@ -1,22 +1,3 @@
-<?php
-
-/**
- * @package     Joomla.Site
- * @subpackage  Layout
- *
- * @copyright   (C) 2013 Open Source Matters, Inc. <https://www.joomla.org>
- * @license     GNU General Public License version 2 or later; see LICENSE.txt
- */
-
-defined('_JEXEC') or die;
-
-extract($displayData, EXTR_OVERWRITE);
-
-/**
- * Layout variables
- * -----------------
- * @var  string  $action
- * @var  array   $options
- */
-
-echo $action;
+version https://git-lfs.github.com/spec/v1
+oid sha256:7dedfe6a27c6994343b1d6ef321797facfa1fa608bc9d0d2dfb50ad2c866a80e
+size 407

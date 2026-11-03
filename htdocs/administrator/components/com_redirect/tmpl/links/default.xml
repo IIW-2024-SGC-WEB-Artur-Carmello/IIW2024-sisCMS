@@ -1,8 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<metadata>
-	<layout title="COM_REDIRECT">
-		<message>
-			<![CDATA[COM_REDIRECT_XML_DESCRIPTION]]>
-		</message>
-	</layout>
-</metadata>
+version https://git-lfs.github.com/spec/v1
+oid sha256:beec918cc126dc84e7947a75ffc625ce9995122de7cef43f0c9bf2f70a60c633
+size 172

@@ -1,32 +1,3 @@
-<?php
-
-/**
-* @package utf8
-*/
-
-//---------------------------------------------------------------
-/**
-* UTF-8 aware alternative to ucfirst
-* Make a string's first character uppercase
-* Note: requires utf8_strtoupper
-* @param string
-* @return string with first character as upper case (if applicable)
-* @see http://www.php.net/ucfirst
-* @see utf8_strtoupper
-* @package utf8
-*/
-function utf8_ucfirst($str)
-{
-    switch (utf8_strlen($str)) {
-        case 0:
-            return '';
-            break;
-        case 1:
-            return utf8_strtoupper($str);
-            break;
-        default:
-            preg_match('/^(.{1})(.*)$/us', $str, $matches);
-            return utf8_strtoupper($matches[1]) . $matches[2];
-            break;
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:300dd1c0bf745f054e45a628794fb612f400a3a30de42199dfc92803c6d33ef8
+size 740

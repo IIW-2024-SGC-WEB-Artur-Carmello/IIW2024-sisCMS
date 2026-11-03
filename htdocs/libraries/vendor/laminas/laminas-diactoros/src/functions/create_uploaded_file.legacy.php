@@ -1,18 +1,3 @@
-<?php
-
-declare(strict_types=1);
-
-namespace Zend\Diactoros;
-
-use Laminas\Diactoros\UploadedFile;
-
-use function func_get_args;
-use function Laminas\Diactoros\createUploadedFile as laminas_createUploadedFile;
-
-/**
- * @deprecated Use Laminas\Diactoros\createUploadedFile instead
- */
-function createUploadedFile(array $spec): UploadedFile
-{
-    return laminas_createUploadedFile(...func_get_args());
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:8ae00407db7e0ebb056922326fc1cf9b146a251c7e618d93c88a18c2d48bdd5f
+size 397

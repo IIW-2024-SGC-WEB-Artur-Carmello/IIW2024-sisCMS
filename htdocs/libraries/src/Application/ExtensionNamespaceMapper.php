@@ -1,36 +1,3 @@
-<?php
-
-/**
- * Joomla! Content Management System
- *
- * @copyright  (C) 2017 Open Source Matters, Inc. <https://www.joomla.org>
- * @license    GNU General Public License version 2 or later; see LICENSE.txt
- */
-
-namespace Joomla\CMS\Application;
-
-// phpcs:disable PSR1.Files.SideEffects
-\defined('_JEXEC') or die;
-// phpcs:enable PSR1.Files.SideEffects
-
-/**
- * Trait for application classes which ensures the namespace mapper exists and includes it.
- *
- * @since  4.0.0
- */
-trait ExtensionNamespaceMapper
-{
-    /**
-     * Allows the application to load a custom or default identity.
-     *
-     * @return  void
-     *
-     * @since   4.0.0
-     */
-    public function createExtensionNamespaceMap()
-    {
-        \JLoader::register('JNamespacePsr4Map', JPATH_LIBRARIES . '/namespacemap.php');
-        $extensionPsr4Loader = new \JNamespacePsr4Map();
-        $extensionPsr4Loader->load();
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:3398e83ec5dd212b6da9a450fb9b1e111a2357047678ae37f6ae910c5e6ac264
+size 892

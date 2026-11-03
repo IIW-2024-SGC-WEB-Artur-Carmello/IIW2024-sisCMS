@@ -1,25 +1,3 @@
-<?php
-
-declare(strict_types=1);
-
-namespace GuzzleHttp\Psr7;
-
-/**
- * @internal
- */
-final class Rfc3986
-{
-    /**
-     * Sub-delims for use in a regex.
-     *
-     * @see https://datatracker.ietf.org/doc/html/rfc3986#section-2.2
-     */
-    public const CHAR_SUB_DELIMS = '!\$&\'\(\)\*\+,;=';
-
-    /**
-     * Unreserved characters for use in a regex.
-     *
-     * @see https://datatracker.ietf.org/doc/html/rfc3986#section-2.3
-     */
-    public const CHAR_UNRESERVED = 'a-zA-Z0-9_\-\.~';
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:18d91eab04c64cba33ec46ef612acbe0b6d42414839f97ff26b688d88ad5fe78
+size 490

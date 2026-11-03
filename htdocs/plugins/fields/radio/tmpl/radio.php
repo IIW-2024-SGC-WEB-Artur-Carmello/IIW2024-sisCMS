@@ -1,32 +1,3 @@
-<?php
-
-/**
- * @package     Joomla.Plugin
- * @subpackage  Fields.Radio
- *
- * @copyright   (C) 2017 Open Source Matters, Inc. <https://www.joomla.org>
- * @license     GNU General Public License version 2 or later; see LICENSE.txt
- */
-
-defined('_JEXEC') or die;
-
-use Joomla\CMS\Language\Text;
-
-/** @var \Joomla\CMS\Layout\FileLayout $this */
-$value = $field->value;
-
-if ($value == '') {
-    return;
-}
-
-$value   = (array) $value;
-$texts   = [];
-$options = $this->getOptionsFromField($field);
-
-foreach ($options as $optionValue => $optionText) {
-    if (in_array((string) $optionValue, $value)) {
-        $texts[] = Text::_($optionText);
-    }
-}
-
-echo htmlentities(implode(', ', $texts));
+version https://git-lfs.github.com/spec/v1
+oid sha256:28748ee6d9ad9fddbfb59270815243902c813f473f6b1d008abdc57664084309
+size 684

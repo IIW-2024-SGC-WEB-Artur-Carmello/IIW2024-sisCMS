@@ -1,16 +1,3 @@
-<?php
-
-/*
- * This file is part of the Symfony package.
- *
- * (c) Fabien Potencier <fabien@symfony.com>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
-namespace Symfony\Component\String\Exception;
-
-class RuntimeException extends \RuntimeException implements ExceptionInterface
-{
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:b3a02fa3b10775ae52c75ca36d37e9c3affdd598345ada3ef45c95bf18a37057
+size 368

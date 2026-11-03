@@ -1,24 +1,3 @@
-<?php
-
-/**
- * HashAglorithm
- *
- * PHP version 5
- *
- * @author    Jim Wigginton <terrafrost@php.net>
- * @copyright 2016 Jim Wigginton
- * @license   http://www.opensource.org/licenses/mit-license.html  MIT License
- * @link      http://phpseclib.sourceforge.net
- */
-
-namespace phpseclib3\File\ASN1\Maps;
-
-/**
- * HashAglorithm
- *
- * @author  Jim Wigginton <terrafrost@php.net>
- */
-abstract class HashAlgorithm
-{
-    const MAP = AlgorithmIdentifier::MAP;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:42105cc1d79a64776613120a5bb1bc49d6e05f9d49df5c2d204db33c49042a53
+size 452

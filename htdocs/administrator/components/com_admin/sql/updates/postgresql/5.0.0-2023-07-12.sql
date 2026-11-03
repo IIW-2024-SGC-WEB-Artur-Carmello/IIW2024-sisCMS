@@ -1,2 +1,3 @@
-ALTER TABLE "#__menu_types" ADD COLUMN "ordering" int NOT NULL DEFAULT 0 /** CAN FAIL **/;
-UPDATE "#__menu_types" SET "ordering" = "id" WHERE "client_id" = 0;
+version https://git-lfs.github.com/spec/v1
+oid sha256:52788942f1d59ebe6b013a020fc105602344361aa096ac703f553287e39f88bd
+size 159

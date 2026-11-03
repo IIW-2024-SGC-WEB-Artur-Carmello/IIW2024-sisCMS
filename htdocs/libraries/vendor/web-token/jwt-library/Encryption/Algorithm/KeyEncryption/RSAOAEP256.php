@@ -1,25 +1,3 @@
-<?php
-
-declare(strict_types=1);
-
-namespace Jose\Component\Encryption\Algorithm\KeyEncryption;
-
-use Jose\Component\Encryption\Algorithm\KeyEncryption\Util\RSACrypt;
-
-final class RSAOAEP256 extends RSA
-{
-    public function getEncryptionMode(): int
-    {
-        return RSACrypt::ENCRYPTION_OAEP;
-    }
-
-    public function getHashAlgorithm(): string
-    {
-        return 'sha256';
-    }
-
-    public function name(): string
-    {
-        return 'RSA-OAEP-256';
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:ced3d9272a80d3a284a360d877a695c0db826e1f058fd39c92dfc1d964497760
+size 467

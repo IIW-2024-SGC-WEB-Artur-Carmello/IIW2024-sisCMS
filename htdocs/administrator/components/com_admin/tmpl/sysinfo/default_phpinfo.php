@@ -1,18 +1,3 @@
-<?php
-
-/**
- * @package     Joomla.Administrator
- * @subpackage  com_admin
- *
- * @copyright   (C) 2006 Open Source Matters, Inc. <https://www.joomla.org>
- * @license     GNU General Public License version 2 or later; see LICENSE.txt
- */
-
-defined('_JEXEC') or die;
-
-/** @var \Joomla\Component\Admin\Administrator\View\Sysinfo\HtmlView $this */
-
-?>
-<div class="sysinfo">
-    <?php echo $this->phpInfo; ?>
-</div>
+version https://git-lfs.github.com/spec/v1
+oid sha256:b3a6e25286d1745334233a2c79f600840145ef945525b65723fe3a5b1eb73188
+size 409

@@ -1,23 +1,3 @@
-<?php
-
-/**
- * Joomla! Content Management System
- *
- * @copyright  (C) 2019 Open Source Matters, Inc. <https://www.joomla.org>
- * @license    GNU General Public License version 2 or later; see LICENSE.txt
- */
-
-namespace Joomla\CMS\Access\Exception;
-
-// phpcs:disable PSR1.Files.SideEffects
-\defined('_JEXEC') or die;
-// phpcs:enable PSR1.Files.SideEffects
-
-/**
- * Exception class defining an authentication failed event
- *
- * @since  4.0.0
- */
-class AuthenticationFailed extends \RuntimeException
-{
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:55e14a10ed5e33c4c53cc9a62e4a085a047d7cc10b1e318344801ceaa4a8e071
+size 500

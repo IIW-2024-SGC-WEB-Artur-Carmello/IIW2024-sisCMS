@@ -1,32 +1,3 @@
-<?php
-
-declare(strict_types=1);
-
-namespace SpomkyLabs\Pki\ASN1\Type\Primitive;
-
-use SpomkyLabs\Pki\ASN1\Type\PrimitiveString;
-use SpomkyLabs\Pki\ASN1\Type\UniversalClass;
-
-/**
- * Implements *GraphicString* type.
- */
-final class GraphicString extends PrimitiveString
-{
-    use UniversalClass;
-
-    private function __construct(string $string)
-    {
-        parent::__construct(self::TYPE_GRAPHIC_STRING, $string);
-    }
-
-    public static function create(string $string): self
-    {
-        return new self($string);
-    }
-
-    protected function validateString(string $string): bool
-    {
-        // allow everything
-        return true;
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:e46d19d74875e005da4f9b70ad04fa8b22321872fca53a556f36a1b062807c42
+size 646

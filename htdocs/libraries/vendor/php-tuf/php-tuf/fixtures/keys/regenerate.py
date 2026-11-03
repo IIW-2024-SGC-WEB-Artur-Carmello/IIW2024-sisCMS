@@ -1,13 +1,3 @@
-# You should never need to run this, but this is the code that generated the
-# fixed keys for fixture creation.
-
-from tuf import repository_tool as rt
-
-
-def write_and_import_keypair(filename):
-    pathpriv = '{}_key'.format(filename)
-    rt.generate_and_write_ed25519_keypair(pathpriv, password='pw')
-
-
-for i in range(20):
-    write_and_import_keypair(i)
+version https://git-lfs.github.com/spec/v1
+oid sha256:fa3e4ca96d8cd55cd577ba421fa694c8aeebea37931230b53b9854d05c8a4fe2
+size 355

@@ -1,16 +1,3 @@
-<?php
-
-declare(strict_types=1);
-
-namespace Zend\Diactoros;
-
-use function func_get_args;
-use function Laminas\Diactoros\normalizeServer as laminas_normalizeServer;
-
-/**
- * @deprecated Use Laminas\Diactoros\normalizeServer instead
- */
-function normalizeServer(array $server, ?callable $apacheRequestHeaderCallback = null): array
-{
-    return laminas_normalizeServer(...func_get_args());
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:cdd11b01ab3f7037f6d1d3e8ebcf3f65bda1d1e31742e5578a488e5b04a49048
+size 387

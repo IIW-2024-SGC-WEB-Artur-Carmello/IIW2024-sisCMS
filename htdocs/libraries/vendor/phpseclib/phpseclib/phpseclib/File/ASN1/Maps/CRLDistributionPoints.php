@@ -1,31 +1,3 @@
-<?php
-
-/**
- * CRLDistributionPoints
- *
- * PHP version 5
- *
- * @author    Jim Wigginton <terrafrost@php.net>
- * @copyright 2016 Jim Wigginton
- * @license   http://www.opensource.org/licenses/mit-license.html  MIT License
- * @link      http://phpseclib.sourceforge.net
- */
-
-namespace phpseclib3\File\ASN1\Maps;
-
-use phpseclib3\File\ASN1;
-
-/**
- * CRLDistributionPoints
- *
- * @author  Jim Wigginton <terrafrost@php.net>
- */
-abstract class CRLDistributionPoints
-{
-    const MAP = [
-        'type' => ASN1::TYPE_SEQUENCE,
-        'min' => 1,
-        'max' => -1,
-        'children' => DistributionPoint::MAP
-    ];
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:91b90fe3fa30258d7d7bb86fa61bca35c0119c05dba850601026e43e8c4c3564
+size 611

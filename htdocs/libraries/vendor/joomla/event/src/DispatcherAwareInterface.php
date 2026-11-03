@@ -1,29 +1,3 @@
-<?php
-
-/**
- * Part of the Joomla Framework Event Package
- *
- * @copyright  Copyright (C) 2005 - 2021 Open Source Matters, Inc. All rights reserved.
- * @license    GNU General Public License version 2 or later; see LICENSE
- */
-
-namespace Joomla\Event;
-
-/**
- * Interface to be implemented by classes depending on a dispatcher.
- *
- * @since  1.0
- */
-interface DispatcherAwareInterface
-{
-    /**
-     * Set the dispatcher to use.
-     *
-     * @param   DispatcherInterface  $dispatcher  The dispatcher to use.
-     *
-     * @return  DispatcherAwareInterface  This method is chainable.
-     *
-     * @since   1.0
-     */
-    public function setDispatcher(DispatcherInterface $dispatcher);
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:d6f438702b62a98dad3fea6a648307db3d077506983dce61d1844664b300c24e
+size 686

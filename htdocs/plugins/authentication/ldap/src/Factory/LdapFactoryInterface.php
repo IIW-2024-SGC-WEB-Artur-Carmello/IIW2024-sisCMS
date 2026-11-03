@@ -1,36 +1,3 @@
-<?php
-
-/**
- * Joomla! Content Management System
- *
- * @copyright  (C) 2023 Open Source Matters, Inc. <https://www.joomla.org>
- * @license    GNU General Public License version 2 or later; see LICENSE.txt
- */
-
-namespace Joomla\Plugin\Authentication\Ldap\Factory;
-
-use Symfony\Component\Ldap\LdapInterface;
-
-// phpcs:disable PSR1.Files.SideEffects
-\defined('_JEXEC') or die;
-// phpcs:enable PSR1.Files.SideEffects
-
-/**
- * Factory to create Ldap clients.
- *
- * @since  4.3.0
- */
-interface LdapFactoryInterface
-{
-    /**
-     * Method to load and return an Ldap client.
-     *
-     * @param   array  $config  The configuration array for the ldap client
-     *
-     * @return  LdapInterface
-     *
-     * @since   4.3.0
-     * @throws  \Exception
-     */
-    public function createLdap(array $config): LdapInterface;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:34ebffaf1384929ad286a962748e3e73a0b326f88d5e5e8b4d5c210266499ddd
+size 814

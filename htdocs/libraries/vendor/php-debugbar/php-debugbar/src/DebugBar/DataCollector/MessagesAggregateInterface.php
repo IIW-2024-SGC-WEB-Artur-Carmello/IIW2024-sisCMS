@@ -1,21 +1,3 @@
-<?php
-/*
- * This file is part of the DebugBar package.
- *
- * (c) 2013 Maxime Bouroumeau-Fuseau
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
-namespace DebugBar\DataCollector;
-
-interface MessagesAggregateInterface
-{
-    /**
-     * Returns collected messages
-     *
-     * @return array
-     */
-    public function getMessages();
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:cd43fc6fea616a9bbc620a9fefca67afac16c21439fe13240b97f22d17c99970
+size 419

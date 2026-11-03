@@ -1,21 +1,3 @@
-<?php
-
-declare(strict_types=1);
-
-namespace SpomkyLabs\Pki\ASN1\Feature;
-
-/**
- * Interface for classes that may be cast to string.
- */
-interface Stringable
-{
-    /**
-     * Convert object to string.
-     */
-    public function __toString(): string;
-
-    /**
-     * Get the string representation of the type.
-     */
-    public function string(): string;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:b4fefa7f635b7a2f666bfcbdf55d56f5a1de1b39ea945165f1f350bd213f5482
+size 355

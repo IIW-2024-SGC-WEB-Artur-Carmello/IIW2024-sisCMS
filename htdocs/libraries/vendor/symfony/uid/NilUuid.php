@@ -1,25 +1,3 @@
-<?php
-
-/*
- * This file is part of the Symfony package.
- *
- * (c) Fabien Potencier <fabien@symfony.com>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
-namespace Symfony\Component\Uid;
-
-/**
- * @author Grégoire Pineau <lyrixx@lyrixx.info>
- */
-class NilUuid extends Uuid
-{
-    protected const TYPE = -1;
-
-    public function __construct()
-    {
-        $this->uid = parent::NIL;
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:1314671d2e91068caa00eab6f179a477904c0f2cee4765d6d402c111c23c04ab
+size 472

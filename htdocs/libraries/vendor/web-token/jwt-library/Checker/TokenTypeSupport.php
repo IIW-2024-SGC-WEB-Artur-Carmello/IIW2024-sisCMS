@@ -1,31 +1,3 @@
-<?php
-
-declare(strict_types=1);
-
-namespace Jose\Component\Checker;
-
-use Jose\Component\Core\JWT;
-
-interface TokenTypeSupport
-{
-    /**
-     * This method will retrieve the protect and unprotected headers of the token for the given index. The index is
-     * useful when the token is serialized using the Json General Serialization mode. For example the JWE Json General
-     * Serialization Mode allows several recipients to be set. The unprotected headers correspond to the share
-     * unprotected header and the selected recipient header.
-     *
-     * @param array<string, mixed> $protectedHeader
-     * @param array<string, mixed> $unprotectedHeader
-     */
-    public function retrieveTokenHeaders(
-        JWT $jwt,
-        int $index,
-        array &$protectedHeader,
-        array &$unprotectedHeader
-    ): void;
-
-    /**
-     * This method returns true if the token in argument is supported, otherwise false.
-     */
-    public function supports(JWT $jwt): bool;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:24fb89da3732fcced2e47c66ac2e3dd7b6a34fe9c22ebacd9a5b1b5f599e80c5
+size 976

@@ -1,14 +1,3 @@
-// Override the font path
-$fa-font-path: "../../../media/vendor/fontawesome-free/webfonts" !default;
-$fa-font-display: block !default;
-
-// Font Awesome 6 Free
-@import "../../../../media/vendor/fontawesome-free/scss/fontawesome";
-@import "../../../../media/vendor/fontawesome-free/scss/regular";
-@import "../../../../media/vendor/fontawesome-free/scss/solid";
-
-// Brands must be imported last
-@import "../../../../media/vendor/fontawesome-free/scss/brands";
-
-// B/C for Icomoon
-@import "icomoon";
+version https://git-lfs.github.com/spec/v1
+oid sha256:d5ff12c254e471eef0025d9a0a05f31bc9eb97dcc1b167577d1d89812e311593
+size 496

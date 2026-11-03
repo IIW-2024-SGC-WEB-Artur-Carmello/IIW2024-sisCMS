@@ -1,7 +1,3 @@
-// Exports the "searchreplace" plugin for usage with module loaders
-// Usage:
-//   CommonJS:
-//     require('tinymce/plugins/searchreplace')
-//   ES2015:
-//     import 'tinymce/plugins/searchreplace'
-require('./plugin.js');
+version https://git-lfs.github.com/spec/v1
+oid sha256:7f93e70dba14735765044f7199ff8b24fcd517b285f806d34cefb0d2e55a098c
+size 223

@@ -1,23 +1,3 @@
-<?php
-
-/**
- * InconsistentSetupException
- *
- * PHP version 5
- *
- * @author    Jim Wigginton <terrafrost@php.net>
- * @copyright 2015 Jim Wigginton
- * @license   http://www.opensource.org/licenses/mit-license.html  MIT License
- * @link      http://phpseclib.sourceforge.net
- */
-
-namespace phpseclib3\Exception;
-
-/**
- * InconsistentSetupException
- *
- * @author  Jim Wigginton <terrafrost@php.net>
- */
-class InconsistentSetupException extends \RuntimeException
-{
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:576a8f0df4fe51fedd7a07691ff45c1111606720756b25c4eefc4809bf51fb01
+size 461

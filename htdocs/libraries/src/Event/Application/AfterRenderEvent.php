@@ -1,23 +1,3 @@
-<?php
-
-/**
- * Joomla! Content Management System
- *
- * @copyright  (C) 2023 Open Source Matters, Inc. <https://www.joomla.org>
- * @license    GNU General Public License version 2 or later; see LICENSE.txt
- */
-
-namespace Joomla\CMS\Event\Application;
-
-// phpcs:disable PSR1.Files.SideEffects
-\defined('_JEXEC') or die;
-// phpcs:enable PSR1.Files.SideEffects
-
-/**
- * Class for AfterRender event
- *
- * @since  5.0.0
- */
-class AfterRenderEvent extends ApplicationEvent
-{
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:f441681ca33458689ee6ea370f1fd26bc5e02adf2361d1bbc9e15cc3ceb10158
+size 468

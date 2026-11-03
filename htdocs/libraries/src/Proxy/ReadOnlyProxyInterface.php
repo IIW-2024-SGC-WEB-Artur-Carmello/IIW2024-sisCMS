@@ -1,23 +1,3 @@
-<?php
-
-/**
- * Joomla! Content Management System
- *
- * @copyright  (C) 2023 Open Source Matters, Inc. <https://www.joomla.org>
- * @license    GNU General Public License version 2 or later; see LICENSE.txt
- */
-
-namespace Joomla\CMS\Proxy;
-
-// phpcs:disable PSR1.Files.SideEffects
-\defined('_JEXEC') or die;
-// phpcs:enable PSR1.Files.SideEffects
-
-/**
- * Interface for read-only Proxy classes
- *
- * @since  5.0.0
- */
-interface ReadOnlyProxyInterface extends ProxyInterface
-{
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:8d45ea28f63eb39d212a172a00482faf5ed57a2818201d016fab1d89408fb196
+size 474

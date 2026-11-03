@@ -1,23 +1,3 @@
-<?php
-
-/**
- * Joomla! Content Management System
- *
- * @copyright  (C) 2016 Open Source Matters, Inc. <https://www.joomla.org>
- * @license    GNU General Public License version 2 or later; see LICENSE.txt
- */
-
-namespace Joomla\CMS\Event\Table;
-
-// phpcs:disable PSR1.Files.SideEffects
-\defined('_JEXEC') or die;
-// phpcs:enable PSR1.Files.SideEffects
-
-/**
- * Event class for \Joomla\CMS\Table\Table onAfterReset event
- *
- * @since  4.0.0
- */
-class AfterResetEvent extends AbstractEvent
-{
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:055ba35cb44624f7334e07ece9518e2ba44888c15ffa1725bea502484e5aee8a
+size 489

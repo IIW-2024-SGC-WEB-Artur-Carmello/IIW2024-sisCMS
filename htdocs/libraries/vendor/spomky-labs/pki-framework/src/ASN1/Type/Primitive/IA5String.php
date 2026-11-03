@@ -1,31 +1,3 @@
-<?php
-
-declare(strict_types=1);
-
-namespace SpomkyLabs\Pki\ASN1\Type\Primitive;
-
-use SpomkyLabs\Pki\ASN1\Type\PrimitiveString;
-use SpomkyLabs\Pki\ASN1\Type\UniversalClass;
-
-/**
- * Implements *IA5String* type.
- */
-final class IA5String extends PrimitiveString
-{
-    use UniversalClass;
-
-    private function __construct(string $string)
-    {
-        parent::__construct(self::TYPE_IA5_STRING, $string);
-    }
-
-    public static function create(string $string): self
-    {
-        return new self($string);
-    }
-
-    protected function validateString(string $string): bool
-    {
-        return preg_match('/[^\x00-\x7f]/', $string) !== 1;
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:8c3225a4b2f3beced3e743cdc7ad6c8c3b8a74d09fd79acdf3b292d9e9fe47c9
+size 645

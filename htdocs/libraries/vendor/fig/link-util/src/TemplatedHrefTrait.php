@@ -1,23 +1,3 @@
-<?php
-
-
-namespace Fig\Link;
-
-trait TemplatedHrefTrait
-{
-    /**
-     * Determines if an href is a templated link or not.
-     *
-     * @see https://tools.ietf.org/html/rfc6570
-     *
-     * @param string $href
-     *   The href value to check.
-     *
-     * @return bool
-     *   True if the specified href is a templated path, False otherwise.
-     */
-    private function hrefIsTemplated(string $href): bool
-    {
-        return str_contains($href, '{') || str_contains($href, '}');
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:76d131f6111014a239224c44225db24df97deb51d2649b5f86051cb2873633ed
+size 493

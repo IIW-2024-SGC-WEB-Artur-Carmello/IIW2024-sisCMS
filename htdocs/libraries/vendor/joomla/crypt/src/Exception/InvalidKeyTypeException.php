@@ -1,31 +1,3 @@
-<?php
-
-/**
- * Part of the Joomla Framework Crypt Package
- *
- * @copyright  Copyright (C) 2005 - 2021 Open Source Matters, Inc. All rights reserved.
- * @license    GNU General Public License version 2 or later; see LICENSE
- */
-
-namespace Joomla\Crypt\Exception;
-
-/**
- * Exception representing an invalid Joomla\Crypt\Key type for a cipher
- *
- * @since  1.4.0
- */
-class InvalidKeyTypeException extends \InvalidArgumentException implements CryptExceptionInterface
-{
-    /**
-     * InvalidKeyTypeException constructor.
-     *
-     * @param   string  $expectedKeyType  The expected key type.
-     * @param   string  $actualKeyType    The actual key type.
-     *
-     * @since   1.4.0
-     */
-    public function __construct($expectedKeyType, $actualKeyType)
-    {
-        parent::__construct("Invalid key of type: $actualKeyType.  Expected $expectedKeyType.");
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:d6036afd8d423c28b2a571782db664062e91414be3d531f85a92cf576d8e4b13
+size 864

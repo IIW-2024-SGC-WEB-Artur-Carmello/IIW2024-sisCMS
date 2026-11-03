@@ -1,28 +1,3 @@
-<?php
-
-declare(strict_types=1);
-
-namespace CBOR\Tag;
-
-use CBOR\CBORObject;
-use CBOR\Tag;
-
-final class Base16EncodingTag extends Tag
-{
-    public static function getTagId(): int
-    {
-        return self::TAG_ENCODED_BASE16;
-    }
-
-    public static function createFromLoadedData(int $additionalInformation, ?string $data, CBORObject $object): Tag
-    {
-        return new self($additionalInformation, $data, $object);
-    }
-
-    public static function create(CBORObject $object): Tag
-    {
-        [$ai, $data] = self::determineComponents(self::TAG_ENCODED_BASE16);
-
-        return new self($ai, $data, $object);
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:9b8a78aa61b90c1230c60182e53dee214f00e60faa23f6bd679054e44f10ceb0
+size 621

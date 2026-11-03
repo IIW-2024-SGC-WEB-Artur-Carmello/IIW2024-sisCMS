@@ -1,30 +1,3 @@
-// Awesomplete
-
-.mod-finder__search.input-group {
-  flex-wrap: nowrap;
-  .awesomplete {
-    input {
-      @include border-end-radius(0);
-    }
-  }
-  button {
-    display: flex;
-    align-items: center;
-    .icon-search {
-      margin-inline-end: .2em;
-    }
-  }
-}
-
-.awesomplete {
-  > input {
-    max-width: 200px;
-
-    @include media-breakpoint-up(lg) {
-      max-width: none;
-    }
-  }
-  > ul {
-    z-index: $zindex-dropdown !important;
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:18262b7e8e29818322de24cd1eca8912209128a7739c9ea9aa90e5e7b97a2073
+size 444

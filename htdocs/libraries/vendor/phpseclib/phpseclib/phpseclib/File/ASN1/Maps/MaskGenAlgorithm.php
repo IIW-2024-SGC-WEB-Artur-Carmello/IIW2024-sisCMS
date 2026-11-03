@@ -1,24 +1,3 @@
-<?php
-
-/**
- * MaskGenAglorithm
- *
- * PHP version 5
- *
- * @author    Jim Wigginton <terrafrost@php.net>
- * @copyright 2016 Jim Wigginton
- * @license   http://www.opensource.org/licenses/mit-license.html  MIT License
- * @link      http://phpseclib.sourceforge.net
- */
-
-namespace phpseclib3\File\ASN1\Maps;
-
-/**
- * MaskGenAglorithm
- *
- * @author  Jim Wigginton <terrafrost@php.net>
- */
-abstract class MaskGenAlgorithm
-{
-    const MAP = AlgorithmIdentifier::MAP;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:03ce6a80473750c8dd92a7d696275b07da004c3bae9fb76121fd37a5a0c6c097
+size 461

@@ -1,26 +1,3 @@
-<?php
-
-/**
- * @package     Joomla.Administrator
- * @subpackage  com_media
- *
- * @copyright   (C) 2017 Open Source Matters, Inc. <https://www.joomla.org>
- * @license     GNU General Public License version 2 or later; see LICENSE.txt
- */
-
-defined('_JEXEC') or die;
-
-use Joomla\CMS\Factory;
-use Joomla\CMS\Language\Text;
-
-Factory::getDocument()->getWebAssetManager()
-    ->useScript('webcomponent.toolbar-button');
-
-$title = Text::_('JTOOLBAR_UPLOAD');
-?>
-<joomla-toolbar-button>
-    <button class="btn btn-success" onclick="MediaManager.Event.fire('onClickUpload');">
-        <span class="icon-upload" aria-hidden="true"></span>
-        <?php echo $title; ?>
-    </button>
-</joomla-toolbar-button>
+version https://git-lfs.github.com/spec/v1
+oid sha256:6135b567948ea806d56e8677e5feaa661748aa15e61fe6409bf7608574517084
+size 696

@@ -1,7 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<access component="com_postinstall">
-	<section name="component">
-		<action name="core.manage" title="JACTION_MANAGE" />
-		<action name="core.edit.state" title="JACTION_EDITSTATE" />
-	</section>
-</access>
+version https://git-lfs.github.com/spec/v1
+oid sha256:8450502af53f3898915cd62c067665ed64be6625724ed1924a82e81f2ed05d6a
+size 243

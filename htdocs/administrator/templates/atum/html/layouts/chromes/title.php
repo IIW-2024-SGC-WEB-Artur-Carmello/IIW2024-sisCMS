@@ -1,25 +1,3 @@
-<?php
-
-/**
- * @package     Joomla.Administrator
- * @subpackage  Templates.Atum
- *
- * @copyright   (C) 2019 Open Source Matters, Inc. <https://www.joomla.org>
- * @license     GNU General Public License version 2 or later; see LICENSE.txt
- *
- * Module chrome for rendering the module in a submenu
- */
-
-defined('_JEXEC') or die;
-
-$module = $displayData['module'];
-
-if ((string) $module->content === '') {
-    return;
-}
-
-?>
-<div class="card-header">
-    <h6><?php echo $module->title; ?></h6>
-</div>
-<?php echo $module->content; ?>
+version https://git-lfs.github.com/spec/v1
+oid sha256:8e9fed09be71e8922b35dd203e727c935c5117fd0686305d561f23ef8e72c40f
+size 528

@@ -1,19 +1,3 @@
-<?php
-
-declare(strict_types=1);
-
-namespace Doctrine\Inflector;
-
-final class Language
-{
-    public const ENGLISH          = 'english';
-    public const FRENCH           = 'french';
-    public const NORWEGIAN_BOKMAL = 'norwegian-bokmal';
-    public const PORTUGUESE       = 'portuguese';
-    public const SPANISH          = 'spanish';
-    public const TURKISH          = 'turkish';
-
-    private function __construct()
-    {
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:7086df750b873fd7c61c6aa5e3983aaa845838fd66cff48a1dd450975fde6378
+size 430

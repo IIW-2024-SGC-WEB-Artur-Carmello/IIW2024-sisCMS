@@ -1,21 +1,3 @@
-<?php
-
-/*
- * This file is part of the Symfony package.
- *
- * (c) Fabien Potencier <fabien@symfony.com>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
-namespace Symfony\Component\Validator\Exception;
-
-/**
- * Base BadMethodCallException for the Validator component.
- *
- * @author Bernhard Schussek <bschussek@gmail.com>
- */
-class BadMethodCallException extends \BadMethodCallException implements ExceptionInterface
-{
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:b06f05a57035dc50488c8e3f2f106a26cd0d20328b6c9aeb63ebbdfd83cce27b
+size 505

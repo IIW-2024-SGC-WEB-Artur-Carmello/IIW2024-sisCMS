@@ -1,17 +1,3 @@
-/**
- * @copyright   (C) 2022 Open Source Matters, Inc. <https://www.joomla.org>
- * @license     GNU General Public License version 2 or later; see LICENSE.txt
- */
-
-((Joomla, window) => {
-
-  document.addEventListener('DOMContentLoaded', () => {
-    document.querySelectorAll('.com-users-methods-list-method-record-delete').forEach(el => {
-      el.addEventListener('click', event => {
-        if (!window.confirm(Joomla.Text._('JGLOBAL_CONFIRM_DELETE'))) {
-          event.preventDefault();
-        }
-      });
-    });
-  });
-})(Joomla, window);
+version https://git-lfs.github.com/spec/v1
+oid sha256:e58d316a1469b405aaac5781b953dae747919e14996c8777711fce6f2f810a08
+size 544

@@ -1,27 +1,3 @@
-<?php
-
-declare(strict_types=1);
-
-namespace Webauthn\Exception;
-
-use Throwable;
-use Webauthn\AttestationStatement\AttestationStatement;
-
-final class InvalidAttestationStatementException extends AttestationStatementException
-{
-    public function __construct(
-        public readonly AttestationStatement $attestationStatement,
-        string $message,
-        ?Throwable $previous = null
-    ) {
-        parent::__construct($message, $previous);
-    }
-
-    public static function create(
-        AttestationStatement $attestationStatement,
-        string $message = 'Invalid attestation statement',
-        ?Throwable $previous = null
-    ): self {
-        return new self($attestationStatement, $message, $previous);
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:5a65f2ac494cfde6411f2073bc6841b9b52b2c2288b2166f7b7966ca3c0b310b
+size 725

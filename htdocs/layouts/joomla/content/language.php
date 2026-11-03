@@ -1,26 +1,3 @@
-<?php
-
-/**
- * @package     Joomla.Site
- * @subpackage  Layout
- *
- * @copyright   (C) 2016 Open Source Matters, Inc. <https://www.joomla.org>
- * @license     GNU General Public License version 2 or later; see LICENSE.txt
- */
-
-defined('_JEXEC') or die;
-
-use Joomla\CMS\HTML\HTMLHelper;
-use Joomla\CMS\Language\Text;
-
-$item = $displayData;
-
-if ($item->language === '*') {
-    echo Text::alt('JALL', 'language');
-} elseif ($item->language_image) {
-    echo HTMLHelper::_('image', 'mod_languages/' . $item->language_image . '.gif', '', ['class' => 'me-1'], true) . htmlspecialchars($item->language_title, ENT_COMPAT, 'UTF-8');
-} elseif ($item->language_title) {
-    echo htmlspecialchars($item->language_title, ENT_COMPAT, 'UTF-8');
-} else {
-    echo Text::_('JUNDEFINED');
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:deb852198c21d2262ab7c8a31c5eeb7214c736b483d403386fc7d27e07d2157a
+size 771

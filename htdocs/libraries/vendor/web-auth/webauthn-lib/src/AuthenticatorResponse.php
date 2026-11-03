@@ -1,21 +1,3 @@
-<?php
-
-declare(strict_types=1);
-
-namespace Webauthn;
-
-/**
- * @see https://www.w3.org/TR/webauthn/#authenticatorresponse
- */
-abstract class AuthenticatorResponse
-{
-    public function __construct(
-        private readonly CollectedClientData $clientDataJSON
-    ) {
-    }
-
-    public function getClientDataJSON(): CollectedClientData
-    {
-        return $this->clientDataJSON;
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:3f3038da2f2c016ee4ff8ed5b16ee17127ebe9a00353c8e5a058d654337dfafe
+size 385

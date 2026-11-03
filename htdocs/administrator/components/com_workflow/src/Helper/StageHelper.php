@@ -1,28 +1,3 @@
-<?php
-
-/**
- * @package     Joomla.Administrator
- * @subpackage  com_workflow
- *
- * @copyright   (C) 2018 Open Source Matters, Inc. <https://www.joomla.org>
- * @license     GNU General Public License version 2 or later; see LICENSE.txt
- */
-
-namespace Joomla\Component\Workflow\Administrator\Helper;
-
-use Joomla\CMS\Helper\ContentHelper;
-
-// phpcs:disable PSR1.Files.SideEffects
-\defined('_JEXEC') or die;
-// phpcs:enable PSR1.Files.SideEffects
-
-/**
- * The first example class, this is in the same
- * package as declared at the start of file but
- * this example has a defined subpackage
- *
- * @since  4.0.0
- */
-class StageHelper extends ContentHelper
-{
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:9aef32afb4e1a243e6a85def41ad20ff59377fa54f3c58f4297f8a0249d0d394
+size 653

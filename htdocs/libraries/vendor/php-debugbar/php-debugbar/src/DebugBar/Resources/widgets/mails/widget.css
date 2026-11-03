@@ -1,12 +1,3 @@
-
-div.phpdebugbar-widgets-mails span.phpdebugbar-widgets-subject {
-  display: block;
-}
-
-div.phpdebugbar-widgets-mails li.phpdebugbar-widgets-list-item pre.phpdebugbar-widgets-headers {
-  display: none;
-  margin: 10px;
-  padding: 5px;
-  border: 1px solid var(--debugbar-border);
-  font-family: var(--debugbar-font-mono);
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:4e4e5c4e76ca3d5c1f03c59213121d591e2986ec059a50ef15ccb22fcffc8d7c
+size 321

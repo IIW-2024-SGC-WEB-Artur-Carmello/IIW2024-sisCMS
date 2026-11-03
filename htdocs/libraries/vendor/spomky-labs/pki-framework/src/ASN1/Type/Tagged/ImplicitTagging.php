@@ -1,23 +1,3 @@
-<?php
-
-declare(strict_types=1);
-
-namespace SpomkyLabs\Pki\ASN1\Type\Tagged;
-
-use SpomkyLabs\Pki\ASN1\Component\Identifier;
-use SpomkyLabs\Pki\ASN1\Feature\ElementBase;
-use SpomkyLabs\Pki\ASN1\Type\UnspecifiedType;
-
-/**
- * Interface for classes providing implicit tagging.
- */
-interface ImplicitTagging extends ElementBase
-{
-    /**
-     * Get implicitly tagged wrapped element.
-     *
-     * @param int $tag Tag of the element
-     * @param int $class Expected type class of the element
-     */
-    public function implicit(int $tag, int $class = Identifier::CLASS_UNIVERSAL): UnspecifiedType;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:f19e7b2b3e7be46827befa86a634b696fddfe8dda5046dba7be6f9e6bddb65e1
+size 596

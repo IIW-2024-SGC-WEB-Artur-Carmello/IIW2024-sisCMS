@@ -1,21 +1,3 @@
-<?php
-
-/**
- * @package     Joomla.Administrator
- * @subpackage  com_cache
- *
- * @copyright   (C) 2021 Open Source Matters, Inc. <https://www.joomla.org>
- * @license     GNU General Public License version 2 or later; see LICENSE.txt
- */
-
-defined('_JEXEC') or die;
-
-use Joomla\CMS\Layout\LayoutHelper;
-
-$displayData = [
-    'textPrefix' => 'COM_CACHE',
-    'helpURL'    => 'https://docs.joomla.org/Special:MyLanguage/Cache',
-    'icon'       => 'icon-bolt clear',
-];
-
-echo LayoutHelper::render('joomla.content.emptystate', $displayData);
+version https://git-lfs.github.com/spec/v1
+oid sha256:942d7733668f0cdb9cceb80e69894b22f2b01e8406e4a3936d9429b4140f31bd
+size 536

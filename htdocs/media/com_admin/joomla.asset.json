@@ -1,21 +1,3 @@
-{
-  "$schema": "https://developer.joomla.org/schemas/json-schema/web_assets.json",
-  "name": "com_admin",
-  "version": "4.0.0",
-  "description": "Joomla CMS",
-  "license": "GPL-2.0-or-later",
-  "assets": [
-    {
-      "name": "com_admin.admin-help",
-      "type": "script",
-      "uri": "com_admin/admin-help.min.js",
-      "dependencies": [
-        "core"
-      ],
-      "attributes": {
-        "type": "module"
-      },
-      "version": "54d1ad"
-    }
-  ]
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:46b226cf03f443dc6a3068d8e0a81c5b18ce4cf08225da709555ed57f4252068
+size 459

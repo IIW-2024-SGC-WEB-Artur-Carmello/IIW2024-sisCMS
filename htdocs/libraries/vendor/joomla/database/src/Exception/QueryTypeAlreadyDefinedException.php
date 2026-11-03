@@ -1,19 +1,3 @@
-<?php
-
-/**
- * Part of the Joomla Framework Database Package
- *
- * @copyright  Copyright (C) 2005 - 2021 Open Source Matters, Inc. All rights reserved.
- * @license    GNU General Public License version 2 or later; see LICENSE
- */
-
-namespace Joomla\Database\Exception;
-
-/**
- * Exception class defining an exception when attempting to change a query type
- *
- * @since  2.0.0
- */
-class QueryTypeAlreadyDefinedException extends \RuntimeException
-{
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:518c65210e3e0cf5e36a2d2f446a8d9a84399d07b56ca6ca7aa83c097cd6c08e
+size 445

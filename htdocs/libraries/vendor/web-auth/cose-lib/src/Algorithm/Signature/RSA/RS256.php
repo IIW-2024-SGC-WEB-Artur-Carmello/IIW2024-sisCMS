@@ -1,27 +1,3 @@
-<?php
-
-declare(strict_types=1);
-
-namespace Cose\Algorithm\Signature\RSA;
-
-use const OPENSSL_ALGO_SHA256;
-
-final class RS256 extends RSA
-{
-    public const ID = -257;
-
-    public static function create(): self
-    {
-        return new self();
-    }
-
-    public static function identifier(): int
-    {
-        return self::ID;
-    }
-
-    protected function getHashAlgorithm(): int
-    {
-        return OPENSSL_ALGO_SHA256;
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:5a1ffffbe96b6dad5a50c4460c238c15815aff658d6b132bbc4991e3b4c6b56a
+size 429

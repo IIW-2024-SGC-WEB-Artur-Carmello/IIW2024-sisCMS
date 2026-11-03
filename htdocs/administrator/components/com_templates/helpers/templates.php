@@ -1,27 +1,3 @@
-<?php
-
-/**
- * @package     Joomla.Administrator
- * @subpackage  com_templates
- *
- * @copyright   (C) 2006 Open Source Matters, Inc. <https://www.joomla.org>
- * @license     GNU General Public License version 2 or later; see LICENSE.txt
- *
- * @phpcs:disable PSR1.Classes.ClassDeclaration.MissingNamespace
- */
-
-// phpcs:disable PSR1.Files.SideEffects
-\defined('_JEXEC') or die;
-// phpcs:enable PSR1.Files.SideEffects
-
-/**
- * Templates component helper.
- *
- * @since       1.6
- *
- * @deprecated  4.3 will be removed in 6.0
- *              Use \Joomla\Component\Templates\Administrator\Helper\TemplatesHelper instead
- */
-class TemplatesHelper extends \Joomla\Component\Templates\Administrator\Helper\TemplatesHelper
-{
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:1b061c25d632a5362f4690a6a9a5cf8fb7c9a4ce7fb29f6676197f2cafd10c14
+size 716

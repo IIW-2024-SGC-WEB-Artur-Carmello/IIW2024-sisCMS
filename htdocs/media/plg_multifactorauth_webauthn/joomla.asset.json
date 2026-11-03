@@ -1,21 +1,3 @@
-{
-  "$schema": "https://developer.joomla.org/schemas/json-schema/web_assets.json",
-  "name": "plg_multifactorauth_webauthn",
-  "version": "4.0.0",
-  "description": "WebAuthn integration for Joomla Multi-factor Authentication",
-  "license": "GPL-2.0-or-later",
-  "assets": [
-    {
-      "name": "plg_multifactorauth_webauthn.webauthn",
-      "type": "script",
-      "uri": "plg_multifactorauth_webauthn/webauthn.min.js",
-      "dependencies": [
-        "core"
-      ],
-      "attributes": {
-        "defer": true
-      },
-      "version": "8e8e14"
-    }
-  ]
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:315f3b789b46de6b9d1e37ef022cddab7e1ae0088fd99a11c333c6c6b62799f6
+size 558

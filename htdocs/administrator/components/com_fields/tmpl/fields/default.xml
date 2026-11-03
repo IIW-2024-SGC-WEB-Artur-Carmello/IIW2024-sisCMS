@@ -1,21 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<metadata>
-	<layout title="COM_FIELDS_FIELDS_VIEW_DEFAULT_TITLE">
-		<message>
-			<![CDATA[COM_FIELDS_FIELDS_VIEW_DEFAULT_DESC]]>
-		</message>
-	</layout>
-	<fieldset name="request">
-		<fields name="request">
-			<field
-				name="context"
-				type="ComponentsFields"
-				label="COM_FIELDS_CHOOSE_CONTEXT_LABEL"
-				required="true"
-				addfieldprefix="Joomla\Component\Fields\Administrator\Field"
-				>
-				<option value="">COM_MENUS_OPTION_SELECT_CONTEXT</option>
-			</field>
-		</fields>
-	</fieldset>
-</metadata>
+version https://git-lfs.github.com/spec/v1
+oid sha256:aa229586bf02f3ea35331536e0a643e3b6f8f0d2bb454171d6e1828aeb2d1527
+size 548

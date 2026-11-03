@@ -1,21 +1,3 @@
-<?php
-
-declare(strict_types=1);
-
-namespace SpomkyLabs\Pki\X501\ASN1\AttributeValue;
-
-use SpomkyLabs\Pki\X501\ASN1\AttributeType;
-use SpomkyLabs\Pki\X501\ASN1\AttributeValue\Feature\DirectoryString;
-
-/**
- * 'stateOrProvinceName' attribute value.
- *
- * @see https://www.itu.int/ITU-T/formal-language/itu-t/x/x520/2012/SelectedAttributeTypes.html#SelectedAttributeTypes.stateOrProvinceName
- */
-final class StateOrProvinceNameValue extends DirectoryString
-{
-    public static function create(string $value, int $string_tag = DirectoryString::UTF8): static
-    {
-        return new static(AttributeType::OID_STATE_OR_PROVINCE_NAME, $value, $string_tag);
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:a60335ca74d68768c9f0e58e5bad518f5fc1d550dbe61370b5078eb2d1b61a34
+size 657

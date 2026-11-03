@@ -1,29 +1,3 @@
-<?php
-
-/**
- * Part of the Joomla Framework Database Package
- *
- * @copyright  Copyright (C) 2005 - 2021 Open Source Matters, Inc. All rights reserved.
- * @license    GNU General Public License version 2 or later; see LICENSE
- */
-
-namespace Joomla\Database\Sqlazure;
-
-use Joomla\Database\Sqlsrv\SqlsrvDriver;
-
-/**
- * SQL Azure Database Driver
- *
- * @link   https://msdn.microsoft.com/en-us/library/ee336279.aspx
- * @since  1.0
- */
-class SqlazureDriver extends SqlsrvDriver
-{
-    /**
-     * The name of the database driver.
-     *
-     * @var    string
-     * @since  1.0
-     */
-    public $name = 'sqlazure';
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:cf47a8b17c09d9c0a8623b29da613b333359c81f08a71af884f2374aad9c0780
+size 611

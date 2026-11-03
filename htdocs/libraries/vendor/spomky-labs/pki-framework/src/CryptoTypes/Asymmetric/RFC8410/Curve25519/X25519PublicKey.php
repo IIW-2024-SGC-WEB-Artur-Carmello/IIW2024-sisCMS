@@ -1,26 +1,3 @@
-<?php
-
-declare(strict_types=1);
-
-namespace SpomkyLabs\Pki\CryptoTypes\Asymmetric\RFC8410\Curve25519;
-
-use SpomkyLabs\Pki\CryptoTypes\AlgorithmIdentifier\Asymmetric\X25519AlgorithmIdentifier;
-use SpomkyLabs\Pki\CryptoTypes\AlgorithmIdentifier\Feature\AlgorithmIdentifierType;
-
-/**
- * Implements an intermediary object to store X25519 public key.
- *
- * @see https://tools.ietf.org/html/rfc8410
- */
-final class X25519PublicKey extends Curve25519PublicKey
-{
-    public static function create(string $publicKey): self
-    {
-        return new self($publicKey);
-    }
-
-    public function algorithmIdentifier(): AlgorithmIdentifierType
-    {
-        return X25519AlgorithmIdentifier::create();
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:505d0c656b2de009a33547ae450e13af4ab8325720b9c94e3eb362e5b64caf92
+size 696

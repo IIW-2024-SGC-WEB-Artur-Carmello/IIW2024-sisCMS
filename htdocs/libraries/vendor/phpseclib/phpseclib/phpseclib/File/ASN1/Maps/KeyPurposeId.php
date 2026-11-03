@@ -1,26 +1,3 @@
-<?php
-
-/**
- * KeyPurposeId
- *
- * PHP version 5
- *
- * @author    Jim Wigginton <terrafrost@php.net>
- * @copyright 2016 Jim Wigginton
- * @license   http://www.opensource.org/licenses/mit-license.html  MIT License
- * @link      http://phpseclib.sourceforge.net
- */
-
-namespace phpseclib3\File\ASN1\Maps;
-
-use phpseclib3\File\ASN1;
-
-/**
- * KeyPurposeId
- *
- * @author  Jim Wigginton <terrafrost@php.net>
- */
-abstract class KeyPurposeId
-{
-    const MAP = ['type' => ASN1::TYPE_OBJECT_IDENTIFIER];
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:68b1d541108322a107564daba990dddf72f9221cc0650b24f53521a10f6d8e44
+size 492

@@ -1,13 +1,3 @@
-<?php
-
-/**
- * @package     Joomla.Administrator
- * @subpackage  Template.system
- *
- * @copyright   (C) 2007 Open Source Matters, Inc. <https://www.joomla.org>
- * @license     GNU General Public License version 2 or later; see LICENSE.txt
- */
-
-\defined('_JEXEC') or die;
-
-include __DIR__ . '/component.php';
+version https://git-lfs.github.com/spec/v1
+oid sha256:6ce910fcede365c424fd56d29e11b559ab23de768f5ab092e556eaaf023986fe
+size 307

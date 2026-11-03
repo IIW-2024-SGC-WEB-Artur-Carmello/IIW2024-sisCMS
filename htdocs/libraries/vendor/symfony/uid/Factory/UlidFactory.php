@@ -1,22 +1,3 @@
-<?php
-
-/*
- * This file is part of the Symfony package.
- *
- * (c) Fabien Potencier <fabien@symfony.com>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
-namespace Symfony\Component\Uid\Factory;
-
-use Symfony\Component\Uid\Ulid;
-
-class UlidFactory
-{
-    public function create(?\DateTimeInterface $time = null): Ulid
-    {
-        return new Ulid(null === $time ? null : Ulid::generate($time));
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:6d82c112b9434a98603f3e252a520eef55f73cffa18953e837f375ca218dcd86
+size 486

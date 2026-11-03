@@ -1,19 +1,3 @@
-<?php
-
-/**
- * Part of the Joomla Framework Database Package
- *
- * @copyright  Copyright (C) 2005 - 2021 Open Source Matters, Inc. All rights reserved.
- * @license    GNU General Public License version 2 or later; see LICENSE
- */
-
-namespace Joomla\Database\Exception;
-
-/**
- * Exception class defining an unsupported database object
- *
- * @since  1.5.0
- */
-class UnsupportedAdapterException extends \RuntimeException
-{
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:981bd6ee1a4279e56918a835a3ffdb854d5aff47265ae6da084ce15576215098
+size 419

@@ -1,21 +1,3 @@
-<?php
-
-/**
- * @package     Joomla.Site
- * @subpackage  mod_users_latest
- *
- * @copyright   (C) 2009 Open Source Matters, Inc. <https://www.joomla.org>
- * @license     GNU General Public License version 2 or later; see LICENSE.txt
- */
-
-defined('_JEXEC') or die;
-?>
-<?php if (!empty($names)) : ?>
-    <ul class="mod-userslatest latestusers mod-list">
-    <?php foreach ($names as $name) : ?>
-        <li>
-            <?php echo $name->username; ?>
-        </li>
-    <?php endforeach; ?>
-    </ul>
-<?php endif; ?>
+version https://git-lfs.github.com/spec/v1
+oid sha256:929360c9c866536f811afb4cfc1a33e400f45186bcea4b0489722449201333ae
+size 511

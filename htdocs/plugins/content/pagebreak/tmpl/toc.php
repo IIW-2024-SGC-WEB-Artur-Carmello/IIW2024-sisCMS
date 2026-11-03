@@ -1,34 +1,3 @@
-<?php
-
-/**
- * @package     Joomla.Plugin
- * @subpackage  Content.pagebreak
- *
- * @copyright   (C) 2018 Open Source Matters, Inc. <https://www.joomla.org>
- * @license     GNU General Public License version 2 or later; see LICENSE.txt
- */
-
-defined('_JEXEC') or die;
-
-use Joomla\CMS\Router\Route;
-
-?>
-<div class="card float-end article-index ms-3 mb-3">
-    <div class="card-body">
-
-        <?php if ($headingtext) : ?>
-        <h3><?php echo $headingtext; ?></h3>
-        <?php endif; ?>
-
-        <ul class="nav flex-column">
-        <?php foreach ($list as $listItem) : ?>
-            <?php $class = $listItem->active ? ' active' : ''; ?>
-            <li class="py-1">
-                <a href="<?php echo Route::_($listItem->link); ?>" class="toclink<?php echo $class; ?>">
-                    <?php echo htmlspecialchars($listItem->title, ENT_QUOTES, 'UTF-8'); ?>
-                </a>
-            </li>
-        <?php endforeach; ?>
-        </ul>
-    </div>
-</div>
+version https://git-lfs.github.com/spec/v1
+oid sha256:258b0e31c662517c0735d20b771bb2377e9f08dbb19660334af4314a77a6c412
+size 964

@@ -1,19 +1,3 @@
-<?php
-
-/**
- * Joomla! Content Management System
- *
- * @copyright  (C) 2023 Open Source Matters, Inc. <https://www.joomla.org>
- * @license        GNU General Public License version 2 or later; see LICENSE.txt
- */
-
-namespace Joomla\CMS\Event\Finder;
-
-/**
- * Interface class for finder events
- *
- * @since  5.0.0
- */
-interface FinderEventInterface
-{
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:7aaf4f0e4c91e86b6de4d3fea6fdc3a0ddee387ed48623b1da7df5b7862ecc07
+size 349

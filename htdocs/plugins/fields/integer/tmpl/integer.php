@@ -1,25 +1,3 @@
-<?php
-
-/**
- * @package     Joomla.Plugin
- * @subpackage  Fields.Integer
- *
- * @copyright   (C) 2016 Open Source Matters, Inc. <https://www.joomla.org>
- * @license     GNU General Public License version 2 or later; see LICENSE.txt
- */
-
-defined('_JEXEC') or die;
-
-$value = $field->value;
-
-if ($value == '') {
-    return;
-}
-
-if (is_array($value)) {
-    $value = implode(', ', array_map('intval', $value));
-} else {
-    $value = (int) $value;
-}
-
-echo $value;
+version https://git-lfs.github.com/spec/v1
+oid sha256:09db8fc7574f6974fc3ba69b087278701cbfb2b9c4591aab6d6b722f60cefa84
+size 455

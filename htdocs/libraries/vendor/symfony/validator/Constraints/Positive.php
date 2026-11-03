@@ -1,26 +1,3 @@
-<?php
-
-/*
- * This file is part of the Symfony package.
- *
- * (c) Fabien Potencier <fabien@symfony.com>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
-namespace Symfony\Component\Validator\Constraints;
-
-/**
- * @Annotation
- * @Target({"PROPERTY", "METHOD", "ANNOTATION"})
- *
- * @author Jan Schädlich <jan.schaedlich@sensiolabs.de>
- */
-#[\Attribute(\Attribute::TARGET_PROPERTY | \Attribute::TARGET_METHOD | \Attribute::IS_REPEATABLE)]
-class Positive extends GreaterThan
-{
-    use ZeroComparisonConstraintTrait;
-
-    public $message = 'This value should be positive.';
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:556708e44c2da555fd994a9cf99df5caeaa8f37f25619bc54282fc274dd45478
+size 656

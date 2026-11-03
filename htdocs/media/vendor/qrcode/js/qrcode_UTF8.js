@@ -1,26 +1,3 @@
-//---------------------------------------------------------------------
-//
-// QR Code Generator for JavaScript UTF8 Support (optional)
-//
-// Copyright (c) 2011 Kazuhiko Arase
-//
-// URL: http://www.d-project.com/
-//
-// Licensed under the MIT license:
-//  http://www.opensource.org/licenses/mit-license.php
-//
-// The word 'QR Code' is registered trademark of
-// DENSO WAVE INCORPORATED
-//  http://www.denso-wave.com/qrcode/faqpatent-e.html
-//
-//---------------------------------------------------------------------
-
-!function(qrcode) {
-
-  //---------------------------------------------------------------------
-  // overwrite qrcode.stringToBytes
-  //---------------------------------------------------------------------
-
-  qrcode.stringToBytes = qrcode.stringToBytesFuncs['UTF-8'];
-
-}(qrcode);
+version https://git-lfs.github.com/spec/v1
+oid sha256:e522d64003b332e29271fdce4993ed3ae2934c8947f41654bd324ddcfa2de301
+size 793

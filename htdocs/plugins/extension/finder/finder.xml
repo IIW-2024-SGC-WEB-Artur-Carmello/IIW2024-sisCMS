@@ -1,21 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<extension type="plugin" group="extension" method="upgrade">
-	<name>plg_extension_finder</name>
-	<author>Joomla! Project</author>
-	<creationDate>2018-06</creationDate>
-	<copyright>(C) 2019 Open Source Matters, Inc.</copyright>
-	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
-	<authorEmail>admin@joomla.org</authorEmail>
-	<authorUrl>www.joomla.org</authorUrl>
-	<version>4.0.0</version>
-	<description>PLG_EXTENSION_FINDER_XML_DESCRIPTION</description>
-	<namespace path="src">Joomla\Plugin\Extension\Finder</namespace>
-	<files>
-		<folder plugin="finder">services</folder>
-		<folder>src</folder>
-	</files>
-	<languages>
-		<language tag="en-GB">language/en-GB/plg_extension_finder.ini</language>
-		<language tag="en-GB">language/en-GB/plg_extension_finder.sys.ini</language>
-	</languages>
-</extension>
+version https://git-lfs.github.com/spec/v1
+oid sha256:88658408a3e70b8932bbe67c183bb1d6e6110db2ca41a886313b366614a3e8d1
+size 870

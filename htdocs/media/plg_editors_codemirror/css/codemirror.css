@@ -1,26 +1,3 @@
-@charset "UTF-8";
-joomla-editor-codemirror {
-  display: block;
-}
-
-.cm-editor {
-  border: 1px solid #ccc;
-  margin-bottom: 16px;
-}
-
-.cm-editor .cm-scroller {
-  min-height: 100px;
-  overflow: auto;
-}
-
-joomla-editor-codemirror.fullscreen {
-  z-index: 1038;
-  position: fixed;
-  inset: 0;
-}
-
-joomla-editor-codemirror.fullscreen .cm-editor {
-  background-color: var(--body-bg);
-  width: auto !important;
-  height: 90vh !important;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:d7f40a8450e244c4e99dd5812b6aa89c217e74af3e316315a6e54422ac2f5b78
+size 428

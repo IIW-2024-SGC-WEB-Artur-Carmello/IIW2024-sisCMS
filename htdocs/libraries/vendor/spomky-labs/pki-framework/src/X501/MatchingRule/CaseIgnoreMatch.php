@@ -1,30 +1,3 @@
-<?php
-
-declare(strict_types=1);
-
-namespace SpomkyLabs\Pki\X501\MatchingRule;
-
-use SpomkyLabs\Pki\X501\StringPrep\StringPreparer;
-
-/**
- * Implements 'caseIgnoreMatch' matching rule.
- *
- * @see https://tools.ietf.org/html/rfc4517#section-4.2.11
- */
-final class CaseIgnoreMatch extends StringPrepMatchingRule
-{
-    /**
-     * @param int $stringType ASN.1 string type tag
-     */
-    private function __construct(int $stringType)
-    {
-        parent::__construct(
-            StringPreparer::forStringType($stringType)->withCaseFolding(true)
-        );
-    }
-
-    public static function create(int $stringType): self
-    {
-        return new self($stringType);
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:73fbb90d64cb5671f2be7f92a05ea38e2e495cda8322dc651b2d11de60706137
+size 666

@@ -1,16 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<form>
-	<fields name="params">
-		<fieldset name="task_params">
-			<field
-				name="logDeletePeriod"
-				type="number"
-				label="PLG_TASK_DELETEACTIONLOGS_LOG_DELETE_PERIOD"
-				default="7"
-				min="1"
-				filter="int"
-				validate="number"
-			/>
-		</fieldset>
-	</fields>
-</form>
+version https://git-lfs.github.com/spec/v1
+oid sha256:4b643bd25d4618cafffa2125c2b79cb8a6b6ed6b13c8ef22b451fa3b02c7463a
+size 318

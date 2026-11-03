@@ -1,27 +1,3 @@
-<?php
-
-/**
- * @package     Joomla.Plugin
- * @subpackage  Fields.integer
- *
- * @copyright   (C) 2017 Open Source Matters, Inc. <https://www.joomla.org>
- * @license     GNU General Public License version 2 or later; see LICENSE.txt
- */
-
-namespace Joomla\Plugin\Fields\Integer\Extension;
-
-use Joomla\Component\Fields\Administrator\Plugin\FieldsPlugin;
-use Joomla\Event\SubscriberInterface;
-
-// phpcs:disable PSR1.Files.SideEffects
-\defined('_JEXEC') or die;
-// phpcs:enable PSR1.Files.SideEffects
-
-/**
- * Fields Integer Plugin
- *
- * @since  3.7.0
- */
-final class Integer extends FieldsPlugin implements SubscriberInterface
-{
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:4ceff20328a80a354458faf621b9cb30fc355a5a43b0549cdc22732d1b498df0
+size 624

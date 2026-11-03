@@ -1,14 +1,3 @@
-<?php
-
-declare(strict_types=1);
-
-namespace GuzzleHttp\Psr7\Exception;
-
-use InvalidArgumentException;
-
-/**
- * Exception thrown if a URI cannot be parsed because it's malformed.
- */
-class MalformedUriException extends InvalidArgumentException
-{
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:68bbfb1b1044c21b8ab0fda0bda047c342287d592e8f3f5252fab30ff92a852a
+size 245

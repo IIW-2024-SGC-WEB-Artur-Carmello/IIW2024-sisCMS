@@ -1,18 +1,3 @@
-<?php
-
-declare(strict_types=1);
-
-namespace Webauthn\MetadataService\Exception;
-
-use Throwable;
-
-final class ExpiredCertificateException extends CertificateException
-{
-    public static function create(
-        string $certificate,
-        string $message = 'Expired certificate',
-        ?Throwable $previous = null
-    ): self {
-        return new self($certificate, $message, $previous);
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:ee47fa279990f380c96c255aa9e58217d0eab8e68380929e78b197773263ffa5
+size 398

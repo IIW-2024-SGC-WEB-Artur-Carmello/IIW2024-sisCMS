@@ -1,26 +1,3 @@
-<?php
-
-/**
- * @package     Joomla.Site
- * @subpackage  mod_articles_archive
- *
- * @copyright   (C) 2006 Open Source Matters, Inc. <https://www.joomla.org>
- * @license     GNU General Public License version 2 or later; see LICENSE.txt
- */
-
-defined('_JEXEC') or die;
-
-if (!$list) {
-    return;
-}
-
-?>
-<ul class="mod-articlesarchive archive-module mod-list">
-    <?php foreach ($list as $item) : ?>
-    <li>
-        <a href="<?php echo $item->link; ?>">
-            <?php echo $item->text; ?>
-        </a>
-    </li>
-    <?php endforeach; ?>
-</ul>
+version https://git-lfs.github.com/spec/v1
+oid sha256:39f22dcdc6da430bd4903ce6098e6056222096d7fb6e298ec89a2a3025c8e944
+size 543

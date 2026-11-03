@@ -1,8 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<metadata>
-	<layout title="COM_FINDER_SEARCH_VIEW_DEFAULT_TITLE">
-		<message>
-			<![CDATA[COM_FINDER_SEARCH_VIEW_DEFAULT_DESC]]>
-		</message>
-	</layout>
-</metadata>
+version https://git-lfs.github.com/spec/v1
+oid sha256:4a5bc9e853a89ddbb8bdb9945fc47e31dd1828f4084c75cd512ba88f4d1a0c1c
+size 204

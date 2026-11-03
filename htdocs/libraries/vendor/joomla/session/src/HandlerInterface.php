@@ -1,27 +1,3 @@
-<?php
-
-/**
- * Part of the Joomla Framework Session Package
- *
- * @copyright  Copyright (C) 2005 - 2021 Open Source Matters, Inc. All rights reserved.
- * @license    GNU General Public License version 2 or later; see LICENSE
- */
-
-namespace Joomla\Session;
-
-/**
- * Interface defining Joomla! session handlers
- *
- * @since  2.0.0
- */
-interface HandlerInterface extends \SessionHandlerInterface
-{
-    /**
-     * Test to see if the HandlerInterface is available.
-     *
-     * @return  boolean  True on success, false otherwise.
-     *
-     * @since   2.0.0
-     */
-    public static function isSupported(): bool;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:c88bc68c97e191f71422b09d48d0c65d450ceb6b8978b69401b5ac723d7b76f0
+size 611

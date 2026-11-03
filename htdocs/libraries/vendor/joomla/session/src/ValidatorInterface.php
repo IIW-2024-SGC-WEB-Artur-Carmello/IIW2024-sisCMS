@@ -1,30 +1,3 @@
-<?php
-
-/**
- * Part of the Joomla Framework Session Package
- *
- * @copyright  Copyright (C) 2005 - 2021 Open Source Matters, Inc. All rights reserved.
- * @license    GNU General Public License version 2 or later; see LICENSE
- */
-
-namespace Joomla\Session;
-
-/**
- * Interface for validating a part of the session
- *
- * @since  2.0.0
- */
-interface ValidatorInterface
-{
-    /**
-     * Validates the session
-     *
-     * @param   boolean  $restart  Flag if the session should be restarted
-     *
-     * @return  void
-     *
-     * @since   2.0.0
-     * @throws  Exception\InvalidSessionException
-     */
-    public function validate(bool $restart = false): void;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:6ee3cb0718573ac0e7d60c80f3058e5be334441173c280d96929e1f5581947fd
+size 660

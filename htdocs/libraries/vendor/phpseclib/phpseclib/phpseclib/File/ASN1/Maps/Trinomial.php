@@ -1,26 +1,3 @@
-<?php
-
-/**
- * Trinomial
- *
- * PHP version 5
- *
- * @author    Jim Wigginton <terrafrost@php.net>
- * @copyright 2016 Jim Wigginton
- * @license   http://www.opensource.org/licenses/mit-license.html  MIT License
- * @link      http://phpseclib.sourceforge.net
- */
-
-namespace phpseclib3\File\ASN1\Maps;
-
-use phpseclib3\File\ASN1;
-
-/**
- * Trinomial
- *
- * @author  Jim Wigginton <terrafrost@php.net>
- */
-abstract class Trinomial
-{
-    const MAP = ['type' => ASN1::TYPE_INTEGER];
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:8c9896584bf552e1082bc26d1f1c9a955fd8e09bd9a28e30eb14bd92e956a484
+size 473

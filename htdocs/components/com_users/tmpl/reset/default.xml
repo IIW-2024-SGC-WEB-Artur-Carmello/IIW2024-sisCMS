@@ -1,11 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<metadata>
-	<layout title="COM_USERS_RESET_VIEW_DEFAULT_TITLE" option="COM_USERS_RESET_VIEW_DEFAULT_OPTION">
-		<help
-			key="Menu_Item:_Password_Reset"
-		/>
-		<message>
-			<![CDATA[COM_USERS_RESET_VIEW_DEFAULT_DESC]]>
-		</message>
-	</layout>
-</metadata>
+version https://git-lfs.github.com/spec/v1
+oid sha256:ccac0939d85d50238e5a1243848b884c057701ed638a65f60468d656c0dc1438
+size 293

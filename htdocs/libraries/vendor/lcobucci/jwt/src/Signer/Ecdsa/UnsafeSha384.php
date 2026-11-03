@@ -1,27 +1,3 @@
-<?php
-declare(strict_types=1);
-
-namespace Lcobucci\JWT\Signer\Ecdsa;
-
-use Lcobucci\JWT\Signer\UnsafeEcdsa;
-
-use const OPENSSL_ALGO_SHA384;
-
-/** @deprecated Deprecated since v4.2 */
-final class UnsafeSha384 extends UnsafeEcdsa
-{
-    public function algorithmId(): string
-    {
-        return 'ES384';
-    }
-
-    public function algorithm(): int
-    {
-        return OPENSSL_ALGO_SHA384;
-    }
-
-    public function pointLength(): int
-    {
-        return 96;
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:921de6de5b923c9a0261b0879f63af07063fd8843024eb3c91bcbc6b7d707e54
+size 465

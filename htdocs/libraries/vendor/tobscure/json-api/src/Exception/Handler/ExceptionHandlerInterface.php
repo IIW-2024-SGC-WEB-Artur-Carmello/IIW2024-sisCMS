@@ -1,36 +1,3 @@
-<?php
-
-/*
- * This file is part of JSON-API.
- *
- * (c) Toby Zerner <toby.zerner@gmail.com>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
-namespace Tobscure\JsonApi\Exception\Handler;
-
-use Exception;
-
-interface ExceptionHandlerInterface
-{
-    /**
-     * If the exception handler is able to format a response for the provided exception,
-     * then the implementation should return true.
-     *
-     * @param \Exception $e
-     *
-     * @return bool
-     */
-    public function manages(Exception $e);
-
-    /**
-     * Handle the provided exception.
-     *
-     * @param \Exception $e
-     *
-     * @return \Tobscure\JsonApi\Exception\Handler\ResponseBag
-     */
-    public function handle(Exception $e);
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:70fe341ab580f694e17a1e727f66563bfd12df71485b5783a4fa5883ad7400d8
+size 791

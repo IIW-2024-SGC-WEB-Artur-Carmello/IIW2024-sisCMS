@@ -1,23 +1,3 @@
-<?php
-
-/**
- * @package     Joomla.Plugin
- * @subpackage  Fields.Color
- *
- * @copyright   (C) 2016 Open Source Matters, Inc. <https://www.joomla.org>
- * @license     GNU General Public License version 2 or later; see LICENSE.txt
- */
-
-defined('_JEXEC') or die;
-
-$value = $field->value;
-
-if ($value == '') {
-    return;
-}
-
-if (is_array($value)) {
-    $value = implode(', ', $value);
-}
-
-echo htmlentities($value);
+version https://git-lfs.github.com/spec/v1
+oid sha256:6ba75f2a43dee77d9dde3d71319d24d249b88eceb2ae305071cbac66747715d0
+size 410

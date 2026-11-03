@@ -1,21 +1,3 @@
-<?php
-
-/*
- * This file is part of the Symfony package.
- *
- * (c) Fabien Potencier <fabien@symfony.com>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
-namespace Symfony\Component\Ldap\Exception;
-
-/**
- * ConnectionException is thrown if binding to ldap cannot be established.
- *
- * @author Grégoire Pineau <lyrixx@lyrixx.info>
- */
-class ConnectionException extends \RuntimeException implements ExceptionInterface
-{
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:37e627efe30698593fbc5199a07ecee1c9d9828a0bb3e466986530288591a366
+size 504

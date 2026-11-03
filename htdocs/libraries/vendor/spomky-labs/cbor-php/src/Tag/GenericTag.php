@@ -1,21 +1,3 @@
-<?php
-
-declare(strict_types=1);
-
-namespace CBOR\Tag;
-
-use CBOR\CBORObject;
-use CBOR\Tag;
-
-final class GenericTag extends Tag
-{
-    public static function getTagId(): int
-    {
-        return -1;
-    }
-
-    public static function createFromLoadedData(int $additionalInformation, ?string $data, CBORObject $object): Tag
-    {
-        return new self($additionalInformation, $data, $object);
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:efb3156406ce1376a4c561a99098bff516785e0d3005cb38eb40a503e861bdef
+size 397

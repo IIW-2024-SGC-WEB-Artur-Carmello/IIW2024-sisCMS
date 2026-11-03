@@ -1,28 +1,3 @@
-// Collapse
-
-.accordion {
-
-  .card-header {
-    display: block;
-    font-size: $h5-font-size;
-    font-weight: $font-weight-bold;
-    line-height: $headings-line-height;
-  }
-
-  /**
-   * TODO: This seems fairly specifically built for the menu types view and might be better scoped to
-   *       that view rather than just being overridden for everything.
-   */
-  .list-group-item {
-    --list-group-color: var(--link-color);
-    --list-group-bg: var(--white-offset);
-  }
-
-  @if $enable-dark-mode {
-    @include color-mode(dark) {
-      .list-group-item {
-        --list-group-bg: var(--gray-800);
-      }
-    }
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:c4e6c74c947b471320358d7c7455220d37c9b204e20b50319d425b46d8fabd71
+size 644

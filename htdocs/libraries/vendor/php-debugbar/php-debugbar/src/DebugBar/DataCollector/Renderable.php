@@ -1,25 +1,3 @@
-<?php
-/*
- * This file is part of the DebugBar package.
- *
- * (c) 2013 Maxime Bouroumeau-Fuseau
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
-namespace DebugBar\DataCollector;
-
-/**
- * Indicates that a DataCollector is renderable using JavascriptRenderer
- */
-interface Renderable
-{
-    /**
-     * Returns a hash where keys are control names and their values
-     * an array of options as defined in {@see DebugBar\JavascriptRenderer::addControl()}
-     *
-     * @return array
-     */
-    function getWidgets();
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:9685511c0bb29d8795d4a0a97db2374ef279fb1113e58a4d91c01451bc436cc4
+size 600

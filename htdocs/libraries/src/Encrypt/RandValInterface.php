@@ -1,31 +1,3 @@
-<?php
-
-/**
- * Joomla! Content Management System
- *
- * @copyright  (C) 2017 Open Source Matters, Inc. <https://www.joomla.org>
- * @license    GNU General Public License version 2 or later; see LICENSE.txt
- */
-
-namespace Joomla\CMS\Encrypt;
-
-// phpcs:disable PSR1.Files.SideEffects
-\defined('_JEXEC') or die;
-// phpcs:enable PSR1.Files.SideEffects
-
-/**
- * Interface RandValInterface
- *
- * @since   4.0.0
- */
-interface RandValInterface
-{
-    /**
-     *
-     * Returns a cryptographically secure random value.
-     *
-     * @return string
-     *
-     */
-    public function generate();
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:34517cc1afb23ba0f3ede11ebc1eff1ba5048833f47aeb36c3f93435eed6347a
+size 584

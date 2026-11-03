@@ -1,15 +1,3 @@
-<?php
-
-declare(strict_types=1);
-
-namespace Jose\Component\KeyManagement\Analyzer;
-
-use Jose\Component\Core\JWKSet;
-
-interface KeysetAnalyzer
-{
-    /**
-     * This method will analyse the key set and add messages to the message bag if needed.
-     */
-    public function analyze(JWKSet $JWKSet, MessageBag $bag): void;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:f939c8c21d4eb7b3da10739c4825ff90116ff4acf811b7940d30fa23665fb8d1
+size 320

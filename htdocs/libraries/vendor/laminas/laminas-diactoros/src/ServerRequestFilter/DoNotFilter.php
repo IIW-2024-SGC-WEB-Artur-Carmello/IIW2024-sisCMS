@@ -1,15 +1,3 @@
-<?php
-
-declare(strict_types=1);
-
-namespace Laminas\Diactoros\ServerRequestFilter;
-
-use Psr\Http\Message\ServerRequestInterface;
-
-final class DoNotFilter implements FilterServerRequestInterface
-{
-    public function __invoke(ServerRequestInterface $request): ServerRequestInterface
-    {
-        return $request;
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:3955216b09556017bcaa3d78872d73312d247396f9a191875bedca02bce45464
+size 320

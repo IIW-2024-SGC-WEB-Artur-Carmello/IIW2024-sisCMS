@@ -1,30 +1,3 @@
-<?php
-
-declare(strict_types=1);
-
-namespace Cose\Algorithm\Mac;
-
-final class HS384 extends Hmac
-{
-    public const ID = 6;
-
-    public static function create(): self
-    {
-        return new self();
-    }
-
-    public static function identifier(): int
-    {
-        return self::ID;
-    }
-
-    protected function getHashAlgorithm(): string
-    {
-        return 'sha384';
-    }
-
-    protected function getSignatureLength(): int
-    {
-        return 384;
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:1a9eeb5b8b9591a91d88efd5cda14c0c09d9b1b18fc7c590d677ae57cad77a6f
+size 459

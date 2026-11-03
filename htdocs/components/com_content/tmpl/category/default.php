@@ -1,24 +1,3 @@
-<?php
-
-/**
- * @package     Joomla.Site
- * @subpackage  com_content
- *
- * @copyright   (C) 2006 Open Source Matters, Inc. <https://www.joomla.org>
- * @license     GNU General Public License version 2 or later; see LICENSE.txt
- */
-
-defined('_JEXEC') or die;
-
-use Joomla\CMS\Layout\LayoutHelper;
-
-/** @var \Joomla\Component\Content\Site\View\Category\HtmlView $this */
-?>
-<div class="com-content-category category-list">
-
-<?php
-$this->subtemplatename = 'articles';
-echo LayoutHelper::render('joomla.content.category_default', $this);
-?>
-
-</div>
+version https://git-lfs.github.com/spec/v1
+oid sha256:2d0552d86c9ae010ef86b2a7490768bbb4e26db00edf8cc4533fa61f0abba875
+size 542

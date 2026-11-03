@@ -1,24 +1,3 @@
-<?php
-
-namespace Psr\Http\Client;
-
-use Psr\Http\Message\RequestInterface;
-
-/**
- * Exception for when a request failed.
- *
- * Examples:
- *      - Request is invalid (e.g. method is missing)
- *      - Runtime request errors (e.g. the body stream is not seekable)
- */
-interface RequestExceptionInterface extends ClientExceptionInterface
-{
-    /**
-     * Returns the request.
-     *
-     * The request object MAY be a different object from the one passed to ClientInterface::sendRequest()
-     *
-     * @return RequestInterface
-     */
-    public function getRequest(): RequestInterface;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:1bcf5fc2b4a6e1a982020caddab497edd889124fd8d17aea1efb1895cb96ee38
+size 586

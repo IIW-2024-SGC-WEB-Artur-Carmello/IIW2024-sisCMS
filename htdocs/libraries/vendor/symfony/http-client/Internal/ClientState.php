@@ -1,26 +1,3 @@
-<?php
-
-/*
- * This file is part of the Symfony package.
- *
- * (c) Fabien Potencier <fabien@symfony.com>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
-namespace Symfony\Component\HttpClient\Internal;
-
-/**
- * Internal representation of the client state.
- *
- * @author Alexander M. Turek <me@derrabus.de>
- *
- * @internal
- */
-class ClientState
-{
-    public array $handlesActivity = [];
-    public array $openHandles = [];
-    public ?float $lastTimeout = null;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:b4c0c2b7b6dcc19533b55a23ba8c1772f2ff4b932cd61d5eb682fb1027bcf758
+size 547

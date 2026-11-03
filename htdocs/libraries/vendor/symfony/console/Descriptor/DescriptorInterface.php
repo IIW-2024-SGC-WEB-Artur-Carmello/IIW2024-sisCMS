@@ -1,27 +1,3 @@
-<?php
-
-/*
- * This file is part of the Symfony package.
- *
- * (c) Fabien Potencier <fabien@symfony.com>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
-namespace Symfony\Component\Console\Descriptor;
-
-use Symfony\Component\Console\Output\OutputInterface;
-
-/**
- * Descriptor interface.
- *
- * @author Jean-François Simon <contact@jfsimon.fr>
- */
-interface DescriptorInterface
-{
-    /**
-     * @return void
-     */
-    public function describe(OutputInterface $output, object $object, array $options = []);
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:efcb5f91dc555283af4614e40e2ce91c838ed66b16e3974b6fffabb01e542155
+size 593

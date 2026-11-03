@@ -1,18 +1,3 @@
-<?php
-
-/**
- * @package     Joomla.Administrator
- * @subpackage  com_users
- *
- * @copyright   (C) 2008 Open Source Matters, Inc. <https://www.joomla.org>
- * @license     GNU General Public License version 2 or later; see LICENSE.txt
- */
-
-defined('_JEXEC') or die;
-
-use Joomla\CMS\HTML\HTMLHelper;
-use Joomla\Component\Users\Administrator\View\User\HtmlView;
-
-/** @var HtmlView $this */
-
-echo HTMLHelper::_('access.usergroups', 'jform[groups]', $this->groups, true);
+version https://git-lfs.github.com/spec/v1
+oid sha256:b16a22cb17d68f1beed273214bc148358356db9e23772652a2f93627cc57891c
+size 465

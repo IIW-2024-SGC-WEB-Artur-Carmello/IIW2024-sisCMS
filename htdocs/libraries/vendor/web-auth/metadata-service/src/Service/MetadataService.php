@@ -1,19 +1,3 @@
-<?php
-
-declare(strict_types=1);
-
-namespace Webauthn\MetadataService\Service;
-
-use Webauthn\MetadataService\Statement\MetadataStatement;
-
-interface MetadataService
-{
-    /**
-     * @return string[] The list of AAGUID supported by the service
-     */
-    public function list(): iterable;
-
-    public function has(string $aaguid): bool;
-
-    public function get(string $aaguid): MetadataStatement;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:247c4e3c9a7e7e0c578fc57f33b8d46582fe355c36530f85089d12b1a157ffc1
+size 398

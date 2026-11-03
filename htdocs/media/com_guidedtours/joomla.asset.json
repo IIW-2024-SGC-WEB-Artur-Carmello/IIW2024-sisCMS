@@ -1,22 +1,3 @@
-{
-  "$schema": "https://developer.joomla.org/schemas/json-schema/web_assets.json",
-  "name": "com_guidedtours",
-  "version": "4.0.0",
-  "description": "Joomla CMS",
-  "license": "GPL-2.0-or-later",
-  "assets": [
-    {
-      "name": "com_guidedtours.tour-edit",
-      "type": "script",
-      "uri": "com_guidedtours/tour-edit.min.js",
-      "dependencies": [
-        "core"
-      ],
-      "attributes": {
-        "type": "module",
-        "defer": true
-      },
-      "version": "318150"
-    }
-  ]
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:999028cba9dd39fc5e239b9c4c87e8e44c56236b1f66e4df53d31dcdcd6d8181
+size 498

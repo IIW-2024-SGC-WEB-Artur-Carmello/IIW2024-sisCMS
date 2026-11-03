@@ -1,29 +1,3 @@
-<?php
-
-/**
- * @package     Joomla.Site
- * @subpackage  Layout
- *
- * @copyright   (C) 2015 Open Source Matters, Inc. <https://www.joomla.org>
- * @license     GNU General Public License version 2 or later; see LICENSE.txt
- */
-
-defined('_JEXEC') or die;
-
-use Joomla\CMS\HTML\HTMLHelper;
-use Joomla\CMS\Language\Text;
-
-?>
-<label id="batch-access-lbl" for="batch-access">
-    <?php echo Text::_('JLIB_HTML_BATCH_ACCESS_LABEL'); ?>
-</label>
-    <?php echo HTMLHelper::_(
-        'access.assetgrouplist',
-        'batch[assetgroup_id]',
-        '',
-        'class="form-select"',
-        [
-            'title' => Text::_('JLIB_HTML_BATCH_NOCHANGE'),
-            'id'    => 'batch-access'
-        ]
-    );
+version https://git-lfs.github.com/spec/v1
+oid sha256:cec57273c1dae96c54433da1f7923cfec46b1dfe61524c4b3137dc2b386ee8df
+size 698

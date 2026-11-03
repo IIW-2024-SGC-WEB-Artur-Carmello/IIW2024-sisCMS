@@ -1,25 +1,3 @@
-<?php
-
-/**
- * Joomla! Content Management System
- *
- * @copyright  (C) 2026 Open Source Matters, Inc. <https://www.joomla.org>
- * @license    GNU General Public License version 2 or later; see LICENSE.txt
- */
-
-namespace Joomla\CMS\Plugin\Attribute;
-
-// phpcs:disable PSR1.Files.SideEffects
-\defined('_JEXEC') or die;
-// phpcs:enable PSR1.Files.SideEffects
-
-/**
- * This attribute allows the plugin listener to handle AJAX requests in the backend of the site,
- * where normally com_ajax is not available when we are not logged in.
- *
- * @since   5.4.4
- */
-#[\Attribute(\Attribute::TARGET_METHOD)]
-class AllowUnauthorizedAdministratorAccess
-{
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:0feea0e0539072c04e0c58aea034ff12f45d2039679a652f8dcc12054d0ac1f6
+size 641

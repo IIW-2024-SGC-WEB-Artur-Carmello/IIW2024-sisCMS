@@ -1,20 +1,3 @@
-<?php
-
-namespace Psr\Http\Client;
-
-use Psr\Http\Message\RequestInterface;
-use Psr\Http\Message\ResponseInterface;
-
-interface ClientInterface
-{
-    /**
-     * Sends a PSR-7 request and returns a PSR-7 response.
-     *
-     * @param RequestInterface $request
-     *
-     * @return ResponseInterface
-     *
-     * @throws \Psr\Http\Client\ClientExceptionInterface If an error happens while processing the request.
-     */
-    public function sendRequest(RequestInterface $request): ResponseInterface;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:f377b570f3211f8d824c7f1edd5c2288c97b51cc27347b1aa74988b05616e137
+size 500

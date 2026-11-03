@@ -1,14 +1,3 @@
-<?php
-
-declare(strict_types=1);
-
-namespace SpomkyLabs\Pki\X509\CertificationPath\Exception;
-
-use SpomkyLabs\Pki\X509\Exception\X509ValidationException;
-
-/**
- * Exception thrown on certification path validation errors.
- */
-final class PathValidationException extends X509ValidationException
-{
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:ac86b9d7739a9d338d333ed1bce9dd7ba529c6f9e76fa697d1fc9a52571df7e7
+size 294

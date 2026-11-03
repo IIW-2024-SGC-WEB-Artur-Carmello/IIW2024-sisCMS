@@ -1,23 +1,3 @@
-<?php
-
-/**
- * Joomla! Content Management System
- *
- * @copyright   (C) 2020 Open Source Matters, Inc. <https://www.joomla.org>
- * @license     GNU General Public License version 2 or later; see LICENSE.txt
- */
-
-namespace Joomla\CMS\Image\Exception;
-
-// phpcs:disable PSR1.Files.SideEffects
-\defined('_JEXEC') or die;
-// phpcs:enable PSR1.Files.SideEffects
-
-/**
- * Exception thrown when an image has no known properties.
- *
- * @since  4.0.0
- */
-class UnparsableImageException extends \RuntimeException
-{
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:8eeea58fdee8b0b3033e6c44772b8ddfa2b5c3258de111a2f98518194312db6d
+size 505

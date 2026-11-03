@@ -1,23 +1,3 @@
-<?php
-
-declare(strict_types=1);
-
-namespace Webauthn\Exception;
-
-use Throwable;
-
-final class InvalidDataException extends WebauthnException
-{
-    public function __construct(
-        public readonly mixed $data,
-        string $message,
-        ?Throwable $previous = null
-    ) {
-        parent::__construct($message, $previous);
-    }
-
-    public static function create(mixed $data, string $message, ?Throwable $previous = null): self
-    {
-        return new self($data, $message, $previous);
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:026578c54eb6e56db6b40c749aaf3a063320fb91bf1039f6d0a32edc3a6505c6
+size 503

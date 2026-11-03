@@ -1,19 +1,3 @@
-<?php
-
-/**
- * Part of the Joomla Framework Application Package
- *
- * @copyright  (C) 2017 Open Source Matters, Inc. <https://www.joomla.org>
- * @license    GNU General Public License version 2 or later; see LICENSE
- */
-
-namespace Joomla\Application\Exception;
-
-/**
- * Exception thrown when the application can't write to the response body
- *
- * @since  2.0.0
- */
-class UnableToWriteBody extends \DomainException
-{
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:803bbe0133fa265702e06cdc7567d3deac9e720e2b38071b49c85202a5f7445b
+size 416

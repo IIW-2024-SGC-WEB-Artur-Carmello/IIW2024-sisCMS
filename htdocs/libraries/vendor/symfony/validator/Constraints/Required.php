@@ -1,22 +1,3 @@
-<?php
-
-/*
- * This file is part of the Symfony package.
- *
- * (c) Fabien Potencier <fabien@symfony.com>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
-namespace Symfony\Component\Validator\Constraints;
-
-/**
- * @Annotation
- * @Target({"ANNOTATION"})
- *
- * @author Bernhard Schussek <bschussek@gmail.com>
- */
-class Required extends Existence
-{
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:4461181db1c16a192a3bbdad237eaa87e61c3f21d11832ff9519fa6f4f9d78cb
+size 431

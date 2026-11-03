@@ -1,18 +1,3 @@
-<?php
-
-/**
- * nistb233
- *
- * PHP version 5 and 7
- *
- * @author    Jim Wigginton <terrafrost@php.net>
- * @copyright 2017 Jim Wigginton
- * @license   http://www.opensource.org/licenses/mit-license.html  MIT License
- * @link      http://pear.php.net/package/Math_BigInteger
- */
-
-namespace phpseclib3\Crypt\EC\Curves;
-
-final class nistb233 extends sect233r1
-{
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:601b1a83d293028b8e4ed17fb4a3bcc25184d0e49182e359308fed94fb32de95
+size 358

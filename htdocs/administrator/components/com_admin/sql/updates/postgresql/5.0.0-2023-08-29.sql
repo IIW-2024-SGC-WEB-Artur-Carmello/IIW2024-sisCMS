@@ -1,14 +1,3 @@
-ALTER TABLE "#__guidedtours" ADD COLUMN "uid" varchar(255) DEFAULT '' NOT NULL /** CAN FAIL **/;
-CREATE INDEX "#__guidedtours_idx_uid" ON "#__guidedtours" ("uid") /** CAN FAIL **/;
-
-UPDATE "#__guidedtours" SET "uid" = 'joomla-guidedtours' WHERE "title" = 'COM_GUIDEDTOURS_TOUR_GUIDEDTOURS_TITLE';
-UPDATE "#__guidedtours" SET "uid" = 'joomla-guidedtoursteps' WHERE "title" = 'COM_GUIDEDTOURS_TOUR_GUIDEDTOURSTEPS_TITLE';
-UPDATE "#__guidedtours" SET "uid" = 'joomla-articles'  WHERE "title" = 'COM_GUIDEDTOURS_TOUR_ARTICLES_TITLE';
-UPDATE "#__guidedtours" SET "uid" = 'joomla-categories' WHERE "title" = 'COM_GUIDEDTOURS_TOUR_CATEGORIES_TITLE';
-UPDATE "#__guidedtours" SET "uid" = 'joomla-menus' WHERE "title" = 'COM_GUIDEDTOURS_TOUR_MENUS_TITLE';
-UPDATE "#__guidedtours" SET "uid" = 'joomla-tags' WHERE "title" = 'COM_GUIDEDTOURS_TOUR_TAGS_TITLE';
-UPDATE "#__guidedtours" SET "uid" = 'joomla-banners' WHERE "title" = 'COM_GUIDEDTOURS_TOUR_BANNERS_TITLE';
-UPDATE "#__guidedtours" SET "uid" = 'joomla-contacts' WHERE "title" = 'COM_GUIDEDTOURS_TOUR_CONTACTS_TITLE';
-UPDATE "#__guidedtours" SET "uid" = 'joomla-newsfeeds' WHERE "title" = 'COM_GUIDEDTOURS_TOUR_NEWSFEEDS_TITLE';
-UPDATE "#__guidedtours" SET "uid" = 'joomla-smartsearch' WHERE "title" = 'COM_GUIDEDTOURS_TOUR_SMARTSEARCH_TITLE';
-UPDATE "#__guidedtours" SET "uid" = 'joomla-users' WHERE "title" = 'COM_GUIDEDTOURS_TOUR_USERS_TITLE';
+version https://git-lfs.github.com/spec/v1
+oid sha256:3c8fedf258a397a3465ebc9c2b672d55d20e83e4198c0b19047ebe487267964d
+size 1392

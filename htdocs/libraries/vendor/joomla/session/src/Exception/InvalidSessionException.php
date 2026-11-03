@@ -1,19 +1,3 @@
-<?php
-
-/**
- * Part of the Joomla Framework Session Package
- *
- * @copyright  Copyright (C) 2005 - 2021 Open Source Matters, Inc. All rights reserved.
- * @license    GNU General Public License version 2 or later; see LICENSE
- */
-
-namespace Joomla\Session\Exception;
-
-/**
- * Exception thrown when a session validator fails
- *
- * @since  2.0.0
- */
-class InvalidSessionException extends \RuntimeException
-{
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:c1a83217a6151dd52fbbf18ea2157cf7c14c52911ac0a18d3770e905cb092d8b
+size 405

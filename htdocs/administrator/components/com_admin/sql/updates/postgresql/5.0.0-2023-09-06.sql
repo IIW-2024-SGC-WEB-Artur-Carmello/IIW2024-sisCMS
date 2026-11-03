@@ -1,5 +1,3 @@
-UPDATE "#__scheduler_tasks" SET "title" = 'Delete Action Logs' WHERE "type" = 'delete.actionlogs' AND "title" = 'DeleteActionLogs';
-UPDATE "#__scheduler_tasks" SET "title" = 'Privacy Consent' WHERE "type" = 'privacy.consent' AND "title" = 'PrivacyConsent';
-UPDATE "#__scheduler_tasks" SET "title" = 'Rotate Logs' WHERE "type" = 'rotation.logs' AND "title" = 'RotateLogs';
-UPDATE "#__scheduler_tasks" SET "title" = 'Session GC' WHERE "type" = 'session.gc' AND "title" = 'SessionGC';
-UPDATE "#__scheduler_tasks" SET "title" = 'Update Notification' WHERE "type" = 'update.notification' AND "title" = 'UpdateNotification';
+version https://git-lfs.github.com/spec/v1
+oid sha256:8d630e1503e20ed45c4b96f8d204214c3125b24e9ce31116e889bf5733412c16
+size 619

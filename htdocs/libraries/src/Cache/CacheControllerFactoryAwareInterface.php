@@ -1,33 +1,3 @@
-<?php
-
-/**
- * Joomla! Content Management System
- *
- * @copyright  (C) 2022 Open Source Matters, Inc. <https://www.joomla.org>
- * @license    GNU General Public License version 2 or later; see LICENSE.txt
- */
-
-namespace Joomla\CMS\Cache;
-
-// phpcs:disable PSR1.Files.SideEffects
-\defined('_JEXEC') or die;
-// phpcs:enable PSR1.Files.SideEffects
-
-/**
- * Interface to be implemented by classes depending on a cache controller factory.
- *
- * @since  4.2.0
- */
-interface CacheControllerFactoryAwareInterface
-{
-    /**
-     * Set the cache controller factory to use.
-     *
-     * @param   CacheControllerFactoryInterface  $factory  The cache controller factory to use.
-     *
-     * @return  void
-     *
-     * @since   4.2.0
-     */
-    public function setCacheControllerFactory(CacheControllerFactoryInterface $factory): void;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:3f17d59e30d49f3a9d6204bac0123e50f50f0b0a6ff2c747ad7126598358d9a4
+size 826

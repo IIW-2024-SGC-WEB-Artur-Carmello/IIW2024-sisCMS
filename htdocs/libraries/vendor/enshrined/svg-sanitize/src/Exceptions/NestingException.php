@@ -1,36 +1,3 @@
-<?php
-namespace enshrined\svgSanitize\Exceptions;
-
-use Exception;
-
-class NestingException extends \Exception
-{
-    /**
-     * @var \DOMElement
-     */
-    protected $element;
-
-    /**
-     * NestingException constructor.
-     *
-     * @param string           $message
-     * @param int              $code
-     * @param Exception|null   $previous
-     * @param \DOMElement|null $element
-     */
-    public function __construct($message = "", $code = 0, ?Exception $previous = null, ?\DOMElement $element = null)
-    {
-        $this->element = $element;
-        parent::__construct($message, $code, $previous);
-    }
-
-    /**
-     * Get the element that caused the exception.
-     *
-     * @return \DOMElement
-     */
-    public function getElement()
-    {
-        return $this->element;
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:8e68e56b19b0ac4fd120588b42e1f3512603e25abc6e11314382f9394b3b9b5e
+size 794

@@ -1,15 +1,3 @@
-{
-  "$schema": "https://developer.joomla.org/schemas/json-schema/web_assets.json",
-  "name": "plg_behaviour_compat",
-  "version": "5.0.0",
-  "description": "Joomla CMS Removed Assets b/c entries, the entries are only placeholders without functionality.",
-  "license": "GPL-2.0-or-later",
-  "assets": [
-    {
-      "name": "com_scheduler.admin-view-select-task-css",
-      "type": "style",
-      "deprecated": true,
-      "uri": ""
-    }
-  ]
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:bc8d50d86ae3e5cb0c6cb83aa458188247b3067c06a21d81de3ad2ccefb7fefe
+size 443

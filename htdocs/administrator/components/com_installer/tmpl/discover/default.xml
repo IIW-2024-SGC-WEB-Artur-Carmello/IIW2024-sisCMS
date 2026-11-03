@@ -1,22 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<metadata>
-	<layout title="COM_INSTALLER_DISCOVER_VIEW_DEFAULT_TITLE">
-		<message>
-			<![CDATA[COM_INSTALLER_DISCOVER_VIEW_DEFAULT_DESC]]>
-		</message>
-	</layout>
-	<fields name="params">
-		<fieldset name="basic" label="JOPTIONS">
-			<field
-				name="ajax-badge"
-				type="radio"
-				label="COM_INSTALLER_DISCOVER_VIEW_DISPLAY_BADGE"
-				layout="joomla.form.field.radio.switcher"
-				default=""
-				>
-				<option value="">JHIDE</option>
-				<option value="index.php?option=com_installer&amp;task=discover.getMenuBadgeData&amp;format=json">JSHOW</option>
-			</field>
-		</fieldset>
-	</fields>
-</metadata>
+version https://git-lfs.github.com/spec/v1
+oid sha256:ffd2d12bc6991ab6633f21e7c08050ce2bc2d062aff766d8ec9a65fa488672b1
+size 641

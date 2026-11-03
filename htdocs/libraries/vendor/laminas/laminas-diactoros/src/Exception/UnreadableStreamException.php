@@ -1,30 +1,3 @@
-<?php
-
-declare(strict_types=1);
-
-namespace Laminas\Diactoros\Exception;
-
-use RuntimeException;
-
-class UnreadableStreamException extends RuntimeException implements ExceptionInterface
-{
-    public static function dueToConfiguration(): self
-    {
-        return new self('Stream is not readable');
-    }
-
-    public static function dueToMissingResource(): self
-    {
-        return new self('No resource available; cannot read');
-    }
-
-    public static function dueToPhpError(): self
-    {
-        return new self('Error reading stream');
-    }
-
-    public static function forCallbackStream(): self
-    {
-        return new self('Callback streams cannot read');
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:a54e894047f99a77dd42d36ac37958e06e7f43394f2b0b50c5343e7f7c589d08
+size 670

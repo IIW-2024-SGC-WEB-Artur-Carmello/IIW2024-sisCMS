@@ -1,36 +1,3 @@
-<?php
-
-/**
- * DSAPrivateKey
- *
- * PHP version 5
- *
- * @author    Jim Wigginton <terrafrost@php.net>
- * @copyright 2016 Jim Wigginton
- * @license   http://www.opensource.org/licenses/mit-license.html  MIT License
- * @link      http://phpseclib.sourceforge.net
- */
-
-namespace phpseclib3\File\ASN1\Maps;
-
-use phpseclib3\File\ASN1;
-
-/**
- * DSAPrivateKey
- *
- * @author  Jim Wigginton <terrafrost@php.net>
- */
-abstract class DSAPrivateKey
-{
-    const MAP = [
-        'type' => ASN1::TYPE_SEQUENCE,
-        'children' => [
-            'version' => ['type' => ASN1::TYPE_INTEGER],
-            'p' => ['type' => ASN1::TYPE_INTEGER],
-            'q' => ['type' => ASN1::TYPE_INTEGER],
-            'g' => ['type' => ASN1::TYPE_INTEGER],
-            'y' => ['type' => ASN1::TYPE_INTEGER],
-            'x' => ['type' => ASN1::TYPE_INTEGER]
-        ]
-    ];
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:026e2dc0f35514f7554b72335430b54c22f5bfb7696c290140955acafa72748c
+size 846

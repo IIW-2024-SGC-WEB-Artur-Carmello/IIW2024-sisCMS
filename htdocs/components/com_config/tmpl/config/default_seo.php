@@ -1,33 +1,3 @@
-<?php
-
-/**
- * @package     Joomla.Site
- * @subpackage  com_config
- *
- * @copyright   (C) 2013 Open Source Matters, Inc. <https://www.joomla.org>
- * @license     GNU General Public License version 2 or later; see LICENSE.txt
- */
-
-defined('_JEXEC') or die;
-
-use Joomla\CMS\Language\Text;
-
-/** @var \Joomla\Component\Config\Site\View\Config\HtmlView $this */
-?>
-<fieldset>
-
-    <legend><?php echo Text::_('COM_CONFIG_SEO_SETTINGS'); ?></legend>
-
-    <?php foreach ($this->form->getFieldset('seo') as $field) : ?>
-        <div class="mb-3">
-            <?php echo $field->label; ?>
-            <?php echo $field->input; ?>
-            <?php if ($field->description) : ?>
-                <div class="form-text hide-aware-inline-help d-none" id="<?php echo $field->id ?>-desc">
-                    <?php echo Text::_($field->description) ?>
-                </div>
-            <?php endif; ?>
-        </div>
-    <?php endforeach; ?>
-
-</fieldset>
+version https://git-lfs.github.com/spec/v1
+oid sha256:a9b66bacb77958379a2f18b24cc56faf0835b2f475ebd1a5a70df16b89f7242f
+size 939

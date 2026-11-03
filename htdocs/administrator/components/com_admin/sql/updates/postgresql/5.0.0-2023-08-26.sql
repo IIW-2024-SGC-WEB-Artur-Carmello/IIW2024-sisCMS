@@ -1,7 +1,3 @@
--- --------------------------------------------------------
--- The following INSERT statement has been modified to insert
--- this core plugin with locked=1.
--- See https://github.com/joomla/joomla-cms/pull/45821 for details.
---
-INSERT INTO "#__extensions" ("package_id", "name", "type", "element", "folder", "client_id", "enabled", "access", "protected", "locked", "manifest_cache", "params", "custom_data", "ordering", "state") VALUES
-(0, 'plg_task_globalcheckin', 'plugin', 'globalcheckin', 'task', 0, 1, 1, 0, 1, '', '{}', '', 5, 0);
+version https://git-lfs.github.com/spec/v1
+oid sha256:d9b81cc23bc349b2eacd1aab5657390d42fda157f5e69c1fb7eda753648d6f7b
+size 544

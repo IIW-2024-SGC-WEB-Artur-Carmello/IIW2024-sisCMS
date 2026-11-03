@@ -1,31 +1,3 @@
-<?php
-
-/**
- * @package     Joomla.Plugin
- * @subpackage  Fields.Usergrouplist
- *
- * @copyright   (C) 2017 Open Source Matters, Inc. <https://www.joomla.org>
- * @license     GNU General Public License version 2 or later; see LICENSE.txt
- */
-
-defined('_JEXEC') or die;
-
-use Joomla\Component\Users\Administrator\Helper\UsersHelper;
-
-$value = $field->value;
-
-if ($value == '') {
-    return;
-}
-
-$value  = (array) $value;
-$texts  = [];
-$groups = UsersHelper::getGroups();
-
-foreach ($groups as $group) {
-    if (in_array($group->value, $value)) {
-        $texts[] = htmlentities(trim($group->text, '- '));
-    }
-}
-
-echo htmlentities(implode(', ', $texts));
+version https://git-lfs.github.com/spec/v1
+oid sha256:a7376d70a569ccafdcb83314a5a9f055d633865ae14401b3b1fd7c318c5d3129
+size 650

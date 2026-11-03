@@ -1,30 +1,3 @@
-<?php
-
-declare(strict_types=1);
-
-namespace CBOR\OtherObject;
-
-use CBOR\OtherObject as Base;
-
-final class BreakObject extends Base
-{
-    public function __construct()
-    {
-        parent::__construct(self::OBJECT_BREAK, null);
-    }
-
-    public static function create(): self
-    {
-        return new self();
-    }
-
-    public static function supportedAdditionalInformation(): array
-    {
-        return [self::OBJECT_BREAK];
-    }
-
-    public static function createFromLoadedData(int $additionalInformation, ?string $data): Base
-    {
-        return new self();
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:646a00ecb477768832e7326e9213d3400a48c519afb514b51295060fde2997eb
+size 571

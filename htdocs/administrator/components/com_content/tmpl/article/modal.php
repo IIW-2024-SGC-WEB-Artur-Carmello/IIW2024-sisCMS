@@ -1,21 +1,3 @@
-<?php
-
-/**
- * @package     Joomla.Administrator
- * @subpackage  com_content
- *
- * @copyright   (C) 2013 Open Source Matters, Inc. <https://www.joomla.org>
- * @license     GNU General Public License version 2 or later; see LICENSE.txt
- */
-
-defined('_JEXEC') or die;
-
-/** @var \Joomla\Component\Content\Administrator\View\Article\HtmlView $this */
-?>
-<div class="subhead noshadow mb-3">
-    <?php echo $this->getDocument()->getToolbar('toolbar')->render(); ?>
-</div>
-<div class="container-popup">
-    <?php $this->setLayout('edit'); ?>
-    <?php echo $this->loadTemplate(); ?>
-</div>
+version https://git-lfs.github.com/spec/v1
+oid sha256:4c1cb8b1dbe13a9dcf4e8c5ce3238876a173eaddaac436855e6de1faf72d995a
+size 582

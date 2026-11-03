@@ -1,18 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<form>
-	<fields name="webauthn" addfieldprefix="Joomla\Plugin\System\Webauthn\Field">
-		<fieldset name="webauthn"
-			label="PLG_SYSTEM_WEBAUTHN_HEADER"
-		>
-			<field
-				name="webauthn"
-				type="webauthn"
-				label="PLG_SYSTEM_WEBAUTHN_FIELD_LABEL"
-				description="PLG_SYSTEM_WEBAUTHN_FIELD_DESC"
-				required="false"
-				readonly="false"
-				default=""
-			/>
-		</fieldset>
-	</fields>
-</form>
+version https://git-lfs.github.com/spec/v1
+oid sha256:71a2c3d09713746ff50ef5ba0d198373a8b9428732e2f2db64dcfd9adebbbbcf
+size 434

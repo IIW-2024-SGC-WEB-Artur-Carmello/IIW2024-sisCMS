@@ -1,5 +1,3 @@
-{
-    "old_version": "Старая версия",
-    "new_version": "Новая версия",
-    "differences": "Различия"
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:75fa14c0717f7c642e52af236330c0744bf0958cd56f90ee70198528698be4fd
+size 136

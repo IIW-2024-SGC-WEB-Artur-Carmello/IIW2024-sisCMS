@@ -1,18 +1,3 @@
-<?php
-
-declare(strict_types=1);
-
-namespace Jose\Component\Signature\Algorithm;
-
-final class RS256 extends RSAPKCS1
-{
-    public function name(): string
-    {
-        return 'RS256';
-    }
-
-    protected function getAlgorithm(): string
-    {
-        return 'sha256';
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:185a0e2bc03b1c4dcd4c6eee742a48814db6518939ffdee35658d20acc6b5aa6
+size 274

@@ -1,7 +1,3 @@
-import { Lang, Sa11y } from 'sa11y';
-import Sa11yLang from 'sa11y-lang';
-
-Lang.addI18n(Sa11yLang.strings);
-window.addEventListener('load', () => {
-  new Sa11y(Joomla.getOptions('jooa11yOptions', {}));
-});
+version https://git-lfs.github.com/spec/v1
+oid sha256:7f15b79db4037cc53478cbaaa71131e04d067d1094872e86e035c46c745a8cce
+size 205

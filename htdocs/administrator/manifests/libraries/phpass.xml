@@ -1,17 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<extension type="library" method="upgrade">
-	<name>lib_phpass</name>
-	<libraryname>phpass</libraryname>
-	<description>LIB_PHPASS_XML_DESCRIPTION</description>
-	<creationDate>2004-01</creationDate>
-	<author>Solar Designer</author>
-	<authorEmail>solar@openwall.com</authorEmail>
-	<authorUrl>https://www.openwall.com/phpass/</authorUrl>
-	<license>PD / GWC</license>
-	<version>0.5.1</version>
-	<packagerurl>https://www.openwall.com/phpass/</packagerurl>
-
-	<files folder="phpass">
-		<file>PasswordHash.php</file>
-	</files>
-</extension>
+version https://git-lfs.github.com/spec/v1
+oid sha256:67d07f81740cd50d615807b2719c3fd091d3103b0db92bd28c150c3f8f92ce24
+size 570

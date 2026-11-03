@@ -1,21 +1,3 @@
-<?php
-
-/*
- * This file is part of the Symfony package.
- *
- * (c) Fabien Potencier <fabien@symfony.com>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
-namespace Symfony\Contracts\HttpClient\Exception;
-
-/**
- * When a 5xx response is returned.
- *
- * @author Nicolas Grekas <p@tchwork.com>
- */
-interface ServerExceptionInterface extends HttpExceptionInterface
-{
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:7bc5d3f61d8fdaef69f296682476bdc0c059975ddedb54321994b885951a76eb
+size 448

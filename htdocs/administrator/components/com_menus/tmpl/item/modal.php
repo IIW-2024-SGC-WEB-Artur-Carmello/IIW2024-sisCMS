@@ -1,21 +1,3 @@
-<?php
-
-/**
- * @package     Joomla.Administrator
- * @subpackage  com_menus
- *
- * @copyright   (C) 2016 Open Source Matters, Inc. <https://www.joomla.org>
- * @license     GNU General Public License version 2 or later; see LICENSE.txt
- */
-
-defined('_JEXEC') or die;
-
-/** @var \Joomla\Component\Menus\Administrator\View\Item\HtmlView $this */
-?>
-<div class="subhead noshadow mb-3">
-    <?php echo $this->getDocument()->getToolbar('toolbar')->render(); ?>
-</div>
-<div class="container-popup">
-    <?php $this->setLayout('edit'); ?>
-    <?php echo $this->loadTemplate(); ?>
-</div>
+version https://git-lfs.github.com/spec/v1
+oid sha256:b7e8bb8a47ad91fb3773c3122a467de3a62cea19015732cceb3f8b3cd31e4705
+size 575

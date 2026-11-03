@@ -1,20 +1,3 @@
-<?php
-declare(strict_types=1);
-
-namespace Lcobucci\JWT;
-
-use Lcobucci\JWT\Validation\Constraint;
-use Lcobucci\JWT\Validation\NoConstraintsGiven;
-use Lcobucci\JWT\Validation\RequiredConstraintsViolated;
-
-interface Validator
-{
-    /**
-     * @throws RequiredConstraintsViolated
-     * @throws NoConstraintsGiven
-     */
-    public function assert(Token $token, Constraint ...$constraints): void;
-
-    /** @throws NoConstraintsGiven */
-    public function validate(Token $token, Constraint ...$constraints): bool;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:37ddc047b0d76f21c2416b7c867dee0acb16c58f4499f8c34b2b2f126d155c15
+size 513

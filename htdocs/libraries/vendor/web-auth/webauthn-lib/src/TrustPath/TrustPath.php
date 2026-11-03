@@ -1,15 +1,3 @@
-<?php
-
-declare(strict_types=1);
-
-namespace Webauthn\TrustPath;
-
-use JsonSerializable;
-
-interface TrustPath extends JsonSerializable
-{
-    /**
-     * @param array<string, mixed> $data
-     */
-    public static function createFromArray(array $data): static;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:e94d0b47745a14a4d7409d099e80a5a548d6170be629afb652afdfef3e2f8234
+size 258

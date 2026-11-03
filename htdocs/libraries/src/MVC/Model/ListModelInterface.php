@@ -1,33 +1,3 @@
-<?php
-
-/**
- * Joomla! Content Management System
- *
- * @copyright  (C) 2019 Open Source Matters, Inc. <https://www.joomla.org>
- * @license    GNU General Public License version 2 or later; see LICENSE.txt
- */
-
-namespace Joomla\CMS\MVC\Model;
-
-// phpcs:disable PSR1.Files.SideEffects
-\defined('_JEXEC') or die;
-// phpcs:enable PSR1.Files.SideEffects
-
-/**
- * Interface for a list model.
- *
- * @since  4.0.0
- */
-interface ListModelInterface
-{
-    /**
-     * Method to get an array of data items.
-     *
-     * @return  mixed  An array of data items
-     *
-     * @since   4.0.0
-     *
-     * @throws \Exception
-     */
-    public function getItems();
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:a1e9e980901802df4088021f1c26266b599d2c24100e07f0509d0d20c63f20e2
+size 649

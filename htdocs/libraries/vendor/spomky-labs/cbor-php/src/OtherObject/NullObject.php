@@ -1,36 +1,3 @@
-<?php
-
-declare(strict_types=1);
-
-namespace CBOR\OtherObject;
-
-use CBOR\Normalizable;
-use CBOR\OtherObject as Base;
-
-final class NullObject extends Base implements Normalizable
-{
-    public function __construct()
-    {
-        parent::__construct(self::OBJECT_NULL, null);
-    }
-
-    public static function create(): self
-    {
-        return new self();
-    }
-
-    public static function supportedAdditionalInformation(): array
-    {
-        return [self::OBJECT_NULL];
-    }
-
-    public static function createFromLoadedData(int $additionalInformation, ?string $data): Base
-    {
-        return new self();
-    }
-
-    public function normalize(): ?string
-    {
-        return null;
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:0a77b04cfefbf5d52a55c88e0f13c435e92b891a53af5d9ca0de2c2c9d39c251
+size 690

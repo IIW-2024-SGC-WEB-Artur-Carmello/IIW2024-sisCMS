@@ -1,33 +1,3 @@
-<?php
-
-/**
- * Joomla! Content Management System
- *
- * @copyright  (C) 2022 Open Source Matters, Inc. <https://www.joomla.org>
- * @license    GNU General Public License version 2 or later; see LICENSE.txt
- */
-
-namespace Joomla\CMS\Router;
-
-// phpcs:disable PSR1.Files.SideEffects
-\defined('_JEXEC') or die;
-// phpcs:enable PSR1.Files.SideEffects
-
-/**
- * Interface for site router aware classes.
- *
- * @since  4.2.0
- */
-interface SiteRouterAwareInterface
-{
-    /**
-     * Set the router to use.
-     *
-     * @param   SiteRouter  $router  The router to use.
-     *
-     * @return  void
-     *
-     * @since   4.2.0
-     */
-    public function setSiteRouter(SiteRouter $router): void;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:0ba64b7011a2f8c8750d51195ec1e690fc2a0c8b070827b189707f1406679d8f
+size 684

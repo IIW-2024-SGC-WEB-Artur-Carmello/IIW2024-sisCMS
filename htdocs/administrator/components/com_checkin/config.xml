@@ -1,27 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<config>
-	<help key="Check-in:_Options"/>
-	<fieldset
-		name="permissions"
-		label="JCONFIG_PERMISSIONS_LABEL"
-		>
-
-		<field
-			name="rules"
-			type="rules"
-			label="JCONFIG_PERMISSIONS_LABEL"
-			filter="rules"
-			validate="rules"
-			component="com_checkin"
-			section="component">
-			<action
-				name="core.admin"
-				title="JACTION_ADMIN"
-				/>
-			<action
-				name="core.manage"
-				title="JACTION_MANAGE"
-				/>
-		</field>
-	</fieldset>
-</config>
+version https://git-lfs.github.com/spec/v1
+oid sha256:2a5f3c81caa04cfe37c93b2433c211e2a01f2168b776463ec5d11a48d9502e46
+size 489

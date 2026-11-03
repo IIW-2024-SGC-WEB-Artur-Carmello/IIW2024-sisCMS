@@ -1,18 +1,3 @@
-<?php
-
-/**
- * @package     Joomla.Site
- * @subpackage  mod_whosonline
- *
- * @copyright   (C) 2018 Open Source Matters, Inc. <https://www.joomla.org>
- * @license     GNU General Public License version 2 or later; see LICENSE.txt
- */
-
-defined('_JEXEC') or die;
-
-use Joomla\CMS\Language\Text;
-
-?>
-<div class="mod-whosonline-disabled">
-    <p><?php echo Text::_('MOD_WHOSONLINE_NO_SESSION_METADATA'); ?></p>
-</div>
+version https://git-lfs.github.com/spec/v1
+oid sha256:93bf2963c89715db5e10d6d8e80bb50981696cc361b5a660809ca8eca9f6ab32
+size 411

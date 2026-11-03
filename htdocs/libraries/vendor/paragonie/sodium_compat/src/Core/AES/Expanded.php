@@ -1,14 +1,3 @@
-<?php
-
-if (class_exists('ParagonIE_Sodium_Core_AES_Expanded', false)) {
-    return;
-}
-
-/**
- * @internal This should only be used by sodium_compat
- */
-class ParagonIE_Sodium_Core_AES_Expanded extends ParagonIE_Sodium_Core_AES_KeySchedule
-{
-    /** @var bool $expanded */
-    protected $expanded = true;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:d981af4c4ac849d885583e577cab12205a8a2b4ef0026a2cf51823f23112daf7
+size 304

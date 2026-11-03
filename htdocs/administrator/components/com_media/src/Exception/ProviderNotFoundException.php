@@ -1,24 +1,3 @@
-<?php
-
-/**
- * @package     Joomla.Administrator
- * @subpackage  com_media
- *
- * @copyright   (C) 2024 Open Source Matters, Inc. <https://www.joomla.org>
- * @license     GNU General Public License version 2 or later; see LICENSE.txt
- */
-
-namespace Joomla\Component\Media\Administrator\Exception;
-
-// phpcs:disable PSR1.Files.SideEffects
-\defined('_JEXEC') or die;
-// phpcs:enable PSR1.Files.SideEffects
-
-/**
- * Provider not found exception.
- *
- * @since  5.2.2
- */
-class ProviderNotFoundException extends \Exception
-{
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:38afd49f880d500d3239393108c7e35b2e6d24b7a91ba5a2685a8dbe834a0274
+size 519

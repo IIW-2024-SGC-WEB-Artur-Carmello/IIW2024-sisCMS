@@ -1,17 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<form>
-	<fieldset name="default">
-		<field
-			name="request_type"
-			type="list"
-			label="COM_PRIVACY_FIELD_REQUEST_TYPE_LABEL"
-			description="COM_PRIVACY_FIELD_REQUEST_TYPE_DESC"
-			filter="string"
-			default="export"
-			validate="options"
-			>
-			<option value="export">COM_PRIVACY_REQUEST_TYPE_EXPORT</option>
-			<option value="remove">COM_PRIVACY_REQUEST_TYPE_REMOVE</option>
-		</field>
-	</fieldset>
-</form>
+version https://git-lfs.github.com/spec/v1
+oid sha256:577bb2ce3609cb8350a62b34d57059e9547c0d64a39129715cf488815bd04cec
+size 453

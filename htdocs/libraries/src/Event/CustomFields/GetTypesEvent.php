@@ -1,30 +1,3 @@
-<?php
-
-/**
- * Joomla! Content Management System
- *
- * @copyright  (C) 2023 Open Source Matters, Inc. <https://www.joomla.org>
- * @license    GNU General Public License version 2 or later; see LICENSE.txt
- */
-
-namespace Joomla\CMS\Event\CustomFields;
-
-use Joomla\CMS\Event\AbstractImmutableEvent;
-use Joomla\CMS\Event\Result\ResultAware;
-use Joomla\CMS\Event\Result\ResultAwareInterface;
-use Joomla\CMS\Event\Result\ResultTypeArrayAware;
-
-// phpcs:disable PSR1.Files.SideEffects
-\defined('_JEXEC') or die;
-// phpcs:enable PSR1.Files.SideEffects
-
-/**
- * Class for CustomFields events
- *
- * @since  5.0.0
- */
-class GetTypesEvent extends AbstractImmutableEvent implements ResultAwareInterface
-{
-    use ResultAware;
-    use ResultTypeArrayAware;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:d04dbd16ad56eadc141eb794a493413001f8391939a1bb47736e8ca77c4e0a24
+size 744

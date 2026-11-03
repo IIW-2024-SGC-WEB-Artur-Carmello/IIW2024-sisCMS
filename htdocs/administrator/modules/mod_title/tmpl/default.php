@@ -1,19 +1,3 @@
-<?php
-
-/**
- * @package     Joomla.Administrator
- * @subpackage  mod_title
- *
- * @copyright   (C) 2010 Open Source Matters, Inc. <https://www.joomla.org>
- * @license     GNU General Public License version 2 or later; see LICENSE.txt
- */
-
-defined('_JEXEC') or die;
-?>
-<?php if (!empty($title)) : ?>
-<div class="d-flex align-items-center">
-    <div class="container-title">
-        <?php echo $title; ?>
-    </div>
-</div>
-<?php endif; ?>
+version https://git-lfs.github.com/spec/v1
+oid sha256:4456dcfd634a19e234cd93bfcb471213f1eb0cbf0f734db04808b217f2563c41
+size 435

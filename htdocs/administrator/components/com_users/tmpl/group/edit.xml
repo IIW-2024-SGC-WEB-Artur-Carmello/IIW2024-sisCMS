@@ -1,8 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<metadata>
-	<layout title="COM_USERS_GROUP_VIEW_EDIT_TITLE">
-		<message>
-			<![CDATA[COM_USERS_GROUP_VIEW_EDIT_DESC]]>
-		</message>
-	</layout>
-</metadata>
+version https://git-lfs.github.com/spec/v1
+oid sha256:2d8949b4403ce27a3e530df5ad455ed9765824aa45e1d8fab922a1a8b9fc1528
+size 194

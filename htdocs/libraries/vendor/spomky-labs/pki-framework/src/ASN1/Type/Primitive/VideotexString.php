@@ -1,32 +1,3 @@
-<?php
-
-declare(strict_types=1);
-
-namespace SpomkyLabs\Pki\ASN1\Type\Primitive;
-
-use SpomkyLabs\Pki\ASN1\Type\PrimitiveString;
-use SpomkyLabs\Pki\ASN1\Type\UniversalClass;
-
-/**
- * Implements *VideotexString* type.
- */
-final class VideotexString extends PrimitiveString
-{
-    use UniversalClass;
-
-    private function __construct(string $string)
-    {
-        parent::__construct(self::TYPE_VIDEOTEX_STRING, $string);
-    }
-
-    public static function create(string $string): self
-    {
-        return new self($string);
-    }
-
-    protected function validateString(string $string): bool
-    {
-        // allow everything
-        return true;
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:46c5f753be7e82ec237369e1d344a1d7595b732efd60812729705b7134eb57cc
+size 649

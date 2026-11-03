@@ -1,21 +1,3 @@
-<?php
-
-/**
- * @package     Joomla.Site
- * @subpackage  Layout
- *
- * @copyright   (C) 2013 Open Source Matters, Inc. <https://www.joomla.org>
- * @license     GNU General Public License version 2 or later; see LICENSE.txt
- */
-
-defined('_JEXEC') or die;
-
-use Joomla\CMS\Layout\LayoutHelper;
-
-// Strip extension if given
-$icon = empty($displayData['icon']) ? 'dot-circle' : preg_replace('#\.[^ .]*$#', '', $displayData['icon']);
-?>
-<h1 class="page-title">
-    <?php echo LayoutHelper::render('joomla.icon.iconclass', ['icon' => $icon]); ?>
-    <?php echo $displayData['title']; ?>
-</h1>
+version https://git-lfs.github.com/spec/v1
+oid sha256:2bff62eb4cc85174b621bc5a4ca396db10e586b9ec858206922e451bc493c60c
+size 583

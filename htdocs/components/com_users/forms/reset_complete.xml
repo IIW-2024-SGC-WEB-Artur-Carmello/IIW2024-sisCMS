@@ -1,33 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<form>
-	<fieldset name="default" label="COM_USERS_RESET_COMPLETE_LABEL">
-		<field
-			name="password1"
-			type="password"
-			label="COM_USERS_FIELD_RESET_PASSWORD1_LABEL"
-			required="true"
-			autocomplete="new-password"
-			class="validate-password"
-			field="password2"
-			size="30"
-			validate="password"
-			strengthmeter="true"
-			rules="true"
-			force="on"
-			filter="raw"
-		/>
-		<field
-			name="password2"
-			type="password"
-			label="COM_USERS_FIELD_RESET_PASSWORD2_LABEL"
-			autocomplete="new-password"
-			class="validate-password"
-			field="password1"
-			filter="raw"
-			message="COM_USERS_FIELD_RESET_PASSWORD1_MESSAGE"
-			size="30"
-			validate="equals"
-			required="true"
-		/>
-	</fieldset>
-</form>
+version https://git-lfs.github.com/spec/v1
+oid sha256:7a2452d75fffd144e7985577c02e400f764812427b635e78f9df6a9affa06594
+size 746

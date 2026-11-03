@@ -1,18 +1,3 @@
-<?php
-
-/**
- * nistp224
- *
- * PHP version 5 and 7
- *
- * @author    Jim Wigginton <terrafrost@php.net>
- * @copyright 2017 Jim Wigginton
- * @license   http://www.opensource.org/licenses/mit-license.html  MIT License
- * @link      http://pear.php.net/package/Math_BigInteger
- */
-
-namespace phpseclib3\Crypt\EC\Curves;
-
-final class nistp224 extends secp224r1
-{
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:0c2e38edf0da740f6b1f6be4f20779e6b5ebec4f917857f7abf0ca5b0696095f
+size 358

@@ -1,23 +1,3 @@
-<?php
-
-/**
- * Joomla! Content Management System
- *
- * @copyright  (C) 2023 Open Source Matters, Inc. <https://www.joomla.org>
- * @license    GNU General Public License version 2 or later; see LICENSE.txt
- */
-
-namespace Joomla\CMS\Editor\Exception;
-
-// phpcs:disable PSR1.Files.SideEffects
-\defined('_JEXEC') or die;
-// phpcs:enable PSR1.Files.SideEffects
-
-/**
- * Exception class defining a missing element
- *
- * @since  5.0.0
- */
-class EditorNotFoundException extends \RuntimeException
-{
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:7ab274d41928ae4e8c0847126a4cee38b939707d04d2bd10a997332b0348057a
+size 490

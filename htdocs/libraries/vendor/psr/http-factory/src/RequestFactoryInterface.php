@@ -1,18 +1,3 @@
-<?php
-
-namespace Psr\Http\Message;
-
-interface RequestFactoryInterface
-{
-    /**
-     * Create a new request.
-     *
-     * @param string $method The HTTP method associated with the request.
-     * @param UriInterface|string $uri The URI associated with the request. If
-     *     the value is a string, the factory MUST create a UriInterface
-     *     instance based on it.
-     *
-     * @return RequestInterface
-     */
-    public function createRequest(string $method, $uri): RequestInterface;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:95bb9e09f52d05bf09630cce49abbfdb2282d396ccc3e16e77e3a9f54cd4071f
+size 499

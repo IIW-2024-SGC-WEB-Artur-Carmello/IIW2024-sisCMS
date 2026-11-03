@@ -1,15 +1,3 @@
-<?php
-declare(strict_types=1);
-
-namespace Lcobucci\JWT\Token;
-
-use InvalidArgumentException;
-use Lcobucci\JWT\Exception;
-
-final class UnsupportedHeaderFound extends InvalidArgumentException implements Exception
-{
-    public static function encryption(): self
-    {
-        return new self('Encryption is not supported yet');
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:5dc730107d5274100a2847d9747768edb3a65c6d403171562cdb8941f63fff8e
+size 333

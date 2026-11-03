@@ -1,19 +1,3 @@
-<?php
-
-declare(strict_types=1);
-
-namespace Zend\Diactoros;
-
-use function func_get_args;
-use function Laminas\Diactoros\parseCookieHeader as laminas_parseCookieHeader;
-
-/**
- * @deprecated Use {@see \Laminas\Diactoros\parseCookieHeader} instead
- *
- * @param string $cookieHeader A string cookie header value.
- * @return array<non-empty-string, string> key/value cookie pairs.
- */
-function parseCookieHeader($cookieHeader): array
-{
-    return laminas_parseCookieHeader(...func_get_args());
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:7e1cfe1a953fd2964fed3f6f1b37b1adb63597c0c1ea9e22d19d3b978af10dad
+size 489

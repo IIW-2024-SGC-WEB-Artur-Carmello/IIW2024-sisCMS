@@ -1,16 +1,3 @@
-<?php
-
-/*
- * This file is part of the Symfony package.
- *
- * (c) Fabien Potencier <fabien@symfony.com>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
-if (\PHP_VERSION_ID < 80300) {
-    class SQLite3Exception extends Exception
-    {
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:b0054f6ff0ce2eab047cd5c4cfe0784f94c748e878573b8b3818283650f2137a
+size 328

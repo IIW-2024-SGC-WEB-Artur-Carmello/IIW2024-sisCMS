@@ -1,24 +1,3 @@
-<?php
-
-/**
- * @package     Joomla.Administrator
- * @subpackage  com_media
- *
- * @copyright   (C) 2017 Open Source Matters, Inc. <https://www.joomla.org>
- * @license     GNU General Public License version 2 or later; see LICENSE.txt
- */
-
-namespace Joomla\Component\Media\Administrator\Exception;
-
-// phpcs:disable PSR1.Files.SideEffects
-\defined('_JEXEC') or die;
-// phpcs:enable PSR1.Files.SideEffects
-
-/**
- * Media file not found exception.
- *
- * @since  4.0.0
- */
-class FileNotFoundException extends \Exception
-{
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:c59a98799220cddbb60199515bf2dc6a21c04f405595f5138435e154e4b86da0
+size 517

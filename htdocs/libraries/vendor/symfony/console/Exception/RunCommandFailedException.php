@@ -1,29 +1,3 @@
-<?php
-
-/*
- * This file is part of the Symfony package.
- *
- * (c) Fabien Potencier <fabien@symfony.com>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
-namespace Symfony\Component\Console\Exception;
-
-use Symfony\Component\Console\Messenger\RunCommandContext;
-
-/**
- * @author Kevin Bond <kevinbond@gmail.com>
- */
-final class RunCommandFailedException extends RuntimeException
-{
-    public function __construct(\Throwable|string $exception, public readonly RunCommandContext $context)
-    {
-        parent::__construct(
-            $exception instanceof \Throwable ? $exception->getMessage() : $exception,
-            $exception instanceof \Throwable ? $exception->getCode() : 0,
-            $exception instanceof \Throwable ? $exception : null,
-        );
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:04c78f9834b25af5b98255415b72c7864b633d5e483e9929489e4906f949ceab
+size 849

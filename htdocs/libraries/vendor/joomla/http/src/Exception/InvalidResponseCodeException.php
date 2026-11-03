@@ -1,21 +1,3 @@
-<?php
-
-/**
- * Part of the Joomla Framework Http Package
- *
- * @copyright  Copyright (C) 2005 - 2021 Open Source Matters, Inc. All rights reserved.
- * @license    GNU General Public License version 2 or later; see LICENSE
- */
-
-namespace Joomla\Http\Exception;
-
-use Psr\Http\Client\ClientExceptionInterface;
-
-/**
- * Exception representing an invalid or undefined HTTP response code
- *
- * @since  1.2.0
- */
-class InvalidResponseCodeException extends \UnexpectedValueException implements ClientExceptionInterface
-{
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:a7ed165b408950b70e03388f39d65fa6959b9a3c6718a885d62f220d04ae7b28
+size 513

@@ -1,25 +1,3 @@
-<?php
-
-/*
- * This file is part of the Symfony package.
- *
- * (c) Fabien Potencier <fabien@symfony.com>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
-namespace Symfony\Component\VarDumper\Caster;
-
-/**
- * Represents an uninitialized property.
- *
- * @author Nicolas Grekas <p@tchwork.com>
- */
-class UninitializedStub extends ConstStub
-{
-    public function __construct(\ReflectionProperty $property)
-    {
-        parent::__construct('?'.($property->hasType() ? ' '.$property->getType() : ''), 'Uninitialized property');
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:802f1d40ccc165f7187334ebc88733ae6dfd684739d9c3e04629048c3c23b2a8
+size 615

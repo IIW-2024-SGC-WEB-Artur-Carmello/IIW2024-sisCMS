@@ -1,21 +1,3 @@
-{
-  "$schema": "https://developer.joomla.org/schemas/json-schema/web_assets.json",
-  "name": "plg_system_schedulerunner",
-  "version": "4.0.0",
-  "description": "Joomla CMS",
-  "license": "GPL-2.0-or-later",
-  "assets": [
-    {
-      "name": "plg_system_schedulerunner.run-schedule",
-      "type": "script",
-      "uri": "plg_system_schedulerunner/run-schedule.min.js",
-      "dependencies": [
-        "core"
-      ],
-      "attributes": {
-        "type": "module"
-      },
-      "version": "229d3b"
-    }
-  ]
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:ccac55017fdccc7fbe8735d389d4aab91edf737ffbab5b266968bc76fa3e5347
+size 511

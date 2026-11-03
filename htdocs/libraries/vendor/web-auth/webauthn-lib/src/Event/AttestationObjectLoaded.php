@@ -1,21 +1,3 @@
-<?php
-
-declare(strict_types=1);
-
-namespace Webauthn\Event;
-
-use Webauthn\AttestationStatement\AttestationObject;
-use Webauthn\MetadataService\Event\WebauthnEvent;
-
-class AttestationObjectLoaded implements WebauthnEvent
-{
-    public function __construct(
-        public readonly AttestationObject $attestationObject
-    ) {
-    }
-
-    public static function create(AttestationObject $attestationObject): self
-    {
-        return new self($attestationObject);
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:2a5793f4f2f2fa2cf3170917928f53454af29531cdfec06213bf3f3b066665b9
+size 467

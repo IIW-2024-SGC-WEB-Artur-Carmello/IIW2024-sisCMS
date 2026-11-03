@@ -1,25 +1,3 @@
-<?php
-
-/**
- * Joomla! Content Management System
- *
- * @copyright  (C) 2024 Open Source Matters, Inc. <https://www.joomla.org>
- * @license    GNU General Public License version 2 or later; see LICENSE.txt
- */
-
-namespace Joomla\CMS\Event\User;
-
-// phpcs:disable PSR1.Files.SideEffects
-\defined('_JEXEC') or die;
-// phpcs:enable PSR1.Files.SideEffects
-
-/**
- * Class for User reset event.
- * Example:
- *  new AfterResetCompleteEvent('onEventName', ['subject' => $user]);
- *
- * @since  5.2.0
- */
-class AfterResetCompleteEvent extends AbstractResetEvent
-{
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:ef1024594be434f71edb1bb6df31719dfbd8c26e3312d02fe540a55a070b3d6e
+size 552

@@ -1,24 +1,3 @@
-<?php
-
-/**
- * @package     Joomla.Administrator
- * @subpackage  com_media
- *
- * @copyright   (C) 2024 Open Source Matters, Inc. <https://www.joomla.org>
- * @license     GNU General Public License version 2 or later; see LICENSE.txt
- */
-
-namespace Joomla\Component\Media\Administrator\Exception;
-
-// phpcs:disable PSR1.Files.SideEffects
-\defined('_JEXEC') or die;
-// phpcs:enable PSR1.Files.SideEffects
-
-/**
- * Provider Account not found exception.
- *
- * @since  5.2.2
- */
-class ProviderAccountNotFoundException extends \Exception
-{
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:4f591e5adb84a95d23cc4b3b3bcd112a9f616357b4af09c59c66c13d6cf06656
+size 534

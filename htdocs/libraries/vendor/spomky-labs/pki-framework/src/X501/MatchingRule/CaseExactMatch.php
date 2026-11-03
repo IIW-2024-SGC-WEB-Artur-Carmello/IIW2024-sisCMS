@@ -1,28 +1,3 @@
-<?php
-
-declare(strict_types=1);
-
-namespace SpomkyLabs\Pki\X501\MatchingRule;
-
-use SpomkyLabs\Pki\X501\StringPrep\StringPreparer;
-
-/**
- * Implements 'caseExactMatch' matching rule.
- *
- * @see https://tools.ietf.org/html/rfc4517#section-4.2.4
- */
-final class CaseExactMatch extends StringPrepMatchingRule
-{
-    /**
-     * @param int $stringType ASN.1 string type tag
-     */
-    private function __construct(int $stringType)
-    {
-        parent::__construct(StringPreparer::forStringType($stringType));
-    }
-
-    public static function create(int $stringType): self
-    {
-        return new self($stringType);
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:cda22c590dbcdf8aaad9337d33b1d7cbcc7175e424d1f5dd582144bddc90cf66
+size 618

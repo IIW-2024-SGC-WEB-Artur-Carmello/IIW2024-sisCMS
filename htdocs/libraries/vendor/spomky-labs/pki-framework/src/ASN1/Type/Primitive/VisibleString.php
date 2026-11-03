@@ -1,31 +1,3 @@
-<?php
-
-declare(strict_types=1);
-
-namespace SpomkyLabs\Pki\ASN1\Type\Primitive;
-
-use SpomkyLabs\Pki\ASN1\Type\PrimitiveString;
-use SpomkyLabs\Pki\ASN1\Type\UniversalClass;
-
-/**
- * Implements *VisibleString* type.
- */
-final class VisibleString extends PrimitiveString
-{
-    use UniversalClass;
-
-    private function __construct(string $string)
-    {
-        parent::__construct(self::TYPE_VISIBLE_STRING, $string);
-    }
-
-    public static function create(string $string): self
-    {
-        return new self($string);
-    }
-
-    protected function validateString(string $string): bool
-    {
-        return preg_match('/[^\x20-\x7e]/', $string) !== 1;
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:c9b586db935036723f718d38918e8727e0423d503eb634493bcfcb9eabdb85d5
+size 657

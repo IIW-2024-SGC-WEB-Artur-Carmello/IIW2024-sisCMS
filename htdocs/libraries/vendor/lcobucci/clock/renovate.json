@@ -1,6 +1,3 @@
-{
-  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": [
-    "local>lcobucci/.github:renovate-config"
-  ]
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:fa70e35d5806981713388c5deb13fed0d0460574e28f538a2dbd0c3cefe166e4
+size 134

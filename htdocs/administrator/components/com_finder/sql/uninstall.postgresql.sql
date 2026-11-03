@@ -1,11 +1,3 @@
-DROP TABLE IF EXISTS "#__finder_filters";
-DROP TABLE IF EXISTS "#__finder_links";
-DROP TABLE IF EXISTS "#__finder_links_terms";
-DROP TABLE IF EXISTS "#__finder_logging";
-DROP TABLE IF EXISTS "#__finder_taxonomy";
-DROP TABLE IF EXISTS "#__finder_taxonomy_map";
-DROP TABLE IF EXISTS "#__finder_terms";
-DROP TABLE IF EXISTS "#__finder_terms_common";
-DROP TABLE IF EXISTS "#__finder_tokens";
-DROP TABLE IF EXISTS "#__finder_tokens_aggregate";
-DROP TABLE IF EXISTS "#__finder_types";
+version https://git-lfs.github.com/spec/v1
+oid sha256:0053e0c0c83ded30c6c2a1446db15ddb568112253b579606df00fb9a7c765c41
+size 479

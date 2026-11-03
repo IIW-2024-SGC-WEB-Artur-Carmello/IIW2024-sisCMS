@@ -1,30 +1,3 @@
-<?php
-
-declare(strict_types=1);
-
-namespace Laminas\Diactoros\Exception;
-
-use RuntimeException;
-
-class UnwritableStreamException extends RuntimeException implements ExceptionInterface
-{
-    public static function dueToConfiguration(): self
-    {
-        return new self('Stream is not writable');
-    }
-
-    public static function dueToMissingResource(): self
-    {
-        return new self('No resource available; cannot write');
-    }
-
-    public static function dueToPhpError(): self
-    {
-        return new self('Error writing to stream');
-    }
-
-    public static function forCallbackStream(): self
-    {
-        return new self('Callback streams cannot write');
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:90611d07571bccce9060038d575c8f219ff5ca54bc2a4f57d3f28573e05fba82
+size 675

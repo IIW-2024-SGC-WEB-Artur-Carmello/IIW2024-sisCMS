@@ -1,15 +1,3 @@
-<?php
-
-namespace Psr\Log;
-
-/**
- * This is a simple Logger implementation that other Loggers can inherit from.
- *
- * It simply delegates all log-level-specific methods to the `log` method to
- * reduce boilerplate code that a simple Logger that does the same thing with
- * messages regardless of the error level has to implement.
- */
-abstract class AbstractLogger implements LoggerInterface
-{
-    use LoggerTrait;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:84c69c6cc60fd805eb525daa79bd04a8d0b73e52776e1a0c2a9e666b37b4512e
+size 414

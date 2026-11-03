@@ -1,23 +1,3 @@
-<?php
-
-/**
- * ConnectionClosedException
- *
- * PHP version 5
- *
- * @author    Jim Wigginton <terrafrost@php.net>
- * @copyright 2015 Jim Wigginton
- * @license   http://www.opensource.org/licenses/mit-license.html  MIT License
- * @link      http://phpseclib.sourceforge.net
- */
-
-namespace phpseclib3\Exception;
-
-/**
- * ConnectionClosedException
- *
- * @author  Jim Wigginton <terrafrost@php.net>
- */
-class ConnectionClosedException extends \RuntimeException
-{
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:004705647bc710bfcb7368dbc9e44849b272afed9c4b77d1b6bd64dfe23f5eba
+size 458

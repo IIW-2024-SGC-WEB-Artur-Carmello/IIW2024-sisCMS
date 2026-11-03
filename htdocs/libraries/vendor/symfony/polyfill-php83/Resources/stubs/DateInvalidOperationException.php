@@ -1,16 +1,3 @@
-<?php
-
-/*
- * This file is part of the Symfony package.
- *
- * (c) Fabien Potencier <fabien@symfony.com>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
-if (\PHP_VERSION_ID < 80300) {
-    class DateInvalidOperationException extends DateException
-    {
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:96ef44367f42f7feb3488d29e2ac1f3382647c04a2084d1451ad18043c6b5add
+size 345

@@ -1,24 +1,3 @@
-<?php
-
-/**
- * @package     Joomla.Administrator
- * @subpackage  com_media
- *
- * @copyright   (C) 2017 Open Source Matters, Inc. <https://www.joomla.org>
- * @license     GNU General Public License version 2 or later; see LICENSE.txt
- */
-
-namespace Joomla\Component\Media\Administrator\Exception;
-
-// phpcs:disable PSR1.Files.SideEffects
-\defined('_JEXEC') or die;
-// phpcs:enable PSR1.Files.SideEffects
-
-/**
- * Media invalid path exception.
- *
- * @since  4.0.0
- */
-class InvalidPathException extends \Exception
-{
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:c2082d3d6d5e58e8a47858bd92768d901a926f90b04380f0a27c3080f8ce9da4
+size 514

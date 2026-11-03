@@ -1,27 +1,3 @@
-<?php
-
-
-namespace Fig\Link;
-
-use Psr\Link\EvolvableLinkInterface;
-
-class Link implements EvolvableLinkInterface
-{
-    use EvolvableLinkTrait;
-
-    /**
-     * Link constructor.
-     *
-     * @param string $rel
-     *   A single relationship to include on this link.
-     * @param string $href
-     *   An href for this link.
-     */
-    public function __construct(string $rel = '', string $href = '')
-    {
-        if ($rel) {
-            $this->rel[$rel] = true;
-        }
-        $this->href = $href;
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:72416d6844d4a67dbfe870ef4917bd331459b0a343327d8e0ffc3bbef9514a50
+size 511

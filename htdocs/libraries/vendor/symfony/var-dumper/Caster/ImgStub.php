@@ -1,26 +1,3 @@
-<?php
-
-/*
- * This file is part of the Symfony package.
- *
- * (c) Fabien Potencier <fabien@symfony.com>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
-namespace Symfony\Component\VarDumper\Caster;
-
-/**
- * @author Grégoire Pineau <lyrixx@lyrixx.info>
- */
-class ImgStub extends ConstStub
-{
-    public function __construct(string $data, string $contentType, string $size = '')
-    {
-        $this->value = '';
-        $this->attr['img-data'] = $data;
-        $this->attr['img-size'] = $size;
-        $this->attr['content-type'] = $contentType;
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:18f30e4ee2e8fd3eda1963d058a38d59f31e80ebc59c7c28dcc688ca180a104d
+size 637

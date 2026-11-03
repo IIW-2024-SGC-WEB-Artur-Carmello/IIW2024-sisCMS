@@ -1,19 +1,3 @@
-<?php
-declare(strict_types=1);
-namespace TYPO3\PharStreamWrapper\Phar;
-
-/*
- * This file is part of the TYPO3 project.
- *
- * It is free software; you can redistribute it and/or modify it under the terms
- * of the MIT License (MIT). For the full copyright and license information,
- * please read the LICENSE file that was distributed with this source code.
- *
- * The TYPO3 project - inspiring people to share!
- */
-
-use TYPO3\PharStreamWrapper\Exception;
-
-class ReaderException extends Exception
-{
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:ed40cc0631de85d11289c75d6e622448b2eae3978d6a322d328976567f6fb7d8
+size 497

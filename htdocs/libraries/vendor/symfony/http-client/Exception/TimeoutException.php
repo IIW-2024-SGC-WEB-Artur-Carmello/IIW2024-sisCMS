@@ -1,21 +1,3 @@
-<?php
-
-/*
- * This file is part of the Symfony package.
- *
- * (c) Fabien Potencier <fabien@symfony.com>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
-namespace Symfony\Component\HttpClient\Exception;
-
-use Symfony\Contracts\HttpClient\Exception\TimeoutExceptionInterface;
-
-/**
- * @author Nicolas Grekas <p@tchwork.com>
- */
-final class TimeoutException extends TransportException implements TimeoutExceptionInterface
-{
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:eb30e3ec87c213337891cb780236a5db73de9a43e9b869c26000fb33d0c11997
+size 507

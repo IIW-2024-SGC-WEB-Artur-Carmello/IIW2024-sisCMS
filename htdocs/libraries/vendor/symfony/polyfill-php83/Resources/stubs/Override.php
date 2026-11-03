@@ -1,20 +1,3 @@
-<?php
-
-/*
- * This file is part of the Symfony package.
- *
- * (c) Fabien Potencier <fabien@symfony.com>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
-if (\PHP_VERSION_ID < 80300) {
-    #[Attribute(Attribute::TARGET_METHOD)]
-    final class Override
-    {
-        public function __construct()
-        {
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:57d1627659933c6d4d44c4ddfc8d7e07d2452645a414e387221d5572af9e6f05
+size 409

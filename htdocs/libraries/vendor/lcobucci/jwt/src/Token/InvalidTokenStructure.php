@@ -1,25 +1,3 @@
-<?php
-declare(strict_types=1);
-
-namespace Lcobucci\JWT\Token;
-
-use InvalidArgumentException;
-use Lcobucci\JWT\Exception;
-
-final class InvalidTokenStructure extends InvalidArgumentException implements Exception
-{
-    public static function missingOrNotEnoughSeparators(): self
-    {
-        return new self('The JWT string must have two dots');
-    }
-
-    public static function arrayExpected(string $part): self
-    {
-        return new self($part . ' must be an array');
-    }
-
-    public static function dateIsNotParseable(string $value): self
-    {
-        return new self('Value is not in the allowed date format: ' . $value);
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:e13755f44d1a239860cf63ce850db282a0ec7a7e87bab1d04fdf167ef7594ef6
+size 639

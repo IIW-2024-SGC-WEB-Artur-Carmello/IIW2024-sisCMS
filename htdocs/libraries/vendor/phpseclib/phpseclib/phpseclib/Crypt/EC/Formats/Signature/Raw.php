@@ -1,25 +1,3 @@
-<?php
-
-/**
- * Raw EC Signature Handler
- *
- * PHP version 5
- *
- * @author    Jim Wigginton <terrafrost@php.net>
- * @copyright 2016 Jim Wigginton
- * @license   http://www.opensource.org/licenses/mit-license.html  MIT License
- * @link      http://phpseclib.sourceforge.net
- */
-
-namespace phpseclib3\Crypt\EC\Formats\Signature;
-
-use phpseclib3\Crypt\Common\Formats\Signature\Raw as Progenitor;
-
-/**
- * Raw DSA Signature Handler
- *
- * @author  Jim Wigginton <terrafrost@php.net>
- */
-abstract class Raw extends Progenitor
-{
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:097ce05334f703c848fc6656beed32594a45beb1f55b9061d11e04f918798d7f
+size 520

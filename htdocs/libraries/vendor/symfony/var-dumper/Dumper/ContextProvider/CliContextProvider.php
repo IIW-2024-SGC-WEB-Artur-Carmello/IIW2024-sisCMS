@@ -1,32 +1,3 @@
-<?php
-
-/*
- * This file is part of the Symfony package.
- *
- * (c) Fabien Potencier <fabien@symfony.com>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
-namespace Symfony\Component\VarDumper\Dumper\ContextProvider;
-
-/**
- * Tries to provide context on CLI.
- *
- * @author Maxime Steinhausser <maxime.steinhausser@gmail.com>
- */
-final class CliContextProvider implements ContextProviderInterface
-{
-    public function getContext(): ?array
-    {
-        if ('cli' !== \PHP_SAPI) {
-            return null;
-        }
-
-        return [
-            'command_line' => $commandLine = implode(' ', $_SERVER['argv'] ?? []),
-            'identifier' => hash('xxh128', $commandLine.'@'.$_SERVER['REQUEST_TIME_FLOAT']),
-        ];
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:95e13f65601da217a266e0235d59aab875555185da0c3616c307e09164b35e8a
+size 810

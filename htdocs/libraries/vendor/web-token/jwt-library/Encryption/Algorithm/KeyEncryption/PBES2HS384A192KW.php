@@ -1,30 +1,3 @@
-<?php
-
-declare(strict_types=1);
-
-namespace Jose\Component\Encryption\Algorithm\KeyEncryption;
-
-use AESKW\A192KW as Wrapper;
-
-final class PBES2HS384A192KW extends PBES2AESKW
-{
-    public function name(): string
-    {
-        return 'PBES2-HS384+A192KW';
-    }
-
-    protected function getWrapper(): Wrapper
-    {
-        return new Wrapper();
-    }
-
-    protected function getHashAlgorithm(): string
-    {
-        return 'sha384';
-    }
-
-    protected function getKeySize(): int
-    {
-        return 24;
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:d36e2a707f0ec2b3e5206241a5efad49937a0f8bd2a2a33550baca245b2ab1ad
+size 510

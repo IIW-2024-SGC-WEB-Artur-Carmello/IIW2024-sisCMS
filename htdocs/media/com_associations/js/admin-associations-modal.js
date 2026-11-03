@@ -1,20 +1,3 @@
-/**
- * @copyright   (C) 2018 Open Source Matters, Inc. <https://www.joomla.org>
- * @license     GNU General Public License version 2 or later; see LICENSE.txt
- */
-Joomla = window.Joomla || {};
-((Joomla, document) => {
-
-  document.addEventListener('DOMContentLoaded', () => {
-    const targetAssociation = window.parent.document.getElementById('target-association');
-    const links = [].slice.call(document.querySelectorAll('.select-link'));
-    links.forEach(item => {
-      item.addEventListener('click', ({
-        target
-      }) => {
-        targetAssociation.src = `${targetAssociation.getAttribute('data-editurl')}&task=${targetAssociation.getAttribute('data-item')}.edit&id=${parseInt(target.getAttribute('data-id'), 10)}`;
-        window.parent.Joomla.Modal.getCurrent().close();
-      });
-    });
-  });
-})(Joomla, document);
+version https://git-lfs.github.com/spec/v1
+oid sha256:3a8f9ab22774757a8a507cde88a5e6cbb3615f0766ae7c9dac6c19260755352f
+size 835

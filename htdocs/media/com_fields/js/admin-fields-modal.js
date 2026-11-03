@@ -1,35 +1,3 @@
-/**
- * @copyright  (C) 2018 Open Source Matters, Inc. <https://www.joomla.org>
- * @license    GNU General Public License version 2 or later; see LICENSE.txt
- */
-(Joomla => {
-
-  if (!window.parent.Joomla) {
-    throw new Error('core.js was not properly initialised');
-  }
-  if (!Joomla) {
-    window.Joomla = {};
-  }
-  Joomla.fieldIns = (id, editor) => {
-    // Use a JoomlaExpectingPostMessage flag to be able to distinct legacy methods
-    if (window.parent.JoomlaExpectingPostMessage) {
-      return;
-    }
-    console.warn('Method Joomla.fieldIns() is deprecated. Use postMessage() instead.');
-    window.parent.Joomla.editors.instances[editor].replaceSelection(`{field ${id}}`);
-    if (window.parent.Joomla.Modal) {
-      window.parent.Joomla.Modal.getCurrent().close();
-    }
-  };
-  Joomla.fieldgroupIns = (id, editor) => {
-    // Use a JoomlaExpectingPostMessage flag to be able to distinct legacy methods
-    if (window.parent.JoomlaExpectingPostMessage) {
-      return;
-    }
-    console.warn('Method Joomla.fieldgroupIns() is deprecated. Use postMessage() instead.');
-    window.parent.Joomla.editors.instances[editor].replaceSelection(`{fieldgroup ${id}}`);
-    if (window.parent.Joomla.Modal) {
-      window.parent.Joomla.Modal.getCurrent().close();
-    }
-  };
-})(Joomla);
+version https://git-lfs.github.com/spec/v1
+oid sha256:472042680199f7af16383918f2c3d9f4e4b507fffe5f98e1cd17ece979df4c02
+size 1285

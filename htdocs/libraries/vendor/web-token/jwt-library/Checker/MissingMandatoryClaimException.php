@@ -1,30 +1,3 @@
-<?php
-
-declare(strict_types=1);
-
-namespace Jose\Component\Checker;
-
-use Exception;
-
-class MissingMandatoryClaimException extends Exception implements ClaimExceptionInterface
-{
-    /**
-     * MissingMandatoryClaimException constructor.
-     *
-     * @param string[] $claims
-     */
-    public function __construct(
-        string $message,
-        private readonly array $claims
-    ) {
-        parent::__construct($message);
-    }
-
-    /**
-     * @return string[]
-     */
-    public function getClaims(): array
-    {
-        return $this->claims;
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:bad76a510c684bbed08d75d0f6c867445ef9fa1ce73eee8a9c0517c5f1cee8cc
+size 555

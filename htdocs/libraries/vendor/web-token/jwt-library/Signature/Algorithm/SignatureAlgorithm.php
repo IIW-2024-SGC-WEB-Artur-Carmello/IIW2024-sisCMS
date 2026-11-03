@@ -1,28 +1,3 @@
-<?php
-
-declare(strict_types=1);
-
-namespace Jose\Component\Signature\Algorithm;
-
-use Jose\Component\Core\Algorithm;
-use Jose\Component\Core\JWK;
-
-interface SignatureAlgorithm extends Algorithm
-{
-    /**
-     * Sign the input.
-     *
-     * @param JWK $key The private key used to sign the data
-     * @param string $input The input
-     */
-    public function sign(JWK $key, string $input): string;
-
-    /**
-     * Verify the signature of data.
-     *
-     * @param JWK $key The private key used to sign the data
-     * @param non-empty-string $input The input
-     * @param non-empty-string $signature The signature to verify
-     */
-    public function verify(JWK $key, string $input, string $signature): bool;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:5fa99d8c4d8dcd70b0ff1173cde7269a3b4aa69ef064ab8034c6428af7c84fae
+size 714

@@ -1,28 +1,3 @@
-<?php
-declare(strict_types=1);
-
-namespace Lcobucci\JWT\Validation\Constraint;
-
-use Lcobucci\JWT\Token;
-use Lcobucci\JWT\Validation\Constraint;
-use Lcobucci\JWT\Validation\ConstraintViolation;
-
-final class RelatedTo implements Constraint
-{
-    private string $subject;
-
-    public function __construct(string $subject)
-    {
-        $this->subject = $subject;
-    }
-
-    public function assert(Token $token): void
-    {
-        if (! $token->isRelatedTo($this->subject)) {
-            throw ConstraintViolation::error(
-                'The token is not related to the expected subject',
-                $this
-            );
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:56cb8b3c6a9e82ab574896736e307749472a83d293955116bba9c0d5b501a83b
+size 641

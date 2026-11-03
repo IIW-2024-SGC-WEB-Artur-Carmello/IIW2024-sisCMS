@@ -1,26 +1,3 @@
-<?php
-
-/*
- * This file is part of the Symfony package.
- *
- * (c) Fabien Potencier <fabien@symfony.com>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
-namespace Symfony\Contracts\Service;
-
-/**
- * A ServiceProviderInterface that is also countable and iterable.
- *
- * @author Kevin Bond <kevinbond@gmail.com>
- *
- * @template-covariant T of mixed
- *
- * @extends ServiceProviderInterface<T>
- * @extends \IteratorAggregate<string, T>
- */
-interface ServiceCollectionInterface extends ServiceProviderInterface, \Countable, \IteratorAggregate
-{
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:7633732cb8deca413cced8f5d53da632529a4dde1149a020012cc1871d5454f5
+size 626

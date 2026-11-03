@@ -1,19 +1,3 @@
-<?php
-
-/**
- * Part of the Joomla Framework Session Package
- *
- * @copyright  Copyright (C) 2005 - 2021 Open Source Matters, Inc. All rights reserved.
- * @license    GNU General Public License version 2 or later; see LICENSE
- */
-
-namespace Joomla\Session\Exception;
-
-/**
- * Exception thrown when the database driver is unsupported
- *
- * @since  2.0.0
- */
-class UnsupportedDatabaseDriverException extends \UnexpectedValueException
-{
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:407866ead1b580e241965db1136e01b60bb089e9d0a0e153d2789ba87ad77a5c
+size 433

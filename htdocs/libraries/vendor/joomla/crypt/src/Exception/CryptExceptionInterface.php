@@ -1,19 +1,3 @@
-<?php
-
-/**
- * Part of the Joomla Framework Crypt Package
- *
- * @copyright  Copyright (C) 2005 - 2021 Open Source Matters, Inc. All rights reserved.
- * @license    GNU General Public License version 2 or later; see LICENSE
- */
-
-namespace Joomla\Crypt\Exception;
-
-/**
- * Interface defining all crypt package exceptions
- *
- * @since  2.0.0
- */
-interface CryptExceptionInterface extends \Throwable
-{
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:517e4cfe0211d8437bb08b840a857c8a3a17500eff8f26dc5ecb644018a596f8
+size 398

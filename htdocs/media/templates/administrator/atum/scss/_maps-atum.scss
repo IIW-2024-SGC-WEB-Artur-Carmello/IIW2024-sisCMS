@@ -1,14 +1,3 @@
-$theme-colors-text: map-merge((
-  "action": shade-color($base-color, 60%),
-  "error": shade-color($red-dark, 60%)
-), $theme-colors-text);
-
-$theme-colors-bg-subtle: map-merge((
-  "action": tint-color($base-color, 80%),
-  "error": tint-color($red-dark, 80%)
-), $theme-colors-bg-subtle);
-
-$theme-colors-border-subtle: map-merge((
-  "action": tint-color($base-color, 60%),
-  "error": tint-color($red-dark, 60%)
-), $theme-colors-border-subtle);
+version https://git-lfs.github.com/spec/v1
+oid sha256:83db11f55153e401a6d2b53447262d96be566b3d21645ca634384fc8441509f5
+size 440

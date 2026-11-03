@@ -1,24 +1,3 @@
-<?php
-
-declare(strict_types=1);
-
-namespace GuzzleHttp\Promise;
-
-interface TaskQueueInterface
-{
-    /**
-     * Returns true if the queue is empty.
-     */
-    public function isEmpty(): bool;
-
-    /**
-     * Adds a task to the queue that will be executed the next time run is
-     * called.
-     */
-    public function add(callable $task): void;
-
-    /**
-     * Execute all of the pending task in the queue.
-     */
-    public function run(): void;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:af14af31d2425eb82af9bbd76564ac7ae818c28594d6e0fc5b72bef0422351c4
+size 450

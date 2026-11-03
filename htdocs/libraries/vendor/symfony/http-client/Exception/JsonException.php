@@ -1,23 +1,3 @@
-<?php
-
-/*
- * This file is part of the Symfony package.
- *
- * (c) Fabien Potencier <fabien@symfony.com>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
-namespace Symfony\Component\HttpClient\Exception;
-
-use Symfony\Contracts\HttpClient\Exception\DecodingExceptionInterface;
-
-/**
- * Thrown by responses' toArray() method when their content cannot be JSON-decoded.
- *
- * @author Nicolas Grekas <p@tchwork.com>
- */
-final class JsonException extends \JsonException implements DecodingExceptionInterface
-{
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:48626944c85de5ed3a6fe2bada6a7c7edcbd15707a282023e118d76f819f7089
+size 589

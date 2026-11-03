@@ -1,30 +1,3 @@
-<?php
-
-/*
- * This file is part of the Symfony package.
- *
- * (c) Fabien Potencier <fabien@symfony.com>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
-namespace Symfony\Component\VarDumper\Caster;
-
-use Symfony\Component\VarDumper\Cloner\Stub;
-
-/**
- * Represents an enumeration of values.
- *
- * @author Nicolas Grekas <p@tchwork.com>
- */
-class EnumStub extends Stub
-{
-    public $dumpKeys = true;
-
-    public function __construct(array $values, bool $dumpKeys = true)
-    {
-        $this->value = $values;
-        $this->dumpKeys = $dumpKeys;
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:deda01c7d9f8fff483ce92184c7fbf49a0ecb7048fb06288e2d9fe28ab920fa9
+size 637

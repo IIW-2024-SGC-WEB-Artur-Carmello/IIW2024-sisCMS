@@ -1,33 +1,3 @@
-<?php
-
-/**
- * CertificateList
- *
- * PHP version 5
- *
- * @author    Jim Wigginton <terrafrost@php.net>
- * @copyright 2016 Jim Wigginton
- * @license   http://www.opensource.org/licenses/mit-license.html  MIT License
- * @link      http://phpseclib.sourceforge.net
- */
-
-namespace phpseclib3\File\ASN1\Maps;
-
-use phpseclib3\File\ASN1;
-
-/**
- * CertificateList
- *
- * @author  Jim Wigginton <terrafrost@php.net>
- */
-abstract class CertificateList
-{
-    const MAP = [
-        'type' => ASN1::TYPE_SEQUENCE,
-        'children' => [
-            'tbsCertList' => TBSCertList::MAP,
-            'signatureAlgorithm' => AlgorithmIdentifier::MAP,
-            'signature' => ['type' => ASN1::TYPE_BIT_STRING]
-        ]
-    ];
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:852bcf312645bf6cf3c8dc7fed283d7161a1e99e63b9b7d5be7d54367838ea4f
+size 711

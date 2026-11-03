@@ -1,28 +1,3 @@
-<?php
-
-/**
- * @package     Joomla.Site
- * @subpackage  Layout
- *
- * @copyright   (C) 2013 Open Source Matters, Inc. <https://www.joomla.org>
- * @license     GNU General Public License version 2 or later; see LICENSE.txt
- */
-
-defined('_JEXEC') or die;
-
-use Joomla\Filter\OutputFilter;
-
-$id      = empty($displayData['id']) ? '' : (' id="' . $displayData['id'] . '"');
-$target  = empty($displayData['target']) ? '' : (' target="' . $displayData['target'] . '"');
-$rel     = empty($displayData['rel']) ? '' : (' rel="' . $displayData['rel'] . '"');
-$onclick = empty($displayData['onclick']) ? '' : (' onclick="' . $displayData['onclick'] . '"');
-$title   = empty($displayData['title']) ? '' : (' title="' . $this->escape($displayData['title']) . '"');
-$text    = empty($displayData['text']) ? '' : ('<span class="j-links-link">' . $displayData['text'] . '</span>')
-
-?>
-<li<?php echo $id; ?>>
-    <a href="<?php echo OutputFilter::ampReplace($displayData['link']); ?>"<?php echo $target . $rel . $onclick . $title; ?>>
-        <span class="<?php echo $displayData['image']; ?>" aria-hidden="true"></span>
-        <?php echo $text; ?>
-    </a>
-</li>
+version https://git-lfs.github.com/spec/v1
+oid sha256:d561a44eeaad9697b8a0b23e7f41da6939624bb79bc1f97297b3d271446b67ba
+size 1145

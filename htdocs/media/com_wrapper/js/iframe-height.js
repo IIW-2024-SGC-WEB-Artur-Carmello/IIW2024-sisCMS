@@ -1,16 +1,3 @@
-/**
- * @copyright   (C) 2018 Open Source Matters, Inc. <https://www.joomla.org>
- * @license     GNU General Public License version 2 or later; see LICENSE.txt
- */
-
-((window, document) => {
-  window.iFrameHeight = iframe => {
-    const doc = 'contentDocument' in iframe ? iframe.contentDocument : iframe.contentWindow.document;
-    const height = parseInt(doc.body.scrollHeight, 10);
-    if (!document.all) {
-      iframe.style.height = `${parseInt(height, 10) + 60}px`;
-    } else if (document.all && iframe.id) {
-      document.all[iframe.id].style.height = `${parseInt(height, 10) + 20}px`;
-    }
-  };
-})(window, document);
+version https://git-lfs.github.com/spec/v1
+oid sha256:04eeddc1b2ab89da8d91a8a097f769af9305ac3fda880f2666dc31f794ff1703
+size 626

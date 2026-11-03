@@ -1,7 +1,3 @@
--- --------------------------------------------------------
--- The following INSERT statement has been modified to insert
--- this core plugin with locked=1.
--- See https://github.com/joomla/joomla-cms/pull/45821 for details.
---
-INSERT INTO "#__extensions" ("package_id", "name", "type", "element", "folder", "client_id", "enabled", "access", "protected", "locked", "manifest_cache", "params", "custom_data", "ordering", "state") VALUES
-(0, 'plg_schemaorg_custom', 'plugin', 'custom', 'schemaorg', 0, 1, 1, 0, 1, '', '{}', '', 0, 0);
+version https://git-lfs.github.com/spec/v1
+oid sha256:253611b3ad0428da08bd7b4fa90f324001121809472e722d443317da08a7ec78
+size 533

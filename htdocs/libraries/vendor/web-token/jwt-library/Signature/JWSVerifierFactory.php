@@ -1,27 +1,3 @@
-<?php
-
-declare(strict_types=1);
-
-namespace Jose\Component\Signature;
-
-use Jose\Component\Core\AlgorithmManagerFactory;
-
-class JWSVerifierFactory
-{
-    public function __construct(
-        private readonly AlgorithmManagerFactory $algorithmManagerFactory
-    ) {
-    }
-
-    /**
-     * Creates a JWSVerifier using the given signature algorithm aliases.
-     *
-     * @param string[] $algorithms
-     */
-    public function create(array $algorithms): JWSVerifier
-    {
-        $algorithmManager = $this->algorithmManagerFactory->create($algorithms);
-
-        return new JWSVerifier($algorithmManager);
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:69e31c350334be6a2cde3837e6e3ace1a0dd4c1cf7835ddb961c329ee3cb95a6
+size 607

@@ -1,32 +1,3 @@
-<?php
-
-declare(strict_types=1);
-
-namespace Jose\Component\Encryption\Algorithm\KeyEncryption;
-
-use AESKW\Wrapper as WrapperInterface;
-use RuntimeException;
-
-abstract class AbstractECDHAESKW implements KeyAgreementWithKeyWrapping
-{
-    public function __construct()
-    {
-        if (! interface_exists(WrapperInterface::class)) {
-            throw new RuntimeException('Please install "spomky-labs/aes-key-wrap" to use AES-KW algorithms');
-        }
-    }
-
-    public function allowedKeyTypes(): array
-    {
-        return ['EC', 'OKP'];
-    }
-
-    public function getKeyManagementMode(): string
-    {
-        return self::MODE_WRAP;
-    }
-
-    abstract protected function getWrapper(): WrapperInterface;
-
-    abstract protected function getKeyLength(): int;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:d0c5dcc950d0c1a4e336add031a7ff7f32e059420db4f142d04729449b2374d2
+size 761

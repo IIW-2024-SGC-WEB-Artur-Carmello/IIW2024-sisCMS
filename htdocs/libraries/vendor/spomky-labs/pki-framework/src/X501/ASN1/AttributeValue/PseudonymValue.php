@@ -1,21 +1,3 @@
-<?php
-
-declare(strict_types=1);
-
-namespace SpomkyLabs\Pki\X501\ASN1\AttributeValue;
-
-use SpomkyLabs\Pki\X501\ASN1\AttributeType;
-use SpomkyLabs\Pki\X501\ASN1\AttributeValue\Feature\DirectoryString;
-
-/**
- * 'pseudonym' attribute value.
- *
- * @see https://www.itu.int/ITU-T/formal-language/itu-t/x/x520/2012/SelectedAttributeTypes.html#SelectedAttributeTypes.pseudonym
- */
-final class PseudonymValue extends DirectoryString
-{
-    public static function create(string $value, int $string_tag = DirectoryString::UTF8): static
-    {
-        return new static(AttributeType::OID_PSEUDONYM, $value, $string_tag);
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:5a85fed2be7a61fee607b1ffc267482d8e06272989f90f99f089623772512a00
+size 614

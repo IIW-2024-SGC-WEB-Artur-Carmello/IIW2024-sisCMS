@@ -1,31 +1,3 @@
-<?php
-
-/*
- * This file is part of the Symfony package.
- *
- * (c) Fabien Potencier <fabien@symfony.com>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
-namespace Symfony\Component\Validator\Constraints;
-
-/**
- * Validates values are identical (===).
- *
- * @author Daniel Holmes <daniel@danielholmes.org>
- * @author Bernhard Schussek <bschussek@gmail.com>
- */
-class IdenticalToValidator extends AbstractComparisonValidator
-{
-    protected function compareValues(mixed $value1, mixed $value2): bool
-    {
-        return $value1 === $value2;
-    }
-
-    protected function getErrorCode(): ?string
-    {
-        return IdenticalTo::NOT_IDENTICAL_ERROR;
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:d5f294c9cecd21fb9fcdadbad7171e1c2901e7b6883cffe7e02aca157e6a3f77
+size 741

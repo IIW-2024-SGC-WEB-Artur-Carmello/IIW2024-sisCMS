@@ -1,23 +1,3 @@
-<?php
-
-/**
- * @package     Joomla.Plugin
- * @subpackage  Fields.Text
- *
- * @copyright   (C) 2016 Open Source Matters, Inc. <https://www.joomla.org>
- * @license     GNU General Public License version 2 or later; see LICENSE.txt
- */
-
-defined('_JEXEC') or die;
-
-$value = $field->value;
-
-if ($value == '') {
-    return;
-}
-
-if (is_array($value)) {
-    $value = implode(', ', $value);
-}
-
-echo htmlentities($value);
+version https://git-lfs.github.com/spec/v1
+oid sha256:7301988ead3aeb2573da9d1a68a0fea7bbb224028cbf86bc3089f7c1813d4088
+size 409

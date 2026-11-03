@@ -1,27 +1,3 @@
-<?php
-
-/**
- * @package     Joomla.Administrator
- * @subpackage  com_admin
- *
- * @copyright   (C) 2015 Open Source Matters, Inc. <https://www.joomla.org>
- * @license     GNU General Public License version 2 or later; see LICENSE.txt
- *
- * This file contains post-installation message handling for the checking minimum PHP version support
- */
-
-// phpcs:disable PSR1.Files.SideEffects
-\defined('_JEXEC') or die;
-// phpcs:enable PSR1.Files.SideEffects
-
-/**
- * Alerts the user we are collecting anonymous data as of Joomla 3.5.0.
- *
- * @return  boolean
- *
- * @since   3.5
- */
-function admin_postinstall_statscollection_condition()
-{
-    return true;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:876cc4e12ed26cd3eeee8ffb55c93a8ec25d1da381016502fb2d4246639122f3
+size 647

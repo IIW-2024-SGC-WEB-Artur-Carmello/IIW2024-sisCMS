@@ -1,6 +1,3 @@
--- --------------------------------------------------------
--- The following statement which was introduced with 5.3.0-alpha3
--- has been disabled as it was reverted with 5.3.0-beta1.
--- See https://github.com/joomla/joomla-cms/pull/44845 for details.
---
--- ALTER TABLE `#__action_logs_users` ADD COLUMN `exclude_self` tinyint NOT NULL DEFAULT 0;
+version https://git-lfs.github.com/spec/v1
+oid sha256:c73879bf2faecd9eb9edd9c296d9dc9f48a50fdf71f1f955fae4315129f951cd
+size 353

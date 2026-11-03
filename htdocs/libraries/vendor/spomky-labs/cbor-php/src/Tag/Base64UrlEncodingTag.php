@@ -1,28 +1,3 @@
-<?php
-
-declare(strict_types=1);
-
-namespace CBOR\Tag;
-
-use CBOR\CBORObject;
-use CBOR\Tag;
-
-final class Base64UrlEncodingTag extends Tag
-{
-    public static function getTagId(): int
-    {
-        return self::TAG_ENCODED_BASE64_URL;
-    }
-
-    public static function createFromLoadedData(int $additionalInformation, ?string $data, CBORObject $object): Tag
-    {
-        return new self($additionalInformation, $data, $object);
-    }
-
-    public static function create(CBORObject $object): Tag
-    {
-        [$ai, $data] = self::determineComponents(self::TAG_ENCODED_BASE64_URL);
-
-        return new self($ai, $data, $object);
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:1cfef403e2b276ffb1f758ddebb8cd0c4b3065945ded68e7d898b19b0bd710af
+size 632

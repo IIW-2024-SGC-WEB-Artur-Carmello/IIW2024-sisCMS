@@ -1,27 +1,3 @@
-<?php
-
-declare(strict_types=1);
-
-namespace Webauthn\TokenBinding;
-
-use Psr\Http\Message\ServerRequestInterface;
-use Webauthn\Exception\InvalidDataException;
-
-/**
- * @deprecated Since 4.3.0 and will be removed in 5.0.0
- */
-final class TokenBindingNotSupportedHandler implements TokenBindingHandler
-{
-    public static function create(): self
-    {
-        return new self();
-    }
-
-    public function check(TokenBinding $tokenBinding, ServerRequestInterface $request): void
-    {
-        $tokenBinding->getStatus() !== TokenBinding::TOKEN_BINDING_STATUS_PRESENT || throw InvalidDataException::create(
-            $tokenBinding,
-            'Token binding not supported.'
-        );
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:0321057ad58e5ed7fb8ab3d54fd98a8624b23b7bc3fbcb7bd372046cdc14694b
+size 690

@@ -1,26 +1,3 @@
-<?php
-
-/**
- * CertPolicyId
- *
- * PHP version 5
- *
- * @author    Jim Wigginton <terrafrost@php.net>
- * @copyright 2016 Jim Wigginton
- * @license   http://www.opensource.org/licenses/mit-license.html  MIT License
- * @link      http://phpseclib.sourceforge.net
- */
-
-namespace phpseclib3\File\ASN1\Maps;
-
-use phpseclib3\File\ASN1;
-
-/**
- * CertPolicyId
- *
- * @author  Jim Wigginton <terrafrost@php.net>
- */
-abstract class CertPolicyId
-{
-    const MAP = ['type' => ASN1::TYPE_OBJECT_IDENTIFIER];
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:36192710babc58663151a770acecbb2a3732d51d30d2a06e4aa2735270898941
+size 492

@@ -1,18 +1,3 @@
-<?php
-
-declare(strict_types=1);
-
-namespace SpomkyLabs\Pki\X501\MatchingRule;
-
-/**
- * Implements binary matching rule.
- *
- * Generally used only by UnknownAttribute and custom attributes.
- */
-final class BinaryMatch extends MatchingRule
-{
-    public function compare(string $assertion, string $value): ?bool
-    {
-        return strcmp($assertion, $value) === 0;
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:6054959f31233ae2d7ba6e3e1dd2f959c891147197323d3f6f61280da2c74ba7
+size 370

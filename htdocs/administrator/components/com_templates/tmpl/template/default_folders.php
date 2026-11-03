@@ -1,31 +1,3 @@
-<?php
-
-/**
- * @package     Joomla.Administrator
- * @subpackage  com_templates
- *
- * @copyright   (C) 2013 Open Source Matters, Inc. <https://www.joomla.org>
- * @license     GNU General Public License version 2 or later; see LICENSE.txt
- */
-
-defined('_JEXEC') or die;
-
-/** @var \Joomla\Component\Templates\Administrator\View\Template\HtmlView $this */
-
-ksort($this->files, SORT_STRING);
-?>
-
-<ul class="directory-tree treeselect">
-    <?php foreach ($this->files as $key => $value) : ?>
-        <?php if (is_array($value)) : ?>
-            <li class="folder-select">
-                <a class="folder-url" data-id="<?php echo base64_encode($key); ?>" href="" data-base="template">
-                    <span class="icon-folder icon-fw" aria-hidden="true"></span>
-                    <?php $explodeArray = explode('/', rtrim($key, '\\'));
-                    echo $this->escape(end($explodeArray)); ?>
-                </a>
-                <?php echo $this->folderTree($value); ?>
-            </li>
-        <?php endif; ?>
-    <?php endforeach; ?>
-</ul>
+version https://git-lfs.github.com/spec/v1
+oid sha256:38d6223c6b466d450316c43dc7ea38bae01dd7cf18e1fbba219c4fce62eebefd
+size 1048

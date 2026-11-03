@@ -1,7 +1,3 @@
-// Exports the "insertdatetime" plugin for usage with module loaders
-// Usage:
-//   CommonJS:
-//     require('tinymce/plugins/insertdatetime')
-//   ES2015:
-//     import 'tinymce/plugins/insertdatetime'
-require('./plugin.js');
+version https://git-lfs.github.com/spec/v1
+oid sha256:6a58d89cb41c85fe3ec472376fcdaa55bb875b6397a054bf4a3d53e7734fd440
+size 226

@@ -1,26 +1,3 @@
-<?php
-
-declare(strict_types=1);
-
-namespace Jose\Component\Encryption\Algorithm\KeyEncryption;
-
-use Jose\Component\Core\JWK;
-use Jose\Component\Encryption\Algorithm\KeyEncryptionAlgorithm;
-
-interface KeyAgreement extends KeyEncryptionAlgorithm
-{
-    /**
-     * Computes the agreement key.
-     *
-     * @param array<string, mixed> $completeHeader
-     * @param array<string, mixed> $additionalHeaderValues
-     */
-    public function getAgreementKey(
-        int $encryptionKeyLength,
-        string $algorithm,
-        JWK $recipientKey,
-        ?JWK $senderKey,
-        array $completeHeader = [],
-        array &$additionalHeaderValues = []
-    ): string;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:893f06b91c3cd6ae9715b207f8a03bc89603132b5c401a2f3efbe09a29a09827
+size 660

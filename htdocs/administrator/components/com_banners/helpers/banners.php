@@ -1,27 +1,3 @@
-<?php
-
-/**
- * @package     Joomla.Administrator
- * @subpackage  com_banners
- *
- * @copyright   (C) 2006 Open Source Matters, Inc. <https://www.joomla.org>
- * @license     GNU General Public License version 2 or later; see LICENSE.txt
- *
- * @phpcs:disable PSR1.Classes.ClassDeclaration.MissingNamespace
- */
-
-// phpcs:disable PSR1.Files.SideEffects
-\defined('_JEXEC') or die;
-// phpcs:enable PSR1.Files.SideEffects
-
-/**
- * Banners component helper.
- *
- * @since       1.6
- *
- * @deprecated  4.3 will be removed in 6.0
- *              Use \Joomla\Component\Banners\Administrator\Helper\BannersHelper instead
- */
-class BannersHelper extends \Joomla\Component\Banners\Administrator\Helper\BannersHelper
-{
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:509a695c80c3f82c5f3a2cd2da43227c42d36facc9d8ed6c1b14b3066aceaae0
+size 702

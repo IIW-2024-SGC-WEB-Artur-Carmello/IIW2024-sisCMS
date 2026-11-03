@@ -1,31 +1,3 @@
-<?php
-declare(strict_types=1);
-
-namespace Lcobucci\JWT\Signer\Ecdsa;
-
-use Lcobucci\JWT\Signer\Ecdsa;
-
-use const OPENSSL_ALGO_SHA256;
-
-final class Sha256 extends Ecdsa
-{
-    public function algorithmId(): string
-    {
-        return 'ES256';
-    }
-
-    public function algorithm(): int
-    {
-        return OPENSSL_ALGO_SHA256;
-    }
-
-    public function pointLength(): int
-    {
-        return 64;
-    }
-
-    public function expectedKeyLength(): int
-    {
-        return 256;
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:e95a536034e9cb4c7e2bffe00b62df711a035bc3a7cc5b1254bb23dc33f0e8cb
+size 484

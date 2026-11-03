@@ -1,24 +1,3 @@
-<?php
-
-/**
- * @package     Joomla.Administrator
- * @subpackage  com_media
- *
- * @copyright   (C) 2017 Open Source Matters, Inc. <https://www.joomla.org>
- * @license     GNU General Public License version 2 or later; see LICENSE.txt
- */
-
-namespace Joomla\Component\Media\Administrator\Exception;
-
-// phpcs:disable PSR1.Files.SideEffects
-\defined('_JEXEC') or die;
-// phpcs:enable PSR1.Files.SideEffects
-
-/**
- * Media file exists exception.
- *
- * @since  4.0.0
- */
-class FileExistsException extends \Exception
-{
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:ab5c128fdb1ec7beafc1ea690055a6e6dbb53f2634969c56814b24c609c866c1
+size 512

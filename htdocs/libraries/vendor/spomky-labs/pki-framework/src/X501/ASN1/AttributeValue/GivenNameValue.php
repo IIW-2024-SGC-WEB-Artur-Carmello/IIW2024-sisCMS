@@ -1,21 +1,3 @@
-<?php
-
-declare(strict_types=1);
-
-namespace SpomkyLabs\Pki\X501\ASN1\AttributeValue;
-
-use SpomkyLabs\Pki\X501\ASN1\AttributeType;
-use SpomkyLabs\Pki\X501\ASN1\AttributeValue\Feature\DirectoryString;
-
-/**
- * 'givenName' attribute value.
- *
- * @see https://www.itu.int/ITU-T/formal-language/itu-t/x/x520/2012/SelectedAttributeTypes.html#SelectedAttributeTypes.givenName
- */
-final class GivenNameValue extends DirectoryString
-{
-    public static function create(string $value, int $string_tag = DirectoryString::UTF8): static
-    {
-        return new static(AttributeType::OID_GIVEN_NAME, $value, $string_tag);
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:5a7fe43190f15ac815f5776ba120aefa44daaeac4732c1a3f9e2d59a6a57bb70
+size 615

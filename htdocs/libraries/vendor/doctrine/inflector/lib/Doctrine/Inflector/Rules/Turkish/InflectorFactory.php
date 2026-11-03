@@ -1,21 +1,3 @@
-<?php
-
-declare(strict_types=1);
-
-namespace Doctrine\Inflector\Rules\Turkish;
-
-use Doctrine\Inflector\GenericLanguageInflectorFactory;
-use Doctrine\Inflector\Rules\Ruleset;
-
-final class InflectorFactory extends GenericLanguageInflectorFactory
-{
-    protected function getSingularRuleset(): Ruleset
-    {
-        return Rules::getSingularRuleset();
-    }
-
-    protected function getPluralRuleset(): Ruleset
-    {
-        return Rules::getPluralRuleset();
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:8fd34d12e6da54e1e231934db17e18cb47492e5f499c39f8ab17cb1991aa3d8c
+size 461

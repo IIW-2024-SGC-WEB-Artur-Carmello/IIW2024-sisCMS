@@ -1,23 +1,3 @@
-<?php
-
-/**
- * Joomla! Content Management System
- *
- * @copyright  (C) 2016 Open Source Matters, Inc. <https://www.joomla.org>
- * @license    GNU General Public License version 2 or later; see LICENSE.txt
- */
-
-namespace Joomla\CMS\Event\Table;
-
-// phpcs:disable PSR1.Files.SideEffects
-\defined('_JEXEC') or die;
-// phpcs:enable PSR1.Files.SideEffects
-
-/**
- * Event class for \Joomla\CMS\Table\Table onBeforeHit event
- *
- * @since  4.0.0
- */
-class BeforeHitEvent extends BeforeCheckinEvent
-{
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:e767a3d7227bbb31d2daeac8f616467f45fceb30c596874dd6d36690a45cbbd7
+size 492

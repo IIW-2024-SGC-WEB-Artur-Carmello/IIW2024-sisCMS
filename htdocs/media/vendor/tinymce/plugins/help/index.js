@@ -1,7 +1,3 @@
-// Exports the "help" plugin for usage with module loaders
-// Usage:
-//   CommonJS:
-//     require('tinymce/plugins/help')
-//   ES2015:
-//     import 'tinymce/plugins/help'
-require('./plugin.js');
+version https://git-lfs.github.com/spec/v1
+oid sha256:90ef3eb5f05933c63e52ac470156c1eee495583b1184ae9a6abc8702e9685b36
+size 196

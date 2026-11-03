@@ -1,32 +1,3 @@
-/**
- * @copyright   (C) 2018 Open Source Matters, Inc. <https://www.joomla.org>
- * @license     GNU General Public License version 2 or later; see LICENSE.txt
- */
-((document, submitForm) => {
-
-  // Selectors used by this script
-  const buttonDataSelector = 'data-submit-task';
-  const formId = 'adminForm';
-
-  /**
-   * Submit the task
-   * @param task
-   */
-  const submitTask = task => {
-    const form = document.getElementById(formId);
-    if (form) {
-      submitForm(task, form);
-    }
-  };
-
-  // Register events
-  document.addEventListener('DOMContentLoaded', () => {
-    const button = document.getElementById('stage-submit-button-id');
-    if (button) {
-      button.addEventListener('click', e => {
-        const task = e.target.getAttribute(buttonDataSelector);
-        submitTask(task);
-      });
-    }
-  });
-})(document, Joomla.submitform);
+version https://git-lfs.github.com/spec/v1
+oid sha256:41b7c2e0343033357079db59ed8d956e0aba87bd9602fcd89d557b499e58283b
+size 853

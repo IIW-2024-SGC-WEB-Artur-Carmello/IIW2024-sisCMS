@@ -1,20 +1,3 @@
-<?php
-declare(strict_types=1);
-
-namespace Lcobucci\JWT\Token;
-
-use InvalidArgumentException;
-use Lcobucci\JWT\Exception;
-
-use function sprintf;
-
-final class RegisteredClaimGiven extends InvalidArgumentException implements Exception
-{
-    private const DEFAULT_MESSAGE = 'Builder#withClaim() is meant to be used for non-registered claims, '
-                                  . 'check the documentation on how to set claim "%s"';
-
-    public static function forClaim(string $name): self
-    {
-        return new self(sprintf(self::DEFAULT_MESSAGE, $name));
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:637668f5d3ffcdc382ea59258cc4e9b55db7faa1ff2cbb4e22af72eca4f57825
+size 563

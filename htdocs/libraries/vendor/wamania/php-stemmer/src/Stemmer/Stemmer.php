@@ -1,19 +1,3 @@
-<?php
-namespace Wamania\Snowball\Stemmer;
-
-/**
- * @author Luís Cobucci <lcobucci@gmail.com>
- */
-interface Stemmer
-{
-    /**
-     * Main function to get the STEM of a word
-     *
-     * @param string $word A valid UTF-8 word
-     *
-     * @return string
-     *
-     * @throws \Exception
-     */
-    public function stem($word);
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:83b7afe4587e568fd1a50066ece63f152fa12eb7cf9a9c3525081cda62759ca1
+size 330

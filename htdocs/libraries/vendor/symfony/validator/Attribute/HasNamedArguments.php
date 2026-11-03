@@ -1,17 +1,3 @@
-<?php
-
-/*
- * This file is part of the Symfony package.
- *
- * (c) Fabien Potencier <fabien@symfony.com>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
-namespace Symfony\Component\Validator\Attribute;
-
-#[\Attribute(\Attribute::TARGET_METHOD)]
-final class HasNamedArguments
-{
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:53e89896dff01faca0f14913cafa0767c01ab2eabc5570f345a3df49744249c0
+size 363

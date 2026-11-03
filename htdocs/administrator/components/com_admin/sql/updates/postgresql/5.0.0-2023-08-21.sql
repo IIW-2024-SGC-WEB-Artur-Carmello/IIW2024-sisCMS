@@ -1,13 +1,3 @@
-UPDATE "#__extensions"
-   SET "params" = jsonb_set("params"::jsonb, '{filter}' , '"\\\\Joomla\\\\CMS\\\\Component\\\\ComponentHelper::filterText"')
- WHERE "type" = 'plugin'
-   AND "folder" = 'fields'
-   AND "element" IN ('editor', 'text', 'textarea')
-   AND "params" <> ''
-   AND "params"::jsonb->>'filter' = 'JComponentHelper::filterText';
-
-UPDATE "#__fields"
-   SET "fieldparams" = jsonb_set("fieldparams"::jsonb, '{filter}' , '"\\\\Joomla\\\\CMS\\\\Component\\\\ComponentHelper::filterText"')
- WHERE "type" IN ('editor', 'text', 'textarea')
-   AND "fieldparams" <> ''
-   AND "fieldparams"::jsonb->>'filter' = 'JComponentHelper::filterText';
+version https://git-lfs.github.com/spec/v1
+oid sha256:2d57ae2d4de72978c9706c336edc9a3124fd2acc899be7291dfe167fabfc500e
+size 644

@@ -1,30 +1,3 @@
-<?php
-
-/**
- * @package     Joomla.Site
- * @subpackage  Layout
- *
- * @copyright   (C) 2016 Open Source Matters, Inc. <https://www.joomla.org>
- * @license     GNU General Public License version 2 or later; see LICENSE.txt
- */
-
-defined('_JEXEC') or die;
-
-use Joomla\CMS\Language\Text;
-
-$list = $displayData['list'];
-
-?>
-<nav class="pagination__wrapper" aria-label="<?php echo Text::_('JLIB_HTML_PAGINATION'); ?>">
-    <ul class="pagination ms-0 mb-4">
-        <?php echo $list['start']['data']; ?>
-        <?php echo $list['previous']['data']; ?>
-
-        <?php foreach ($list['pages'] as $page) : ?>
-            <?php echo $page['data']; ?>
-        <?php endforeach; ?>
-
-        <?php echo $list['next']['data']; ?>
-        <?php echo $list['end']['data']; ?>
-    </ul>
-</nav>
+version https://git-lfs.github.com/spec/v1
+oid sha256:208cf84aadda4a241ac18ada0c6d6c5f298356a5ea3991519a55e7950ba47dcb
+size 775

@@ -1,28 +1,3 @@
-<?php
-
-declare(strict_types=1);
-
-namespace Jose\Component\Encryption\Algorithm\ContentEncryption;
-
-final class A128CBCHS256 extends AESCBCHS
-{
-    public function getCEKSize(): int
-    {
-        return 256;
-    }
-
-    public function name(): string
-    {
-        return 'A128CBC-HS256';
-    }
-
-    protected function getHashAlgorithm(): string
-    {
-        return 'sha256';
-    }
-
-    protected function getMode(): string
-    {
-        return 'aes-128-cbc';
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:2852153eb16715df93a6ed80f892ecbd2f2e1b8af43e66c82cac442fb0edfe92
+size 467

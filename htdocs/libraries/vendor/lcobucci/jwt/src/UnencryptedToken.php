@@ -1,25 +1,3 @@
-<?php
-declare(strict_types=1);
-
-namespace Lcobucci\JWT;
-
-use Lcobucci\JWT\Token\DataSet;
-use Lcobucci\JWT\Token\Signature;
-
-interface UnencryptedToken extends Token
-{
-    /**
-     * Returns the token claims
-     */
-    public function claims(): DataSet;
-
-    /**
-     * Returns the token signature
-     */
-    public function signature(): Signature;
-
-    /**
-     * Returns the token payload
-     */
-    public function payload(): string;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:b19c7a15a3cf0f49748a4b508f27c74a9c34c4fdc483d186821421217e7305b8
+size 441

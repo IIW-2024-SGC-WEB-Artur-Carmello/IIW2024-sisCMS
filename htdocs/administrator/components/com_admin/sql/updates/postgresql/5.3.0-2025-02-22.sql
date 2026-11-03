@@ -1,3 +1,3 @@
--- Add plg_extension_joomlaupdate module
-INSERT INTO "#__extensions" ("package_id", "name", "type", "element", "folder", "client_id", "enabled", "access", "protected", "locked", "manifest_cache", "params", "custom_data", "ordering", "state") VALUES
-(0, 'plg_extension_joomlaupdate', 'plugin', 'joomlaupdate', 'extension', 0, 1, 1, 0, 1, '', '', '', 0, 0);
+version https://git-lfs.github.com/spec/v1
+oid sha256:6dbdac56d8f0e423d19b0e65c066dae5eccd0c21aa768ddc92365280033685df
+size 356

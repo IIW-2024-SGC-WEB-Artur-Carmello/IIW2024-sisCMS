@@ -1,27 +1,3 @@
-<?php
-declare(strict_types=1);
-
-namespace Lcobucci\JWT\Signer\Ecdsa;
-
-use Lcobucci\JWT\Signer\UnsafeEcdsa;
-
-use const OPENSSL_ALGO_SHA512;
-
-/** @deprecated Deprecated since v4.2 */
-final class UnsafeSha512 extends UnsafeEcdsa
-{
-    public function algorithmId(): string
-    {
-        return 'ES512';
-    }
-
-    public function algorithm(): int
-    {
-        return OPENSSL_ALGO_SHA512;
-    }
-
-    public function pointLength(): int
-    {
-        return 132;
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:7d5282e8bc74aa2eac764cbe43397a70bd8d7c216e2ee43b0b22a8a0b42b0cf7
+size 466

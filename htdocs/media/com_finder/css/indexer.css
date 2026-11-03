@@ -1,14 +1,3 @@
-@charset "UTF-8";
-#finder-progress-container {
-  width: 350px;
-  margin: 0 auto;
-}
-
-h1.finder-error {
-  color: red;
-}
-
-p.finder-error {
-  color: red;
-  font-weight: bold;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:d92437eac5fd8cf27a8b36b67128b76de7b45adc2f386109069731072d3b2297
+size 173

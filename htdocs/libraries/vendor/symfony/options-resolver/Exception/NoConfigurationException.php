@@ -1,26 +1,3 @@
-<?php
-
-/*
- * This file is part of the Symfony package.
- *
- * (c) Fabien Potencier <fabien@symfony.com>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
-namespace Symfony\Component\OptionsResolver\Exception;
-
-use Symfony\Component\OptionsResolver\Debug\OptionsResolverIntrospector;
-
-/**
- * Thrown when trying to introspect an option definition property
- * for which no value was configured inside the OptionsResolver instance.
- *
- * @see OptionsResolverIntrospector
- *
- * @author Maxime Steinhausser <maxime.steinhausser@gmail.com>
- */
-class NoConfigurationException extends \RuntimeException implements ExceptionInterface
-{
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:abf31e6b82112a2dffa39c15d8c9a2cf5e35158ddd7b4d199f0a7f767dd1be3b
+size 712

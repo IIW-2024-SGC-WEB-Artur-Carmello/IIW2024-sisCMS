@@ -1,23 +1,3 @@
-<?php
-
-declare(strict_types=1);
-
-namespace Jose\Component\Encryption\Algorithm;
-
-use Jose\Component\Core\Algorithm;
-
-interface KeyEncryptionAlgorithm extends Algorithm
-{
-    public const MODE_DIRECT = 'dir';
-
-    public const MODE_ENCRYPT = 'enc';
-
-    public const MODE_WRAP = 'wrap';
-
-    public const MODE_AGREEMENT = 'agree';
-
-    /**
-     * Returns the key management mode used by the key encryption algorithm.
-     */
-    public function getKeyManagementMode(): string;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:9545852adda494eef5318f95fbee02f84476907826bfeaa038b70eac58030d99
+size 478

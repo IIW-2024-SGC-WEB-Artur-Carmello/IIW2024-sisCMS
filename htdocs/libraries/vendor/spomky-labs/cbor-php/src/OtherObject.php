@@ -1,34 +1,3 @@
-<?php
-
-declare(strict_types=1);
-
-namespace CBOR;
-
-use CBOR\OtherObject\OtherObjectInterface;
-
-abstract class OtherObject extends AbstractCBORObject implements OtherObjectInterface
-{
-    private const MAJOR_TYPE = self::MAJOR_TYPE_OTHER_TYPE;
-
-    public function __construct(
-        int $additionalInformation,
-        protected ?string $data
-    ) {
-        parent::__construct(self::MAJOR_TYPE, $additionalInformation);
-    }
-
-    public function __toString(): string
-    {
-        $result = parent::__toString();
-        if ($this->data !== null) {
-            $result .= $this->data;
-        }
-
-        return $result;
-    }
-
-    public function getContent(): ?string
-    {
-        return $this->data;
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:c2cc34ecff5bde519e09d4bd3761f894c634977aafe09f088c964a47d84bb0fa
+size 715

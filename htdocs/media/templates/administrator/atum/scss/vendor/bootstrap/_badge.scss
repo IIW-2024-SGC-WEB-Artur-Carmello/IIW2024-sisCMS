@@ -1,13 +1,3 @@
-// Badge
-
-.badge {
-  @include media-breakpoint-down(md) {
-    white-space: normal;
-  }
-
-  &.bg-secondary {
-    &:hover {
-      color: $white;
-    }
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:13ad42a35b04657d5743303e21e9f2c93d45b6bb22731736cd5abac7dedeb0d7
+size 154

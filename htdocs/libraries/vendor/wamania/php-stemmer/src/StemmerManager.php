@@ -1,26 +1,3 @@
-<?php
-
-namespace Wamania\Snowball;
-
-class StemmerManager
-{
-    /** @var array */
-    private $stemmers;
-
-    public function __construct()
-    {
-        $this->stemmers = [];
-    }
-
-    /**
-     * @throws NotFoundException
-     */
-    public function stem(string $word, string $isoCode): string
-    {
-        if (!isset($this->stemmers[$isoCode])) {
-            $this->stemmers[$isoCode] = StemmerFactory::create($isoCode);
-        }
-
-        return $this->stemmers[$isoCode]->stem($word);
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:5a2149233cbf83737d77e17d02cd0a4672867189b4c6c8fd8c4b76deef9deea4
+size 498

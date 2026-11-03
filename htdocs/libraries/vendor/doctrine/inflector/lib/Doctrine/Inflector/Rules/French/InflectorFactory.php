@@ -1,21 +1,3 @@
-<?php
-
-declare(strict_types=1);
-
-namespace Doctrine\Inflector\Rules\French;
-
-use Doctrine\Inflector\GenericLanguageInflectorFactory;
-use Doctrine\Inflector\Rules\Ruleset;
-
-final class InflectorFactory extends GenericLanguageInflectorFactory
-{
-    protected function getSingularRuleset(): Ruleset
-    {
-        return Rules::getSingularRuleset();
-    }
-
-    protected function getPluralRuleset(): Ruleset
-    {
-        return Rules::getPluralRuleset();
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:a630eb1a90b480d0c7f5fc735a295112ea66873b772ad5be101c7d81af7ae0f1
+size 460

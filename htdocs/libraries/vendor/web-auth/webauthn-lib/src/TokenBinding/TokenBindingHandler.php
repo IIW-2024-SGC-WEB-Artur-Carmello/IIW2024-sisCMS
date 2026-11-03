@@ -1,15 +1,3 @@
-<?php
-
-declare(strict_types=1);
-
-namespace Webauthn\TokenBinding;
-
-use Psr\Http\Message\ServerRequestInterface;
-
-/**
- * @deprecated Since 4.3.0 and will be removed in 5.0.0
- */
-interface TokenBindingHandler
-{
-    public function check(TokenBinding $tokenBinding, ServerRequestInterface $request): void;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:71541aca788725197f3cfe56374172e19a38d3f8638a54c08ab73871f129e806
+size 305

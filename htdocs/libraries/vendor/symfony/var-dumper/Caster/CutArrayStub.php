@@ -1,30 +1,3 @@
-<?php
-
-/*
- * This file is part of the Symfony package.
- *
- * (c) Fabien Potencier <fabien@symfony.com>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
-namespace Symfony\Component\VarDumper\Caster;
-
-/**
- * Represents a cut array.
- *
- * @author Nicolas Grekas <p@tchwork.com>
- */
-class CutArrayStub extends CutStub
-{
-    public $preservedSubset;
-
-    public function __construct(array $value, array $preservedKeys)
-    {
-        parent::__construct($value);
-
-        $this->preservedSubset = array_intersect_key($value, array_flip($preservedKeys));
-        $this->cut -= \count($this->preservedSubset);
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:d2ff78081bad8c423bcb40c4cea10368bbea195467861d14bc971c4756536d78
+size 696

@@ -1,24 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<config>
-	<help key="Privacy:_Options"/>
-	<inlinehelp button="show"/>
-	<fieldset
-		name="privacy"
-		label="COM_PRIVACY_OPTION_LABEL"
-	>
-
-		<field
-			name="notify"
-			type="integer"
-			label="COM_PRIVACY_NOTIFY_LABEL"
-			description="COM_PRIVACY_NOTIFY_DESC"
-			first="1"
-			last="29"
-			step="1"
-			default="14"
-			filter="int"
-			validate="number"
-		/>
-
-	</fieldset>
-</config>
+version https://git-lfs.github.com/spec/v1
+oid sha256:731bfdbf82dee7b035579bfc053c4257c49cf0c989fd8839612ebe59300bff19
+size 417

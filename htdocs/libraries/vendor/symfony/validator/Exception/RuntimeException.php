@@ -1,21 +1,3 @@
-<?php
-
-/*
- * This file is part of the Symfony package.
- *
- * (c) Fabien Potencier <fabien@symfony.com>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
-namespace Symfony\Component\Validator\Exception;
-
-/**
- * Base RuntimeException for the Validator component.
- *
- * @author Bernhard Schussek <bschussek@gmail.com>
- */
-class RuntimeException extends \RuntimeException implements ExceptionInterface
-{
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:a97c9930aec7e6071580d87ccbbc5e376e2f4812a3b2f612ae7fc97f320af0c2
+size 487

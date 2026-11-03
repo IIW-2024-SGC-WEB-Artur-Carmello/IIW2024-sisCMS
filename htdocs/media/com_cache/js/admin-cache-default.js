@@ -1,14 +1,3 @@
-/**
- * @copyright   (C) 2018 Open Source Matters, Inc. <https://www.joomla.org>
- * @license     GNU General Public License version 2 or later; see LICENSE.txt
- */
-
-Joomla = window.Joomla || {};
-((document, Joomla) => {
-
-  document.addEventListener('DOMContentLoaded', () => {
-    document.querySelectorAll('.cache-entry').forEach(el => el.addEventListener('click', ({
-      currentTarget
-    }) => Joomla.isChecked(currentTarget.checked)));
-  });
-})(document, Joomla);
+version https://git-lfs.github.com/spec/v1
+oid sha256:e082bb0662fb79be8b4da4a36b0fc40c32071cdf3ef38617ab5b5f0615eb351c
+size 469

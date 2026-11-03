@@ -1,16 +1,3 @@
-<?php
-/*
- * This file is part of the DebugBar package.
- *
- * (c) 2013 Maxime Bouroumeau-Fuseau
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
-namespace DebugBar;
-
-class DebugBarException extends \Exception
-{
-    //
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:e9f7c0484801df42f40ba22b6e926ec8f37ae2e58fa0d85153043c2d9d5da101
+size 305

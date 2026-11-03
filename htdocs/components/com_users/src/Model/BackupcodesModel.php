@@ -1,24 +1,3 @@
-<?php
-
-/**
- * @package    Joomla.Site
- * @subpackage com_users
- *
- * @copyright  (C) 2022 Open Source Matters, Inc. <https://www.joomla.org>
- * @license    GNU General Public License version 2 or later; see LICENSE.txt
- */
-
-namespace Joomla\Component\Users\Site\Model;
-
-// phpcs:disable PSR1.Files.SideEffects
-\defined('_JEXEC') or die;
-// phpcs:enable PSR1.Files.SideEffects
-
-/**
- * Model for managing backup codes
- *
- * @since 4.2.0
- */
-class BackupcodesModel extends \Joomla\Component\Users\Administrator\Model\BackupcodesModel
-{
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:dafe143cbb4731ca67ab24f805354cb3d28b5821b6a70388f3d31a3b6f52217d
+size 535

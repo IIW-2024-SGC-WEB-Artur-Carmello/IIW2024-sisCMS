@@ -1,19 +1,3 @@
-<?php
-
-/**
- * Part of the Joomla Framework Crypt Package
- *
- * @copyright  Copyright (C) 2005 - 2021 Open Source Matters, Inc. All rights reserved.
- * @license    GNU General Public License version 2 or later; see LICENSE
- */
-
-namespace Joomla\Crypt\Exception;
-
-/**
- * Exception representing an error decrypting data
- *
- * @since  2.0.0
- */
-class DecryptionException extends \RuntimeException implements CryptExceptionInterface
-{
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:7b236c97357ab7f32bd0d4dd02fc41bf1fd0b211d2f7a7fd291f0675d0a86711
+size 432

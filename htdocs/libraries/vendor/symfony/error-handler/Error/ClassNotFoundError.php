@@ -1,29 +1,3 @@
-<?php
-
-/*
- * This file is part of the Symfony package.
- *
- * (c) Fabien Potencier <fabien@symfony.com>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
-namespace Symfony\Component\ErrorHandler\Error;
-
-class ClassNotFoundError extends \Error
-{
-    public function __construct(string $message, \Throwable $previous)
-    {
-        parent::__construct($message, $previous->getCode(), $previous->getPrevious());
-
-        foreach ([
-            'file' => $previous->getFile(),
-            'line' => $previous->getLine(),
-            'trace' => $previous->getTrace(),
-        ] as $property => $value) {
-            $refl = new \ReflectionProperty(\Error::class, $property);
-            $refl->setValue($this, $value);
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:1f30962a1e019d8ea80c1df62ca069ae38f1cbee4b50a49ea08269b60836d978
+size 816

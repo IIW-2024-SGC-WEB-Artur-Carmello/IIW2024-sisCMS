@@ -1,3 +1,3 @@
-INSERT INTO "#__extensions" ("package_id", "name", "type", "element", "folder", "client_id", "enabled", "access", "protected", "locked", "manifest_cache", "params", "custom_data", "ordering", "state")
-SELECT 0, 'plg_behaviour_compat6', 'plugin', 'compat6', 'behaviour', 0, 1, 1, 0, 1, '', '{"classes_aliases":"1","legacy_classes":"1"}', '', -1, 0
-WHERE NOT EXISTS (SELECT * FROM "#__extensions" e WHERE e."type" = 'plugin' AND e."element" = 'compat6' AND e."folder" = 'behaviour' AND e."client_id" = 0);
+version https://git-lfs.github.com/spec/v1
+oid sha256:59a1682a6e9c57acea1dd2dbb964ae0ace5c0e6747d3dfee73cde7aa4ed3b315
+size 504

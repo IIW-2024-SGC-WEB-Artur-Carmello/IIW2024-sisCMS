@@ -1,28 +1,3 @@
-<?php
-
-declare(strict_types=1);
-
-namespace Webauthn\Exception;
-
-use Throwable;
-
-final class CounterException extends WebauthnException
-{
-    public function __construct(
-        public int $currentCounter,
-        public int $authenticatorCounter,
-        string $message,
-        ?Throwable $previous = null
-    ) {
-        parent::__construct($message, $previous);
-    }
-
-    public static function create(
-        int $currentCounter,
-        int $authenticatorCounter,
-        string $message,
-        ?Throwable $previous = null
-    ): self {
-        return new self($currentCounter, $authenticatorCounter, $message, $previous);
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:a984b1e374332611220edad7c8fa81ddf5b907dc5721fd7168b7c22d669057b0
+size 642

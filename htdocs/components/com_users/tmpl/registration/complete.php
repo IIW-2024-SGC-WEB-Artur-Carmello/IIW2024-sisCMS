@@ -1,21 +1,3 @@
-<?php
-
-/**
- * @package     Joomla.Site
- * @subpackage  com_users
- *
- * @copyright   (C) 2009 Open Source Matters, Inc. <https://www.joomla.org>
- * @license     GNU General Public License version 2 or later; see LICENSE.txt
- */
-
-defined('_JEXEC') or die;
-
-/** @var \Joomla\Component\Users\Site\View\Registration\HtmlView $this */
-?>
-<div class="com-users-registration-complete registration-complete">
-    <?php if ($this->params->get('show_page_heading')) : ?>
-        <h1>
-            <?php echo $this->escape($this->params->get('page_heading')); ?>
-        </h1>
-    <?php endif; ?>
-</div>
+version https://git-lfs.github.com/spec/v1
+oid sha256:0cbf23e931464360c06f2a07a2f495c75ff428af6b88e8d6b2894722c785dff6
+size 591

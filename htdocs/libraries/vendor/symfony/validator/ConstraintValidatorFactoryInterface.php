@@ -1,25 +1,3 @@
-<?php
-
-/*
- * This file is part of the Symfony package.
- *
- * (c) Fabien Potencier <fabien@symfony.com>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
-namespace Symfony\Component\Validator;
-
-/**
- * Specifies an object able to return the correct ConstraintValidatorInterface
- * instance given a Constraint object.
- */
-interface ConstraintValidatorFactoryInterface
-{
-    /**
-     * Given a Constraint, this returns the ConstraintValidatorInterface
-     * object that should be used to verify its validity.
-     */
-    public function getInstance(Constraint $constraint): ConstraintValidatorInterface;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:1b73a929b5c294e2cb4437158dd079b30344c45f68e9018a1ad683cd4a0ba417
+size 688

@@ -1,18 +1,3 @@
-{
-  "$schema": "https://developer.joomla.org/schemas/json-schema/web_assets.json",
-  "name": "joomla",
-  "version": "4.0.0",
-  "description": "Joomla CMS",
-  "license": "GPL-2.0-or-later",
-  "assets": [
-    {
-      "name": "jquery-noconflict",
-      "type": "script",
-      "dependencies": [
-        "jquery"
-      ],
-      "uri": "legacy/jquery-noconflict.min.js",
-      "version": "504da4"
-    }
-  ]
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:52b531cef68cc681a41189779ebafbeb642c272ef5fc2cc8063236a206503b64
+size 403

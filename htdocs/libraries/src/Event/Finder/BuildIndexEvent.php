@@ -1,27 +1,3 @@
-<?php
-
-/**
- * Joomla! Content Management System
- *
- * @copyright  (C) 2023 Open Source Matters, Inc. <https://www.joomla.org>
- * @license    GNU General Public License version 2 or later; see LICENSE.txt
- */
-
-namespace Joomla\CMS\Event\Finder;
-
-use Joomla\CMS\Event\AbstractImmutableEvent;
-
-// phpcs:disable PSR1.Files.SideEffects
-\defined('_JEXEC') or die;
-// phpcs:enable PSR1.Files.SideEffects
-
-/**
- * Class for Finder events.
- * Example:
- *  new BuildIndexEvent('onEventName', []);
- *
- * @since  5.0.0
- */
-class BuildIndexEvent extends AbstractImmutableEvent implements FinderEventInterface
-{
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:9ddc445b6fde369dbc45f6be1bd4e7569d0453d53ece9fe6d0f133c5118f900f
+size 599

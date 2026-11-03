@@ -1,21 +1,3 @@
-<?php
-
-/**
- * @package     Joomla.Administrator
- * @subpackage  com_contact
- *
- * @copyright   (C) 2013 Open Source Matters, Inc. <https://www.joomla.org>
- * @license     GNU General Public License version 2 or later; see LICENSE.txt
- */
-
-defined('_JEXEC') or die;
-
-/** @var \Joomla\Component\Contact\Administrator\View\Contact\HtmlView $this */
-?>
-<div class="subhead noshadow mb-3">
-    <?php echo $this->getDocument()->getToolbar('toolbar')->render(); ?>
-</div>
-<div class="container-popup">
-    <?php $this->setLayout('edit'); ?>
-    <?php echo $this->loadTemplate(); ?>
-</div>
+version https://git-lfs.github.com/spec/v1
+oid sha256:810e971139bc0475961a65af185246e41d7cbcf5c2b3a17be0cb6f7c64179613
+size 582

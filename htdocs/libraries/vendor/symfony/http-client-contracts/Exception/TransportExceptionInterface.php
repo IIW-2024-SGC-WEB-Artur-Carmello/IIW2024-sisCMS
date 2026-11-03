@@ -1,21 +1,3 @@
-<?php
-
-/*
- * This file is part of the Symfony package.
- *
- * (c) Fabien Potencier <fabien@symfony.com>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
-namespace Symfony\Contracts\HttpClient\Exception;
-
-/**
- * When any error happens at the transport level.
- *
- * @author Nicolas Grekas <p@tchwork.com>
- */
-interface TransportExceptionInterface extends ExceptionInterface
-{
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:31fdfc2a12b65c9c971ba2bc07f42f09d8406780365f914198b8007066554a0d
+size 461

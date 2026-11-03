@@ -1,16 +1,3 @@
-/**
- * @copyright  (C) 2018 Open Source Matters, Inc. <https://www.joomla.org>
- * @license    GNU General Public License version 2 or later; see LICENSE.txt
- */
-window.Joomla = window.Joomla || {};
-Joomla.setMenuType = (type, tmpl) => {
-  console.warn('Method Joomla.setMenuType() is deprecated. Use "modal-content-select" asset and elements with [data-content-select] attribute.');
-  if (tmpl !== '') {
-    window.parent.Joomla.submitbutton('item.setType', type);
-    if (window.parent.Joomla.Modal && window.parent.Joomla.Modal.getCurrent()) {
-      window.parent.Joomla.Modal.getCurrent().close();
-    }
-  } else {
-    window.location = `index.php?option=com_menus&view=item&task=item.setType&layout=edit&type=${type}`;
-  }
-};
+version https://git-lfs.github.com/spec/v1
+oid sha256:1b0be502d99cfa8c56b1d26bc2c72f73f97169f84c3826b59d2c4413618a9596
+size 730

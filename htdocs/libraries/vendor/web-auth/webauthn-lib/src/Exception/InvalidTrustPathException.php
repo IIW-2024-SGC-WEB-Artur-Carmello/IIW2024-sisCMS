@@ -1,15 +1,3 @@
-<?php
-
-declare(strict_types=1);
-
-namespace Webauthn\Exception;
-
-use Throwable;
-
-final class InvalidTrustPathException extends WebauthnException
-{
-    public static function create(string $message, ?Throwable $previous = null): self
-    {
-        return new self($message, $previous);
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:be25602bdef393a308fa3dfe11644737ffca4448f9bdccf395f28abd7fd64cdf
+size 292

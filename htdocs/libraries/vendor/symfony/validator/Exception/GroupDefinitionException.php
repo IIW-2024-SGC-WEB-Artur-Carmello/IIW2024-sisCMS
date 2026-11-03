@@ -1,16 +1,3 @@
-<?php
-
-/*
- * This file is part of the Symfony package.
- *
- * (c) Fabien Potencier <fabien@symfony.com>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
-namespace Symfony\Component\Validator\Exception;
-
-class GroupDefinitionException extends ValidatorException
-{
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:e1df4adbe4a907d136b86af549e26572d9ec59f25853ad6438a47750cf6100f2
+size 350

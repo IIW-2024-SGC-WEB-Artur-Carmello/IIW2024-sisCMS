@@ -1,3 +1,3 @@
--- Add mod_articles module
-INSERT INTO `#__extensions` (`package_id`, `name`, `type`, `element`, `folder`, `client_id`, `enabled`, `access`, `protected`, `locked`, `manifest_cache`, `params`, `custom_data`) VALUES
-(0, 'mod_articles', 'module', 'mod_articles', '', 0, 1, 0, 0, 1, '', '', '');
+version https://git-lfs.github.com/spec/v1
+oid sha256:775c4657d8e6e89ad030ff1ac75d2f54c8bab5dda19591defa7dff6dada5ec59
+size 292

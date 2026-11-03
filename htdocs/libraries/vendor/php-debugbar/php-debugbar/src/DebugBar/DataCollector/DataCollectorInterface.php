@@ -1,31 +1,3 @@
-<?php
-/*
- * This file is part of the DebugBar package.
- *
- * (c) 2013 Maxime Bouroumeau-Fuseau
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
-namespace DebugBar\DataCollector;
-
-/**
- * DataCollector Interface
- */
-interface DataCollectorInterface
-{
-    /**
-     * Called by the DebugBar when data needs to be collected
-     *
-     * @return array Collected data
-     */
-    function collect();
-
-    /**
-     * Returns the unique name of the collector
-     *
-     * @return string
-     */
-    function getName();
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:5c0f501556a762a0e17000368e7b8d99b21719e4fe6b181f49b3e8e5ecafdb75
+size 600

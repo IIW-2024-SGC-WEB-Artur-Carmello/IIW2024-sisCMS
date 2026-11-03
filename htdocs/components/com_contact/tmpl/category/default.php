@@ -1,23 +1,3 @@
-<?php
-
-/**
- * @package     Joomla.Site
- * @subpackage  com_contact
- *
- * @copyright   (C) 2006 Open Source Matters, Inc. <https://www.joomla.org>
- * @license     GNU General Public License version 2 or later; see LICENSE.txt
- */
-
-defined('_JEXEC') or die;
-
-use Joomla\CMS\Layout\LayoutHelper;
-
-/** @var \Joomla\Component\Contact\Site\View\Category\HtmlView $this */
-?>
-
-<div class="com-contact-category">
-    <?php
-        $this->subtemplatename = 'items';
-        echo LayoutHelper::render('joomla.content.category_default', $this);
-    ?>
-</div>
+version https://git-lfs.github.com/spec/v1
+oid sha256:250709d3df9884e0c37b5d5d7c18b4082c462a3cbd05bb0cddddf0136e34aeab
+size 548

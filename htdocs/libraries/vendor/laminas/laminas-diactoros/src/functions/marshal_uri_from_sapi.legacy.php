@@ -1,18 +1,3 @@
-<?php
-
-declare(strict_types=1);
-
-namespace Zend\Diactoros;
-
-use Laminas\Diactoros\Uri;
-
-use function func_get_args;
-use function Laminas\Diactoros\marshalUriFromSapi as laminas_marshalUriFromSapi;
-
-/**
- * @deprecated Use Laminas\Diactoros\marshalUriFromSapi instead
- */
-function marshalUriFromSapi(array $server, array $headers): Uri
-{
-    return laminas_marshalUriFromSapi(...func_get_args());
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:02b919848ca8962b8d752fe6b478a3c381d6e76af8bafe41ac0c5d5ee9e74e4a
+size 397

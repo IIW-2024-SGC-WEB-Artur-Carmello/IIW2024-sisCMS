@@ -1,26 +1,3 @@
-<?php
-
-/*
- * This file is part of the Symfony package.
- *
- * (c) Fabien Potencier <fabien@symfony.com>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
-namespace Symfony\Component\Validator\Constraints;
-
-/**
- * @Annotation
- * @Target({"PROPERTY", "METHOD", "ANNOTATION"})
- *
- * @author Jan Schädlich <jan.schaedlich@sensiolabs.de>
- */
-#[\Attribute(\Attribute::TARGET_PROPERTY | \Attribute::TARGET_METHOD | \Attribute::IS_REPEATABLE)]
-class PositiveOrZero extends GreaterThanOrEqual
-{
-    use ZeroComparisonConstraintTrait;
-
-    public $message = 'This value should be either positive or zero.';
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:a86f06d4f1df9149011bf86b2deaea756129ccd5ba84e11781fd48bb49373f5e
+size 684

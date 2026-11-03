@@ -1,25 +1,3 @@
-<?php
-
-declare(strict_types=1);
-
-namespace Laminas\Diactoros\Exception;
-
-use RuntimeException;
-
-class UntellableStreamException extends RuntimeException implements ExceptionInterface
-{
-    public static function dueToMissingResource(): self
-    {
-        return new self('No resource available; cannot tell position');
-    }
-
-    public static function dueToPhpError(): self
-    {
-        return new self('Error occurred during tell operation');
-    }
-
-    public static function forCallbackStream(): self
-    {
-        return new self('Callback streams cannot tell position');
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:64ca079cbd1ccb1f7f52e50ce75b1b6fc952a22a47e244377b812c555eb0ca94
+size 586

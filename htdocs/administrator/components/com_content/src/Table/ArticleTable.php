@@ -1,24 +1,3 @@
-<?php
-
-/**
- * @package     Joomla.Administrator
- * @subpackage  com_content
- *
- * @copyright   (C) 2017 Open Source Matters, Inc. <https://www.joomla.org>
- * @license     GNU General Public License version 2 or later; see LICENSE.txt
- */
-
-namespace Joomla\Component\Content\Administrator\Table;
-
-// phpcs:disable PSR1.Files.SideEffects
-\defined('_JEXEC') or die;
-// phpcs:enable PSR1.Files.SideEffects
-
-/**
- * Article table
- *
- * @since  1.5
- */
-class ArticleTable extends \Joomla\CMS\Table\Content
-{
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:416524cac6988373ca41e511ac9907abeb4d6b2f9d4a9257e1470c061a4694c5
+size 503

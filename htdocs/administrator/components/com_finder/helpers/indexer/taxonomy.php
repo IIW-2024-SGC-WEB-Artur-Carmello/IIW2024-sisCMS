@@ -1,19 +1,3 @@
-<?php
-
-/**
- * @package     Joomla.Administrator
- * @subpackage  com_finder
- *
- * @copyright   (C) 2011 Open Source Matters, Inc. <https://www.joomla.org>
- * @license     GNU General Public License version 2 or later; see LICENSE.txt
- */
-
-\defined('_JEXEC') or die;
-
-/**
- * Finder Indexer Taxonomy class.
- *
- * @since       2.5
- * @deprecated  4.3 will be removed in 6.0
- *              Use \Joomla\Component\Finder\Administrator\Indexer\Taxonomy instead
- */
+version https://git-lfs.github.com/spec/v1
+oid sha256:4ac550cdc6a0a5288fee7a9e240041b875899ef7b430a153d5a04c3621db555a
+size 458

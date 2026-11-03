@@ -1,23 +1,3 @@
-<?php
-
-/**
- * NoKeyLoadedException
- *
- * PHP version 5
- *
- * @author    Jim Wigginton <terrafrost@php.net>
- * @copyright 2015 Jim Wigginton
- * @license   http://www.opensource.org/licenses/mit-license.html  MIT License
- * @link      http://phpseclib.sourceforge.net
- */
-
-namespace phpseclib3\Exception;
-
-/**
- * NoKeyLoadedException
- *
- * @author  Jim Wigginton <terrafrost@php.net>
- */
-class NoKeyLoadedException extends \RuntimeException
-{
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:dd37e03e6ebe7403003414779a4412be15421ad8f6e9e6557b194e1b355f5cc9
+size 443

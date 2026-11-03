@@ -1,19 +1,3 @@
-<?php
-
-/*
- * This file is part of the Symfony package.
- *
- * (c) Fabien Potencier <fabien@symfony.com>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
-namespace Symfony\Component\Console\Exception;
-
-/**
- * @author Jérôme Tamarelle <jerome@tamarelle.net>
- */
-class InvalidArgumentException extends \InvalidArgumentException implements ExceptionInterface
-{
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:e9a87cd31fd0d47e461f13a055c042441ab577fcb5dfa578ce139b248d532465
+size 446

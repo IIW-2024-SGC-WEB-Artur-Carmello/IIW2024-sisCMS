@@ -1,32 +1,3 @@
-<?php
-
-/**
- * @package     Joomla.Site
- * @subpackage  Layout
- *
- * @copyright   (C) 2016 Open Source Matters, Inc. <https://www.joomla.org>
- * @license     GNU General Public License version 2 or later; see LICENSE.txt
- */
-
-defined('_JEXEC') or die;
-
-use Joomla\CMS\Language\Text;
-
-if (isset($displayData['ariaDescribed'])) {
-    $aria_described = $displayData['ariaDescribed'];
-} elseif (isset($displayData['article'])) {
-    $article        = $displayData['article'];
-    $aria_described = 'editarticle-' . (int) $article->id;
-} elseif (isset($displayData['contact'])) {
-    $contact        = $displayData['contact'];
-    $aria_described = 'editcontact-' . (int) $contact->id;
-}
-
-$tooltip = $displayData['tooltip'];
-
-?>
-<span class="hasTooltip icon-lock" aria-hidden="true"></span>
-    <?php echo Text::_('JLIB_HTML_CHECKED_OUT'); ?>
-<div role="tooltip" id="<?php echo $aria_described; ?>">
-    <?php echo $tooltip; ?>
-</div>
+version https://git-lfs.github.com/spec/v1
+oid sha256:57144cbc7757b2988c6185642a89c3c1b05b5edcd85f717b8506b8d67d9f2147
+size 929

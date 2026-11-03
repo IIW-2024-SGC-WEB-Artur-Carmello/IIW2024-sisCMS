@@ -1,1 +1,3 @@
-@charset "UTF-8";.checkbox-toggle{display:none!important}.checkbox-toggle[disabled]~.btn-hide{opacity:.5}.checkbox-toggle~.btn-show{display:inline}.checkbox-toggle~.btn-hide,.checkbox-toggle:checked~.btn-show{display:none}.checkbox-toggle:checked~.btn-hide{display:inline}
+version https://git-lfs.github.com/spec/v1
+oid sha256:13715607fef92acb328e18eb47c0c87e2d3e2391e1719f6eb39cbd924d5009be
+size 272

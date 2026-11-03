@@ -1,21 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<form>
-	<fields name="privacyconsent">
-		<fieldset
-			name="privacyconsent"
-			label="PLG_SYSTEM_PRIVACYCONSENT_LABEL"
-		>
-			<field
-				name="privacy"
-				type="privacy"
-				label="PLG_SYSTEM_PRIVACYCONSENT_FIELD_LABEL"
-				default="0"
-				filter="integer"
-				required="true"
-				>
-				<option value="1">PLG_SYSTEM_PRIVACYCONSENT_OPTION_AGREE</option>
-				<option value="0">PLG_SYSTEM_PRIVACYCONSENT_OPTION_DO_NOT_AGREE</option>
-			</field>
-		</fieldset>
-	</fields>
-</form>
+version https://git-lfs.github.com/spec/v1
+oid sha256:274511e0cde1eebb634579b8dce7c7031525f71b0bc91f6fb2e9a48eb4bc3eb0
+size 515

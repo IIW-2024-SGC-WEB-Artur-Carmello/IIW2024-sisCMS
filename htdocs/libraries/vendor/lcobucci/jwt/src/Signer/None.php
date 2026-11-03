@@ -1,27 +1,3 @@
-<?php
-declare(strict_types=1);
-
-namespace Lcobucci\JWT\Signer;
-
-use Lcobucci\JWT\Signer;
-
-/** @deprecated Deprecated since v4.3 */
-final class None implements Signer
-{
-    public function algorithmId(): string
-    {
-        return 'none';
-    }
-
-    // @phpcs:ignore SlevomatCodingStandard.Functions.UnusedParameter.UnusedParameter
-    public function sign(string $payload, Key $key): string
-    {
-        return '';
-    }
-
-    // @phpcs:ignore SlevomatCodingStandard.Functions.UnusedParameter.UnusedParameter
-    public function verify(string $expected, string $payload, Key $key): bool
-    {
-        return $expected === '';
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:9e3172f47a993821ce46d222260472ae2c553642c80810cbe41280078664ee67
+size 635

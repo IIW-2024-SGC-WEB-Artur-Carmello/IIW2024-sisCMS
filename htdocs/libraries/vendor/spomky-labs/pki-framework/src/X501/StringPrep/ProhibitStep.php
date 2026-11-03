@@ -1,22 +1,3 @@
-<?php
-
-declare(strict_types=1);
-
-namespace SpomkyLabs\Pki\X501\StringPrep;
-
-/**
- * Implements 'Prohibit' step of the Internationalized String Preparation as specified by RFC 4518.
- *
- * @see https://tools.ietf.org/html/rfc4518#section-2.4
- */
-final class ProhibitStep implements PrepareStep
-{
-    /**
-     * @param string $string UTF-8 encoded string
-     */
-    public function apply(string $string): string
-    {
-        // @todo Implement
-        return $string;
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:c940c77624cf5d7ded38b976bb5ecf8cba541718646de6c99c3a50ceb5f06ae8
+size 474

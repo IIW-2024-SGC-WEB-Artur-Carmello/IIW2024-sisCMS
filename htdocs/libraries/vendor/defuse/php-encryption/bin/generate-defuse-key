@@ -1,14 +1,3 @@
-#!/usr/bin/env php
-<?php
-
-use Defuse\Crypto\Key;
-
-foreach ([__DIR__ . '/../../../autoload.php', __DIR__ . '/../vendor/autoload.php'] as $file) {
-    if (file_exists($file)) {
-        require $file;
-        break;
-    }
-}
-
-$key = Key::createNewRandomKey();
-echo $key->saveToAsciiSafeString(), "\n";
+version https://git-lfs.github.com/spec/v1
+oid sha256:e50c72169dc2dc92008c16c414928c7e3160d7bd11d0ec081f6ece163d97742a
+size 298

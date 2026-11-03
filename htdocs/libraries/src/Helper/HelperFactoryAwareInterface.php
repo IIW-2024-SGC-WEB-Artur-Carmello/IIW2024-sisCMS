@@ -1,33 +1,3 @@
-<?php
-
-/**
- * Joomla! Content Management System
- *
- * @copyright  (C) 2022 Open Source Matters, Inc. <https://www.joomla.org>
- * @license    GNU General Public License version 2 or later; see LICENSE.txt
- */
-
-namespace Joomla\CMS\Helper;
-
-// phpcs:disable PSR1.Files.SideEffects
-\defined('_JEXEC') or die;
-// phpcs:enable PSR1.Files.SideEffects
-
-/**
- * Interface to be implemented by classes depending on a helper factory.
- *
- * @since  4.2.0
- */
-interface HelperFactoryAwareInterface
-{
-    /**
-     * Sets the helper factory to use.
-     *
-     * @param   HelperFactory  $helper  The helper factory to use.
-     *
-     * @return  void
-     *
-     * @since   4.2.0
-     */
-    public function setHelperFactory(HelperFactory $helper);
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:e6da934ffc9bdd75752d0bd29ee200df66ca776cb43997de7c6d75c8889a54d7
+size 736

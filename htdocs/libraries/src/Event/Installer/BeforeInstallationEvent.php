@@ -1,29 +1,3 @@
-<?php
-
-/**
- * Joomla! Content Management System
- *
- * @copyright  (C) 2023 Open Source Matters, Inc. <https://www.joomla.org>
- * @license    GNU General Public License version 2 or later; see LICENSE.txt
- */
-
-namespace Joomla\CMS\Event\Installer;
-
-use Joomla\CMS\Event\Result\ResultAware;
-use Joomla\CMS\Event\Result\ResultAwareInterface;
-use Joomla\CMS\Event\Result\ResultTypeBooleanAware;
-
-// phpcs:disable PSR1.Files.SideEffects
-\defined('_JEXEC') or die;
-// phpcs:enable PSR1.Files.SideEffects
-
-/**
- * Class for Installer events
- *
- * @since  5.0.0
- */
-class BeforeInstallationEvent extends InstallerEvent implements ResultAwareInterface
-{
-    use ResultAware;
-    use ResultTypeBooleanAware;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:1766ead8f1007fcdbee5411457939ae6b7c1d6a08d76ca088db9b68ce7b3b5ce
+size 699

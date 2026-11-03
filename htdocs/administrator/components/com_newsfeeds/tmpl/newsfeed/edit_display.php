@@ -1,26 +1,3 @@
-<?php
-
-/**
- * @package     Joomla.Administrator
- * @subpackage  com_newsfeeds
- *
- * @copyright   (C) 2013 Open Source Matters, Inc. <https://www.joomla.org>
- * @license     GNU General Public License version 2 or later; see LICENSE.txt
- */
-
-defined('_JEXEC') or die;
-
-use Joomla\CMS\Language\Text;
-use Joomla\CMS\Layout\LayoutHelper;
-
-/** @var \Joomla\Component\Newsfeeds\Administrator\View\Newsfeed\HtmlView $this */
-
-$this->fieldset = 'jbasic';
-?>
-
-<fieldset id="fieldset-display" class="options-form">
-    <legend><?php echo Text::_('JGLOBAL_FIELDSET_DISPLAY_OPTIONS'); ?></legend>
-    <div>
-    <?php echo LayoutHelper::render('joomla.edit.fieldset', $this); ?>
-    </div>
-</fieldset>
+version https://git-lfs.github.com/spec/v1
+oid sha256:6c7f3f467812f2f48c155047bcc0616865446f0c79113122716a3a294de852a3
+size 689

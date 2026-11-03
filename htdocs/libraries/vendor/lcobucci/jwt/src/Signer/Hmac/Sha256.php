@@ -1,24 +1,3 @@
-<?php
-declare(strict_types=1);
-
-namespace Lcobucci\JWT\Signer\Hmac;
-
-use Lcobucci\JWT\Signer\Hmac;
-
-final class Sha256 extends Hmac
-{
-    public function algorithmId(): string
-    {
-        return 'HS256';
-    }
-
-    public function algorithm(): string
-    {
-        return 'sha256';
-    }
-
-    public function minimumBitsLengthForKey(): int
-    {
-        return 256;
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:edc55614890f1ba5632c8ff20dda722207d14a7085451010d60207f796f91114
+size 376

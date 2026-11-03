@@ -1,26 +1,3 @@
-<?php
-
-declare(strict_types=1);
-
-namespace Webauthn\AuthenticationExtensions;
-
-use CBOR\CBORObject;
-use CBOR\MapObject;
-use function is_string;
-use Webauthn\Exception\AuthenticationExtensionException;
-
-abstract class AuthenticationExtensionsClientOutputsLoader
-{
-    public static function load(CBORObject $object): AuthenticationExtensionsClientOutputs
-    {
-        $object instanceof MapObject || throw AuthenticationExtensionException::create('Invalid extension object');
-        $data = $object->normalize();
-        $extensions = AuthenticationExtensionsClientOutputs::create();
-        foreach ($data as $key => $value) {
-            is_string($key) || throw AuthenticationExtensionException::create('Invalid extension key');
-            $extensions->add(AuthenticationExtension::create($key, $value));
-        }
-
-        return $extensions;
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:c8f0c2c930e23f10c7147d55ad937b0524638934b33cdff87689b014196eb555
+size 857

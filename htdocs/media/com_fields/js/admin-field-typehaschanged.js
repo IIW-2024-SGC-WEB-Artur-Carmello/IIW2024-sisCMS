@@ -1,13 +1,3 @@
-/**
- * @copyright  (C) 2019 Open Source Matters, Inc. <https://www.joomla.org>
- * @license    GNU General Public License version 2 or later; see LICENSE.txt
- */
-(Joomla => {
-
-  Joomla.typeHasChanged = element => {
-    // Display the loading indication
-    document.body.appendChild(document.createElement('joomla-core-loader'));
-    document.querySelector('input[name=task]').value = 'field.reload';
-    element.form.submit();
-  };
-})(Joomla);
+version https://git-lfs.github.com/spec/v1
+oid sha256:8bfeb0f40cd5f7fa698f4ad57c0b32b0c8d5c63e9adfc0d3a0fe122031c2dcce
+size 444

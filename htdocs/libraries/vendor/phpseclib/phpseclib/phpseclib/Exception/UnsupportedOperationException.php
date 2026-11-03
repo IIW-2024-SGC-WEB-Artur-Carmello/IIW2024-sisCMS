@@ -1,23 +1,3 @@
-<?php
-
-/**
- * UnsupportedOperationException
- *
- * PHP version 5
- *
- * @author    Jim Wigginton <terrafrost@php.net>
- * @copyright 2015 Jim Wigginton
- * @license   http://www.opensource.org/licenses/mit-license.html  MIT License
- * @link      http://phpseclib.sourceforge.net
- */
-
-namespace phpseclib3\Exception;
-
-/**
- * UnsupportedOperationException
- *
- * @author  Jim Wigginton <terrafrost@php.net>
- */
-class UnsupportedOperationException extends \RuntimeException
-{
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:6ef188582d103662f86995dd8e9b18e2d2993ceba24e237584b785e67d32d1a4
+size 470

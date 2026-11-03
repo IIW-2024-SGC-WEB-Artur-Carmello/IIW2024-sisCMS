@@ -1,36 +1,3 @@
-<?php
-
-declare(strict_types=1);
-
-namespace Jose\Component\KeyManagement\Analyzer;
-
-use Jose\Component\Core\JWK;
-
-class KeyAnalyzerManager
-{
-    /**
-     * @var KeyAnalyzer[]
-     */
-    private array $analyzers = [];
-
-    /**
-     * Adds a Key Analyzer to the manager.
-     */
-    public function add(KeyAnalyzer $analyzer): void
-    {
-        $this->analyzers[] = $analyzer;
-    }
-
-    /**
-     * This method will analyze the JWK object using all analyzers. It returns a message bag that may contains messages.
-     */
-    public function analyze(JWK $jwk): MessageBag
-    {
-        $bag = new MessageBag();
-        foreach ($this->analyzers as $analyzer) {
-            $analyzer->analyze($jwk, $bag);
-        }
-
-        return $bag;
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:342ef47c5930d032aad0c7ca06919a6d007a1c9753972f1c7fb558c01f261401
+size 743

@@ -1,10 +1,3 @@
---
--- Add a default value for the colorScheme in the Atum template on Joomla update
--- only when a value is not already set.
--- New installs will have the default value set in the installation sql.
---
-
-UPDATE `#__template_styles`
-SET `params` = JSON_SET(`params`, '$.colorScheme', 'os')
-WHERE `template` = 'atum'
-AND JSON_EXTRACT(`params`, '$.colorScheme') IS NULL;
+version https://git-lfs.github.com/spec/v1
+oid sha256:0c3f8d0d9e6d01b7be2598b6f822a1d63480228800753a675fed96f4344a6223
+size 366

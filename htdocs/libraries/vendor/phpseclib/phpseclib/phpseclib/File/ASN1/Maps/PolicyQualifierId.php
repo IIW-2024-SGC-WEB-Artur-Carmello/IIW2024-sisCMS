@@ -1,26 +1,3 @@
-<?php
-
-/**
- * PolicyQualifierId
- *
- * PHP version 5
- *
- * @author    Jim Wigginton <terrafrost@php.net>
- * @copyright 2016 Jim Wigginton
- * @license   http://www.opensource.org/licenses/mit-license.html  MIT License
- * @link      http://phpseclib.sourceforge.net
- */
-
-namespace phpseclib3\File\ASN1\Maps;
-
-use phpseclib3\File\ASN1;
-
-/**
- * PolicyQualifierId
- *
- * @author  Jim Wigginton <terrafrost@php.net>
- */
-abstract class PolicyQualifierId
-{
-    const MAP = ['type' => ASN1::TYPE_OBJECT_IDENTIFIER];
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:2dd6d6ca32de75e6874065acc901e0c6046dc82e9a34f9b962a857151d8fb607
+size 507

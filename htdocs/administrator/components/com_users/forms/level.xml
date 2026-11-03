@@ -1,32 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<form>
-	<fieldset>
-		<field
-			name="id"
-			type="hidden"
-			default="0"
-			readonly="true"
-		/>
-
-		<field
-			name="title"
-			type="text"
-			label="COM_USERS_LEVEL_FIELD_TITLE_LABEL"
-			required="true"
-		/>
-
-		<field
-			name="ordering"
-			type="text"
-			label="JFIELD_ORDERING_LABEL"
-			description="JFIELD_ORDERING_DESC"
-			default="0"
-		/>
-
-		<field
-			name="rules"
-			type="hidden"
-			filter="intarray"
-		/>
-	</fieldset>
-</form>
+version https://git-lfs.github.com/spec/v1
+oid sha256:8b961b369e5f77d89d368bbf24f6d35ab9558620b95524cf161a18218dbd4d9e
+size 471

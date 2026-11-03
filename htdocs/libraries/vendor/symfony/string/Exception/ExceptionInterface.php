@@ -1,16 +1,3 @@
-<?php
-
-/*
- * This file is part of the Symfony package.
- *
- * (c) Fabien Potencier <fabien@symfony.com>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
-namespace Symfony\Component\String\Exception;
-
-interface ExceptionInterface extends \Throwable
-{
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:f5a0d7cc7c20302a581cfae69bcdf95e4bb3c6fc71cb42db267283379e9dbb50
+size 337

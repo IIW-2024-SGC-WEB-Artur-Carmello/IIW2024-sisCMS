@@ -1,1 +1,3 @@
-{"keytype": "ed25519", "scheme": "ed25519", "keyid_hash_algorithms": ["sha256", "sha512"], "keyval": {"public": "683d345a948a9baa343be4e44c076ca115da3838e72c28a06340c8ec1b3ef6be"}}
+version https://git-lfs.github.com/spec/v1
+oid sha256:937b31313e649b86aba07c1e8d02e7ffbf7c3443c04abe4557eeeeb5f0e0f9a1
+size 180

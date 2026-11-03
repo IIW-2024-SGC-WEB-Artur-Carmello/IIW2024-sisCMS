@@ -1,31 +1,3 @@
-<?php
-
-/**
- * PrivateKey interface
- *
- * @author    Jim Wigginton <terrafrost@php.net>
- * @copyright 2009 Jim Wigginton
- * @license   http://www.opensource.org/licenses/mit-license.html  MIT License
- * @link      http://phpseclib.sourceforge.net
- */
-
-namespace phpseclib3\Crypt\Common;
-
-/**
- * PrivateKey interface
- *
- * @author  Jim Wigginton <terrafrost@php.net>
- */
-interface PrivateKey
-{
-    public function sign($message);
-    //public function decrypt($ciphertext);
-    public function getPublicKey();
-    public function toString($type, array $options = []);
-
-    /**
-     * @param string|false $password
-     * @return mixed
-     */
-    public function withPassword($password = false);
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:16de9483ab0dc23747fe15a4105a60e14664b402e02b38826d17b4aa96548915
+size 696

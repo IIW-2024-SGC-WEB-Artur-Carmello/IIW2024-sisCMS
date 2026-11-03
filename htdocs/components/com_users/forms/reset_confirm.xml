@@ -1,22 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<form>
-	<fieldset name="default" label="COM_USERS_RESET_CONFIRM_LABEL">
-		<field
-			name="username"
-			type="text"
-			label="COM_USERS_FIELD_RESET_CONFIRM_USERNAME_LABEL"
-			filter="username"
-			required="true"
-			size="30"
-		/>
-
-		<field
-			name="token"
-			type="text"
-			label="COM_USERS_FIELD_RESET_CONFIRM_TOKEN_LABEL"
-			filter="alnum"
-			required="true"
-			size="32"
-		/>
-	</fieldset>
-</form>
+version https://git-lfs.github.com/spec/v1
+oid sha256:867a12a5fa6e31d99644cf6693dcb2e07dd363d64f7643f739e7a3aa9547b12e
+size 438

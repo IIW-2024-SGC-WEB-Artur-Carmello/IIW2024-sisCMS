@@ -1,15 +1,3 @@
-<?php
-
-declare(strict_types=1);
-
-namespace Webauthn\MetadataService\Event;
-
-use Psr\EventDispatcher\EventDispatcherInterface;
-
-final class NullEventDispatcher implements EventDispatcherInterface
-{
-    public function dispatch(object $event): object
-    {
-        return $event;
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:168baf8f4dd435b8249cc8b3c4648605c18455bc2daabb03572850c04583159e
+size 286

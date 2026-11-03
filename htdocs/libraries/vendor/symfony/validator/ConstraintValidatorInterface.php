@@ -1,34 +1,3 @@
-<?php
-
-/*
- * This file is part of the Symfony package.
- *
- * (c) Fabien Potencier <fabien@symfony.com>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
-namespace Symfony\Component\Validator;
-
-use Symfony\Component\Validator\Context\ExecutionContextInterface;
-
-/**
- * @author Bernhard Schussek <bschussek@gmail.com>
- */
-interface ConstraintValidatorInterface
-{
-    /**
-     * Initializes the constraint validator.
-     *
-     * @return void
-     */
-    public function initialize(ExecutionContextInterface $context);
-
-    /**
-     * Checks if the passed value is valid.
-     *
-     * @return void
-     */
-    public function validate(mixed $value, Constraint $constraint);
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:50ba081478c0acbf2eb30e20f0d177e0a82df7afd21a7dea3e6ca3aa117037d3
+size 760

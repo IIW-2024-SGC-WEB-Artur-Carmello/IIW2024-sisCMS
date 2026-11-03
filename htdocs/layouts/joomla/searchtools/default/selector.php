@@ -1,20 +1,3 @@
-<?php
-
-/**
- * @package     Joomla.Site
- * @subpackage  Layout
- *
- * @copyright   (C) 2017 Open Source Matters, Inc. <https://www.joomla.org>
- * @license     GNU General Public License version 2 or later; see LICENSE.txt
- */
-
-defined('_JEXEC') or die;
-
-$data = $displayData;
-?>
-<div class="js-stools-field-selector">
-    <div class="visually-hidden">
-        <?php echo $data['view']->filterForm->getField($data['options']['selectorFieldName'])->label; ?>
-    </div>
-    <?php echo $data['view']->filterForm->getField($data['options']['selectorFieldName'])->input; ?>
-</div>
+version https://git-lfs.github.com/spec/v1
+oid sha256:ee7ef4871b93eb401ae0bb7e0069bfdf2e4af4f1f36c5c1f313daa46ab86ea78
+size 574

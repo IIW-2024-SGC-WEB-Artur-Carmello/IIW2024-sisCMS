@@ -1,30 +1,3 @@
-// Dragula
-
-.gu-mirror {
-  position: fixed !important;
-  z-index: $zindex-popover !important;
-  display: table;
-  margin: 0 !important;
-  color: var(--drag-color) !important;
-  cursor: move;
-  background-color: var(--drag-background-color);
-  opacity: .8;
-
-  td, th {
-    color: var(--drag-color) !important;
-    background-color: var(--drag-background-color);
-
-    a {
-      color: var(--drag-color) !important;
-    }
-
-    .tbody-icon [class^="icon-"] {
-      color: var(--drag-color) !important;
-      border-color: var(--drag-color) !important;
-    }
-  }
-}
-
-.js-draggable .sortable-handler {
-  cursor: move;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:4abd285fd18836bba842c6ed1469cddd19c83148a7295a68b56b515939393184
+size 613

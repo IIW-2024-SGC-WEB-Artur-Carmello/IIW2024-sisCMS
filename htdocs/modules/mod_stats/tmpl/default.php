@@ -1,20 +1,3 @@
-<?php
-
-/**
- * @package     Joomla.Site
- * @subpackage  mod_stats
- *
- * @copyright   (C) 2006 Open Source Matters, Inc. <https://www.joomla.org>
- * @license     GNU General Public License version 2 or later; see LICENSE.txt
- */
-
-\defined('_JEXEC') or die;
-?>
-<ul class="mod-stats list-group">
-<?php foreach ($list as $item) : ?>
-    <li class="list-group-item">
-        <?php echo $item->title; ?>
-        <span class="badge bg-secondary float-end rounded-pill"><?php echo $item->data; ?></span>
-    </li>
-<?php endforeach; ?>
-</ul>
+version https://git-lfs.github.com/spec/v1
+oid sha256:ccef4c4efb8c87b41823c9780fb44e46d44224876995b390506e524ac07f7f6b
+size 532

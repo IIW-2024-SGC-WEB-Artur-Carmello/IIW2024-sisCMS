@@ -1,25 +1,3 @@
-<?php
-
-declare(strict_types=1);
-
-namespace Jose\Component\Encryption\Algorithm\KeyEncryption;
-
-use AESKW\A128KW as Wrapper;
-
-final class ECDHSSA128KW extends ECDHSSAESKW
-{
-    public function name(): string
-    {
-        return 'ECDH-SS+A128KW';
-    }
-
-    protected function getWrapper(): Wrapper
-    {
-        return new Wrapper();
-    }
-
-    protected function getKeyLength(): int
-    {
-        return 128;
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:c8e1b31f02ad250e8426596f7db4d79739d6d5c2023b5d1b264081e1c83f1d01
+size 418

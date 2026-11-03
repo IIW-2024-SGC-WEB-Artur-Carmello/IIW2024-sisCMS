@@ -1,13 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<access component="com_guidedtours">
-	<section name="component">
-		<action name="core.admin" title="JACTION_ADMIN" />
-		<action name="core.options" title="JACTION_OPTIONS" />
-		<action name="core.manage" title="JACTION_MANAGE" />
-		<action name="core.create" title="JACTION_CREATE" />
-		<action name="core.delete" title="JACTION_DELETE" />
-		<action name="core.edit" title="JACTION_EDIT" />
-		<action name="core.edit.state" title="JACTION_EDITSTATE" />
-		<action name="core.edit.own" title="JACTION_EDITOWN" />
-	</section>
-</access>
+version https://git-lfs.github.com/spec/v1
+oid sha256:ec44900b9421fccd2593130ac6c018648d7fc2aee6c23b701a5efe4c2c84555a
+size 572

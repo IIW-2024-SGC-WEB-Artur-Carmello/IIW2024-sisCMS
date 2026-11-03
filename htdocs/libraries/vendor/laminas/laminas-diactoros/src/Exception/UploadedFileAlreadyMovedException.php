@@ -1,20 +1,3 @@
-<?php
-
-declare(strict_types=1);
-
-namespace Laminas\Diactoros\Exception;
-
-use RuntimeException;
-use Throwable;
-
-class UploadedFileAlreadyMovedException extends RuntimeException implements ExceptionInterface
-{
-    /** {@inheritDoc} */
-    public function __construct(
-        string $message = 'Cannot retrieve stream after it has already moved',
-        int $code = 0,
-        ?Throwable $previous = null
-    ) {
-        parent::__construct($message, $code, $previous);
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:dd5f35324ae9da28383f1b76d773fe0a0270db4d4da2115ca0c2dc0666d7d57a
+size 477

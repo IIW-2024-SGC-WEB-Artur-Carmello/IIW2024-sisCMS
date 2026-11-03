@@ -1,20 +1,3 @@
-<?php
-
-/*
- * This file is part of the Symfony package.
- *
- * (c) Fabien Potencier <fabien@symfony.com>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
-namespace Symfony\Component\Uid;
-
-class MaxUlid extends Ulid
-{
-    public function __construct()
-    {
-        $this->uid = parent::MAX;
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:e83ec830d47bdd4985044f4bbaea5955d51fb39be2ee1f85e79af58b891b4a3c
+size 383

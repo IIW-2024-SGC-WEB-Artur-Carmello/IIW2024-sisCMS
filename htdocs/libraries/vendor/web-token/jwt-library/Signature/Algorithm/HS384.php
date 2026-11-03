@@ -1,31 +1,3 @@
-<?php
-
-declare(strict_types=1);
-
-namespace Jose\Component\Signature\Algorithm;
-
-use InvalidArgumentException;
-use Jose\Component\Core\JWK;
-
-final class HS384 extends HMAC
-{
-    public function name(): string
-    {
-        return 'HS384';
-    }
-
-    protected function getHashAlgorithm(): string
-    {
-        return 'sha384';
-    }
-
-    protected function getKey(JWK $key): string
-    {
-        $k = parent::getKey($key);
-        if (mb_strlen($k, '8bit') < 48) {
-            throw new InvalidArgumentException('Invalid key length.');
-        }
-
-        return $k;
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:6b8e36f6f734448aeb32eee4d206ab25de895df16e8f82fa248a471ad65e5d2e
+size 573

@@ -1,21 +1,3 @@
-<?php
-
-/*
- * This file is part of the Symfony package.
- *
- * (c) Fabien Potencier <fabien@symfony.com>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
-namespace Symfony\Component\Console\Exception;
-
-/**
- * Represents an incorrect namespace typed in the console.
- *
- * @author Pierre du Plessis <pdples@gmail.com>
- */
-class NamespaceNotFoundException extends CommandNotFoundException
-{
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:59ff3d5da8b6ea5ba25f2838164bb844b9288f9fd07af621c014d01f26e1ef39
+size 474

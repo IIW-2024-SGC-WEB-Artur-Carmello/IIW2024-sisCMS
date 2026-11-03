@@ -1,30 +1,3 @@
-<?php
-
-declare(strict_types=1);
-
-namespace Jfcherng\Diff\Utility;
-
-final class Str
-{
-    /**
-     * Determine if a given string starts with a given substring.
-     *
-     * @param string $haystack the haystack
-     * @param string $needle   the needle
-     */
-    public static function startsWith(string $haystack, string $needle): bool
-    {
-        return substr($haystack, 0, \strlen($needle)) === $needle;
-    }
-
-    /**
-     * Determine if a given string ends with a given substring.
-     *
-     * @param string $haystack the haystack
-     * @param string $needle   the needle
-     */
-    public static function endsWith(string $haystack, string $needle): bool
-    {
-        return substr($haystack, -\strlen($needle)) === $needle;
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:cf1569a336cc24a5b3cea4899a9d4059923725a365315ba4d4c2eb38fd2dbd15
+size 746

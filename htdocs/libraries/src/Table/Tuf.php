@@ -1,34 +1,3 @@
-<?php
-
-/**
- * Joomla! Content Management System
- *
- * @copyright  (C) 2024 Open Source Matters, Inc. <https://www.joomla.org>
- * @license    GNU General Public License version 2 or later; see LICENSE.txt
- */
-
-namespace Joomla\CMS\Table;
-
-// phpcs:disable PSR1.Files.SideEffects
-\defined('_JEXEC') or die;
-// phpcs:enable PSR1.Files.SideEffects
-
-/**
- * TUF map table
- *
- * @since  5.1.0
- */
-class Tuf extends Table
-{
-    /**
-     * Constructor
-     *
-     * @param   \Joomla\Database\DatabaseDriver  $db  A database connector object
-     *
-     * @since   5.1.0
-     */
-    public function __construct($db)
-    {
-        parent::__construct('#__tuf_metadata', 'id', $db);
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:7d7bdc91e27037b283b4197a3d0c57ea449c66fd106a8576415245dbe9974b5d
+size 679

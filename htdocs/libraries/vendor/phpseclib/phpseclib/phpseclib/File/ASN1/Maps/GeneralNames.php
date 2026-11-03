@@ -1,31 +1,3 @@
-<?php
-
-/**
- * GeneralNames
- *
- * PHP version 5
- *
- * @author    Jim Wigginton <terrafrost@php.net>
- * @copyright 2016 Jim Wigginton
- * @license   http://www.opensource.org/licenses/mit-license.html  MIT License
- * @link      http://phpseclib.sourceforge.net
- */
-
-namespace phpseclib3\File\ASN1\Maps;
-
-use phpseclib3\File\ASN1;
-
-/**
- * GeneralNames
- *
- * @author  Jim Wigginton <terrafrost@php.net>
- */
-abstract class GeneralNames
-{
-    const MAP = [
-        'type' => ASN1::TYPE_SEQUENCE,
-        'min' => 1,
-        'max' => -1,
-        'children' => GeneralName::MAP
-    ];
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:d9ec4d76a5c700a935f1eedb974aa4e31d39e353f19689950f158d9943cbc26e
+size 578

@@ -1,14 +1,3 @@
-// Variables, Functions and Mixins
-@import "../tools/tools";
-@import "../../../../../vendor/bootstrap/scss/functions";
-
-:root {
-  --cassiopeia-color-primary: #{$alternative-color-primary};
-  // @deprecated --casiopeia-color-link is deprecated in favour of --link-color
-  --cassiopeia-color-link: #{$alternative-color-link};
-  --link-color: #{$alternative-color-link};
-  --link-color-rgb: #{to-rgb($alternative-color-link)};
-  --cassiopeia-color-hover: #{$alternative-color-hover};
-  --link-hover-color: #{$alternative-color-hover};
-  --link-hover-color-rgb: #{to-rgb($alternative-color-hover)};
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:94a731e464d1db1caa816a9f1bdbd393be526816293098fc8cf4af4dd1ef2c2b
+size 597

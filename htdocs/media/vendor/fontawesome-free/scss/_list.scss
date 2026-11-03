@@ -1,18 +1,3 @@
-// icons in a list
-// -------------------------
-
-.#{$fa-css-prefix}-ul {
-  list-style-type: none;
-  margin-left: var(--#{$fa-css-prefix}-li-margin, #{$fa-li-margin});
-  padding-left: 0;
-
-  > li { position: relative; }
-}
-
-.#{$fa-css-prefix}-li {
-  left: calc(-1 * var(--#{$fa-css-prefix}-li-width, #{$fa-li-width}));
-  position: absolute;
-  text-align: center;
-  width: var(--#{$fa-css-prefix}-li-width, #{$fa-li-width});
-  line-height: inherit;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:def1295bb0ea514afd7a4f7db914a8a9ecc20e33aff86f58f2b3f2bff265e3f2
+size 447

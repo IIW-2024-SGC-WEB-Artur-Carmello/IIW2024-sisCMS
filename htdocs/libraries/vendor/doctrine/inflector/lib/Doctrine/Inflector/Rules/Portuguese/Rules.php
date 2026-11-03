@@ -1,31 +1,3 @@
-<?php
-
-declare(strict_types=1);
-
-namespace Doctrine\Inflector\Rules\Portuguese;
-
-use Doctrine\Inflector\Rules\Patterns;
-use Doctrine\Inflector\Rules\Ruleset;
-use Doctrine\Inflector\Rules\Substitutions;
-use Doctrine\Inflector\Rules\Transformations;
-
-final class Rules
-{
-    public static function getSingularRuleset(): Ruleset
-    {
-        return new Ruleset(
-            new Transformations(...Inflectible::getSingular()),
-            new Patterns(...Uninflected::getSingular()),
-            (new Substitutions(...Inflectible::getIrregular()))->getFlippedSubstitutions()
-        );
-    }
-
-    public static function getPluralRuleset(): Ruleset
-    {
-        return new Ruleset(
-            new Transformations(...Inflectible::getPlural()),
-            new Patterns(...Uninflected::getPlural()),
-            new Substitutions(...Inflectible::getIrregular())
-        );
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:95702c7b83f2bc022604b12721991b8a508f05eb068d8bb9f340cb293ffde66b
+size 877

@@ -1,26 +1,3 @@
-<?php
-
-/**
- * @package     Joomla.Administrator
- * @subpackage  com_contenthistory
- *
- * @copyright   (C) 2013 Open Source Matters, Inc. <https://www.joomla.org>
- * @license     GNU General Public License version 2 or later; see LICENSE.txt
- */
-
-namespace Joomla\Component\Contenthistory\Administrator\Controller;
-
-use Joomla\CMS\MVC\Controller\BaseController;
-
-// phpcs:disable PSR1.Files.SideEffects
-\defined('_JEXEC') or die;
-// phpcs:enable PSR1.Files.SideEffects
-
-/**
- * Contenthistory Controller
- *
- * @since  3.2
- */
-class DisplayController extends BaseController
-{
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:ba127591a54a1c522d25128226bcdd096ab8edfc0c90890f4dd3889480965aac
+size 575

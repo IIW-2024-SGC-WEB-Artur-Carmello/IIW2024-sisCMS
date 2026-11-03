@@ -1,30 +1,3 @@
-<?php
-
-/*
- * This file is part of the Symfony package.
- *
- * (c) Fabien Potencier <fabien@symfony.com>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
-namespace Symfony\Component\VarDumper\Caster;
-
-use Ramsey\Uuid\UuidInterface;
-use Symfony\Component\VarDumper\Cloner\Stub;
-
-/**
- * @author Grégoire Pineau <lyrixx@lyrixx.info>
- */
-final class UuidCaster
-{
-    public static function castRamseyUuid(UuidInterface $c, array $a, Stub $stub, bool $isNested): array
-    {
-        $a += [
-            Caster::PREFIX_VIRTUAL.'uuid' => (string) $c,
-        ];
-
-        return $a;
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:ac23b7ea78b37cf0c720b0260a99fa18c32b64cd6822239f19f68c550ab02c34
+size 668

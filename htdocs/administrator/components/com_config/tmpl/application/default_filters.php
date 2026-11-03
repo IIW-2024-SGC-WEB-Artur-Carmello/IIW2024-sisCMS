@@ -1,23 +1,3 @@
-<?php
-
-/**
- * @package     Joomla.Administrator
- * @subpackage  com_config
- *
- * @copyright   (C) 2013 Open Source Matters, Inc. <https://www.joomla.org>
- * @license     GNU General Public License version 2 or later; see LICENSE.txt
- */
-
-use Joomla\CMS\Language\Text;
-use Joomla\CMS\Layout\LayoutHelper;
-
-defined('_JEXEC') or die;
-
-/** @var \Joomla\Component\Config\Administrator\View\Application\HtmlView $this */
-
-$this->name = Text::_('COM_CONFIG_TEXT_FILTER_SETTINGS');
-$this->description = '';
-$this->fieldsname = 'filters';
-$this->formclass = 'options-form';
-
-echo LayoutHelper::render('joomla.content.text_filters', $this);
+version https://git-lfs.github.com/spec/v1
+oid sha256:2fa777ddf134593f9479c840bff516c3a79b7f8268dc89c8e67db0397d9a419c
+size 631

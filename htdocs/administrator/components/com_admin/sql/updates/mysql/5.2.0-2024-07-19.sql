@@ -1,7 +1,3 @@
---
--- Add the Guided Tours selectable option to the User Action Logs
---
-INSERT INTO `#__action_logs_extensions` (`extension`) VALUES ('com_guidedtours');
-
-INSERT INTO `#__action_log_config` (`type_title`, `type_alias`, `id_holder`, `title_holder`, `table_name`, `text_prefix`) VALUES
-('guidedtour', 'com_guidedtours.state', 'id', 'title', '#__guidedtours', 'PLG_ACTIONLOG_JOOMLA');
+version https://git-lfs.github.com/spec/v1
+oid sha256:728a467dead1985b494726ca85296c1d4a1f548c386dbe3be038c6afe9296323
+size 382

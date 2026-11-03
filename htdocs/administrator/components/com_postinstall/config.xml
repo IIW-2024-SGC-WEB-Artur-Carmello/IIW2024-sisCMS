@@ -1,18 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<config>
-	<help key="Post-installation_Messages:_Options"/>
-	<fieldset
-		name="permissions"
-		label="JCONFIG_PERMISSIONS_LABEL"
-		>
-
-		<field
-			name="rules"
-			type="rules"
-			label="JCONFIG_PERMISSIONS_LABEL"
-			filter="rules"
-			component="com_postinstall"
-			section="component"
-		/>
-	</fieldset>
-</config>
+version https://git-lfs.github.com/spec/v1
+oid sha256:5296628aa8b8f99d5fa22b54845febd16d4e1336bfafc5e9fc320846c60b7e7b
+size 350

@@ -1,21 +1,3 @@
-<?php
-
-/**
- * Part of the Joomla Framework Console Package
- *
- * @copyright  Copyright (C) 2005 - 2021 Open Source Matters, Inc. All rights reserved.
- * @license    GNU General Public License version 2 or later; see LICENSE
- */
-
-namespace Joomla\Console\Exception;
-
-use Symfony\Component\Console\Exception\CommandNotFoundException;
-
-/**
- * Exception indicating a missing command namespace.
- *
- * @since  2.0.0
- */
-class NamespaceNotFoundException extends CommandNotFoundException
-{
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:b6d5fd6f8e4f1b8548f56a33bc34d7542adbf7541dd6280b06d7c4b512a26322
+size 484

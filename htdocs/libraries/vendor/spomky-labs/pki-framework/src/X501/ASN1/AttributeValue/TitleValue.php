@@ -1,21 +1,3 @@
-<?php
-
-declare(strict_types=1);
-
-namespace SpomkyLabs\Pki\X501\ASN1\AttributeValue;
-
-use SpomkyLabs\Pki\X501\ASN1\AttributeType;
-use SpomkyLabs\Pki\X501\ASN1\AttributeValue\Feature\DirectoryString;
-
-/**
- * 'title' attribute value.
- *
- * @see https://www.itu.int/ITU-T/formal-language/itu-t/x/x520/2012/SelectedAttributeTypes.html#SelectedAttributeTypes.title
- */
-final class TitleValue extends DirectoryString
-{
-    public static function create(string $value, int $string_tag = DirectoryString::UTF8): static
-    {
-        return new static(AttributeType::OID_TITLE, $value, $string_tag);
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:344e81869eb44588ee5cef32bca4846a7cd1cc7b12b2de09d1bc36cec67df0a9
+size 598

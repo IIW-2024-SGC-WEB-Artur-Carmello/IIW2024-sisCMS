@@ -1,15 +1,3 @@
-<?php
-declare(strict_types=1);
-
-namespace Lcobucci\JWT\Signer;
-
-use InvalidArgumentException;
-use Lcobucci\JWT\Exception;
-
-final class CannotSignPayload extends InvalidArgumentException implements Exception
-{
-    public static function errorHappened(string $error): self
-    {
-        return new self('There was an error while creating the signature:' . $error);
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:f452680b0943fb4b5cb1042131bcdd6b0aeb430703174bc5f7272365f3859591
+size 371

@@ -1,21 +1,3 @@
-<?php
-
-/*
- * This file is part of the Symfony package.
- *
- * (c) Fabien Potencier <fabien@symfony.com>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
-namespace Symfony\Component\Console\Exception;
-
-/**
- * ExceptionInterface.
- *
- * @author Jérôme Tamarelle <jerome@tamarelle.net>
- */
-interface ExceptionInterface extends \Throwable
-{
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:566051a18eafac33728f361dfbe3492515ad5f9230bdf00405845e1b164e3b3e
+size 425

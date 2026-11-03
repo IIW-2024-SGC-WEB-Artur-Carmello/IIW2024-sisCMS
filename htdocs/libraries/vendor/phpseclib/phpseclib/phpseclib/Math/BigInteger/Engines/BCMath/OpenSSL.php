@@ -1,25 +1,3 @@
-<?php
-
-/**
- * OpenSSL Modular Exponentiation Engine
- *
- * PHP version 5 and 7
- *
- * @author    Jim Wigginton <terrafrost@php.net>
- * @copyright 2017 Jim Wigginton
- * @license   http://www.opensource.org/licenses/mit-license.html  MIT License
- * @link      http://pear.php.net/package/Math_BigInteger
- */
-
-namespace phpseclib3\Math\BigInteger\Engines\BCMath;
-
-use phpseclib3\Math\BigInteger\Engines\OpenSSL as Progenitor;
-
-/**
- * OpenSSL Modular Exponentiation Engine
- *
- * @author  Jim Wigginton <terrafrost@php.net>
- */
-abstract class OpenSSL extends Progenitor
-{
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:f6a669580c6a5f352274eaa94d5ac22e10f26e65f5c513655a7441ada180cda6
+size 567

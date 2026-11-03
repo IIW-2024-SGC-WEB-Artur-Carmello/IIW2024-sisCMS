@@ -1,21 +1,3 @@
-<?php
-declare(strict_types=1);
-
-namespace Lcobucci\JWT\Signer\Rsa;
-
-use Lcobucci\JWT\Signer\Rsa;
-
-use const OPENSSL_ALGO_SHA384;
-
-final class Sha384 extends Rsa
-{
-    public function algorithmId(): string
-    {
-        return 'RS384';
-    }
-
-    public function algorithm(): int
-    {
-        return OPENSSL_ALGO_SHA384;
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:815ff5eb3572a80b05d74da4eeabf6b8e9efdcb07deda7813bce75a24a3c0d8a
+size 329

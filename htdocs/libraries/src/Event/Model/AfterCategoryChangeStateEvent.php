@@ -1,36 +1,3 @@
-<?php
-
-/**
- * Joomla! Content Management System
- *
- * @copyright  (C) 2023 Open Source Matters, Inc. <https://www.joomla.org>
- * @license    GNU General Public License version 2 or later; see LICENSE.txt
- */
-
-namespace Joomla\CMS\Event\Model;
-
-// phpcs:disable PSR1.Files.SideEffects
-\defined('_JEXEC') or die;
-// phpcs:enable PSR1.Files.SideEffects
-
-/**
- * Class for Model event.
- * Example:
- *  new AfterCategoryChangeStateEvent('onEventName', ['context' => $extension, 'subject' => $primaryKeys, 'value' => $newState]);
- *
- * @since  5.0.0
- */
-class AfterCategoryChangeStateEvent extends ChangeStateEvent
-{
-    /**
-     * Getter for the extension.
-     *
-     * @return  string
-     *
-     * @since  5.0.0
-     */
-    public function getExtension(): string
-    {
-        return $this->getContext();
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:62d0f4fb8f23b4aac28fad6524e013cacbaee59cb01bca25d56e5a5821b3b336
+size 810

@@ -1,9 +1,3 @@
-CREATE TABLE [#__session] (
-  [session_id] VARCHAR(128) NOT NULL,
-  [time] INTEGER NOT NULL,
-  [data] VARBINARY(MAX) NOT NULL,
-  CONSTRAINT [PK_#__session_session_id] PRIMARY KEY CLUSTERED
-  (
-    [session_id] ASC
-  ) WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]
-) ON [PRIMARY];
+version https://git-lfs.github.com/spec/v1
+oid sha256:bb549582b23f84b724b2ea5526936485b4b7ef52627a5b3ec9ec889a08fbb3da
+size 371

@@ -1,14 +1,3 @@
-<?php
-
-/**
- * @package     Joomla.Administrator
- * @subpackage  mod_toolbar
- *
- * @copyright   (C) 2010 Open Source Matters, Inc. <https://www.joomla.org>
- * @license     GNU General Public License version 2 or later; see LICENSE.txt
- */
-
-defined('_JEXEC') or die;
-
-// Echo the toolbar.
-echo $toolbar;
+version https://git-lfs.github.com/spec/v1
+oid sha256:0c81c8216c93d164ec4364bb7f70ade2f84c08d609588da34e61748fc4e1e63f
+size 302

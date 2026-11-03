@@ -1,25 +1,3 @@
-<?php
-
-/**
- * @package     Joomla.Site
- * @subpackage  Layout
- *
- * @copyright   (C) 2013 Open Source Matters, Inc. <https://www.joomla.org>
- * @license     GNU General Public License version 2 or later; see LICENSE.txt
- */
-
-defined('_JEXEC') or die;
-
-$form  = $displayData->getForm();
-
-$title = $form->getField('title') ? 'title' : ($form->getField('name') ? 'name' : '');
-
-?>
-<div class="row title-alias form-vertical mb-3">
-    <div class="col-12 col-md-6">
-        <?php echo $title ? $form->renderField($title) : ''; ?>
-    </div>
-    <div class="col-12 col-md-6">
-        <?php echo $form->renderField('alias'); ?>
-    </div>
-</div>
+version https://git-lfs.github.com/spec/v1
+oid sha256:ccabf6ca170a64f85d8c50abd0e763016e40bb5598f6a94c99c94f797bc81ec6
+size 639

@@ -1,6 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<access component="com_mails">
-	<section name="component">
-		<action name="core.admin" title="JACTION_ADMIN" />
-	</section>
-</access>
+version https://git-lfs.github.com/spec/v1
+oid sha256:c1485dcf5456fd430f0185016b63751422d67daad664673ffa5de52f38047b71
+size 173

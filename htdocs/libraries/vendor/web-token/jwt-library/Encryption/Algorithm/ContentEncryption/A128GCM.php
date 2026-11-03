@@ -1,23 +1,3 @@
-<?php
-
-declare(strict_types=1);
-
-namespace Jose\Component\Encryption\Algorithm\ContentEncryption;
-
-final class A128GCM extends AESGCM
-{
-    public function getCEKSize(): int
-    {
-        return 128;
-    }
-
-    public function name(): string
-    {
-        return 'A128GCM';
-    }
-
-    protected function getMode(): string
-    {
-        return 'aes-128-gcm';
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:10ba54e77c8b620d4e513a5c855eeab0cb60230e5bd13690dcb3d0bd5c491793
+size 366

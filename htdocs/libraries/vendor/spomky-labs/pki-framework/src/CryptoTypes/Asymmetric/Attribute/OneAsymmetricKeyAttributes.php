@@ -1,26 +1,3 @@
-<?php
-
-declare(strict_types=1);
-
-namespace SpomkyLabs\Pki\CryptoTypes\Asymmetric\Attribute;
-
-use SpomkyLabs\Pki\X501\ASN1\AttributeValue\AttributeValue;
-use SpomkyLabs\Pki\X501\ASN1\Collection\SetOfAttributes;
-
-/**
- * Implements *OneAsymmetricKey*'s *Attribute* ASN.1 type.
- */
-final class OneAsymmetricKeyAttributes extends SetOfAttributes
-{
-    /**
-     * Initialize from attribute values.
-     *
-     * @param AttributeValue ...$values List of attribute values
-     */
-    public static function fromAttributeValues(AttributeValue ...$values): static
-    {
-        return static::create(...array_map(static fn (AttributeValue $value) => $value->toAttribute(), $values));
-    }
-
-    // Nothing yet. Extended from base class for future extensions.
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:c088548cc9baeb7e85db5cdad8d958fa85003ff5e6be1285b4c77fc512317dca
+size 751

@@ -1,21 +1,3 @@
-<?php
-declare(strict_types=1);
-
-namespace Psr\EventDispatcher;
-
-/**
- * Defines a dispatcher for events.
- */
-interface EventDispatcherInterface
-{
-    /**
-     * Provide all relevant listeners with an event to process.
-     *
-     * @param object $event
-     *   The object to process.
-     *
-     * @return object
-     *   The Event that was passed, now modified by listeners.
-     */
-    public function dispatch(object $event);
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:5849167daf7d1e047ab0d5f6daadd3ea4ed1c3c6d03e207141072424298e8c3e
+size 431

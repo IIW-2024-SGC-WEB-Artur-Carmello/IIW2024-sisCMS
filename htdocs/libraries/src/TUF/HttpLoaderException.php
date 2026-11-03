@@ -1,19 +1,3 @@
-<?php
-
-/**
- * Joomla! Content Management System
- *
- * @copyright  (C) 2024 Open Source Matters, Inc. <https://www.joomla.org>
- * @license    GNU General Public License version 2 or later; see LICENSE.txt
- */
-
-namespace Joomla\CMS\TUF;
-
-use Tuf\Exception\TufException;
-
-/**
- * @since  5.1.1
- */
-class HttpLoaderException extends TufException
-{
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:430bc87bd5c34b4b758501c3cc603160f436dbd3ed0dd5cebcc015f5319d1907
+size 345

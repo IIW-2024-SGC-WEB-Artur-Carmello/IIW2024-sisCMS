@@ -1,28 +1,3 @@
-<?php
-
-/*
- * This file is part of the Symfony package.
- *
- * (c) Fabien Potencier <fabien@symfony.com>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
-namespace Symfony\Component\Validator\Mapping\Loader;
-
-/**
- * Loads validation metadata from a list of XML files.
- *
- * @author Bulat Shakirzyanov <mallluhuct@gmail.com>
- * @author Bernhard Schussek <bschussek@gmail.com>
- *
- * @see FilesLoader
- */
-class XmlFilesLoader extends FilesLoader
-{
-    public function getFileLoaderInstance(string $file): LoaderInterface
-    {
-        return new XmlFileLoader($file);
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:6a7dca5da880faef7476780687286c19db10179f5f6c1f101de1fa5899aed28e
+size 657

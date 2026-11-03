@@ -1,16 +1,3 @@
-<?php
-
-declare(strict_types=1);
-
-namespace Zend\Diactoros;
-
-use function func_get_args;
-use function Laminas\Diactoros\normalizeUploadedFiles as laminas_normalizeUploadedFiles;
-
-/**
- * @deprecated Use Laminas\Diactoros\normalizeUploadedFiles instead
- */
-function normalizeUploadedFiles(array $files): array
-{
-    return laminas_normalizeUploadedFiles(...func_get_args());
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:7592a94b06d82baffa00d656815497b76b2b52d4d35531adeb6641e2ed1e5238
+size 374

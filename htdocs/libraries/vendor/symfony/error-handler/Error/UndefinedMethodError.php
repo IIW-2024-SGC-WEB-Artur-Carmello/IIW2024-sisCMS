@@ -1,29 +1,3 @@
-<?php
-
-/*
- * This file is part of the Symfony package.
- *
- * (c) Fabien Potencier <fabien@symfony.com>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
-namespace Symfony\Component\ErrorHandler\Error;
-
-class UndefinedMethodError extends \Error
-{
-    public function __construct(string $message, \Throwable $previous)
-    {
-        parent::__construct($message, $previous->getCode(), $previous->getPrevious());
-
-        foreach ([
-            'file' => $previous->getFile(),
-            'line' => $previous->getLine(),
-            'trace' => $previous->getTrace(),
-        ] as $property => $value) {
-            $refl = new \ReflectionProperty(\Error::class, $property);
-            $refl->setValue($this, $value);
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:0ac372c9548c9836c4a1a679f9f28d50757e44a16f7edf4ac4d4dbec476e55e8
+size 818

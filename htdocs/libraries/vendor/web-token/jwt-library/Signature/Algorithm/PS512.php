@@ -1,18 +1,3 @@
-<?php
-
-declare(strict_types=1);
-
-namespace Jose\Component\Signature\Algorithm;
-
-final class PS512 extends RSAPSS
-{
-    public function name(): string
-    {
-        return 'PS512';
-    }
-
-    protected function getAlgorithm(): string
-    {
-        return 'sha512';
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:05d91749b8df101a322c09d1253a1c558cfbc9f0c6dd123000df5afd46b20a1f
+size 272

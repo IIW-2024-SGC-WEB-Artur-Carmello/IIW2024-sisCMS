@@ -1,27 +1,3 @@
-<?php
-
-declare(strict_types=1);
-
-namespace Cose\Algorithm\Signature\RSA;
-
-use Cose\Hash;
-
-final class PS512 extends PSSRSA
-{
-    public const ID = -39;
-
-    public static function create(): self
-    {
-        return new self();
-    }
-
-    public static function identifier(): int
-    {
-        return self::ID;
-    }
-
-    protected function getHashAlgorithm(): Hash
-    {
-        return Hash::sha512();
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:4137e2e94ab8f39b1a9531c7d66013d2eda02456a9e5b6952c0d88cf5166c9b5
+size 411

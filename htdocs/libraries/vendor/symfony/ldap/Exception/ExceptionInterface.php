@@ -1,21 +1,3 @@
-<?php
-
-/*
- * This file is part of the Symfony package.
- *
- * (c) Fabien Potencier <fabien@symfony.com>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
-namespace Symfony\Component\Ldap\Exception;
-
-/**
- * Base ExceptionInterface for the Ldap component.
- *
- * @author Charles Sarrazin <charles@sarraz.in>
- */
-interface ExceptionInterface extends \Throwable
-{
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:1c0b7399fea67ef103a6d76d5faae759ae944f5b9ab3bf8454a43f32d07cc937
+size 445

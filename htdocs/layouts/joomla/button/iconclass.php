@@ -1,17 +1,3 @@
-<?php
-
-/**
- * @package     Joomla.Site
- * @subpackage  Layout
- *
- * @copyright   (C) 2017 Open Source Matters, Inc. <https://www.joomla.org>
- * @license     GNU General Public License version 2 or later; see LICENSE.txt
- */
-
-defined('_JEXEC') or die;
-
-use Joomla\CMS\Layout\LayoutHelper;
-
-$displayData['html'] = false;
-
-echo LayoutHelper::render('joomla.icon.iconclass', $displayData);
+version https://git-lfs.github.com/spec/v1
+oid sha256:3144cb08878734ccc341bb751034034db77df1911abea6315f0f4ce8f651a576
+size 386

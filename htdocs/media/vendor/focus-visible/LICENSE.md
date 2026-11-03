@@ -1,5 +1,3 @@
-All Reports in this Repository are licensed by Contributors under the 
-[W3C Software and Document
-License](http://www.w3.org/Consortium/Legal/2015/copyright-software-and-document). Contributions to
-Specifications are made under the [W3C CLA](https://www.w3.org/community/about/agreements/cla/).
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:7aeb3acf108717fd0f68ada2eebeaaec46dcdd239b4c5e7b4b8e6ea8861acfdd
+size 296

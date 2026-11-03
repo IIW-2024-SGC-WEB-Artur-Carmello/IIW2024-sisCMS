@@ -1,21 +1,3 @@
-<?php
-
-/*
- * This file is part of the Symfony package.
- *
- * (c) Fabien Potencier <fabien@symfony.com>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
-namespace Symfony\Component\Ldap\Exception;
-
-/**
- * LdapException is thrown if php ldap module is not loaded.
- *
- * @author Charles Sarrazin <charles@sarraz.in>
- */
-class DriverNotFoundException extends \RuntimeException implements ExceptionInterface
-{
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:23c154f87fce19976a8dd1814bc539c4022339df6b237670562cb9c90bd5d92a
+size 493

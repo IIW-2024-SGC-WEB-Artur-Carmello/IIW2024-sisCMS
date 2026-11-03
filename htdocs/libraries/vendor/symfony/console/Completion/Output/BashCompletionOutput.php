@@ -1,33 +1,3 @@
-<?php
-
-/*
- * This file is part of the Symfony package.
- *
- * (c) Fabien Potencier <fabien@symfony.com>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
-namespace Symfony\Component\Console\Completion\Output;
-
-use Symfony\Component\Console\Completion\CompletionSuggestions;
-use Symfony\Component\Console\Output\OutputInterface;
-
-/**
- * @author Wouter de Jong <wouter@wouterj.nl>
- */
-class BashCompletionOutput implements CompletionOutputInterface
-{
-    public function write(CompletionSuggestions $suggestions, OutputInterface $output): void
-    {
-        $values = $suggestions->getValueSuggestions();
-        foreach ($suggestions->getOptionSuggestions() as $option) {
-            $values[] = '--'.$option->getName();
-            if ($option->isNegatable()) {
-                $values[] = '--no-'.$option->getName();
-            }
-        }
-        $output->writeln(implode("\n", $values));
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:39a8a0d179236903bcc60dcdaf8c27435d719fda7abe98961365c47ff6ff80f0
+size 984

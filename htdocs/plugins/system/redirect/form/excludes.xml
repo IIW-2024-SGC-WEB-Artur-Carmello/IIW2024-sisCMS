@@ -1,18 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<form>
-	<fieldset>
-		<field
-			name="term"
-			type="text"
-			label="PLG_SYSTEM_REDIRECT_FIELD_EXCLUDE_URLS_TERM_LABEL"
-			description="PLG_SYSTEM_REDIRECT_FIELD_EXCLUDE_URLS_TERM_DESC"
-			required="true"
-		/>
-		<field
-			name="regexp"
-			type="checkbox"
-			label="PLG_SYSTEM_REDIRECT_FIELD_EXCLUDE_URLS_REGEXP_LABEL"
-			filter="integer"
-		/>
-	</fieldset>
-</form>
+version https://git-lfs.github.com/spec/v1
+oid sha256:53af04295c37ff63e0c73ec11125cb72063637938d160283013f2d9970048fd1
+size 402

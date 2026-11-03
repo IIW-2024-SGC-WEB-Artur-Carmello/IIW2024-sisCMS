@@ -1,36 +1,3 @@
-<?php
-
-declare(strict_types=1);
-
-namespace Webauthn\AuthenticationExtensions;
-
-use JsonSerializable;
-
-class AuthenticationExtension implements JsonSerializable
-{
-    public function __construct(
-        private readonly string $name,
-        private readonly mixed $value
-    ) {
-    }
-
-    public static function create(string $name, mixed $value): self
-    {
-        return new self($name, $value);
-    }
-
-    public function name(): string
-    {
-        return $this->name;
-    }
-
-    public function value(): mixed
-    {
-        return $this->value;
-    }
-
-    public function jsonSerialize(): mixed
-    {
-        return $this->value;
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:8e6f7db30e97f9b07ee29f5bdca401de246002b5fe5cd5b45d1e782c27cf4798
+size 647

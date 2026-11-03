@@ -1,15 +1,3 @@
-<?php
-
-declare(strict_types=1);
-
-namespace Laminas\Diactoros\Exception;
-
-use RuntimeException;
-
-class UnrewindableStreamException extends RuntimeException implements ExceptionInterface
-{
-    public static function forCallbackStream(): self
-    {
-        return new self('Callback streams cannot rewind position');
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:9a1aabb1b0514d7a8e46d70d142e517eb9110720ddb01082fcf818b961f37f37
+size 322

@@ -1,17 +1,3 @@
-<?php
-
-declare(strict_types=1);
-
-namespace Jose\Component\KeyManagement\Analyzer;
-
-use Jose\Component\Core\JWK;
-
-final class AlgorithmAnalyzer implements KeyAnalyzer
-{
-    public function analyze(JWK $jwk, MessageBag $bag): void
-    {
-        if (! $jwk->has('alg')) {
-            $bag->add(Message::medium('The parameter "alg" should be added.'));
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:e4f7ccca67c148b3081221ae826002a809ce2334feafd1f1fff87b3d0c1b9023
+size 367

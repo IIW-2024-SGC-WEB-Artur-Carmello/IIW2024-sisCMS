@@ -1,14 +1,3 @@
-<?php
-
-declare(strict_types=1);
-
-namespace SpomkyLabs\Pki\ASN1\Exception;
-
-use RuntimeException;
-
-/**
- * Exception thrown on decoding errors.
- */
-final class DecodeException extends RuntimeException
-{
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:b3cd21b7159ab5f07bdaa9ab8b090749056d60fbd0997e0a6684d84e03210444
+size 203

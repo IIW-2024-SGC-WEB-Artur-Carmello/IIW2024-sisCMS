@@ -1,30 +1,3 @@
-<?php
-
-/**
- * Joomla! Content Management System
- *
- * @copyright  (C) 2022 Open Source Matters, Inc. <https://www.joomla.org>
- * @license    GNU General Public License version 2 or later; see LICENSE.txt
- */
-
-namespace Joomla\CMS\Event\Plugin\System\Webauthn;
-
-use Joomla\CMS\Event\AbstractImmutableEvent;
-use Joomla\CMS\Event\Result\ResultAware;
-use Joomla\CMS\Event\Result\ResultAwareInterface;
-use Joomla\CMS\Event\Result\ResultTypeBooleanAware;
-
-// phpcs:disable PSR1.Files.SideEffects
-\defined('_JEXEC') or die;
-// phpcs:enable PSR1.Files.SideEffects
-
-/**
- * Concrete event class for the onAjaxWebauthnSavelabel event
- *
- * @since  4.2.0
- */
-class AjaxSaveLabel extends AbstractImmutableEvent implements ResultAwareInterface
-{
-    use ResultAware;
-    use ResultTypeBooleanAware;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:043905ec418cd59d9ee3aa47c4896fced85d47adad0c74a58ccadf68386ed9cb
+size 787

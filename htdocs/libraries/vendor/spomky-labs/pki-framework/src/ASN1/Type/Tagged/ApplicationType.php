@@ -1,12 +1,3 @@
-<?php
-
-declare(strict_types=1);
-
-namespace SpomkyLabs\Pki\ASN1\Type\Tagged;
-
-/**
- * Intermediate class to store DER data of an application specific type.
- */
-final class ApplicationType extends DERTaggedType
-{
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:a0a38c197548925e05be44c6fbc693dadef25fcda75d2f9ec6311012bd7c8a9f
+size 212

@@ -1,20 +1,3 @@
-<?php
-
-/**
- * @package     Joomla.Administrator
- * @subpackage  com_modules
- *
- * @copyright   (C) 2019 Open Source Matters, Inc. <https://www.joomla.org>
- * @license     GNU General Public License version 2 or later; see LICENSE.txt
- */
-
-defined('_JEXEC') or die;
-
-/** @var \Joomla\Component\Modules\Administrator\View\Select\HtmlView $this */
-
-$this->modalLink = '&tmpl=component&view=module&layout=modal';
-?>
-<div class="container-popup">
-    <?php $this->setLayout('default'); ?>
-    <?php echo $this->loadTemplate(); ?>
-</div>
+version https://git-lfs.github.com/spec/v1
+oid sha256:4af0ca74cd83eaf60f7211712c44f212b0c4017dbdb52c112bf50d99bdd2f411
+size 532

@@ -1,27 +1,3 @@
-<?php
-/*
- * This file is part of the DebugBar package.
- *
- * (c) 2013 Maxime Bouroumeau-Fuseau
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
-namespace DebugBar\DataCollector;
-
-use DebugBar\DataFormatter\HasDataFormatter;
-use DebugBar\DataFormatter\HasXdebugLinks;
-
-/**
- * Abstract class for data collectors
- */
-abstract class DataCollector implements DataCollectorInterface
-{
-    use HasDataFormatter, HasXdebugLinks;
-
-    public static $defaultDataFormatter;
-    public static $defaultVarDumper;
-
-
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:1402b65b41807b47ff98e24a2725ab1b9e72a31d9f7d9cd57d79dee40b1375e9
+size 590

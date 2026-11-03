@@ -1,32 +1,3 @@
-<?php
-
-/*
- * This file is part of the Symfony package.
- *
- * (c) Fabien Potencier <fabien@symfony.com>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
-namespace Symfony\Component\Validator\Exception;
-
-class InvalidOptionsException extends ValidatorException
-{
-    private array $options;
-
-    public function __construct(string $message, array $options)
-    {
-        parent::__construct($message);
-
-        $this->options = $options;
-    }
-
-    /**
-     * @return array
-     */
-    public function getOptions()
-    {
-        return $this->options;
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:2d94ea24a678dbbfebd028da05ca4b1a57c1485211abde07a45c2d8c64e10699
+size 644

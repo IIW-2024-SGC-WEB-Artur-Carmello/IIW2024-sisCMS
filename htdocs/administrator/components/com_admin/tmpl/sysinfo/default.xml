@@ -1,8 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<metadata>
-	<layout title="COM_ADMIN_SYSINFO_VIEW_DEFAULT_TITLE">
-		<message>
-			<![CDATA[COM_ADMIN_SYSINFO_VIEW_DEFAULT_DESC]]>
-		</message>
-	</layout>
-</metadata>
+version https://git-lfs.github.com/spec/v1
+oid sha256:29bc536fd3e9ca90c4649ebf8b8f100e63f4c2ac1a57b73887015e51cc4cfabb
+size 204

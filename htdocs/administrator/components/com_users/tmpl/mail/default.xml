@@ -1,8 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<metadata>
-	<layout title="COM_USERS_MAIL_VIEW_DEFAULT_TITLE">
-		<message>
-			<![CDATA[COM_USERS_MAIL_VIEW_DEFAULT_DESC]]>
-		</message>
-	</layout>
-</metadata>
+version https://git-lfs.github.com/spec/v1
+oid sha256:56c319cef0cc84ea4cba1aea547f26f982989084f110a6943a313ff1294bec17
+size 198

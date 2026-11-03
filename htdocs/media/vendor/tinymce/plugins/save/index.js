@@ -1,7 +1,3 @@
-// Exports the "save" plugin for usage with module loaders
-// Usage:
-//   CommonJS:
-//     require('tinymce/plugins/save')
-//   ES2015:
-//     import 'tinymce/plugins/save'
-require('./plugin.js');
+version https://git-lfs.github.com/spec/v1
+oid sha256:bcda64c02c52e23430e42fd33907ffe16b02d163174a5896f6e9f96cc1b08411
+size 196

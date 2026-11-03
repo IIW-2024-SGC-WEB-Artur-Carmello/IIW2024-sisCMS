@@ -1,19 +1,3 @@
-<?php
-
-/**
- * @package     Joomla.Site
- * @subpackage  mod_footer
- *
- * @copyright   (C) 2006 Open Source Matters, Inc. <https://www.joomla.org>
- * @license     GNU General Public License version 2 or later; see LICENSE.txt
- */
-
-defined('_JEXEC') or die;
-
-use Joomla\CMS\Language\Text;
-
-?>
-<div class="mod-footer">
-    <div class="footer1"><?php echo $lineone; ?></div>
-    <div class="footer2"><?php echo Text::_('MOD_FOOTER_LINE2'); ?></div>
-</div>
+version https://git-lfs.github.com/spec/v1
+oid sha256:a3867efb38268bb701518d911a54aabe6d83bf40978ba616e1c69716e2b42137
+size 451

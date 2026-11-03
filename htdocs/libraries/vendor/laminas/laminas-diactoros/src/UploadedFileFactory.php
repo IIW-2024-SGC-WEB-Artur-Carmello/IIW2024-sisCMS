@@ -1,31 +1,3 @@
-<?php
-
-declare(strict_types=1);
-
-namespace Laminas\Diactoros;
-
-use Psr\Http\Message\StreamInterface;
-use Psr\Http\Message\UploadedFileFactoryInterface;
-use Psr\Http\Message\UploadedFileInterface;
-
-use const UPLOAD_ERR_OK;
-
-class UploadedFileFactory implements UploadedFileFactoryInterface
-{
-    /**
-     * {@inheritDoc}
-     */
-    public function createUploadedFile(
-        StreamInterface $stream,
-        ?int $size = null,
-        int $error = UPLOAD_ERR_OK,
-        ?string $clientFilename = null,
-        ?string $clientMediaType = null
-    ): UploadedFileInterface {
-        if ($size === null) {
-            $size = $stream->getSize();
-        }
-
-        return new UploadedFile($stream, $size, $error, $clientFilename, $clientMediaType);
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:8080878ec20b0efbfccb695bb6292cf405bc736d6676480e72cb8dbecb19c583
+size 756

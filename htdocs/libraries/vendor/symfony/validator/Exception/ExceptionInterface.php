@@ -1,21 +1,3 @@
-<?php
-
-/*
- * This file is part of the Symfony package.
- *
- * (c) Fabien Potencier <fabien@symfony.com>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
-namespace Symfony\Component\Validator\Exception;
-
-/**
- * Base ExceptionInterface for the Validator component.
- *
- * @author Bernhard Schussek <bschussek@gmail.com>
- */
-interface ExceptionInterface extends \Throwable
-{
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:fee8532d400df2f096e1d1207821b4a227045c5d657fe06c7bfc30fc25c284fc
+size 458

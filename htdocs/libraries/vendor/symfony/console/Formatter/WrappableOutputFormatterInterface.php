@@ -1,27 +1,3 @@
-<?php
-
-/*
- * This file is part of the Symfony package.
- *
- * (c) Fabien Potencier <fabien@symfony.com>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
-namespace Symfony\Component\Console\Formatter;
-
-/**
- * Formatter interface for console output that supports word wrapping.
- *
- * @author Roland Franssen <franssen.roland@gmail.com>
- */
-interface WrappableOutputFormatterInterface extends OutputFormatterInterface
-{
-    /**
-     * Formats a message according to the given styles, wrapping at `$width` (0 means no wrapping).
-     *
-     * @return string
-     */
-    public function formatAndWrap(?string $message, int $width);
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:603d1f76b72b1251cb165e69bd67cb2a24949fd185126fc00cd942f08ea68b59
+size 714

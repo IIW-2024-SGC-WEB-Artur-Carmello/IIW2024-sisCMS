@@ -1,24 +1,3 @@
-<?php
-
-/*
- * This file is part of the Symfony package.
- *
- * (c) Fabien Potencier <fabien@symfony.com>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
-namespace Symfony\Component\OptionsResolver\Exception;
-
-/**
- * Exception thrown when an undefined option is passed.
- *
- * You should remove the options in question from your code or define them
- * beforehand.
- *
- * @author Bernhard Schussek <bschussek@gmail.com>
- */
-class UndefinedOptionsException extends InvalidArgumentException
-{
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:943e65d5df2f1460cd17fd997ffba43207307d514c66b097bef4f79dde66fc5f
+size 574

@@ -1,25 +1,3 @@
-<?php
-
-/**
- * Joomla! Content Management System
- *
- * @copyright  (C) 2023 Open Source Matters, Inc. <https://www.joomla.org>
- * @license    GNU General Public License version 2 or later; see LICENSE.txt
- */
-
-namespace Joomla\CMS\Event\Model;
-
-// phpcs:disable PSR1.Files.SideEffects
-\defined('_JEXEC') or die;
-// phpcs:enable PSR1.Files.SideEffects
-
-/**
- * Class for Model event.
- * Example:
- *  new AfterSaveEvent('onEventName', ['context' => 'com_example.example', 'subject' => $itemObjectToSave, 'isNew' => $isNew, 'data' => $submittedData]);
- *
- * @since  5.0.0
- */
-class AfterSaveEvent extends SaveEvent
-{
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:7d2c8e18da0c4cf7e4d204489e8a95ee5cba8b889f25d9b1f7103603b176a1e6
+size 614

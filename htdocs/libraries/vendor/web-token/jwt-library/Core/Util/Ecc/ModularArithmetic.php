@@ -1,30 +1,3 @@
-<?php
-
-declare(strict_types=1);
-
-namespace Jose\Component\Core\Util\Ecc;
-
-use Brick\Math\BigInteger;
-
-/**
- * @internal
- */
-final class ModularArithmetic
-{
-    public static function sub(BigInteger $minuend, BigInteger $subtrahend, BigInteger $modulus): BigInteger
-    {
-        return $minuend->minus($subtrahend)
-            ->mod($modulus);
-    }
-
-    public static function mul(BigInteger $multiplier, BigInteger $muliplicand, BigInteger $modulus): BigInteger
-    {
-        return $multiplier->multipliedBy($muliplicand)
-            ->mod($modulus);
-    }
-
-    public static function div(BigInteger $dividend, BigInteger $divisor, BigInteger $modulus): BigInteger
-    {
-        return self::mul($dividend, Math::inverseMod($divisor, $modulus), $modulus);
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:5b4de2bd08ac227a5fe142b290d116a52c1d8828abf22695dbad1a5bfc3f741a
+size 766

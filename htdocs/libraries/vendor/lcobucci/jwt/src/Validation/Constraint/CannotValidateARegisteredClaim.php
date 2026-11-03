@@ -1,17 +1,3 @@
-<?php
-declare(strict_types=1);
-
-namespace Lcobucci\JWT\Validation\Constraint;
-
-use InvalidArgumentException;
-use Lcobucci\JWT\Exception;
-
-final class CannotValidateARegisteredClaim extends InvalidArgumentException implements Exception
-{
-    public static function create(string $claim): self
-    {
-        return new self(
-            'The claim "' . $claim . '" is a registered claim, another constraint must be used to validate its value'
-        );
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:e687a121443d8e36ec2dcc4a6654c6902c813a0b007bd6ec2793826e28bc5c0b
+size 460

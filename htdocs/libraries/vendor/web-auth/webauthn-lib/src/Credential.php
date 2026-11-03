@@ -1,27 +1,3 @@
-<?php
-
-declare(strict_types=1);
-
-namespace Webauthn;
-
-/**
- * @see https://w3c.github.io/webappsec-credential-management/#credential
- */
-abstract class Credential
-{
-    public function __construct(
-        protected string $id,
-        protected string $type
-    ) {
-    }
-
-    public function getId(): string
-    {
-        return $this->id;
-    }
-
-    public function getType(): string
-    {
-        return $this->type;
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:73c5e7bd65838dedce7ce904327f9273d1eb3bb4ced8bd4e1947433fd48974b8
+size 428

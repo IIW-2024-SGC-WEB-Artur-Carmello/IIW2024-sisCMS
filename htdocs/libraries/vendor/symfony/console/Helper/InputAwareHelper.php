@@ -1,33 +1,3 @@
-<?php
-
-/*
- * This file is part of the Symfony package.
- *
- * (c) Fabien Potencier <fabien@symfony.com>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
-namespace Symfony\Component\Console\Helper;
-
-use Symfony\Component\Console\Input\InputAwareInterface;
-use Symfony\Component\Console\Input\InputInterface;
-
-/**
- * An implementation of InputAwareInterface for Helpers.
- *
- * @author Wouter J <waldio.webdesign@gmail.com>
- */
-abstract class InputAwareHelper extends Helper implements InputAwareInterface
-{
-    protected $input;
-
-    /**
-     * @return void
-     */
-    public function setInput(InputInterface $input)
-    {
-        $this->input = $input;
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:24955036e70babca56f3f84e1188dacfd77e52ac794578718b43929667c8b5fb
+size 746

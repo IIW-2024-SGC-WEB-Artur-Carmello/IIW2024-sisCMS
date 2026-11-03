@@ -1,34 +1,3 @@
-<?php
-
-/**
- * Joomla! Content Management System
- *
- * @copyright  (C) 2017 Open Source Matters, Inc. <https://www.joomla.org>
- * @license    GNU General Public License version 2 or later; see LICENSE.txt
- */
-
-namespace Joomla\CMS\Menu;
-
-// phpcs:disable PSR1.Files.SideEffects
-\defined('_JEXEC') or die;
-// phpcs:enable PSR1.Files.SideEffects
-
-/**
- * Menu class.
- *
- * @since  1.5
- */
-class AdministratorMenu extends AbstractMenu
-{
-    /**
-     * Loads the menu items
-     *
-     * @return  array
-     *
-     * @since   4.0.0
-     */
-    public function load()
-    {
-        return [];
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:f5022aab1c5860cfcdb6269eae8df76df00cd54eca934fb45f0a90bb657b7849
+size 594

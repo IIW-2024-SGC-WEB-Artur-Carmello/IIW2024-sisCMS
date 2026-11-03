@@ -1,23 +1,3 @@
-<?php
-
-declare(strict_types=1);
-
-namespace Jose\Component\Signature\Algorithm;
-
-final class ES384 extends ECDSA
-{
-    public function name(): string
-    {
-        return 'ES384';
-    }
-
-    protected function getHashAlgorithm(): string
-    {
-        return 'sha384';
-    }
-
-    protected function getSignaturePartLength(): int
-    {
-        return 96;
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:11b44d1fabf6fd83fd3407f5318eb244bfd268a4af42fd16cbdcfb5a5590d163
+size 360

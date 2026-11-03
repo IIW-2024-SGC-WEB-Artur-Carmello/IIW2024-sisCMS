@@ -1,23 +1,3 @@
-<?php
-
-declare(strict_types=1);
-
-namespace Jose\Component\Signature\Algorithm;
-
-final class ES512 extends ECDSA
-{
-    public function name(): string
-    {
-        return 'ES512';
-    }
-
-    protected function getHashAlgorithm(): string
-    {
-        return 'sha512';
-    }
-
-    protected function getSignaturePartLength(): int
-    {
-        return 132;
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:f0d95b7ddb3e4a49674eb4b64fb31b5b14ee7224c8e890c9468e07b2967e3f1b
+size 361

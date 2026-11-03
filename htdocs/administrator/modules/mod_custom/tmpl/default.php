@@ -1,16 +1,3 @@
-<?php
-
-/**
- * @package     Joomla.Administrator
- * @subpackage  mod_custom
- *
- * @copyright   (C) 2009 Open Source Matters, Inc. <https://www.joomla.org>
- * @license     GNU General Public License version 2 or later; see LICENSE.txt
- */
-
-defined('_JEXEC') or die;
-?>
-
-<div class="mod-custom custom">
-    <?php echo $module->content; ?>
-</div>
+version https://git-lfs.github.com/spec/v1
+oid sha256:be74d42988350145907ae5336b920800c490eb5854e7e4fffc0885048f0bc30b
+size 343

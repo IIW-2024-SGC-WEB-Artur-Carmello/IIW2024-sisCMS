@@ -1,16 +1,3 @@
-<?php
-
-declare(strict_types=1);
-
-namespace Webauthn\MetadataService\Exception;
-
-use Exception;
-use Throwable;
-
-class MetadataServiceException extends Exception
-{
-    public function __construct(string $message, ?Throwable $previous = null)
-    {
-        parent::__construct($message, 0, $previous);
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:7d378291d276bb67ea8144f7058ef47437413242c13ebf27ae93fc4c7ab970a6
+size 307

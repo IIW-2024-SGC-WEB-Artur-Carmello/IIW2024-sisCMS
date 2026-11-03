@@ -1,21 +1,3 @@
-<?php
-
-/*
- * This file is part of the Symfony package.
- *
- * (c) Fabien Potencier <fabien@symfony.com>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
-namespace Symfony\Component\Console\Exception;
-
-/**
- * Represents an incorrect option name or value typed in the console.
- *
- * @author Jérôme Tamarelle <jerome@tamarelle.net>
- */
-class InvalidOptionException extends \InvalidArgumentException implements ExceptionInterface
-{
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:c7bc283e8bea75be30e9452a8722fb261dd3c32e21a60d9e1ea6f99332227d87
+size 517

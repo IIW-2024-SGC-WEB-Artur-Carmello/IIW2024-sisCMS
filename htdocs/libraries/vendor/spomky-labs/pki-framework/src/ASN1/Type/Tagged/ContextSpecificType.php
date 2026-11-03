@@ -1,12 +1,3 @@
-<?php
-
-declare(strict_types=1);
-
-namespace SpomkyLabs\Pki\ASN1\Type\Tagged;
-
-/**
- * Intermediate class to store DER data of context specific type.
- */
-final class ContextSpecificType extends DERTaggedType
-{
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:c9b15e3b3ff743e886f48ee1b96ac77273795ccfbc33c5ae5a4c7781ae5c3e1b
+size 209

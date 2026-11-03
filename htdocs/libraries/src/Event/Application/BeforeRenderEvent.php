@@ -1,23 +1,3 @@
-<?php
-
-/**
- * Joomla! Content Management System
- *
- * @copyright  (C) 2023 Open Source Matters, Inc. <https://www.joomla.org>
- * @license    GNU General Public License version 2 or later; see LICENSE.txt
- */
-
-namespace Joomla\CMS\Event\Application;
-
-// phpcs:disable PSR1.Files.SideEffects
-\defined('_JEXEC') or die;
-// phpcs:enable PSR1.Files.SideEffects
-
-/**
- * Class for BeforeRender event
- *
- * @since  5.0.0
- */
-class BeforeRenderEvent extends ApplicationEvent
-{
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:3a3a2c0afd41dcd4390a82844345d181f1316d69acf3d7df6c934ca4499fe354
+size 470

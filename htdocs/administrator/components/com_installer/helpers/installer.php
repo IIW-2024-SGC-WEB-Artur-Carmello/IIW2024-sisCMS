@@ -1,27 +1,3 @@
-<?php
-
-/**
- * @package     Joomla.Administrator
- * @subpackage  com_installer
- *
- * @copyright   (C) 2009 Open Source Matters, Inc. <https://www.joomla.org>
- * @license     GNU General Public License version 2 or later; see LICENSE.txt
- *
- * @phpcs:disable PSR1.Classes.ClassDeclaration.MissingNamespace
- */
-
-// phpcs:disable PSR1.Files.SideEffects
-\defined('_JEXEC') or die;
-// phpcs:enable PSR1.Files.SideEffects
-
-/**
- * Installer helper.
- *
- * @since  1.6
- *
- * @deprecated  4.3 will be removed in 6.0
- *              Use \Joomla\Component\Installer\Administrator\Helper\InstallerHelper instead
- */
-class InstallerHelper extends \Joomla\Component\Installer\Administrator\Helper\InstallerHelper
-{
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:50efe069d11020e76131c250a5a6c34ff6a0dd45f7d8d09e6b47c96e4def81e8
+size 701

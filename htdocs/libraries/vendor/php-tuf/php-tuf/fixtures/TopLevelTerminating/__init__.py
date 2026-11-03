@@ -1,24 +1,3 @@
-# Delegation tree
-#
-#             Targets
-#             /     \
-#            a       b
-#
-# a is the only terminating delegation
-#
-# Roles should be evaluated in the order:
-# Targets > a
-#
-# Role b should not be evaluated.
-from fixtures.builder import ConsistencyVariantFixtureBuilder
-
-
-def build():
-    ConsistencyVariantFixtureBuilder('TopLevelTerminating')\
-        .publish(with_client=True)\
-        .create_target('targets.txt')\
-        .delegate('a', ['*.txt'], terminating=True)\
-        .create_target('a.txt', signing_role='a')\
-        .delegate('b', ['*.txt'])\
-        .create_target('b.txt', signing_role='b')\
-        .publish()
+version https://git-lfs.github.com/spec/v1
+oid sha256:6ca762c9cfbb90317f103ac64b68ead0a04baccc3720de5bfde3072e46e6ccaf
+size 644

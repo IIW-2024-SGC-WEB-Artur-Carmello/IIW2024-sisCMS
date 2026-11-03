@@ -1,8 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<metadata>
-	<layout title="COM_GUIDEDTOURS_TOURS_VIEW_DEFAULT_TITLE">
-		<message>
-			<![CDATA[COM_GUIDEDTOURS_TOURS_VIEW_DEFAULT_DESC]]>
-		</message>
-	</layout>
-</metadata>
+version https://git-lfs.github.com/spec/v1
+oid sha256:33637ff2a88d331ba3753410eb25efbb3daf4ad566fce59b9e35fe94408c64ee
+size 212

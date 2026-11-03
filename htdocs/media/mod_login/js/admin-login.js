@@ -1,19 +1,3 @@
-/**
- * @copyright  (C) 2018 Open Source Matters, Inc. <https://www.joomla.org>
- * @license    GNU General Public License version 2 or later; see LICENSE.txt
- */
-
-((Joomla, document) => {
-
-  document.addEventListener('DOMContentLoaded', () => {
-    const btn = document.getElementById('btn-login-submit');
-    if (btn) {
-      btn.addEventListener('click', event => {
-        event.preventDefault();
-        if (document.formvalidator.isValid(btn.form)) {
-          Joomla.submitbutton('login');
-        }
-      });
-    }
-  });
-})(window.Joomla, document);
+version https://git-lfs.github.com/spec/v1
+oid sha256:b5d3ed0a07768f7038150e19400d2c121997640d87a79b3b764d922e83e03617
+size 556

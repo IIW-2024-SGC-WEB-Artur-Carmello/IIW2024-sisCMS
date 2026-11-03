@@ -1,36 +1,3 @@
-<?php
-
-/**
- * Joomla! Content Management System
- *
- * @copyright  (C) 2014 Open Source Matters, Inc. <https://www.joomla.org>
- * @license    GNU General Public License version 2 or later; see LICENSE.txt
- */
-
-namespace Joomla\CMS\Application\CLI\Output\Processor;
-
-// phpcs:disable PSR1.Files.SideEffects
-\defined('_JEXEC') or die;
-// phpcs:enable PSR1.Files.SideEffects
-
-/**
- * Interface for a command line output processor
- *
- * @since       4.0.0
- *
- * @deprecated  4.3 will be removed in 6.0
- *              Use the `joomla/console` package instead
- */
-interface ProcessorInterface
-{
-    /**
-     * Process the provided output into a string.
-     *
-     * @param   string  $output  The string to process.
-     *
-     * @return  string
-     *
-     * @since   4.0.0
-     */
-    public function process($output);
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:1a9979ecd52fd6ae4b62ddd0c5b07ff2bbce563e54d7083f1f5091976bc8e3fe
+size 816

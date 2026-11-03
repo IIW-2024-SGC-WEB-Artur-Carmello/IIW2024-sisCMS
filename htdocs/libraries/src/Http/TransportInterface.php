@@ -1,28 +1,3 @@
-<?php
-
-/**
- * Joomla! Content Management System
- *
- * @copyright  (C) 2011 Open Source Matters, Inc. <https://www.joomla.org>
- * @license    GNU General Public License version 2 or later; see LICENSE.txt
- */
-
-namespace Joomla\CMS\Http;
-
-use Joomla\Http\TransportInterface as FrameworkTransportInterface;
-
-// phpcs:disable PSR1.Files.SideEffects
-\defined('_JEXEC') or die;
-// phpcs:enable PSR1.Files.SideEffects
-
-/**
- * HTTP transport class interface.
- *
- * @since       1.7.3
- *
- * @deprecated  4.0 will be removed in 6.0
- *              Implement Joomla\Http\TransportInterface instead
- */
-interface TransportInterface extends FrameworkTransportInterface
-{
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:81377e9c32412176e2ef7db3162bdc3d2efb2366511b1e23703dc4cc68bdfd04
+size 660

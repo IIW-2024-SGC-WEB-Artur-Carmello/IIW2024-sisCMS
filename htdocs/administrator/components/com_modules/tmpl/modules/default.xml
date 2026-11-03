@@ -1,8 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<metadata>
-	<layout title="COM_MODULES_MODULES_VIEW_DEFAULT_TITLE">
-		<message>
-			<![CDATA[COM_MODULES_MODULES_VIEW_DEFAULT_DESC]]>
-		</message>
-	</layout>
-</metadata>
+version https://git-lfs.github.com/spec/v1
+oid sha256:5ff64e4eb36fd8a43447275c14adb2a0414c2126b66d85f9bf329f1b9038a552
+size 208

@@ -1,25 +1,3 @@
-<?php
-
-/**
- * @package     Joomla.Administrator
- * @subpackage  com_workflow
- *
- * @copyright   (C) 2018 Open Source Matters, Inc. <https://www.joomla.org>
- * @license     GNU General Public License version 2 or later; see LICENSE.txt
- */
-
-namespace Joomla\Component\Workflow\Administrator\Helper;
-
-use Joomla\CMS\Helper\ContentHelper;
-
-// phpcs:disable PSR1.Files.SideEffects
-\defined('_JEXEC') or die;
-// phpcs:enable PSR1.Files.SideEffects
-
-/**
- * Workflows component helper
- * @since  4.0.0
- */
-class WorkflowHelper extends ContentHelper
-{
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:2f9b655f17516484c514453a278de5a3a00096094b720601cb56b4b745756bf1
+size 546

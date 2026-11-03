@@ -1,21 +1,3 @@
-<?php
-
-/*
- * This file is part of the Symfony package.
- *
- * (c) Fabien Potencier <fabien@symfony.com>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
-namespace Symfony\Component\HttpClient\Exception;
-
-use Symfony\Contracts\HttpClient\Exception\TransportExceptionInterface;
-
-/**
- * @author Nicolas Grekas <p@tchwork.com>
- */
-final class InvalidArgumentException extends \InvalidArgumentException implements TransportExceptionInterface
-{
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:0107d69d7b450bf23d01af198c611c5710740a52d1e8e17e489deab0234749a4
+size 526

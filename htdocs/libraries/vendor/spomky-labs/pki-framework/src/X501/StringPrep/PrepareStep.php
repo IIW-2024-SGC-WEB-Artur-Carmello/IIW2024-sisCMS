@@ -1,22 +1,3 @@
-<?php
-
-declare(strict_types=1);
-
-namespace SpomkyLabs\Pki\X501\StringPrep;
-
-/**
- * Interface for string preparation steps of Internationalized String Preparation algorithm specified by RFC 4518.
- *
- * @see https://tools.ietf.org/html/rfc4518#section-2
- */
-interface PrepareStep
-{
-    /**
-     * Apply string preparation step.
-     *
-     * @param string $string String to prepare
-     *
-     * @return string Prepared string
-     */
-    public function apply(string $string): string;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:29e136abea9440fc12e2315a30d1c59546ee38a7daf7ce004f8eaa328a8cf52c
+size 486

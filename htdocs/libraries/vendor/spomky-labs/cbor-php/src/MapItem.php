@@ -1,29 +1,3 @@
-<?php
-
-declare(strict_types=1);
-
-namespace CBOR;
-
-class MapItem
-{
-    public function __construct(
-        private CBORObject $key,
-        private CBORObject $value
-    ) {
-    }
-
-    public static function create(CBORObject $key, CBORObject $value): self
-    {
-        return new self($key, $value);
-    }
-
-    public function getKey(): CBORObject
-    {
-        return $this->key;
-    }
-
-    public function getValue(): CBORObject
-    {
-        return $this->value;
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:c0e279dda00ec2800f1dc92b0fe8519aa16551967ed0f808889b2d233ed0c2cb
+size 476

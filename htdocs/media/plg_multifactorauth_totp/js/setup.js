@@ -1,22 +1,3 @@
-/**
- * @package     Joomla.Plugin
- * @subpackage  Multifactorauth.webauthn
- *
- * @copyright   (C) 2022 Open Source Matters, Inc. <https://www.joomla.org>
- * @license     GNU General Public License version 2 or later; see LICENSE.txt
- */
-
-((Joomla, document, qrcode) => {
-
-  document.addEventListener('DOMContentLoaded', () => {
-    const elTarget = document.getElementById('users-mfa-totp-qrcode');
-    const qrData = Joomla.getOptions('plg_multifactorauth_totp.totp.qr');
-    if (!elTarget || !qrData) {
-      return;
-    }
-    const qr = qrcode(0, 'H');
-    qr.addData(qrData);
-    qr.make();
-    elTarget.innerHTML = qr.createImgTag(4);
-  });
-})(Joomla, document, qrcode);
+version https://git-lfs.github.com/spec/v1
+oid sha256:637a9b5048fc976101e772ab4f8fb9fedc73f64c85c81291a01faa5f544da9ae
+size 676

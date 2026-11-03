@@ -1,25 +1,3 @@
-<?php
-
-declare(strict_types=1);
-
-namespace Webauthn\MetadataService\Event;
-
-final class CertificateChainValidationFailed implements WebauthnEvent
-{
-    /**
-     * @param string[] $untrustedCertificates
-     */
-    public function __construct(
-        public readonly array $untrustedCertificates,
-        public readonly string $trustedCertificate
-    ) {
-    }
-
-    /**
-     * @param string[] $untrustedCertificates
-     */
-    public static function create(array $untrustedCertificates, string $trustedCertificate): self
-    {
-        return new self($untrustedCertificates, $trustedCertificate);
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:3a9161d4e14aea146f95b2cc8dcbe46b136a542fab654779707a3e8b29cb25e5
+size 607

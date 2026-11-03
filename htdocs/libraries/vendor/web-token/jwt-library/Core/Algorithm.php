@@ -1,20 +1,3 @@
-<?php
-
-declare(strict_types=1);
-
-namespace Jose\Component\Core;
-
-interface Algorithm
-{
-    /**
-     * Returns the name of the algorithm.
-     */
-    public function name(): string;
-
-    /**
-     * Returns the key types suitable for this algorithm (e.g. "oct", "RSA"...).
-     *
-     * @return string[]
-     */
-    public function allowedKeyTypes(): array;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:d13a74924a23578e12facb3ee4a681ed1650f0a65653a95af04b90860c38ceb7
+size 358

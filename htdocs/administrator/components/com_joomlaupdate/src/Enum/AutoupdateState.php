@@ -1,24 +1,3 @@
-<?php
-
-/**
- * @package     Joomla.Administrator
- * @subpackage  com_joomlaupdate
- *
- * @copyright   (C) 2025 Open Source Matters, Inc. <https://www.joomla.org>
- * @license     GNU General Public License version 2 or later; see LICENSE.txt
- */
-
-namespace Joomla\Component\Joomlaupdate\Administrator\Enum;
-
-// phpcs:disable PSR1.Files.SideEffects
-\defined('_JEXEC') or die;
-// phpcs:enable PSR1.Files.SideEffects
-
-/**
- * Autoupdate State Enum
- */
-enum AutoupdateState: int
-{
-    case Disabled = 0;
-    case Enabled  = 1;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:ab80bc61706c6db453b57d4eb89c547a6388196171e4c813fd4eaba02fa6435c
+size 521

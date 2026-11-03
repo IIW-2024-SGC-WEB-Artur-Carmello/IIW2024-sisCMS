@@ -1,28 +1,3 @@
-<?php
-
-/*
- * This file is part of the Symfony package.
- *
- * (c) Fabien Potencier <fabien@symfony.com>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
-namespace Symfony\Component\Validator;
-
-use Symfony\Component\Validator\Constraints\GroupSequence;
-
-/**
- * Defines the interface for a group sequence provider.
- */
-interface GroupSequenceProviderInterface
-{
-    /**
-     * Returns which validation groups should be used for a certain state
-     * of the object.
-     *
-     * @return string[]|string[][]|GroupSequence
-     */
-    public function getGroupSequence(): array|GroupSequence;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:a2792c461771205f96ad3cb0ee0a45c2b74561902a32038862550aea07337d62
+size 676

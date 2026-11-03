@@ -1,32 +1,3 @@
-<?php
-
-declare(strict_types=1);
-
-namespace SpomkyLabs\Pki\ASN1\Type\Primitive;
-
-use SpomkyLabs\Pki\ASN1\Type\PrimitiveString;
-use SpomkyLabs\Pki\ASN1\Type\UniversalClass;
-
-/**
- * Implements *GeneralString* type.
- */
-final class GeneralString extends PrimitiveString
-{
-    use UniversalClass;
-
-    private function __construct(string $string)
-    {
-        parent::__construct(self::TYPE_GENERAL_STRING, $string);
-    }
-
-    public static function create(string $string): self
-    {
-        return new self($string);
-    }
-
-    protected function validateString(string $string): bool
-    {
-        // allow everything
-        return true;
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:0a5caa266be8ba770532846b752242b59e84eb57c2d0b9bf43b394d8594c2b47
+size 646

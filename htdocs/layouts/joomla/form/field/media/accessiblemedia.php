@@ -1,24 +1,3 @@
-<?php
-
-/**
- * @package     Joomla.Site
- * @subpackage  Layout
- *
- * @copyright   (C) 2020 Open Source Matters, Inc. <https://www.joomla.org>
- * @license     GNU General Public License version 2 or later; see LICENSE.txt
- */
-
-defined('_JEXEC') or die;
-
-extract($displayData);
-
-$form = $forms[0];
-
-$formfields = $form->getGroup('');
-?>
-
-<div class="subform-wrapper">
-<?php foreach ($formfields as $field) : ?>
-    <?php echo $field->renderField(); ?>
-<?php endforeach; ?>
-</div>
+version https://git-lfs.github.com/spec/v1
+oid sha256:7885d91adfa7aae4cb44392d7bdebc91dcca555f32e0067d66a543187fb7ae7d
+size 477

@@ -1,19 +1,3 @@
-<?php
-
-/*
- * This file is part of the Symfony package.
- *
- * (c) Fabien Potencier <fabien@symfony.com>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
-namespace Symfony\Component\Validator\Exception;
-
-/**
- * @author Bernhard Schussek <bschussek@gmail.com>
- */
-class NoSuchMetadataException extends ValidatorException
-{
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:43ec7676d6ec74e433ce01c665e2ad5b92d0db25c465cceb408039941ae781d1
+size 408

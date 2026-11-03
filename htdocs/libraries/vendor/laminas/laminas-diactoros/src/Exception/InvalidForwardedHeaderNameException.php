@@ -1,28 +1,3 @@
-<?php
-
-declare(strict_types=1);
-
-namespace Laminas\Diactoros\Exception;
-
-use Laminas\Diactoros\ServerRequestFilter\FilterUsingXForwardedHeaders;
-
-use function gettype;
-use function is_object;
-use function is_string;
-use function sprintf;
-
-class InvalidForwardedHeaderNameException extends RuntimeException implements ExceptionInterface
-{
-    public static function forHeader(mixed $name): self
-    {
-        if (! is_string($name)) {
-            $name = sprintf('(value of type %s)', is_object($name) ? $name::class : gettype($name));
-        }
-
-        return new self(sprintf(
-            'Invalid X-Forwarded-* header name "%s" provided to %s',
-            $name,
-            FilterUsingXForwardedHeaders::class
-        ));
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:15e36bc58cbcfc70bc884372ecb2f18b6b3d503dd89774cd1f638982652bcf7d
+size 735

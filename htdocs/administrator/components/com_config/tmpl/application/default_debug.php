@@ -1,23 +1,3 @@
-<?php
-
-/**
- * @package     Joomla.Administrator
- * @subpackage  com_config
- *
- * @copyright   (C) 2013 Open Source Matters, Inc. <https://www.joomla.org>
- * @license     GNU General Public License version 2 or later; see LICENSE.txt
- */
-
-use Joomla\CMS\Language\Text;
-use Joomla\CMS\Layout\LayoutHelper;
-
-defined('_JEXEC') or die;
-
-/** @var \Joomla\Component\Config\Administrator\View\Application\HtmlView $this */
-
-$this->name = Text::_('COM_CONFIG_DEBUG_SETTINGS');
-$this->description = '';
-$this->fieldsname = 'debug';
-$this->formclass = 'options-form';
-
-echo LayoutHelper::render('joomla.content.options_default', $this);
+version https://git-lfs.github.com/spec/v1
+oid sha256:3feb8ce0c776c27fd8068b4d03749f845967200c7253cba361c3247b1049a2bc
+size 626

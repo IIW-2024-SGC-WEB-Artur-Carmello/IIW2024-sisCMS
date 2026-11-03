@@ -1,29 +1,3 @@
-<?php
-declare(strict_types=1);
-
-namespace Lcobucci\JWT\Encoding;
-
-use Lcobucci\JWT\ClaimsFormatter;
-use Lcobucci\JWT\Token\RegisteredClaims;
-
-use function array_key_exists;
-use function count;
-use function current;
-
-final class UnifyAudience implements ClaimsFormatter
-{
-    /** @inheritdoc */
-    public function formatClaims(array $claims): array
-    {
-        if (
-            ! array_key_exists(RegisteredClaims::AUDIENCE, $claims)
-            || count($claims[RegisteredClaims::AUDIENCE]) !== 1
-        ) {
-            return $claims;
-        }
-
-        $claims[RegisteredClaims::AUDIENCE] = current($claims[RegisteredClaims::AUDIENCE]);
-
-        return $claims;
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:a50b4c65d602c73bdf44467c01fa67664184beb3c89fab12cc13d392f122ef4b
+size 676

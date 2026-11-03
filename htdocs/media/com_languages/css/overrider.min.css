@@ -1,1 +1,3 @@
-@charset "UTF-8";#overrider-spinner,#overrider-spinner-btn,#refresh-status,#more-results,#language-results,#results-container{display:none}#overrider-spinner.show,#more-results.show,#results-container.show,#language-results.show{display:grid}#refresh-status.show{display:block}#overrider-spinner-btn.show{display:inline-block}#refresh-status{flex-basis:100%}.result-key{color:#666}.result-string{padding-inline-start:20px}
+version https://git-lfs.github.com/spec/v1
+oid sha256:163c39f9e5645c6dca15bbfbd2ef7f8edb23ea6dc41bcb8c185d8620276dae7f
+size 422

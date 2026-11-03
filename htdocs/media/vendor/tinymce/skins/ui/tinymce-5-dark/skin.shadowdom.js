@@ -1,2 +1,3 @@
-tinymce.Resource.add('ui/tinymce-5-dark/skin.shadowdom.css', "body.tox-dialog__disable-scroll{overflow:hidden}.tox-fullscreen{border:0;height:100%;margin:0;overflow:hidden;overscroll-behavior:none;padding:0;touch-action:pinch-zoom;width:100%}.tox.tox-tinymce.tox-fullscreen .tox-statusbar__resize-handle{display:none}.tox-shadowhost.tox-fullscreen,.tox.tox-tinymce.tox-fullscreen{left:0;position:fixed;top:0;z-index:1200}.tox.tox-tinymce.tox-fullscreen{background-color:transparent}.tox-fullscreen .tox.tox-tinymce-aux,.tox-fullscreen~.tox.tox-tinymce-aux{z-index:1201}")
-//# sourceMappingURL=skin.shadowdom.js.map
+version https://git-lfs.github.com/spec/v1
+oid sha256:becae22f794ee0e7d0ca150486d70fd2fb58e8a492c883b7631d53854bd8c98a
+size 615

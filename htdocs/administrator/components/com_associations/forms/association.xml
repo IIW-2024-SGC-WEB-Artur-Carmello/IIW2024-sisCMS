@@ -1,20 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<form addfieldprefix="Joomla\Component\Associations\Administrator\Field">
-	<fieldset>
-		<field
-			name="itemlanguage"
-			type="itemlanguage"
-			label="COM_ASSOCIATIONS_SELECT_TARGET_LANGUAGE_LABEL"
-			>
-			<option value="">COM_ASSOCIATIONS_SELECT_TARGET_LANGUAGE</option>
-		</field>
-
-		<field
-			name="modalassociation"
-			type="modal_association"
-		/>
-	</fieldset>
-
-	<fields name="params">
-	</fields>
-</form>
+version https://git-lfs.github.com/spec/v1
+oid sha256:39bb6276405f7fbe3642a068676f8fb35339d11ee1a132b7bcab070680983dbe
+size 449

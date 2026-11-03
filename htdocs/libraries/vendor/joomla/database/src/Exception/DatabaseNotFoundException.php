@@ -1,19 +1,3 @@
-<?php
-
-/**
- * Part of the Joomla Framework Database Package
- *
- * @copyright  Copyright (C) 2022 Open Source Matters, Inc. All rights reserved.
- * @license    GNU General Public License version 2 or later; see LICENSE
- */
-
-namespace Joomla\Database\Exception;
-
-/**
- * No database is available.
- *
- * @since  2.1.0
- */
-class DatabaseNotFoundException extends \RuntimeException
-{
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:45ce4879f37514be510d65c621862a51acdca650f8010dafe9a091ae9cc192fb
+size 380

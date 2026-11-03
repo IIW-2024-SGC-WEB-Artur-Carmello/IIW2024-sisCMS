@@ -1,21 +1,3 @@
-<?php
-
-/**
- * @package     Joomla.Administrator
- * @subpackage  com_modules
- *
- * @copyright   (C) 2013 Open Source Matters, Inc. <https://www.joomla.org>
- * @license     GNU General Public License version 2 or later; see LICENSE.txt
- */
-
-defined('_JEXEC') or die;
-
-use Joomla\CMS\Language\Text;
-
-$text = Text::_('JTOOLBAR_CANCEL');
-?>
-<joomla-toolbar-button>
-    <button onclick="location.href='index.php?option=com_modules&view=modules&client_id=<?php echo $displayData['client_id']; ?>'" class="btn btn-danger">
-        <span class="icon-times" aria-hidden="true"></span> <?php echo $text; ?>
-    </button>
-</joomla-toolbar-button>
+version https://git-lfs.github.com/spec/v1
+oid sha256:11207ab767e4a95fa41fd6b5b443a6d2c855b8dbe7ba067b6a58d6ceb98c2785
+size 635

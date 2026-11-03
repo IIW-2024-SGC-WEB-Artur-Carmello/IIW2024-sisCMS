@@ -1,27 +1,3 @@
-<?php
-
-/*
- * This file is part of the Symfony package.
- *
- * (c) Fabien Potencier <fabien@symfony.com>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
-namespace Symfony\Component\Uid;
-
-/**
- * A v8 UUID has no explicit requirements except embedding its version + variant bits.
- *
- * @author Nicolas Grekas <p@tchwork.com>
- */
-class UuidV8 extends Uuid
-{
-    protected const TYPE = 8;
-
-    public function __construct(string $uuid)
-    {
-        parent::__construct($uuid, true);
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:c7a1f177836e30fe19725aca716d93ab4801e0b6d4ee686a24d24f1718b165eb
+size 573

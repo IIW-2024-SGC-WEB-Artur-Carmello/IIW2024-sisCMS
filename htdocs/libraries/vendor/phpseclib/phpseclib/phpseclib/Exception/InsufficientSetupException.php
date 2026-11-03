@@ -1,23 +1,3 @@
-<?php
-
-/**
- * InsufficientSetupException
- *
- * PHP version 5
- *
- * @author    Jim Wigginton <terrafrost@php.net>
- * @copyright 2015 Jim Wigginton
- * @license   http://www.opensource.org/licenses/mit-license.html  MIT License
- * @link      http://phpseclib.sourceforge.net
- */
-
-namespace phpseclib3\Exception;
-
-/**
- * InsufficientSetupException
- *
- * @author  Jim Wigginton <terrafrost@php.net>
- */
-class InsufficientSetupException extends \RuntimeException
-{
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:c183d1a6bb330fb72f4a9d3ee9333f0f9ad46c9de939117b19ae9cebda4b27ce
+size 461

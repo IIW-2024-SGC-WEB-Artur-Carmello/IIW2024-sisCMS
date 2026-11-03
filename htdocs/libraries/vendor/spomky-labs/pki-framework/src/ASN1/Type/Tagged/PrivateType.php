@@ -1,12 +1,3 @@
-<?php
-
-declare(strict_types=1);
-
-namespace SpomkyLabs\Pki\ASN1\Type\Tagged;
-
-/**
- * Intermediate class to store DER data of a private tagging type.
- */
-final class PrivateType extends DERTaggedType
-{
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:19e5476cf4064b77df16e2fd79cf865b40891b93e04488c32dac4a4b08d2ac74
+size 202

@@ -1,18 +1,3 @@
-<?php
-
-/**
- * nistp256
- *
- * PHP version 5 and 7
- *
- * @author    Jim Wigginton <terrafrost@php.net>
- * @copyright 2017 Jim Wigginton
- * @license   http://www.opensource.org/licenses/mit-license.html  MIT License
- * @link      http://pear.php.net/package/Math_BigInteger
- */
-
-namespace phpseclib3\Crypt\EC\Curves;
-
-final class nistp256 extends secp256r1
-{
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:30f9ed39b57bcdacd15c8c0622362c3c7af170f76953f84736b92b7ee0dac457
+size 358

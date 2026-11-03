@@ -1,8 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<metadata>
-	<layout title="COM_PRIVACY_REQUESTS_VIEW_DEFAULT_TITLE">
-		<message>
-			<![CDATA[COM_PRIVACY_REQUESTS_VIEW_DEFAULT_DESC]]>
-		</message>
-	</layout>
-</metadata>
+version https://git-lfs.github.com/spec/v1
+oid sha256:44ae1ae84f0eacf83fec85e44100deb1a2892c9fdb10ada3025364abba902dbd
+size 210

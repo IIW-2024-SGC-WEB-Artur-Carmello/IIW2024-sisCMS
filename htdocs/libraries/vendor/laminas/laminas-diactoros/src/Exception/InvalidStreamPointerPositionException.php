@@ -1,20 +1,3 @@
-<?php
-
-declare(strict_types=1);
-
-namespace Laminas\Diactoros\Exception;
-
-use RuntimeException;
-use Throwable;
-
-class InvalidStreamPointerPositionException extends RuntimeException implements ExceptionInterface
-{
-    /** {@inheritDoc} */
-    public function __construct(
-        string $message = 'Invalid pointer position',
-        int $code = 0,
-        ?Throwable $previous = null
-    ) {
-        parent::__construct($message, $code, $previous);
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:1193737baf634f253c7252ec2fa373a1131e009a83489dddcc7f08f46cbe1950
+size 456

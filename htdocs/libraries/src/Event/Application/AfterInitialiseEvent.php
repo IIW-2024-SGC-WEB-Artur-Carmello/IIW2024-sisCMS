@@ -1,23 +1,3 @@
-<?php
-
-/**
- * Joomla! Content Management System
- *
- * @copyright  (C) 2023 Open Source Matters, Inc. <https://www.joomla.org>
- * @license    GNU General Public License version 2 or later; see LICENSE.txt
- */
-
-namespace Joomla\CMS\Event\Application;
-
-// phpcs:disable PSR1.Files.SideEffects
-\defined('_JEXEC') or die;
-// phpcs:enable PSR1.Files.SideEffects
-
-/**
- * Class for AfterInitialise event
- *
- * @since  5.0.0
- */
-class AfterInitialiseEvent extends ApplicationEvent
-{
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:e0cf49103a3fbd561740d02eddf869bbffcee0903f7579bee3866928ea947fe8
+size 476

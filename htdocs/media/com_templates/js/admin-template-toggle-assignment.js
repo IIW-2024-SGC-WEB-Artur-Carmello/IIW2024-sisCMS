@@ -1,19 +1,3 @@
-/**
- * @copyright  (C) 2019 Open Source Matters, Inc. <https://www.joomla.org>
- * @license    GNU General Public License version 2 or later; see LICENSE.txt
- */
-
-Joomla = window.Joomla || {};
-(Joomla => {
-  Joomla.toggleAll = () => {
-    document.querySelectorAll('.chk-menulink').forEach(checkBox => {
-      checkBox.checked = !checkBox.checked;
-    });
-  };
-  Joomla.toggleMenutype = a => {
-    const checkBox = [].slice.call(document.getElementsByClassName(`menutype-${a}`));
-    checkBox.forEach(element => {
-      element.checked = !element.checked;
-    });
-  };
-})(Joomla);
+version https://git-lfs.github.com/spec/v1
+oid sha256:e3d53920d8ba9afbcb149a3601e6f08fc5f6a8e86f9869bbfde1763810dff287
+size 580

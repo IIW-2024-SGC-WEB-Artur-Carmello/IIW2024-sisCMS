@@ -1,15 +1,3 @@
-<?php
-
-declare(strict_types=1);
-
-namespace Cose\Algorithm\Mac;
-
-use Cose\Algorithm\Algorithm;
-use Cose\Key\Key;
-
-interface Mac extends Algorithm
-{
-    public function hash(string $data, Key $key): string;
-
-    public function verify(string $data, Key $key, string $signature): bool;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:d7aaa22a5d9e802aade11b0708e4cb3f654690aad33d04905efe9e6175acaecc
+size 285

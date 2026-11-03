@@ -1,21 +1,3 @@
-/**
- * @copyright  (C) 2020 Open Source Matters, Inc. <https://www.joomla.org>
- * @license    GNU General Public License version 2 or later; see LICENSE.txt
- */
-(document => {
-
-  const onClick = () => {
-    const form = document.getElementById('adminForm');
-    document.getElementById('filter-search').value = '';
-    form.submit();
-  };
-  const onBoot = () => {
-    const form = document.getElementById('adminForm');
-    const element = form.querySelector('button[type="reset"]');
-    if (element) {
-      element.addEventListener('click', onClick);
-    }
-    document.removeEventListener('DOMContentLoaded', onBoot);
-  };
-  document.addEventListener('DOMContentLoaded', onBoot);
-})(document);
+version https://git-lfs.github.com/spec/v1
+oid sha256:4d07849edddd1030cfbe5146504527b7041411cd548f428f1df12e53af801ae1
+size 696

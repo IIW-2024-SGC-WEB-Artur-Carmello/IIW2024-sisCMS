@@ -1,30 +1,3 @@
-<?php
-
-/**
- * @package     Joomla.Administrator
- * @subpackage  com_admin
- *
- * @copyright   Copyright (C) 2005 - 2020 Open Source Matters, Inc. All rights reserved.
- * @license     GNU General Public License version 2 or later; see LICENSE.txt
- *
- * This file contains post-installation message handling for notifying users of a change
- * in the default .htaccess file regarding hardening against XSS in SVG's
- */
-
-// phpcs:disable PSR1.Files.SideEffects
-\defined('_JEXEC') or die;
-// phpcs:enable PSR1.Files.SideEffects
-
-/**
- * Notifies users of a change in the default .htaccess file regarding hardening against XSS in SVG's
- *
- * This check returns true regardless of condition.
- *
- * @return  boolean
- *
- * @since   3.9.21
- */
-function admin_postinstall_htaccesssvg_condition()
-{
-    return true;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:53542951f6f17b59b8d98e7c6bf183c31faa5dc2e70d68b36325b5c854a364e5
+size 804

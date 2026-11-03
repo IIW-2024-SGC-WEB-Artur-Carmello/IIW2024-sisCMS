@@ -1,13 +1,3 @@
-<?php
-
-declare(strict_types=1);
-
-namespace Jose\Component\Core;
-
-interface JWT
-{
-    /**
-     * Returns the payload of the JWT. null is a valid payload (e.g. JWS with detached payload).
-     */
-    public function getPayload(): ?string;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:bf291370d0626f4f6201c8be4e7486c0f6c38f629ec56124c9197a7c2f118e17
+size 239

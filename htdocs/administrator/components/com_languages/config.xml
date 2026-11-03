@@ -1,29 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<config>
-	<help key="Languages:_Options"/>
-	<fieldset
-		name="permissions"
-		label="JCONFIG_PERMISSIONS_LABEL"
-		>
-
-		<field
-			name="rules"
-			type="rules"
-			label="JCONFIG_PERMISSIONS_LABEL"
-			filter="rules"
-			validate="rules"
-			component="com_languages"
-			section="component"
-		/>
-
-		<field
-			type="hidden"
-			name="site"
-		/>
-
-		<field
-			type="hidden"
-			name="administrator"
-		/>
-	</fieldset>
-</config>
+version https://git-lfs.github.com/spec/v1
+oid sha256:28c916465e9fe805734c1f7737433b0bb0e8c49633f26ffaf6ea0ed36c170d6e
+size 454

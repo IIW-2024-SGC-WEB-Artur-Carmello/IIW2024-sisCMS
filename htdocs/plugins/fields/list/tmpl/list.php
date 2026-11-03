@@ -1,32 +1,3 @@
-<?php
-
-/**
- * @package     Joomla.Plugin
- * @subpackage  Fields.List
- *
- * @copyright   (C) 2017 Open Source Matters, Inc. <https://www.joomla.org>
- * @license     GNU General Public License version 2 or later; see LICENSE.txt
- */
-
-defined('_JEXEC') or die;
-
-use Joomla\CMS\Language\Text;
-
-/** @var \Joomla\CMS\Layout\FileLayout $this */
-$fieldValue = $field->value;
-
-if ($fieldValue == '') {
-    return;
-}
-
-$fieldValue = (array) $fieldValue;
-$texts      = [];
-$options    = $this->getOptionsFromField($field);
-
-foreach ($options as $value => $name) {
-    if (in_array((string) $value, $fieldValue)) {
-        $texts[] = Text::_($name);
-    }
-}
-
-echo htmlentities(implode(', ', $texts));
+version https://git-lfs.github.com/spec/v1
+oid sha256:18f98a6a9c7ec79b299fd943a041805062539212fad03d82f771188d55da8c80
+size 688

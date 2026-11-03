@@ -1,27 +1,3 @@
-<?php
-
-/**
- * @package     Joomla.Plugin
- * @subpackage  Fields.text
- *
- * @copyright   (C) 2017 Open Source Matters, Inc. <https://www.joomla.org>
- * @license     GNU General Public License version 2 or later; see LICENSE.txt
- */
-
-namespace Joomla\Plugin\Fields\Text\Extension;
-
-use Joomla\Component\Fields\Administrator\Plugin\FieldsPlugin;
-use Joomla\Event\SubscriberInterface;
-
-// phpcs:disable PSR1.Files.SideEffects
-\defined('_JEXEC') or die;
-// phpcs:enable PSR1.Files.SideEffects
-
-/**
- * Fields Text Plugin
- *
- * @since  3.7.0
- */
-final class Text extends FieldsPlugin implements SubscriberInterface
-{
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:5b88a2e1c44c98352f9c1ab853c3d0fe100e87e7c0468c5fbe19a2567e04ed14
+size 612

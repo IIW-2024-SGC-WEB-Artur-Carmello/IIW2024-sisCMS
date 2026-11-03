@@ -1,25 +1,3 @@
-<?php
-
-/**
- * Joomla! Content Management System
- *
- * @copyright  (C) 2022 Open Source Matters, Inc. <https://www.joomla.org>
- * @license    GNU General Public License version 2 or later; see LICENSE.txt
- */
-
-namespace Joomla\CMS\Event\Plugin\System\Webauthn;
-
-use Joomla\CMS\Event\AbstractImmutableEvent;
-
-// phpcs:disable PSR1.Files.SideEffects
-\defined('_JEXEC') or die;
-// phpcs:enable PSR1.Files.SideEffects
-
-/**
- * Concrete event class for the onAjaxWebauthn event
- *
- * @since  4.2.0
- */
-class Ajax extends AbstractImmutableEvent
-{
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:69f874de5fc313ee9ab01defa3e4353492afa0649aedeae674b92838f9c1080d
+size 541

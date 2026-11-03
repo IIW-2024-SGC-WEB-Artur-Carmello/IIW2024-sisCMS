@@ -1,23 +1,3 @@
-<?php
-
-/**
- * Joomla! Content Management System
- *
- * @copyright   (C) 2016 Open Source Matters, Inc. <https://www.joomla.org>
- * @license     GNU General Public License version 2 or later; see LICENSE.txt
- */
-
-namespace Joomla\CMS\MVC\View;
-
-// phpcs:disable PSR1.Files.SideEffects
-\defined('_JEXEC') or die;
-// phpcs:enable PSR1.Files.SideEffects
-
-/**
- * Exception class defining an error getting data from a model into a view
- *
- * @since  4.0.0
- */
-class GenericDataException extends \RuntimeException
-{
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:57c956d2a02e17dcf2f9965f33257585e67ce2948a06e209949be70d117cf5d8
+size 510

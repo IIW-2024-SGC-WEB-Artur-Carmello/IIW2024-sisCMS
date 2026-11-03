@@ -1,21 +1,3 @@
-<?php
-
-declare(strict_types=1);
-
-namespace Doctrine\Inflector\Rules\NorwegianBokmal;
-
-use Doctrine\Inflector\GenericLanguageInflectorFactory;
-use Doctrine\Inflector\Rules\Ruleset;
-
-final class InflectorFactory extends GenericLanguageInflectorFactory
-{
-    protected function getSingularRuleset(): Ruleset
-    {
-        return Rules::getSingularRuleset();
-    }
-
-    protected function getPluralRuleset(): Ruleset
-    {
-        return Rules::getPluralRuleset();
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:c2d27ad87d04f56760cb9c72623ed2aebc4488eca577b80c77713dd5a5a58c3c
+size 469

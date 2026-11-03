@@ -1,32 +1,3 @@
-<?php
-
-namespace Psr\Link;
-
-/**
- * A link provider object.
- */
-interface LinkProviderInterface
-{
-    /**
-     * Returns an iterable of LinkInterface objects.
-     *
-     * The iterable may be an array or any PHP \Traversable object. If no links
-     * are available, an empty array or \Traversable MUST be returned.
-     *
-     * @return LinkInterface[]|\Traversable
-     */
-    public function getLinks();
-
-    /**
-     * Returns an iterable of LinkInterface objects that have a specific relationship.
-     *
-     * The iterable may be an array or any PHP \Traversable object. If no links
-     * with that relationship are available, an empty array or \Traversable MUST be returned.
-     *
-     * @param string $rel
-     *   The relationship name for which to retrieve links.
-     *
-     * @return LinkInterface[]|\Traversable
-     */
-    public function getLinksByRel(string $rel);
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:c5edc29873f600015afbaeac75c8ff722bc4de8f2bd7c8f651d97bb151b2d84d
+size 886

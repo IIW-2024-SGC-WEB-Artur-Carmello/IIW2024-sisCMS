@@ -1,10 +1,3 @@
-document.addEventListener('DOMContentLoaded', function() {
-  let prev = null;
-  Array.from(document.getElementsByTagName('article')).reverse().forEach(function (article) {
-    const dedupId = article.dataset.dedupId;
-    if (dedupId === prev) {
-      article.getElementsByTagName('header')[0].classList.add('hidden');
-    }
-    prev = dedupId;
-  });
-});
+version https://git-lfs.github.com/spec/v1
+oid sha256:f2f5ed0b97d9084213608a5583b78410403eb4ffdbbc49da61e4e0a2b3c41be4
+size 354

@@ -1,28 +1,3 @@
-/**
- * @copyright   (C) 2020 Open Source Matters, Inc. <https://www.joomla.org>
- * @license     GNU General Public License version 2 or later; see LICENSE.txt
- */
-
-Joomla = window.Joomla || {};
-(Joomla => {
-
-  document.addEventListener('DOMContentLoaded', () => {
-    Joomla.submitbuttonfolder = () => {
-      const form = document.getElementById('adminForm');
-
-      // do field validation
-      if (form.install_directory.value === '') {
-        Joomla.renderMessages({
-          warning: [Joomla.Text._('PLG_INSTALLER_FOLDERINSTALLER_NO_INSTALL_PATH')]
-        });
-      } else {
-        const loading = document.getElementById('loading');
-        if (loading) {
-          loading.classList.remove('hidden');
-        }
-        form.installtype.value = 'folder';
-        form.submit();
-      }
-    };
-  });
-})(Joomla);
+version https://git-lfs.github.com/spec/v1
+oid sha256:df98fd8a8fbe99d2c83bf7eb64b94a06bfa3487ae98249c9c902f02704977fa0
+size 821

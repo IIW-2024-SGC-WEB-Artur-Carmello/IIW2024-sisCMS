@@ -1,28 +1,3 @@
-/**
- * @package     Joomla.JavaScript
- * @copyright   (C) 2018 Open Source Matters, Inc. <https://www.joomla.org>
- * @license     GNU General Public License version 2 or later; see LICENSE.txt
- */
-
-((window, document) => {
-
-  window.JoomlainitReCaptcha2 = () => {
-    const optionKeys = ['sitekey', 'theme', 'size', 'tabindex', 'callback', 'expired-callback', 'error-callback'];
-    document.querySelectorAll('.g-recaptcha').forEach(element => {
-      let options = {};
-      if (element.dataset) {
-        options = element.dataset;
-      } else {
-        optionKeys.forEach(key => {
-          const optionKeyFq = `data-${key}`;
-          if (element.hasAttribute(optionKeyFq)) {
-            options[key] = element.getAttribute(optionKeyFq);
-          }
-        });
-      }
-
-      // Set the widget id of the recaptcha item
-      element.setAttribute('data-recaptcha-widget-id', window.grecaptcha.render(element, options));
-    });
-  };
-})(window, document);
+version https://git-lfs.github.com/spec/v1
+oid sha256:ba90c14db4deb6ae50500398fc86927f34bea8bfb7412cccc5555ecdac90fa17
+size 960

@@ -1,21 +1,3 @@
-<?php
-
-/*
- * This file is part of the Symfony package.
- *
- * (c) Fabien Potencier <fabien@symfony.com>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
-namespace Symfony\Contracts\HttpClient\Exception;
-
-/**
- * When a 3xx response is returned and the "max_redirects" option has been reached.
- *
- * @author Nicolas Grekas <p@tchwork.com>
- */
-interface RedirectionExceptionInterface extends HttpExceptionInterface
-{
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:05875afc3d13945a11bec03bf1ad81d90d3ff5dd8cd7734ddb7de32cd8891253
+size 501

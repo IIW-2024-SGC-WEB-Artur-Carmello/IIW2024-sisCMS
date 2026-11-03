@@ -1,31 +1,3 @@
-/**
- * @package     Joomla.JavaScript
- * @copyright   (C) 2019 Open Source Matters, Inc. <https://www.joomla.org>
- * @license     GNU General Public License version 2 or later; see LICENSE.txt
- */
-
-((window, document) => {
-
-  window.JoomlainitReCaptchaInvisible = () => {
-    const optionKeys = ['sitekey', 'badge', 'size', 'tabindex', 'callback', 'expired-callback', 'error-callback'];
-    document.querySelectorAll('.g-recaptcha').forEach(element => {
-      let options = {};
-      if (element.dataset) {
-        options = element.dataset;
-      } else {
-        optionKeys.forEach(key => {
-          const optionKeyFq = `data-${optionKeys[key]}`;
-          if (element.hasAttribute(optionKeyFq)) {
-            options[optionKeys[key]] = element.getAttribute(optionKeyFq);
-          }
-        });
-      }
-
-      // Set the widget id of the recaptcha item
-      element.setAttribute('data-recaptcha-widget-id', window.grecaptcha.render(element, options));
-
-      // Execute the invisible reCAPTCHA
-      window.grecaptcha.execute(element.getAttribute('data-recaptcha-widget-id'));
-    });
-  };
-})(window, document);
+version https://git-lfs.github.com/spec/v1
+oid sha256:0ad3fb6f2d0203767a7130cbac2c13bcaf1d47783554f391ac5bf2564694bfe3
+size 1117

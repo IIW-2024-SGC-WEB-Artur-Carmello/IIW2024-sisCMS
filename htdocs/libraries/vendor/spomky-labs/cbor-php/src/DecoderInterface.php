@@ -1,10 +1,3 @@
-<?php
-
-declare(strict_types=1);
-
-namespace CBOR;
-
-interface DecoderInterface
-{
-    public function decode(Stream $stream): CBORObject;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:308acddf48153cb527373ed0c28d9acbaf75bdb33b81c98871b4bcc91fb84932
+size 137

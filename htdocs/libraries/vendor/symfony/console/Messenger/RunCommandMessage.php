@@ -1,36 +1,3 @@
-<?php
-
-/*
- * This file is part of the Symfony package.
- *
- * (c) Fabien Potencier <fabien@symfony.com>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
-namespace Symfony\Component\Console\Messenger;
-
-use Symfony\Component\Console\Exception\RunCommandFailedException;
-
-/**
- * @author Kevin Bond <kevinbond@gmail.com>
- */
-class RunCommandMessage implements \Stringable
-{
-    /**
-     * @param bool $throwOnFailure  If the command has a non-zero exit code, throw {@see RunCommandFailedException}
-     * @param bool $catchExceptions @see Application::setCatchExceptions()
-     */
-    public function __construct(
-        public readonly string $input,
-        public readonly bool $throwOnFailure = true,
-        public readonly bool $catchExceptions = false,
-    ) {
-    }
-
-    public function __toString(): string
-    {
-        return $this->input;
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:0c4289566147d009f60a7bfc3f65ccc7616c8c4f9b0c9f2bd8e8709e8182fa82
+size 941

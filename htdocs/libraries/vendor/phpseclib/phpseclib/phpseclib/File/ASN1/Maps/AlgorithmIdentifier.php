@@ -1,35 +1,3 @@
-<?php
-
-/**
- * AlgorithmIdentifier
- *
- * PHP version 5
- *
- * @author    Jim Wigginton <terrafrost@php.net>
- * @copyright 2016 Jim Wigginton
- * @license   http://www.opensource.org/licenses/mit-license.html  MIT License
- * @link      http://phpseclib.sourceforge.net
- */
-
-namespace phpseclib3\File\ASN1\Maps;
-
-use phpseclib3\File\ASN1;
-
-/**
- * AlgorithmIdentifier
- *
- * @author  Jim Wigginton <terrafrost@php.net>
- */
-abstract class AlgorithmIdentifier
-{
-    const MAP = [
-        'type' => ASN1::TYPE_SEQUENCE,
-        'children' => [
-            'algorithm' => ['type' => ASN1::TYPE_OBJECT_IDENTIFIER],
-            'parameters' => [
-                'type' => ASN1::TYPE_ANY,
-                'optional' => true
-            ]
-        ]
-    ];
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:0572cf3c018f7c2281166fd794ef45888c1e07d6cb641d303f196ec8499ae057
+size 743

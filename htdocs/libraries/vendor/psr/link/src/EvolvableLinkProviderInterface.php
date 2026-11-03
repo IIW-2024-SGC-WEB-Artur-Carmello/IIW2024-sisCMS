@@ -1,35 +1,3 @@
-<?php
-
-namespace Psr\Link;
-
-/**
- * An evolvable link provider value object.
- */
-interface EvolvableLinkProviderInterface extends LinkProviderInterface
-{
-    /**
-     * Returns an instance with the specified link included.
-     *
-     * If the specified link is already present, this method MUST return normally
-     * without errors. The link is present if $link is === identical to a link
-     * object already in the collection.
-     *
-     * @param LinkInterface $link
-     *   A link object that should be included in this collection.
-     * @return static
-     */
-    public function withLink(LinkInterface $link);
-
-    /**
-     * Returns an instance with the specifed link removed.
-     *
-     * If the specified link is not present, this method MUST return normally
-     * without errors. The link is present if $link is === identical to a link
-     * object already in the collection.
-     *
-     * @param LinkInterface $link
-     *   The link to remove.
-     * @return static
-     */
-    public function withoutLink(LinkInterface $link);
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:2baf8b548e1aa1f0e99da36ac94a0e363f66ecf02ffdb9b500373456027d4dc4
+size 1049

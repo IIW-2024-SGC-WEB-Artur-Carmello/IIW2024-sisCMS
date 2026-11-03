@@ -1,29 +1,3 @@
-<?php
-
-/*
- * This file is part of the Symfony package.
- *
- * (c) Fabien Potencier <fabien@symfony.com>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
-namespace Symfony\Component\Validator;
-
-/**
- * Prepares an object for validation.
- *
- * Concrete implementations of this interface are used by {@link Validator\ContextualValidatorInterface}
- * to initialize objects just before validating them.
- *
- * @author Fabien Potencier <fabien@symfony.com>
- * @author Bernhard Schussek <bschussek@gmail.com>
- */
-interface ObjectInitializerInterface
-{
-    /**
-     * @return void
-     */
-    public function initialize(object $object);
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:3112dde1fafaac906829c24098d0e6e97f36315fe3e8eb64cb6c1e2c92a5f439
+size 714

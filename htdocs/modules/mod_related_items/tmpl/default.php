@@ -1,31 +1,3 @@
-<?php
-
-/**
- * @package     Joomla.Site
- * @subpackage  mod_related_items
- *
- * @copyright   (C) 2006 Open Source Matters, Inc. <https://www.joomla.org>
- * @license     GNU General Public License version 2 or later; see LICENSE.txt
- */
-
-defined('_JEXEC') or die;
-
-use Joomla\CMS\HTML\HTMLHelper;
-use Joomla\CMS\Language\Text;
-
-if (!$list) {
-    return;
-}
-
-?>
-<ul class="mod-relateditems relateditems mod-list">
-<?php foreach ($list as $item) : ?>
-<li>
-    <a href="<?php echo $item->route; ?>">
-        <?php if ($showDate) {
-            echo HTMLHelper::_('date', $item->created, Text::_('DATE_FORMAT_LC4')) . ' - ';
-        } ?>
-        <?php echo htmlspecialchars($item->title, ENT_QUOTES, 'UTF-8'); ?></a>
-</li>
-<?php endforeach; ?>
-</ul>
+version https://git-lfs.github.com/spec/v1
+oid sha256:b1394ff236d196260f6f0fe382ecc447125c923fae6bd780e6c58881b9a2200a
+size 742

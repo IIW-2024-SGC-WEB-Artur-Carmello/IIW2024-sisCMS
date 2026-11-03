@@ -1,31 +1,3 @@
-<?php
-
-/**
- * Joomla! Content Management System
- *
- * @copyright  (C) 2024 Open Source Matters, Inc. <https://www.joomla.org>
- * @license    GNU General Public License version 2 or later; see LICENSE.txt
- */
-
-namespace Joomla\CMS\String;
-
-// phpcs:disable PSR1.Files.SideEffects
-\defined('_JEXEC') or die;
-// phpcs:enable PSR1.Files.SideEffects
-
-/**
- * A transitioning interface to PHP implicit \Stringable interface
- *
- * @since  5.3.0
- */
-interface StringableInterface
-{
-    /**
-     * To String magick.
-     *
-     * @return string
-     *
-     * @since  5.3.0
-     */
-    public function __toString(): string;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:3335f16fdcf4d659d91f59ef855cdc0688e030add1d7cf21ad1143d897721f3e
+size 615

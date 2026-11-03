@@ -1,23 +1,3 @@
-<?php
-
-/**
- * Joomla! Content Management System
- *
- * @copyright  (C) 2023 Open Source Matters, Inc. <https://www.joomla.org>
- * @license    GNU General Public License version 2 or later; see LICENSE.txt
- */
-
-namespace Joomla\CMS\Event\Application;
-
-// phpcs:disable PSR1.Files.SideEffects
-\defined('_JEXEC') or die;
-// phpcs:enable PSR1.Files.SideEffects
-
-/**
- * Class for AfterApiRoute event
- *
- * @since  5.0.0
- */
-class AfterApiRouteEvent extends ApplicationEvent
-{
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:b7b30521a088458be131594aa05070c44d7121fb5ed6d7ca2d807626fc691916
+size 472

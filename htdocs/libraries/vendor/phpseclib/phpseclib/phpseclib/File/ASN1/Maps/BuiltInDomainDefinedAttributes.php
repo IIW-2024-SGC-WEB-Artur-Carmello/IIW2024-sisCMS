@@ -1,31 +1,3 @@
-<?php
-
-/**
- * BuiltInDomainDefinedAttributes
- *
- * PHP version 5
- *
- * @author    Jim Wigginton <terrafrost@php.net>
- * @copyright 2016 Jim Wigginton
- * @license   http://www.opensource.org/licenses/mit-license.html  MIT License
- * @link      http://phpseclib.sourceforge.net
- */
-
-namespace phpseclib3\File\ASN1\Maps;
-
-use phpseclib3\File\ASN1;
-
-/**
- * BuiltInDomainDefinedAttributes
- *
- * @author  Jim Wigginton <terrafrost@php.net>
- */
-abstract class BuiltInDomainDefinedAttributes
-{
-    const MAP = [
-        'type' => ASN1::TYPE_SEQUENCE,
-        'min' => 1,
-        'max' => 4, // ub-domain-defined-attributes
-        'children' => BuiltInDomainDefinedAttribute::MAP
-    ];
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:8cd73d883f2346aa92330ddd8e36868995c6725df8c07ef5a0f8e6229abb2b4a
+size 681

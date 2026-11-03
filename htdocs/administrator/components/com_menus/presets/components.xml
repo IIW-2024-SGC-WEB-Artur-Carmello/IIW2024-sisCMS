@@ -1,13 +1,3 @@
-<?xml version="1.0"?>
-<menu
-	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xmlns="urn:joomla.org"
-	xsi:schemaLocation="urn:joomla.org menu.xsd"
-	>
-	<menuitem
-		title="MOD_MENU_COMPONENTS"
-		type="container"
-		class="class:puzzle-piece"
-		dashboard="components"
-	/>
-</menu>
+version https://git-lfs.github.com/spec/v1
+oid sha256:95065912621cd7f6fb8379db7becd2c408c8e5c22d478f7b2815120427290125
+size 282

@@ -1,25 +1,3 @@
-<?php
-
-declare(strict_types=1);
-
-namespace SpomkyLabs\Pki\X501\MatchingRule;
-
-use SpomkyLabs\Pki\X501\StringPrep\StringPreparer;
-
-/**
- * Base class for matching rules employing string preparement semantics.
- */
-abstract class StringPrepMatchingRule extends MatchingRule
-{
-    protected function __construct(
-        private readonly StringPreparer $preparer
-    ) {
-    }
-
-    public function compare(string $assertion, string $value): ?bool
-    {
-        $assertion = $this->preparer->prepare($assertion);
-        $value = $this->preparer->prepare($value);
-        return strcmp($assertion, $value) === 0;
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:34cf53a5348c4d47fd5569029800107afd91c52f593586bde8c3d15530707ddb
+size 615

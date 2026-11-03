@@ -1,22 +1,3 @@
-<?php
-
-/*
- * This file is part of the Symfony package.
- *
- * (c) Fabien Potencier <fabien@symfony.com>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
-namespace Symfony\Component\VarDumper\Dumper\ContextProvider;
-
-/**
- * Interface to provide contextual data about dump data clones sent to a server.
- *
- * @author Maxime Steinhausser <maxime.steinhausser@gmail.com>
- */
-interface ContextProviderInterface
-{
-    public function getContext(): ?array;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:e288d555e832a01304a26a4fc252d8e1acf8ab52495acee16b11cb009f29a9b2
+size 537

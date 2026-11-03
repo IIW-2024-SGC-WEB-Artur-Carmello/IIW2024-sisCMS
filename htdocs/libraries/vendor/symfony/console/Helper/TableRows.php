@@ -1,30 +1,3 @@
-<?php
-
-/*
- * This file is part of the Symfony package.
- *
- * (c) Fabien Potencier <fabien@symfony.com>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
-namespace Symfony\Component\Console\Helper;
-
-/**
- * @internal
- */
-class TableRows implements \IteratorAggregate
-{
-    private \Closure $generator;
-
-    public function __construct(\Closure $generator)
-    {
-        $this->generator = $generator;
-    }
-
-    public function getIterator(): \Traversable
-    {
-        return ($this->generator)();
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:d0e95f1760e64a22253da9473295c68019011b346adb5eaf5bec4d2669850c58
+size 590

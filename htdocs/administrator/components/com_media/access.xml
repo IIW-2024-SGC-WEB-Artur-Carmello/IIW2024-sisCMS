@@ -1,11 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<access component="com_media">
-	<section name="component">
-		<action name="core.admin" title="JACTION_ADMIN" />
-		<action name="core.options" title="JACTION_OPTIONS" />
-		<action name="core.manage" title="JACTION_MANAGE" />
-		<action name="core.create" title="JACTION_CREATE" />
-		<action name="core.delete" title="JACTION_DELETE" />
-		<action name="core.edit" title="JACTION_EDIT" />
-	</section>
-</access>
+version https://git-lfs.github.com/spec/v1
+oid sha256:aea939aa020a7058a896ecb3ffde5a4fb57eac8e5c5cee8fc85ee7bee2921345
+size 446

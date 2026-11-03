@@ -1,25 +1,3 @@
-<?php
-
-/**
- * @package     Joomla.Administrator
- * @subpackage  com_finder
- *
- * @copyright   (C) 2021 Open Source Matters, Inc. <https://www.joomla.org>
- * @license     GNU General Public License version 2 or later; see LICENSE.txt
- */
-
-defined('_JEXEC') or die;
-
-use Joomla\CMS\Language\Text;
-use Joomla\CMS\Layout\LayoutHelper;
-
-$displayData = [
-    'textPrefix' => 'COM_FINDER',
-    'formURL'    => 'index.php?option=com_finder&view=searches',
-    'helpURL'    => 'https://docs.joomla.org/Special:MyLanguage/Help5.x:Smart_Search:_Search_Term_Analysis',
-    'icon'       => 'icon-search',
-    'title'      => Text::_('COM_FINDER_MANAGER_SEARCHES'),
-    'content'    => Text::_('COM_FINDER_EMPTYSTATE_SEARCHES_CONTENT'),
-];
-
-echo LayoutHelper::render('joomla.content.emptystate', $displayData);
+version https://git-lfs.github.com/spec/v1
+oid sha256:c2ca379c3b2bbb2b1baa0130a656858fb44e9100a6302f7fb810e6138c87be5f
+size 797

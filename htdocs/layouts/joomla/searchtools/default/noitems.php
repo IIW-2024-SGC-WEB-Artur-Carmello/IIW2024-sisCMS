@@ -1,20 +1,3 @@
-<?php
-
-/**
- * @package     Joomla.Site
- * @subpackage  Layout
- *
- * @copyright   (C) 2016 Open Source Matters, Inc. <https://www.joomla.org>
- * @license     GNU General Public License version 2 or later; see LICENSE.txt
- */
-
-defined('_JEXEC') or die;
-
-use Joomla\CMS\Language\Text;
-
-$data = $displayData;
-?>
-<div class="alert alert-info">
-    <span class="icon-info-circle" aria-hidden="true"></span><span class="visually-hidden"><?php echo Text::_('INFO'); ?></span>
-    <?php echo $data['options']['noResultsText']; ?>
-</div>
+version https://git-lfs.github.com/spec/v1
+oid sha256:9f64c8521ba34552b5089a6895e23b30ae3f8522d26fada0d6e3b42dbf1bd6f4
+size 528

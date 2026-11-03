@@ -1,34 +1,3 @@
-{
-  "$schema": "https://developer.joomla.org/schemas/json-schema/web_assets.json",
-  "name": "com_joomlaupdate",
-  "version": "4.0.0",
-  "description": "Joomla CMS",
-  "license": "GPL-2.0-or-later",
-  "assets": [
-    {
-      "name": "com_joomlaupdate.admin-update",
-      "type": "script",
-      "uri": "com_joomlaupdate/admin-update-default.min.js",
-      "dependencies": [
-        "core",
-        "bootstrap.modal"
-      ],
-      "attributes": {
-        "type": "module"
-      },
-      "version": "b93c10"
-    },
-    {
-      "name": "com_joomlaupdate.default",
-      "type": "script",
-      "uri": "com_joomlaupdate/default.min.js",
-      "dependencies": [
-        "core"
-      ],
-      "attributes": {
-        "type": "module"
-      },
-      "version": "cc3d38"
-    }
-  ]
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:82b77aa3562247dd4511f6711b9a0de0a76770e457ac9f0ba31edf70a7f93643
+size 776

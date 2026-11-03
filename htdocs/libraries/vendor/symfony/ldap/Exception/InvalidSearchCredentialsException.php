@@ -1,22 +1,3 @@
-<?php
-
-/*
- * This file is part of the Symfony package.
- *
- * (c) Fabien Potencier <fabien@symfony.com>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
-namespace Symfony\Component\Ldap\Exception;
-
-/**
- * InvalidSearchCredentialsException is thrown if binding to ldap fails when
- * using the configured search_dn and search_password.
- *
- * @author Jeroen de Boer <info@jayfrown.nl>
- */
-class InvalidSearchCredentialsException extends InvalidCredentialsException
-{
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:f515fcb4b4a69e356eb701804337780d383d52169caabcee664e2ae04ae9fb4b
+size 551

@@ -1,33 +1,3 @@
-<?php
-
-declare(strict_types=1);
-
-namespace SpomkyLabs\Pki\ASN1\Type\Primitive;
-
-use SpomkyLabs\Pki\ASN1\Type\PrimitiveString;
-use SpomkyLabs\Pki\ASN1\Type\UniversalClass;
-
-/**
- * Implements *UTF8String* type.
- *
- * UTF8String* is an Unicode string with UTF-8 encoding.
- */
-final class UTF8String extends PrimitiveString
-{
-    use UniversalClass;
-
-    private function __construct(string $string)
-    {
-        parent::__construct(self::TYPE_UTF8_STRING, $string);
-    }
-
-    public static function create(string $string): self
-    {
-        return new self($string);
-    }
-
-    protected function validateString(string $string): bool
-    {
-        return mb_check_encoding($string, 'UTF-8');
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:af5ee8d2b4e4621da97bc36b71ad1d7bca4ede64db442039da0c1eec7803d9a7
+size 700

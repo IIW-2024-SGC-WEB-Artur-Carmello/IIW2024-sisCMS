@@ -1,23 +1,3 @@
-<?php
-
-/**
- * @package     Joomla.Administrator
- * @subpackage  com_config
- *
- * @copyright   (C) 2014 Open Source Matters, Inc. <https://www.joomla.org>
- * @license     GNU General Public License version 2 or later; see LICENSE.txt
- */
-
-use Joomla\CMS\Language\Text;
-use Joomla\CMS\Layout\LayoutHelper;
-
-defined('_JEXEC') or die;
-
-/** @var \Joomla\Component\Config\Administrator\View\Application\HtmlView $this */
-
-$this->name = Text::_('COM_CONFIG_PROXY_SETTINGS');
-$this->description = '';
-$this->fieldsname = 'proxy';
-$this->formclass = 'options-form';
-
-echo LayoutHelper::render('joomla.content.options_default', $this);
+version https://git-lfs.github.com/spec/v1
+oid sha256:d69d5db73fb7519357ddb1314faab9ff587def5e17aaa070074a5ea2e9901294
+size 626

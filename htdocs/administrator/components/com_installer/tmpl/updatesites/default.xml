@@ -1,8 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<metadata>
-	<layout title="COM_INSTALLER_UPDATESITES_VIEW_DEFAULT_TITLE">
-		<message>
-			<![CDATA[COM_INSTALLER_UPDATESITES_VIEW_DEFAULT_DESC]]>
-		</message>
-	</layout>
-</metadata>
+version https://git-lfs.github.com/spec/v1
+oid sha256:44333843601b1f1443206ad0086ef47cd0308899067a66353193b98fbd4bd011
+size 220

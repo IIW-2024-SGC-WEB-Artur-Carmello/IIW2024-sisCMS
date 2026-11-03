@@ -1,30 +1,3 @@
-<?php
-
-/**
- * @package     Joomla.Administrator
- * @subpackage  com_guidedtours
- *
- * @copyright   (C) 2023 Open Source Matters, Inc. <https://www.joomla.org>
- * @license     GNU General Public License version 2 or later; see LICENSE.txt
- */
-
-defined('_JEXEC') or die;
-
-use Joomla\CMS\Layout\LayoutHelper;
-
-/** @var \Joomla\Component\Guidedtours\Administrator\View\Steps\HtmlView $this */
-
-$displayData = [
-    'textPrefix' => 'COM_GUIDEDTOURS_STEPS',
-    'formURL'    => 'index.php?option=com_guidedtours&view=steps',
-    'helpURL'    => 'https://docs.joomla.org/Special:MyLanguage/Help5.x:Guided_Tours:_Steps',
-    'icon'       => 'icon-map-signs',
-];
-
-$user = $this->getCurrentUser();
-
-if ($user->authorise('core.create', 'com_guidedtours')) {
-    $displayData['createURL'] = 'index.php?option=com_guidedtours&task=step.add';
-}
-
-echo LayoutHelper::render('joomla.content.emptystate', $displayData);
+version https://git-lfs.github.com/spec/v1
+oid sha256:56efb04e1a5f1c646b2354ed7cc609d5a741d6353257434a44007b7b55a86098
+size 902

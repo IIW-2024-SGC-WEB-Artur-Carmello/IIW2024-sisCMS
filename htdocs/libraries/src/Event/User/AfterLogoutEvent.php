@@ -1,34 +1,3 @@
-<?php
-
-/**
- * Joomla! Content Management System
- *
- * @copyright  (C) 2023 Open Source Matters, Inc. <https://www.joomla.org>
- * @license    GNU General Public License version 2 or later; see LICENSE.txt
- */
-
-namespace Joomla\CMS\Event\User;
-
-// phpcs:disable PSR1.Files.SideEffects
-\defined('_JEXEC') or die;
-// phpcs:enable PSR1.Files.SideEffects
-
-/**
- * Class for User event.
- * Example:
- *  new AfterLogoutEvent('onEventName', ['subject' => $parameters, 'options' => $options]);
- *
- * @since  5.0.0
- */
-class AfterLogoutEvent extends AbstractLogoutEvent
-{
-    /**
-     * The argument names, in order expected by legacy plugins.
-     *
-     * @var array
-     *
-     * @since  5.0.0
-     * @deprecated 5.0 will be removed in 7.0
-     */
-    protected $legacyArgumentsOrder = ['options', 'subject'];
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:3713818877290f7aafecf15ab9d53ffd9e13966cd2f2926870c2a1a3c27f0e69
+size 803

@@ -1,8 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<metadata>
-	<layout title="COM_CONFIG_CONFIG_VIEW_DEFAULT_TITLE">
-		<message>
-			<![CDATA[COM_CONFIG_CONFIG_VIEW_DEFAULT_DESC]]>
-		</message>
-	</layout>
-</metadata>
+version https://git-lfs.github.com/spec/v1
+oid sha256:1d6137b15ef3651061ac79f7d994033f6b82bf642c560c78f055de55cb2bcd82
+size 204

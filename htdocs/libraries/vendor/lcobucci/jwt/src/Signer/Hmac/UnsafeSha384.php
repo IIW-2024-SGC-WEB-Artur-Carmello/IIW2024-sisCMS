@@ -1,25 +1,3 @@
-<?php
-declare(strict_types=1);
-
-namespace Lcobucci\JWT\Signer\Hmac;
-
-use Lcobucci\JWT\Signer\Hmac;
-
-/** @deprecated Deprecated since v4.2 */
-final class UnsafeSha384 extends Hmac
-{
-    public function algorithmId(): string
-    {
-        return 'HS384';
-    }
-
-    public function algorithm(): string
-    {
-        return 'sha384';
-    }
-
-    public function minimumBitsLengthForKey(): int
-    {
-        return 1;
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:f060f870cf5b1d6bc5f89649602405bc27a80d6f0ca982b9f4a065432fb98181
+size 421

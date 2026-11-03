@@ -1,21 +1,3 @@
-<?php
-
-declare(strict_types=1);
-
-namespace Jose\Component\Encryption\Algorithm\KeyEncryption;
-
-use AESKW\A256KW as Wrapper;
-use AESKW\Wrapper as WrapperInterface;
-
-final class A256KW extends AESKW
-{
-    public function name(): string
-    {
-        return 'A256KW';
-    }
-
-    protected function getWrapper(): WrapperInterface
-    {
-        return new Wrapper();
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:511d2bb1613bb4b84e976d46f58d00087719630ec22c26fd2ee872a52304cd2e
+size 370

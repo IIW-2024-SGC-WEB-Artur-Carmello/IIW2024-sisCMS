@@ -1,29 +1,3 @@
-<?php
-
-namespace Tuf\Tests\Metadata;
-
-trait UntrustedExceptionTrait
-{
-
-    /**
-     * Tests that accessing method that with untrusted metadata throws an exception.
-     *
-     * @param string $method
-     *   The method to call.
-     * @param array $args
-     *   The arguments for the method.
-     *
-     * @dataProvider providerUntrustedException
-     *
-     * @return void
-     */
-    public function testUntrustedException(string $method, array $args = []): void
-    {
-        $data = json_decode($this->clientStorage->read($this->validJson), true);
-        $metadata = static::callCreateFromJson(json_encode($data));
-        $this->expectException(\RuntimeException::class);
-        $this->expectExceptionMessage("Cannot use untrusted '{$this->expectedType}'. metadata.");
-        $method = new \ReflectionMethod($metadata, $method);
-        $method->invokeArgs($metadata, $args);
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:9fec94b19551950c3b3f8cb6585f440dbc4d87a204f2de4d6432655c1d5627e4
+size 894

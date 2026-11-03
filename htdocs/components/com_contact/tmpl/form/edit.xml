@@ -1,14 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<metadata>
-	<layout title="COM_CONTACT_FORM_VIEW_DEFAULT_TITLE">
-		<help
-			key="Menu_Item:_Create_Contact"
-		/>
-		<message>
-			<![CDATA[COM_CONTACT_FORM_VIEW_DEFAULT_DESC]]>
-		</message>
-	</layout>
-	<fields name="params">
-
-	</fields>
-</metadata>
+version https://git-lfs.github.com/spec/v1
+oid sha256:7e2d4930e4155af0c07927e8a25acdc02fb918dbd818bd06ed84bc0a06fd64e7
+size 286

@@ -1,20 +1,3 @@
-<?php
-
-declare(strict_types=1);
-
-namespace Jfcherng\Diff\Renderer\Html\LineRenderer;
-
-use Jfcherng\Utility\MbString;
-
-interface LineRendererInterface
-{
-    /**
-     * Renderer the in-line changed extent.
-     *
-     * @param MbString $mbOld the old megabytes line
-     * @param MbString $mbNew the new megabytes line
-     *
-     * @return static
-     */
-    public function render(MbString $mbOld, MbString $mbNew): self;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:e99065e79c72257084fa0f97523f2498adad698a88ea20185462dd9e55f128e6
+size 424

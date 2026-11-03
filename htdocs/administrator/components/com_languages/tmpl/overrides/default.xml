@@ -1,8 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<metadata>
-	<layout title="COM_LANGUAGES_OVERRIDE_VIEW_DEFAULT_TITLE">
-		<message>
-			<![CDATA[COM_LANGUAGES_OVERRIDE_VIEW_DEFAULT_DESC]]>
-		</message>
-	</layout>
-</metadata>
+version https://git-lfs.github.com/spec/v1
+oid sha256:f624c9d03937ecf8fbf527d18aa0aafb557c3955238fb6c4e72a3613d6b7f557
+size 214

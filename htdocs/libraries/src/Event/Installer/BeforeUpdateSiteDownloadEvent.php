@@ -1,23 +1,3 @@
-<?php
-
-/**
- * Joomla! Content Management System
- *
- * @copyright  (C) 2024 Open Source Matters, Inc. <https://www.joomla.org>
- * @license    GNU General Public License version 2 or later; see LICENSE.txt
- */
-
-namespace Joomla\CMS\Event\Installer;
-
-// phpcs:disable PSR1.Files.SideEffects
-\defined('_JEXEC') or die;
-// phpcs:enable PSR1.Files.SideEffects
-
-/**
- * Class for update site events
- *
- * @since  5.3.0
- */
-class BeforeUpdateSiteDownloadEvent extends BeforePackageDownloadEvent
-{
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:f0d65bfd65f6f25ed47e7fb3528edf633b6b492763cff7a0c4e0acf85c8fe653
+size 490

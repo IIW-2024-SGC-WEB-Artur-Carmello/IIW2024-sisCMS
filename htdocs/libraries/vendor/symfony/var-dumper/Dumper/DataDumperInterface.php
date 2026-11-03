@@ -1,27 +1,3 @@
-<?php
-
-/*
- * This file is part of the Symfony package.
- *
- * (c) Fabien Potencier <fabien@symfony.com>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
-namespace Symfony\Component\VarDumper\Dumper;
-
-use Symfony\Component\VarDumper\Cloner\Data;
-
-/**
- * DataDumperInterface for dumping Data objects.
- *
- * @author Nicolas Grekas <p@tchwork.com>
- */
-interface DataDumperInterface
-{
-    /**
-     * @return string|null
-     */
-    public function dump(Data $data);
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:beffdb754cb1e95f9ac78e3450e1448987bf1284ff5d464de58aea069e6c1932
+size 548

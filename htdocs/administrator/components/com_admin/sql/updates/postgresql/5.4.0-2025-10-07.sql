@@ -1,2 +1,3 @@
--- Remove wrong unique constraint from "#__ucm_content" table
-ALTER TABLE "#__ucm_content" DROP CONSTRAINT "#__ucm_content_idx_type_alias_item_id" /** CAN FAIL **/;
+version https://git-lfs.github.com/spec/v1
+oid sha256:cd9df77266426fafef912d444a716eb66715c81c7714f5ad50ba29988402e890
+size 167

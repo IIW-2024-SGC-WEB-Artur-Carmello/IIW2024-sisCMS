@@ -1,7 +1,3 @@
-UPDATE `#__content_types`
-SET `field_mappings` = JSON_SET(`field_mappings`, '$.common.core_created_user_id', 'created_by')
-WHERE `type_alias` = 'com_content.article';
-
-UPDATE `#__content_types`
-SET `field_mappings` = JSON_SET(`field_mappings`, '$.common.core_created_by_alias', 'created_by_alias')
-WHERE `type_alias` = 'com_content.article';
+version https://git-lfs.github.com/spec/v1
+oid sha256:6b84ff409bd8ca7125c294d5cd6863f1164b6682c46cfdbe48b188ab25a84a43
+size 342

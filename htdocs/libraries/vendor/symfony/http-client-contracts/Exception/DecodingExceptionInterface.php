@@ -1,21 +1,3 @@
-<?php
-
-/*
- * This file is part of the Symfony package.
- *
- * (c) Fabien Potencier <fabien@symfony.com>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
-namespace Symfony\Contracts\HttpClient\Exception;
-
-/**
- * When a content-type cannot be decoded to the expected representation.
- *
- * @author Nicolas Grekas <p@tchwork.com>
- */
-interface DecodingExceptionInterface extends ExceptionInterface
-{
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:bb4cb1405e25bf08af80d786136ce39e113e9870ea3525304c753029281c6dba
+size 483

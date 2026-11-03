@@ -1,33 +1,3 @@
-<?php
-
-/*
- * This file is part of the Symfony package.
- *
- * (c) Fabien Potencier <fabien@symfony.com>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
-namespace Symfony\Component\Validator\Context;
-
-use Symfony\Component\Validator\Validator\ValidatorInterface;
-
-/**
- * Creates instances of {@link ExecutionContextInterface}.
- *
- * You can use a custom factory if you want to customize the execution context
- * that is passed through the validation run.
- *
- * @author Bernhard Schussek <bschussek@gmail.com>
- */
-interface ExecutionContextFactoryInterface
-{
-    /**
-     * Creates a new execution context.
-     *
-     * @param mixed $root The root value of the validated
-     *                    object graph
-     */
-    public function createContext(ValidatorInterface $validator, mixed $root): ExecutionContextInterface;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:0b23543fa958e7a476581d5b800e12f35ad48b82b5c4284188bddb2cae8a050e
+size 911

@@ -1,31 +1,3 @@
-<?php
-
-/**
- * Joomla! Content Management System
- *
- * @copyright  (C) 2023 Open Source Matters, Inc. <https://www.joomla.org>
- * @license    GNU General Public License version 2 or later; see LICENSE.txt
- */
-
-namespace Joomla\CMS\Event\Content;
-
-use Joomla\CMS\Event\Result\ResultAware;
-use Joomla\CMS\Event\Result\ResultAwareInterface;
-use Joomla\CMS\Event\Result\ResultTypeStringAware;
-
-// phpcs:disable PSR1.Files.SideEffects
-\defined('_JEXEC') or die;
-// phpcs:enable PSR1.Files.SideEffects
-
-/**
- * Class for Content event.
- * Example:
- *  new AfterDisplayEvent('onEventName', ['context' => 'com_example.example', 'subject' => $contentObject, 'params' => $params, 'page' => $pageNum]);
- *
- * @since  5.0.0
- */
-class AfterDisplayEvent extends ContentPrepareEvent implements ResultAwareInterface
-{
-    use ResultAware;
-    use ResultTypeStringAware;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:043b2f5d88c52d1285b875b3742831c864ac88e58ef278786e88175b2bdbdc97
+size 854

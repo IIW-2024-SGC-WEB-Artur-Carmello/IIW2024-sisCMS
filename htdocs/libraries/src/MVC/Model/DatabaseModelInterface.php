@@ -1,33 +1,3 @@
-<?php
-
-/**
- * Joomla! Content Management System
- *
- * @copyright  (C) 2019 Open Source Matters, Inc. <https://www.joomla.org>
- * @license    GNU General Public License version 2 or later; see LICENSE.txt
- */
-
-namespace Joomla\CMS\MVC\Model;
-
-use Joomla\Database\DatabaseInterface;
-
-// phpcs:disable PSR1.Files.SideEffects
-\defined('_JEXEC') or die;
-// phpcs:enable PSR1.Files.SideEffects
-
-/**
- * Interface for a database model.
- *
- * @since  4.0.0
- */
-interface DatabaseModelInterface
-{
-    /**
-     * Method to get the database driver object.
-     *
-     * @return  DatabaseInterface
-     *
-     * @since   4.0.0
-     */
-    public function getDbo();
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:5f893885accb9fec7f3e2850d1ba58e8e2cb7c1eac3267316078d49ff4a2c746
+size 654

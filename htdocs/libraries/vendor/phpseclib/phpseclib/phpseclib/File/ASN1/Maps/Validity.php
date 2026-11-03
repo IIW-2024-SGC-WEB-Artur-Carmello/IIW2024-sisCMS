@@ -1,32 +1,3 @@
-<?php
-
-/**
- * Validity
- *
- * PHP version 5
- *
- * @author    Jim Wigginton <terrafrost@php.net>
- * @copyright 2016 Jim Wigginton
- * @license   http://www.opensource.org/licenses/mit-license.html  MIT License
- * @link      http://phpseclib.sourceforge.net
- */
-
-namespace phpseclib3\File\ASN1\Maps;
-
-use phpseclib3\File\ASN1;
-
-/**
- * Validity
- *
- * @author  Jim Wigginton <terrafrost@php.net>
- */
-abstract class Validity
-{
-    const MAP = [
-        'type' => ASN1::TYPE_SEQUENCE,
-        'children' => [
-            'notBefore' => Time::MAP,
-            'notAfter' => Time::MAP
-        ]
-    ];
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:4f5a9d1585094742fea6254edb847123badf7e0fc2a69c0234a7ac2798220946
+size 594

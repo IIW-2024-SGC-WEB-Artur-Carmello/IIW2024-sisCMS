@@ -1,21 +1,3 @@
-<?php
-
-/*
- * This file is part of the Symfony package.
- *
- * (c) Fabien Potencier <fabien@symfony.com>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
-namespace Symfony\Component\Ldap\Exception;
-
-/**
- * AlreadyExistsException is thrown if the element already exists.
- *
- * @author Hamza Amrouche <hamza.simperfit@gmail.com>
- */
-class AlreadyExistsException extends ConnectionException
-{
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:5cbc16f76b9f8b19daf2008dbaa098609cfd0903fbae8e093257cf1e3f0f11c3
+size 476

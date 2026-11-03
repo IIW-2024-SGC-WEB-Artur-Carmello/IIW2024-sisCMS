@@ -1,36 +1,3 @@
-<?php
-
-declare(strict_types=1);
-
-namespace Webauthn\MetadataService\Exception;
-
-use Throwable;
-
-class CertificateChainException extends MetadataServiceException
-{
-    /**
-     * @param array<string> $untrustedCertificates
-     * @param array<string> $trustedCertificates
-     */
-    public function __construct(
-        public readonly array $untrustedCertificates,
-        public readonly array $trustedCertificates,
-        string $message,
-        ?Throwable $previous = null
-    ) {
-        parent::__construct($message, $previous);
-    }
-
-    /**
-     * @param array<string> $untrustedCertificates
-     * @param array<string> $trustedCertificates
-     */
-    public static function create(
-        array $untrustedCertificates,
-        array $trustedCertificates,
-        string $message = 'Unable to validate the certificate chain.',
-        ?Throwable $previous = null
-    ): self {
-        return new self($untrustedCertificates, $trustedCertificates, $message, $previous);
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:1954b91ae828418d7079e57c0f4cebd7dbba4d04ca4856b62fc8730acba8cf76
+size 990

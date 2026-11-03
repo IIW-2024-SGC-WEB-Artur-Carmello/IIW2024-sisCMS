@@ -1,21 +1,3 @@
-<?php
-
-/**
- * @package     Joomla.Administrator
- * @subpackage  com_newsfeeds
- *
- * @copyright   (C) 2013 Open Source Matters, Inc. <https://www.joomla.org>
- * @license     GNU General Public License version 2 or later; see LICENSE.txt
- */
-
-defined('_JEXEC') or die;
-
-/** @var \Joomla\Component\Newsfeeds\Administrator\View\Newsfeed\HtmlView $this */
-?>
-<div class="subhead noshadow mb-3">
-    <?php echo $this->getDocument()->getToolbar('toolbar')->render(); ?>
-</div>
-<div class="container-popup">
-    <?php $this->setLayout('edit'); ?>
-    <?php echo $this->loadTemplate(); ?>
-</div>
+version https://git-lfs.github.com/spec/v1
+oid sha256:6750199a191c89526f16dc4439cdb40de6ef4d1c7b091c2108f45c7b8c43ccb9
+size 587

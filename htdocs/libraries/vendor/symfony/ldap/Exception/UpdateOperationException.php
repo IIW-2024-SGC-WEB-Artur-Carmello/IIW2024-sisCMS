@@ -1,16 +1,3 @@
-<?php
-
-/*
- * This file is part of the Symfony package.
- *
- * (c) Fabien Potencier <fabien@symfony.com>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
-namespace Symfony\Component\Ldap\Exception;
-
-class UpdateOperationException extends LdapException
-{
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:c96c79d026bc5cdfae2808063a866d9064a25995bb48a96a139b144fd5921ac3
+size 340

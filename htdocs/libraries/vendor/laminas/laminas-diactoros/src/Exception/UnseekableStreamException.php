@@ -1,30 +1,3 @@
-<?php
-
-declare(strict_types=1);
-
-namespace Laminas\Diactoros\Exception;
-
-use RuntimeException;
-
-class UnseekableStreamException extends RuntimeException implements ExceptionInterface
-{
-    public static function dueToConfiguration(): self
-    {
-        return new self('Stream is not seekable');
-    }
-
-    public static function dueToMissingResource(): self
-    {
-        return new self('No resource available; cannot seek position');
-    }
-
-    public static function dueToPhpError(): self
-    {
-        return new self('Error seeking within stream');
-    }
-
-    public static function forCallbackStream(): self
-    {
-        return new self('Callback streams cannot seek position');
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:e71c96a59ea9678f80eb2b9ee9208731d5e8181e6e5a09626ca34122f3ef9dba
+size 695

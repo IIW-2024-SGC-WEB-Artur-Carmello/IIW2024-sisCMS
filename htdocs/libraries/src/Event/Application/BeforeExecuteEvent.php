@@ -1,36 +1,3 @@
-<?php
-
-/**
- * Joomla! Content Management System
- *
- * @copyright  (C) 2023 Open Source Matters, Inc. <https://www.joomla.org>
- * @license    GNU General Public License version 2 or later; see LICENSE.txt
- */
-
-namespace Joomla\CMS\Event\Application;
-
-use Joomla\DI\Container;
-
-// phpcs:disable PSR1.Files.SideEffects
-\defined('_JEXEC') or die;
-// phpcs:enable PSR1.Files.SideEffects
-
-/**
- * Class for BeforeExecute event
- *
- * @since  5.0.0
- */
-class BeforeExecuteEvent extends ApplicationEvent
-{
-    /**
-     * Get the event's container object
-     *
-     * @return  ?Container
-     *
-     * @since  5.0.0
-     */
-    public function getContainer(): ?Container
-    {
-        return $this->arguments['container'] ?? null;
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:bd8a1b39c192b31bbe402f561588b1fbf71e6ce495f30e7f927f0b1c0c08c0a2
+size 729

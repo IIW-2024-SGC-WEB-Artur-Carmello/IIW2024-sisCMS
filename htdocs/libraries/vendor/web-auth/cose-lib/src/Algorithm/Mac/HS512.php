@@ -1,30 +1,3 @@
-<?php
-
-declare(strict_types=1);
-
-namespace Cose\Algorithm\Mac;
-
-final class HS512 extends Hmac
-{
-    public const ID = 7;
-
-    public static function create(): self
-    {
-        return new self();
-    }
-
-    public static function identifier(): int
-    {
-        return self::ID;
-    }
-
-    protected function getHashAlgorithm(): string
-    {
-        return 'sha512';
-    }
-
-    protected function getSignatureLength(): int
-    {
-        return 512;
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:76de82affe65f1fe50a07336a5211fc2ce969e7df111e2401ab81282e7a35dba
+size 459

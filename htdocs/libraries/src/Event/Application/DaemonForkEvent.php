@@ -1,23 +1,3 @@
-<?php
-
-/**
- * Joomla! Content Management System
- *
- * @copyright  (C) 2023 Open Source Matters, Inc. <https://www.joomla.org>
- * @license    GNU General Public License version 2 or later; see LICENSE.txt
- */
-
-namespace Joomla\CMS\Event\Application;
-
-// phpcs:disable PSR1.Files.SideEffects
-\defined('_JEXEC') or die;
-// phpcs:enable PSR1.Files.SideEffects
-
-/**
- * Class for Fork event for DaemonApplication
- *
- * @since  5.0.0
- */
-class DaemonForkEvent extends ApplicationEvent
-{
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:4b2536942167b5c9949301fc1336ed54f21cd109b8f5cb80895f71609f67ec68
+size 482

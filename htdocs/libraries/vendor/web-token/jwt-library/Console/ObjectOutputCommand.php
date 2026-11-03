@@ -1,20 +1,3 @@
-<?php
-
-declare(strict_types=1);
-
-namespace Jose\Component\Console;
-
-use Jose\Component\Core\Util\JsonConverter;
-use JsonSerializable;
-use Symfony\Component\Console\Command\Command;
-use Symfony\Component\Console\Input\InputInterface;
-use Symfony\Component\Console\Output\OutputInterface;
-
-abstract class ObjectOutputCommand extends Command
-{
-    protected function prepareJsonOutput(InputInterface $input, OutputInterface $output, JsonSerializable $json): void
-    {
-        $data = JsonConverter::encode($json);
-        $output->write($data);
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:28b931b0e64ecb3097db2930f42a4b902d18b87476d931f09b6619ff8e473be0
+size 551

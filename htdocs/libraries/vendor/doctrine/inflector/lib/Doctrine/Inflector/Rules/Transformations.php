@@ -1,29 +1,3 @@
-<?php
-
-declare(strict_types=1);
-
-namespace Doctrine\Inflector\Rules;
-
-use Doctrine\Inflector\WordInflector;
-
-class Transformations implements WordInflector
-{
-    /** @var Transformation[] */
-    private $transformations;
-
-    public function __construct(Transformation ...$transformations)
-    {
-        $this->transformations = $transformations;
-    }
-
-    public function inflect(string $word): string
-    {
-        foreach ($this->transformations as $transformation) {
-            if ($transformation->getPattern()->matches($word)) {
-                return $transformation->inflect($word);
-            }
-        }
-
-        return $word;
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:1d3f9c4fdb07a4324758fe8a3f04f3996b185fa46840a0b842fbfe4434dbf797
+size 648

@@ -1,30 +1,3 @@
-<?php
-
-declare(strict_types=1);
-
-namespace Doctrine\Inflector\Rules;
-
-final class Substitution
-{
-    /** @var Word */
-    private $from;
-
-    /** @var Word */
-    private $to;
-
-    public function __construct(Word $from, Word $to)
-    {
-        $this->from = $from;
-        $this->to   = $to;
-    }
-
-    public function getFrom(): Word
-    {
-        return $this->from;
-    }
-
-    public function getTo(): Word
-    {
-        return $this->to;
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:f4f820de47e9e7fcaa9799951f2bd58412b6bbf0cb846e49aed3e06add08b541
+size 451

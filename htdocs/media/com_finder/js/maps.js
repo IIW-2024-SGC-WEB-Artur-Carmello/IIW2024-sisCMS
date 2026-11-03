@@ -1,19 +1,3 @@
-/**
- * @copyright   (C) 2018 Open Source Matters, Inc. <https://www.joomla.org>
- * @license     GNU General Public License version 2 or later; see LICENSE.txt
- */
-
-Joomla = window.Joomla || {};
-(() => {
-
-  document.addEventListener('DOMContentLoaded', () => {
-    Joomla.submitbutton = pressbutton => {
-      // @todo replace with joomla-alert
-      if (pressbutton === 'map.delete' && !window.confirm(Joomla.Text._('COM_FINDER_MAPS_CONFIRM_DELETE_PROMPT'))) {
-        return false;
-      }
-      Joomla.submitform(pressbutton);
-      return true;
-    };
-  });
-})();
+version https://git-lfs.github.com/spec/v1
+oid sha256:2576ec8f8c91a7abc8cd455d532ef413d2ba1a799ce20dc39a2d9010b68aca8d
+size 567

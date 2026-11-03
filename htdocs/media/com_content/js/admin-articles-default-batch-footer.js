@@ -1,33 +1,3 @@
-/**
- * @copyright   (C) 2018 Open Source Matters, Inc. <https://www.joomla.org>
- * @license     GNU General Public License version 2 or later; see LICENSE.txt
- */
-((document, submitForm) => {
-
-  // Selectors used by this script
-  const buttonDataSelector = 'data-submit-task';
-  const formId = 'adminForm';
-
-  /**
-   * Submit the task
-   * @param task
-   */
-  const submitTask = task => {
-    const form = document.getElementById(formId);
-    if (form && task === 'article.batch') {
-      submitForm(task, form);
-    }
-  };
-
-  // Register events
-  document.addEventListener('DOMContentLoaded', () => {
-    const button = document.getElementById('batch-submit-button-id');
-    if (button) {
-      button.addEventListener('click', e => {
-        const task = e.target.getAttribute(buttonDataSelector);
-        submitTask(task);
-        return false;
-      });
-    }
-  });
-})(document, Joomla.submitform);
+version https://git-lfs.github.com/spec/v1
+oid sha256:f92ba5ab612fefa89b2465238bfca2d46f3541901ee19d953b4545c3b62968bc
+size 903

@@ -1,26 +1,3 @@
-<?php
-
-declare(strict_types=1);
-
-namespace SpomkyLabs\Pki\ASN1\Type\Primitive;
-
-use SpomkyLabs\Pki\ASN1\Type\PrimitiveString;
-use SpomkyLabs\Pki\ASN1\Type\UniversalClass;
-
-/**
- * Implements *CHARACTER STRING* type.
- */
-final class CharacterString extends PrimitiveString
-{
-    use UniversalClass;
-
-    private function __construct(string $string)
-    {
-        parent::__construct(self::TYPE_CHARACTER_STRING, $string);
-    }
-
-    public static function create(string $string): self
-    {
-        return new self($string);
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:87d13f27d9ac8e46f6f82442165538e7afeadf8eb05b5c569e17f08c2f14a864
+size 531

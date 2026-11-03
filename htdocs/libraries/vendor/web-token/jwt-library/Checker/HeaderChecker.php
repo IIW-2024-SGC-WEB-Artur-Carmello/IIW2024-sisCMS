@@ -1,24 +1,3 @@
-<?php
-
-declare(strict_types=1);
-
-namespace Jose\Component\Checker;
-
-interface HeaderChecker
-{
-    /**
-     * This method is called when the header parameter is present. If for some reason the value is not valid, an
-     * InvalidHeaderException must be thrown.
-     */
-    public function checkHeader(mixed $value): void;
-
-    /**
-     * The method returns the header parameter to be checked.
-     */
-    public function supportedHeader(): string;
-
-    /**
-     * When true, the header parameter to be checked MUST be set in the protected header of the token.
-     */
-    public function protectedHeaderOnly(): bool;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:f18ccdec3db2635793c43f7fbee43c48e9461dcd09c9978d1482d3ab4c790e4e
+size 619

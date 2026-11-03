@@ -1,26 +1,3 @@
-<?php
-
-/**
- * @package     Joomla.Administrator
- * @subpackage  com_contact
- *
- * @copyright   (C) 2017 Open Source Matters, Inc. <https://www.joomla.org>
- * @license     GNU General Public License version 2 or later; see LICENSE.txt
- */
-
-namespace Joomla\Component\Contact\Administrator\Helper;
-
-use Joomla\CMS\Helper\ContentHelper;
-
-// phpcs:disable PSR1.Files.SideEffects
-\defined('_JEXEC') or die;
-// phpcs:enable PSR1.Files.SideEffects
-
-/**
- * Contact component helper.
- *
- * @since  1.6
- */
-class ContactHelper extends ContentHelper
-{
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:f15b648c21c93765d47a467b6ae2692b16661b14b11cfc4af8637b8422de0136
+size 543

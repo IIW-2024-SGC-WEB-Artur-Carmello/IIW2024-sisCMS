@@ -1,20 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<metadata>
-	<layout title="COM_CONFIG_TEMPLATES_VIEW_DEFAULT_TITLE" option="COM_CONFIG_TEMPLATES_VIEW_DEFAULT_OPTION">
-		<help
-			key = "Menu_Item:_Display_Template_Options"
-		/>
-		<message>
-			<![CDATA[COM_CONFIG_TEMPLATES_VIEW_DEFAULT_DESC]]>
-		</message>
-	</layout>
-	<fields name="request">
-		<fieldset name="request" >
-			<field
-				name="controller"
-				type="hidden"
-				default=""
-			/>
-		</fieldset>
-	</fields>
-</metadata>
+version https://git-lfs.github.com/spec/v1
+oid sha256:4c6f6f70807ae77348e441d9e57a92f3bca58de2c7cb770685f870780679f896
+size 470

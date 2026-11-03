@@ -1,33 +1,3 @@
-<?php
-
-/*
- * This file is part of the Symfony package.
- *
- * (c) Fabien Potencier <fabien@symfony.com>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
-namespace Symfony\Component\HttpClient\Response;
-
-use Symfony\Component\HttpClient\Exception\InvalidArgumentException;
-
-class JsonMockResponse extends MockResponse
-{
-    /**
-     * @param mixed $body Any value that `json_encode()` can serialize
-     */
-    public function __construct(mixed $body = [], array $info = [])
-    {
-        try {
-            $json = json_encode($body, \JSON_THROW_ON_ERROR | \JSON_PRESERVE_ZERO_FRACTION);
-        } catch (\JsonException $e) {
-            throw new InvalidArgumentException('JSON encoding failed: '.$e->getMessage(), $e->getCode(), $e);
-        }
-
-        $info['response_headers']['content-type'] ??= 'application/json';
-
-        parent::__construct($json, $info);
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:11a919d1216b13dc3797279338299b77ae1d4a6e2fba389512274c12976f192b
+size 957

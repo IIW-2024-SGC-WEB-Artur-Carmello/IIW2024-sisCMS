@@ -1,32 +1,3 @@
-<?php
-
-/**
- * Joomla! Content Management System
- *
- * @copyright  (C) 2019 Open Source Matters, Inc. <https://www.joomla.org>
- * @license    GNU General Public License version 2 or later; see LICENSE.txt
- */
-
-namespace Joomla\CMS\MVC\Model;
-
-// phpcs:disable PSR1.Files.SideEffects
-\defined('_JEXEC') or die;
-// phpcs:enable PSR1.Files.SideEffects
-
-/**
- * Interface for a base model.
- *
- * @since  4.0.0
- */
-interface ModelInterface
-{
-    /**
-     * Method to get the model name.
-     *
-     * @return  string  The name of the model
-     *
-     * @since   4.0.0
-     * @throws  \Exception
-     */
-    public function getName();
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:d9c514482399fb212f76b2d497eb004d41d56ae4aca13d38db70d91a37578bba
+size 630

@@ -1,27 +1,3 @@
-<?php
-
-namespace Tuf\Metadata;
-
-/**
- * Base class for metadata objects that store information about other metadata files.
- */
-abstract class FileInfoMetadataBase extends MetadataBase
-{
-    /**
-     * Gets file information value under the 'meta' key.
-     *
-     * @param string $key
-     *   The array key under 'meta'.
-     * @param boolean $allowUntrustedAccess
-     *   Whether this method should access even if the metadata is not trusted.
-     *
-     * @return array|null
-     *   The file information if available or null if not set.
-     */
-    public function getFileMetaInfo(string $key, bool $allowUntrustedAccess = false): ?array
-    {
-        $this->ensureIsTrusted($allowUntrustedAccess);
-        $signed = $this->getSigned();
-        return $signed['meta'][$key] ?? null;
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:946e8a1d863c16a46a185b1bb23b0b38170a324c7790acd51da0002c2aab4871
+size 794

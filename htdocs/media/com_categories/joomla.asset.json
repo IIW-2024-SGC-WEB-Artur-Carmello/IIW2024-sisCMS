@@ -1,35 +1,3 @@
-{
-  "$schema": "https://developer.joomla.org/schemas/json-schema/web_assets.json",
-  "name": "com_categories",
-  "version": "4.0.0",
-  "description": "Joomla CMS",
-  "license": "GPL-2.0-or-later",
-  "assets": [
-    {
-      "name": "com_categories.shared-categories-accordion",
-      "type": "preset",
-      "dependencies": [
-        "com_categories.shared-categories-accordion#style",
-        "com_categories.shared-categories-accordion#script"
-      ]
-    },
-    {
-      "name": "com_categories.shared-categories-accordion",
-      "type": "script",
-      "uri": "com_categories/shared-categories-accordion.min.js",
-      "dependencies": [
-        "core"
-      ],
-      "attributes": {
-        "type": "module"
-      },
-      "version": "587c3d"
-    },
-    {
-      "name": "com_categories.shared-categories-accordion",
-      "type": "style",
-      "uri": "com_categories/shared-categories-accordion.min.css",
-      "version": "0dc781"
-    }
-  ]
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:3a7186ca6a396b525d08271482b42ace8054218a82ff7ea0ba5d017d96a96d92
+size 946

@@ -1,11 +1,3 @@
-<?php
-
-declare(strict_types=1);
-
-namespace SpomkyLabs\Pki\X509\AttributeCertificate\Validation\Exception;
-
-use SpomkyLabs\Pki\X509\Exception\X509ValidationException;
-
-final class ACValidationException extends X509ValidationException
-{
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:8f37638688896db37d5438871c17a132647566d1899e9b4f375cba9b3240b872
+size 237

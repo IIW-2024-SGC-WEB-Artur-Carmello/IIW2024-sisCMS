@@ -1,27 +1,3 @@
-<?php
-
-/*
- * This file is part of the Symfony package.
- *
- * (c) Fabien Potencier <fabien@symfony.com>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
-namespace Symfony\Component\Validator\Mapping\Loader;
-
-/**
- * Loads validation metadata using PHP attributes.
- *
- * @author Bernhard Schussek <bschussek@gmail.com>
- * @author Alexander M. Turek <me@derrabus.de>
- * @author Alexandre Daubois <alex.daubois@gmail.com>
- */
-class AttributeLoader extends AnnotationLoader
-{
-    public function __construct()
-    {
-        parent::__construct(null);
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:c3bd763959bdae5eee31e975b2e62b96542b846b875d924f679ac3be9712b285
+size 639

@@ -1,13 +1,3 @@
-<?php
-
-/**
- * @package     Joomla.Site
- * @subpackage  Layout
- *
- * @copyright   (C) 2019 Open Source Matters, Inc. <https://www.joomla.org>
- * @license     GNU General Public License version 2 or later; see LICENSE.txt
- */
-
-defined('_JEXEC') or die;
-
-echo $displayData['module']->content;
+version https://git-lfs.github.com/spec/v1
+oid sha256:c397f555f9ab3525c058f4ced7befb129190ef66de657e3b2780aa08f243cf06
+size 290

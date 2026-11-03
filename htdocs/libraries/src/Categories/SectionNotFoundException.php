@@ -1,23 +1,3 @@
-<?php
-
-/**
- * Joomla! Content Management System
- *
- * @copyright  (C) 2018 Open Source Matters, Inc. <https://www.joomla.org>
- * @license    GNU General Public License version 2 or later; see LICENSE.txt
- */
-
-namespace Joomla\CMS\Categories;
-
-// phpcs:disable PSR1.Files.SideEffects
-\defined('_JEXEC') or die;
-// phpcs:enable PSR1.Files.SideEffects
-
-/**
- * Representing when a category section cannot be found.
- *
- * @since  3.10.0
- */
-class SectionNotFoundException extends \RuntimeException
-{
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:a18207e3fb3efc061fe395914e55d2c3a37d6611859c1b45dc93d08a703d809f
+size 497

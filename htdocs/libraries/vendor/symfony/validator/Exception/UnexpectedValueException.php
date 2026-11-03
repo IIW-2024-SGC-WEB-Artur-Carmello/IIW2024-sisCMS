@@ -1,32 +1,3 @@
-<?php
-
-/*
- * This file is part of the Symfony package.
- *
- * (c) Fabien Potencier <fabien@symfony.com>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
-namespace Symfony\Component\Validator\Exception;
-
-/**
- * @author Christian Flothmann <christian.flothmann@sensiolabs.de>
- */
-class UnexpectedValueException extends UnexpectedTypeException
-{
-    private string $expectedType;
-
-    public function __construct(mixed $value, string $expectedType)
-    {
-        parent::__construct($value, $expectedType);
-
-        $this->expectedType = $expectedType;
-    }
-
-    public function getExpectedType(): string
-    {
-        return $this->expectedType;
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:65d1ee6727de3c6577169cc9ce0b4f3aece07f6933a3da2479065dd8834b5561
+size 738

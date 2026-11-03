@@ -1,33 +1,3 @@
-<?php
-
-/**
- * Joomla! Content Management System
- *
- * @copyright  (C) 2023 Open Source Matters, Inc. <https://www.joomla.org>
- * @license    GNU General Public License version 2 or later; see LICENSE.txt
- */
-
-namespace Joomla\CMS\User;
-
-// phpcs:disable PSR1.Files.SideEffects
-\defined('_JEXEC') or die;
-// phpcs:enable PSR1.Files.SideEffects
-
-/**
- * Interface to be implemented by classes depending on a user factory.
- *
- * @since  4.4.0
- */
-interface UserFactoryAwareInterface
-{
-    /**
-     * Set the user factory to use.
-     *
-     * @param   UserFactoryInterface  $factory  The user factory to use.
-     *
-     * @return  void
-     *
-     * @since   4.4.0
-     */
-    public function setUserFactory(UserFactoryInterface $factory): void;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:f8667c0df5a0335f762cb82ffb830359462458639f1eab106713835a0c4f22bd
+size 745

@@ -1,11 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<access component="com_installer">
-	<section name="component">
-		<action name="core.admin" title="JACTION_ADMIN" />
-		<action name="core.options" title="JACTION_OPTIONS" />
-		<action name="core.manage" title="JACTION_MANAGE" />
-		<action name="core.delete" title="JACTION_DELETE" />
-		<action name="core.edit" title="JACTION_EDIT" />
-		<action name="core.edit.state" title="JACTION_EDITSTATE" />
-	</section>
-</access>
+version https://git-lfs.github.com/spec/v1
+oid sha256:328d91a75c8a8b917f7e03f7185ef4d0f0d1a503fedbb01ab07a49add9d49cab
+size 457

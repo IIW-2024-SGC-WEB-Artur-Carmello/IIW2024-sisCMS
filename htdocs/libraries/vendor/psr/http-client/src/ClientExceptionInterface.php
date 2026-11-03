@@ -1,10 +1,3 @@
-<?php
-
-namespace Psr\Http\Client;
-
-/**
- * Every HTTP client related exception MUST implement this interface.
- */
-interface ClientExceptionInterface extends \Throwable
-{
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:2ae6b264ddfc8d48096fe50927634a6b406e1eb26e1d00bd992e9aa36f55410b
+size 171

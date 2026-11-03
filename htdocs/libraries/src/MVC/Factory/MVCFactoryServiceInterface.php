@@ -1,32 +1,3 @@
-<?php
-
-/**
- * Joomla! Content Management System
- *
- * @copyright  (C) 2018 Open Source Matters, Inc. <https://www.joomla.org>
- * @license    GNU General Public License version 2 or later; see LICENSE.txt
- */
-
-namespace Joomla\CMS\MVC\Factory;
-
-// phpcs:disable PSR1.Files.SideEffects
-\defined('_JEXEC') or die;
-// phpcs:enable PSR1.Files.SideEffects
-
-/**
- * Interface to be implemented by classes depending on a MVC factory.
- *
- * @since  4.0.0
- */
-interface MVCFactoryServiceInterface
-{
-    /**
-     * Get the factory.
-     *
-     * @return  MVCFactoryInterface
-     *
-     * @since   4.0.0
-     * @throws  \UnexpectedValueException May be thrown if the factory has not been set.
-     */
-    public function getMVCFactory(): MVCFactoryInterface;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:899afbf6415ccc769c222db0a96631497da0bbad88a1d7bf22f102ff52035c28
+size 749

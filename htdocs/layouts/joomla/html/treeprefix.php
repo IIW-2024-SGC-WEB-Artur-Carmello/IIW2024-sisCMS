@@ -1,25 +1,3 @@
-<?php
-
-/**
- * @package     Joomla.Site
- * @subpackage  Layout
- *
- * @copyright   (C) 2016 Open Source Matters, Inc. <https://www.joomla.org>
- * @license     GNU General Public License version 2 or later; see LICENSE.txt
- */
-
-defined('_JEXEC') or die;
-
-extract($displayData);
-
-/**
- * Layout variables
- * -----------------
- * @var   integer  $level  The level of the item in the tree like structure.
- *
- * @since  3.6.0
- */
-
-if ($level > 1) {
-    echo '<span class="text-muted">' . str_repeat('&#8942;&nbsp;&nbsp;&nbsp;', (int) $level - 2) . '</span>&ndash;&nbsp;';
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:f5543dca2e07e34c1c21cc8f0b027eeb5abf05d0a7449c88196ed63072534ada
+size 566

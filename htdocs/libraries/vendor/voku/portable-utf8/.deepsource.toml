@@ -1,4 +1,3 @@
-version = 1
-
-[[analyzers]]
-name = "php"
+version https://git-lfs.github.com/spec/v1
+oid sha256:ef540ca31748405175e6acf909401dd126a8edc06a1d7bedb7719e27e642bf96
+size 39

@@ -1,31 +1,3 @@
-<?php
-
-/**
- * AuthorityInfoAccessSyntax
- *
- * PHP version 5
- *
- * @author    Jim Wigginton <terrafrost@php.net>
- * @copyright 2016 Jim Wigginton
- * @license   http://www.opensource.org/licenses/mit-license.html  MIT License
- * @link      http://phpseclib.sourceforge.net
- */
-
-namespace phpseclib3\File\ASN1\Maps;
-
-use phpseclib3\File\ASN1;
-
-/**
- * AuthorityInfoAccessSyntax
- *
- * @author  Jim Wigginton <terrafrost@php.net>
- */
-abstract class AuthorityInfoAccessSyntax
-{
-    const MAP = [
-        'type' => ASN1::TYPE_SEQUENCE,
-        'min' => 1,
-        'max' => -1,
-        'children' => AccessDescription::MAP
-    ];
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:1515c953ff77d15e37b9ca168a2d75bfc06135a8229dc0ec412a02a8e16a92d3
+size 623

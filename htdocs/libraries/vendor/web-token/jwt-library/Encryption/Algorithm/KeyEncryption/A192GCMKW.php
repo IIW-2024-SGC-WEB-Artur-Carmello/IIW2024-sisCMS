@@ -1,18 +1,3 @@
-<?php
-
-declare(strict_types=1);
-
-namespace Jose\Component\Encryption\Algorithm\KeyEncryption;
-
-final class A192GCMKW extends AESGCMKW
-{
-    public function name(): string
-    {
-        return 'A192GCMKW';
-    }
-
-    protected function getKeySize(): int
-    {
-        return 192;
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:76ad07d71ff29b6b20b860764f8940687e6e86619a929cbc6ff6e7eb9b9c3615
+size 287

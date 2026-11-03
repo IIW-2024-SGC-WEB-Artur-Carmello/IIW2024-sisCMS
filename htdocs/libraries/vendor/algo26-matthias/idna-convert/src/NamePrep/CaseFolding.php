@@ -1,34 +1,3 @@
-<?php declare(strict_types=1);
-
-namespace Algo26\IdnaConvert\NamePrep;
-
-class CaseFolding
-{
-    /** @var CaseFoldingData */
-    private $caseFoldingData;
-
-    public function __construct()
-    {
-        $this->caseFoldingData = new CaseFoldingData();
-    }
-
-    public function apply(array $inputArray, string $idnaVersion): array
-    {
-        if ($idnaVersion == 2003) {
-            return $inputArray;
-        }
-
-        $outputArray = [];
-        foreach ($inputArray as $codePoint) {
-            if (isset($this->caseFoldingData->foldingMap[$codePoint])) {
-                foreach ($this->caseFoldingData->foldingMap[$codePoint] as $folded) {
-                    $outputArray[] = $folded;
-                }
-            } else {
-                $outputArray[] = $codePoint;
-            }
-        }
-
-        return $outputArray;
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:8b152bd7bad51ec2b1fab883619144ea4b4a1f767e6967e128bd20ed5163142a
+size 840

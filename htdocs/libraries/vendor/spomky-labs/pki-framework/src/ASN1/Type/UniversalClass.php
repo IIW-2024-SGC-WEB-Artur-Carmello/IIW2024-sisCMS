@@ -1,21 +1,3 @@
-<?php
-
-declare(strict_types=1);
-
-namespace SpomkyLabs\Pki\ASN1\Type;
-
-use SpomkyLabs\Pki\ASN1\Component\Identifier;
-
-/**
- * Trait for types of universal class.
- */
-trait UniversalClass
-{
-    /**
-     * @see \Sop\ASN1\Feature\ElementBase::typeClass()
-     */
-    public function typeClass(): int
-    {
-        return Identifier::CLASS_UNIVERSAL;
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:153b8906115c631f7b290d12d79a9072ac86c50c6a506e97320b89ece8d8fb0f
+size 353

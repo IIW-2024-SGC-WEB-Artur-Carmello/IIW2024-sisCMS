@@ -1,27 +1,3 @@
-<?php
-
-/*
- * This file is part of the Symfony package.
- *
- * (c) Fabien Potencier <fabien@symfony.com>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
-namespace Symfony\Component\Validator\Mapping\Loader;
-
-use Symfony\Component\Validator\Mapping\ClassMetadata;
-
-/**
- * Loads validation metadata into {@link ClassMetadata} instances.
- *
- * @author Bernhard Schussek <bschussek@gmail.com>
- */
-interface LoaderInterface
-{
-    /**
-     * Loads validation metadata into a {@link ClassMetadata} instance.
-     */
-    public function loadClassMetadata(ClassMetadata $metadata): bool;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:89d84b52ff54ff9df2148722d8a6d9288e50de4eea2d575722861591c516ea63
+size 666

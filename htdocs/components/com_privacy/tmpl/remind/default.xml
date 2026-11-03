@@ -1,11 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<metadata>
-	<layout title="COM_PRIVACY_REMIND_VIEW_DEFAULT_TITLE" option="COM_PRIVACY_REMIND_VIEW_DEFAULT_OPTION">
-		<help
-			key="Menu_Item:_Extend_Consent"
-		/>
-		<message>
-			<![CDATA[COM_PRIVACY_REMIND_VIEW_DEFAULT_DESC]]>
-		</message>
-	</layout>
-</metadata>
+version https://git-lfs.github.com/spec/v1
+oid sha256:b28529d460cb07bfd2ccfc60887964bb86492beb734af7c1058a685e2bfe499a
+size 302

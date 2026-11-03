@@ -1,36 +1,3 @@
-<?php
-
-/**
- * @package     Joomla.Administrator
- * @subpackage  com_banners
- *
- * @copyright   (C) 2006 Open Source Matters, Inc. <https://www.joomla.org>
- * @license     GNU General Public License version 2 or later; see LICENSE.txt
- */
-
-namespace Joomla\Component\Banners\Administrator\Controller;
-
-use Joomla\CMS\MVC\Controller\FormController;
-use Joomla\CMS\Versioning\VersionableControllerTrait;
-
-// phpcs:disable PSR1.Files.SideEffects
-\defined('_JEXEC') or die;
-// phpcs:enable PSR1.Files.SideEffects
-
-/**
- * Client controller class.
- *
- * @since  1.6
- */
-class ClientController extends FormController
-{
-    use VersionableControllerTrait;
-
-    /**
-     * The prefix to use with controller messages.
-     *
-     * @var    string
-     * @since  1.6
-     */
-    protected $text_prefix = 'COM_BANNERS_CLIENT';
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:48e88a3d83008f3f7621112bdf71c41e324d0343c9caccd75b41c95acac42a36
+size 816

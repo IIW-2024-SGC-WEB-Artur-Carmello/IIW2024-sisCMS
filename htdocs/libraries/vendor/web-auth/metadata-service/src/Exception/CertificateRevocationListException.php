@@ -1,23 +1,3 @@
-<?php
-
-declare(strict_types=1);
-
-namespace Webauthn\MetadataService\Exception;
-
-use Throwable;
-
-final class CertificateRevocationListException extends MetadataServiceException
-{
-    public function __construct(
-        public readonly string $url,
-        string $message,
-        ?Throwable $previous = null
-    ) {
-        parent::__construct($message, $previous);
-    }
-
-    public static function create(string $url, string $message, ?Throwable $previous = null): self
-    {
-        return new self($url, $message, $previous);
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:e00c9526cd946487b23dd8b736c3cd6bd8e9e000f941802f586e388013ea5eeb
+size 539

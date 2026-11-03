@@ -1,30 +1,3 @@
-// All-caps `RGBA()` function used because of this Sass bug: https://github.com/sass/node-sass/issues/2251
-@each $color, $value in $theme-colors {
-  .link-#{$color} {
-    color: RGBA(var(--#{$prefix}#{$color}-rgb), var(--#{$prefix}link-opacity, 1)) if($enable-important-utilities, !important, null);
-    text-decoration-color: RGBA(var(--#{$prefix}#{$color}-rgb), var(--#{$prefix}link-underline-opacity, 1)) if($enable-important-utilities, !important, null);
-
-    @if $link-shade-percentage != 0 {
-      &:hover,
-      &:focus {
-        $hover-color: if(color-contrast($value) == $color-contrast-light, shade-color($value, $link-shade-percentage), tint-color($value, $link-shade-percentage));
-        color: RGBA(#{to-rgb($hover-color)}, var(--#{$prefix}link-opacity, 1)) if($enable-important-utilities, !important, null);
-        text-decoration-color: RGBA(to-rgb($hover-color), var(--#{$prefix}link-underline-opacity, 1)) if($enable-important-utilities, !important, null);
-      }
-    }
-  }
-}
-
-// One-off special link helper as a bridge until v6
-.link-body-emphasis {
-  color: RGBA(var(--#{$prefix}emphasis-color-rgb), var(--#{$prefix}link-opacity, 1)) if($enable-important-utilities, !important, null);
-  text-decoration-color: RGBA(var(--#{$prefix}emphasis-color-rgb), var(--#{$prefix}link-underline-opacity, 1)) if($enable-important-utilities, !important, null);
-
-  @if $link-shade-percentage != 0 {
-    &:hover,
-    &:focus {
-      color: RGBA(var(--#{$prefix}emphasis-color-rgb), var(--#{$prefix}link-opacity, .75)) if($enable-important-utilities, !important, null);
-      text-decoration-color: RGBA(var(--#{$prefix}emphasis-color-rgb), var(--#{$prefix}link-underline-opacity, .75)) if($enable-important-utilities, !important, null);
-    }
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:7fcf50ec230c03f0242f6897181fb9ca5cad7495598da0f545ba88918cd0ab4a
+size 1755

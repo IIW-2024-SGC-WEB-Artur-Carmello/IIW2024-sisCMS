@@ -1,26 +1,3 @@
-<?php
-
-/**
- * @package     Joomla.Plugin
- * @subpackage  Editors.tinymce
- *
- * @copyright   (C) 2016 Open Source Matters, Inc. <https://www.joomla.org>
- * @license     GNU General Public License version 2 or later; see LICENSE.txt
- */
-
-defined('_JEXEC') or die;
-
-extract($displayData);
-
-/**
- * Layout variables
- * -----------------
- * @var   \Joomla\CMS\Form\Form          $form  Form with extra options for the set
- * @var   \Joomla\CMS\Layout\FileLayout  $this  Context
- */
-?>
-<div class="setoptions-form-wrapper">
-<?php foreach ($form->getFieldset('basic') as $field) : ?>
-    <?php echo $field->renderField(); ?>
-<?php endforeach; ?>
-</div>
+version https://git-lfs.github.com/spec/v1
+oid sha256:7f70452ee565a0c9ea4f344bc037846d6c54d7d0726f99e1e9c577e0d984db99
+size 645

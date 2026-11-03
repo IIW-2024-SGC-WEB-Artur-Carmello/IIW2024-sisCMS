@@ -1,25 +1,3 @@
-<?php
-
-/**
- * @package     Joomla.Site
- * @subpackage  com_content
- *
- * @copyright   (C) 2006 Open Source Matters, Inc. <https://www.joomla.org>
- * @license     GNU General Public License version 2 or later; see LICENSE.txt
- */
-
-defined('_JEXEC') or die;
-
-use Joomla\CMS\Router\Route;
-use Joomla\Component\Content\Site\Helper\RouteHelper;
-
-/** @var \Joomla\Component\Content\Site\View\Featured\HtmlView $this */
-?>
-<ul class="com-content-blog__links">
-    <?php foreach ($this->link_items as $item) : ?>
-        <li class="com-content-blog__link">
-            <a href="<?php echo Route::_(RouteHelper::getArticleRoute($item->slug, $item->catid, $item->language)); ?>">
-                <?php echo $this->escape($item->title); ?></a>
-        </li>
-    <?php endforeach; ?>
-</ul>
+version https://git-lfs.github.com/spec/v1
+oid sha256:3456fd6a5a383d759080bc4ac437b2b8fd3243339b1fe057f45a97fd39da6360
+size 778

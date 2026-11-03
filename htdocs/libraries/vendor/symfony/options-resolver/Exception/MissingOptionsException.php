@@ -1,23 +1,3 @@
-<?php
-
-/*
- * This file is part of the Symfony package.
- *
- * (c) Fabien Potencier <fabien@symfony.com>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
-namespace Symfony\Component\OptionsResolver\Exception;
-
-/**
- * Exception thrown when a required option is missing.
- *
- * Add the option to the passed options array.
- *
- * @author Bernhard Schussek <bschussek@gmail.com>
- */
-class MissingOptionsException extends InvalidArgumentException
-{
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:63009fbda9bb1323e4ad45fe5e83b7558d68e62f10a71b66b5d1ba64bed181ef
+size 528
