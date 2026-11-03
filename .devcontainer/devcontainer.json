@@ -1,14 +1,15 @@
 {
-  "name":"CMS SN-2026",
-  "image":"mcr.microsoft.com/devcontainers/base:ubuntu-24.04",
-  "features":{
-    "ghcr.io/devcontainer/features/docker-in-docker:2":{}
+  "name": "CMS SN-2026",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu-24.04",
+  "features": {
+    "ghcr.io/devcontainer/features/docker-in-docker:2": {}
   },
-  "forwardPorts":[8080],
-  "portsAttributes":{
-    "8080":{
-      "label":"Site (CMS)", 
-      "onAutoForward":"notify"
+  "forwardPorts":,
+  "portsAttributes": {
+    "8080": {
+      "label": "Site (CMS)", 
+      "onAutoForward": "notify"
     }
-  }
+  },
+  "postCreateCommand": "sudo apt-get update && sudo DEBIAN_FRONTEND=noninteractive apt-get install -y apache2 mariadb-server php libapache2-mod-php php-mysql php-xml php-gd php-curl php-zip php-intl php-mbstring php-json && sudo service apache2 start && sudo service mariadb start && sudo mysql -e 'CREATE DATABASE IF NOT EXISTS cms_db;'"
 }
