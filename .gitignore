@@ -1,0 +1,10 @@
+# O .env guardará as senhas do banco. O .env.example vai ao repositório para dar parâmetros ao levantar o container
+.env
+# Chaves e certificados
+*.pem
+*.key
+# Arquivos temporários
+*.log
+*.tmp
+.Ds_Store
+Thumbs.db
